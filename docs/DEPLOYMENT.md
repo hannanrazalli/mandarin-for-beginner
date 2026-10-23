@@ -32,3 +32,16 @@ GitHub lalai dengan `contents: read`; dependency actions dipin kepada commit pen
   kemajuan atau audio offline disahkan dalam Fasa 1. Suara peranti mungkin perlu Internet.
 - Pilihan bahasa/tema/bunyi dan lokasi pratonton ialah tetapan setempat, bukan kemajuan
   akaun. Auth, logout dan pemadaman data pengguna akan direka dalam Fasa 2.
+
+## Tambahan Fasa 2 — login Supabase
+
+Selepas projek Supabase disambungkan, gunakan hanya URL projek dan **publishable key**
+untuk `VITE_SUPABASE_URL` / `VITE_SUPABASE_PUBLISHABLE_KEY` di `.env.local` (tempatan)
+atau Environment Variables Vercel. Jangan masukkan secret/service-role key.
+Jalankan `node scripts/configure-supabase.mjs https://PROJECT-REFERENCE.supabase.co`
+dengan URL awam projek sendiri, kemudian commit konfigurasi CSP dan bina semula.
+Ini membenarkan hanya domain projek tersebut, bukan semua projek Supabase.
+Apply migration dan provision pemilik mengikut `supabase/README.md`; script ujian fixture
+tidak boleh dijalankan pada projek sebenar. Jika integrasi Supabase chat disambungkan,
+agent boleh membantu bahagian database tanpa meminta password atau secret key dalam chat.
+Sesi tab maksimum 12 jam; tetapan hosted Auth masih perlu disahkan pada projek sebenar.

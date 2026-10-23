@@ -1,5 +1,6 @@
 import { Check, Globe2, Monitor, Volume2 } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Page } from "../components/Page";
 import { copy } from "../lib/copy";
 import {
@@ -103,8 +104,15 @@ export default function Settings() {
         </p>
         <div className="device-note">
           <h2>{t.device}</h2>
-          <p>{t.deviceBody}</p>
+          <p>{t.accountDeviceBody}</p>
         </div>
+        <section className="account-settings">
+          <h2>{t.account}</h2>
+          <p>{t.accountSettingsBody}</p>
+          <Link className="text-link" to="/akaun">
+            {t.account} →
+          </Link>
+        </section>
         <details className="install-help">
           <summary>{t.install}</summary>
           <p>{t.installBody}</p>

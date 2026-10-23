@@ -2,10 +2,11 @@
 
 Personal Mandarin PWA for one Malay-speaking learner in Malaysia, starting from zero.
 UI: Bahasa Melayu with English toggle. Teach Simplified Chinese directly from Malay.
-The user's overrides take precedence over the original brief. Current phase: 1 (A — Taman Bunyi selected).
+The user's overrides take precedence over the original brief. Current phase: 2; A — Taman Bunyi selected.
 
 ## Working agreement
-- Complete only the approved phase; summarize in at most 10 lines and STOP for "continue".
+- User now authorizes automatic continuation through phases 2–6; do not pause for "continue".
+  Keep phase checkpoints and quality gates; pause only for genuinely required external access.
 - Do small tasks solo. Read relevant files only. Orchestrator checks official docs directly.
 - No app scaffold in Phase 0. Phase 1 starts with TWO visual directions from uiux_specialist;
   user must choose before components, tokens, or application implementation.
@@ -82,7 +83,7 @@ create isolated read-only or directory-only sandboxes. Audit writes; never promi
 6. Record remaining findings in NEXT_STEPS.md. Unresolved blockers prevent deployment;
    user decides next action. Do not silently accept a blocker or add review loops.
 7. Commit conventional checkpoint; report verified results, limits and approximate runs,
-   justify each spawn in one line, suggest credit trimming; STOP for "continue".
+   justify each spawn in one line and suggest credit trimming; continue automatically.
 
 ## Definition of done
 Applicable typecheck/lint/unit/e2e/build pass; no unresolved blockers or high/critical audit

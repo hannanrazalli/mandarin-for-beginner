@@ -55,3 +55,5 @@ GitHub Action tags/SHAs were resolved from official repositories via git ls-remo
 - pnpm/action-setup: v6.1.0 (`ea17c68df8912ef543352723c149a84f56e3d413`).
 
 pnpm latest registry is 12.15.0; this phase intentionally retains the environment-supported pnpm 11.25.0, pinned for reproducibility. App libraries use their verified latest stable pins.
+
+Phase 2 registry checks (2026-10-24): @supabase/supabase-js 2.118.0; zod 4.6.7. Official auth/RLS/session guidance: https://supabase.com/docs/guides/database/postgres/row-level-security and https://supabase.com/docs/guides/auth/sessions.

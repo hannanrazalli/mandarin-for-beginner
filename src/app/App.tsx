@@ -19,6 +19,7 @@ import {
   useState,
 } from "react";
 import { Link, NavLink, Route, Routes, useLocation } from "react-router-dom";
+import { AuthProvider } from "../auth/AuthProvider";
 import { copy } from "../lib/copy";
 import { useSettings } from "../lib/settings";
 
@@ -26,6 +27,7 @@ const Home = lazy(() => import("../features/Home"));
 const Learn = lazy(() => import("../features/Learn"));
 const Empty = lazy(() => import("../features/Empty"));
 const Settings = lazy(() => import("../features/Settings"));
+const Account = lazy(() => import("../auth/Account"));
 const Preview = lazy(() => import("../features/Preview"));
 class ErrorBoundary extends Component<
   { children: ReactNode; message: string },
@@ -104,8 +106,8 @@ export default function App() {
   }, [settings.theme]);
   useEffect(() => {
     document.documentElement.lang = settings.language;
-    document.title = `${links.find((x) => x.to === location.pathname)?.label ?? t.preview} · BelajarMandarin`;
-  }, [settings.language, location.pathname, t.preview, links]);
+    document.title = `${links.find((x) => x.to === location.pathname)?.label ?? (location.pathname === "/akaun" ? t.account : t.preview)} · BelajarMandarin`;
+  }, [settings.language, location.pathname, t.preview, t.account, links]);
   useEffect(() => {
     if (location.pathname) {
       setRouteReady((x) => x + 1);
@@ -132,129 +134,134 @@ export default function App() {
     }
   }, [routeReady]);
   return (
-    <MotionConfig reducedMotion="user">
-      <a className="skip-link" href="#main">
-        {t.skip}
-      </a>
-      <aside className="sidebar">
-        <Link to="/" className="brand">
-          <span className="brand-icon">
-            <Leaf size={25} />
+    <AuthProvider>
+      <MotionConfig reducedMotion="user">
+        <a className="skip-link" href="#main">
+          {t.skip}
+        </a>
+        <aside className="sidebar">
+          <Link to="/" className="brand">
+            <span className="brand-icon">
+              <Leaf size={25} />
+            </span>
+            <span>
+              Belajar<span className="brand-second">Mandarin</span>
+            </span>
+          </Link>
+          <span className="preview-tag">
+            {t.preview} / {settings.language === "ms" ? "FASA 1" : "PHASE 1"}
           </span>
-          <span>
-            Belajar<span className="brand-second">Mandarin</span>
-          </span>
-        </Link>
-        <span className="preview-tag">
-          {t.preview} / {settings.language === "ms" ? "FASA 1" : "PHASE 1"}
-        </span>
+          <nav
+            aria-label={
+              settings.language === "ms" ? "Navigasi utama" : "Main navigation"
+            }
+          >
+            {links.map(({ to, label, icon: Icon }) => (
+              <NavLink key={to} to={to} end={to === "/"}>
+                <Icon size={21} />
+                <span>{label}</span>
+              </NavLink>
+            ))}
+          </nav>
+          <div className="sidebar-bottom">
+            <span className="mini-sprout">✳</span>
+            <p>{t.smallBody}</p>
+            <span className="version">TAMAN BUNYI · 01</span>
+          </div>
+        </aside>
+        <div className="workspace">
+          <header className="topbar">
+            <Link to="/" className="mobile-brand">
+              <Leaf size={22} />
+              BelajarMandarin
+            </Link>
+            <span className="desktop-kicker">
+              TAMAN BUNYI <span>/</span>{" "}
+              {
+                t[
+                  location.pathname === "/akaun"
+                    ? "account"
+                    : location.pathname === "/tetapan"
+                      ? "settings"
+                      : location.pathname === "/belajar"
+                        ? "learn"
+                        : location.pathname === "/ulang-kaji"
+                          ? "review"
+                          : location.pathname === "/statistik"
+                            ? "stats"
+                            : location.pathname === "/unit-0"
+                              ? "preview"
+                              : "home"
+                ]
+              }
+            </span>
+            <span className="top-preview">
+              <span className="dot" />
+              {t.preview}
+            </span>
+            <Link className="mobile-stats" to="/statistik" aria-label={t.stats}>
+              <ChartNoAxesColumnIncreasing size={18} />
+              {t.stats}
+            </Link>
+          </header>
+          <main id="main" tabIndex={-1}>
+            <ErrorBoundary message={t.error}>
+              <Suspense
+                fallback={
+                  <p className="loading" aria-busy="true">
+                    {t.loading}
+                  </p>
+                }
+              >
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.16 }}
+                >
+                  <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/belajar" element={<Learn />} />
+                    <Route path="/ulang-kaji" element={<Empty />} />
+                    <Route path="/statistik" element={<Empty />} />
+                    <Route path="/tetapan" element={<Settings />} />
+                    <Route path="/unit-0" element={<Preview />} />
+                    <Route path="/akaun" element={<Account />} />
+                    <Route
+                      path="*"
+                      element={
+                        <>
+                          <h1 tabIndex={-1}>{t.notFound}</h1>
+                          <Link className="button primary" to="/">
+                            {t.return}
+                          </Link>
+                        </>
+                      }
+                    />
+                  </Routes>
+                </motion.div>
+              </Suspense>
+            </ErrorBoundary>
+          </main>
+        </div>
         <nav
+          className="bottomnav"
           aria-label={
-            settings.language === "ms" ? "Navigasi utama" : "Main navigation"
+            settings.language === "ms"
+              ? "Navigasi mudah alih"
+              : "Mobile navigation"
           }
         >
-          {links.map(({ to, label, icon: Icon }) => (
-            <NavLink key={to} to={to} end={to === "/"}>
-              <Icon size={21} />
-              <span>{label}</span>
-            </NavLink>
-          ))}
+          {links
+            .filter((x) => x.to !== "/statistik")
+            .map(({ to, label, icon: Icon }) => (
+              <NavLink key={to} to={to} end={to === "/"}>
+                <Icon size={21} />
+                <span>{label}</span>
+              </NavLink>
+            ))}
         </nav>
-        <div className="sidebar-bottom">
-          <span className="mini-sprout">✳</span>
-          <p>{t.smallBody}</p>
-          <span className="version">TAMAN BUNYI · 01</span>
-        </div>
-      </aside>
-      <div className="workspace">
-        <header className="topbar">
-          <Link to="/" className="mobile-brand">
-            <Leaf size={22} />
-            BelajarMandarin
-          </Link>
-          <span className="desktop-kicker">
-            TAMAN BUNYI <span>/</span>{" "}
-            {
-              t[
-                location.pathname === "/tetapan"
-                  ? "settings"
-                  : location.pathname === "/belajar"
-                    ? "learn"
-                    : location.pathname === "/ulang-kaji"
-                      ? "review"
-                      : location.pathname === "/statistik"
-                        ? "stats"
-                        : location.pathname === "/unit-0"
-                          ? "preview"
-                          : "home"
-              ]
-            }
-          </span>
-          <span className="top-preview">
-            <span className="dot" />
-            {t.preview}
-          </span>
-          <Link className="mobile-stats" to="/statistik" aria-label={t.stats}>
-            <ChartNoAxesColumnIncreasing size={18} />
-            {t.stats}
-          </Link>
-        </header>
-        <main id="main" tabIndex={-1}>
-          <ErrorBoundary message={t.error}>
-            <Suspense
-              fallback={
-                <p className="loading" aria-busy="true">
-                  {t.loading}
-                </p>
-              }
-            >
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.16 }}
-              >
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/belajar" element={<Learn />} />
-                  <Route path="/ulang-kaji" element={<Empty />} />
-                  <Route path="/statistik" element={<Empty />} />
-                  <Route path="/tetapan" element={<Settings />} />
-                  <Route path="/unit-0" element={<Preview />} />
-                  <Route
-                    path="*"
-                    element={
-                      <>
-                        <h1 tabIndex={-1}>{t.notFound}</h1>
-                        <Link className="button primary" to="/">
-                          {t.return}
-                        </Link>
-                      </>
-                    }
-                  />
-                </Routes>
-              </motion.div>
-            </Suspense>
-          </ErrorBoundary>
-        </main>
-      </div>
-      <nav
-        className="bottomnav"
-        aria-label={
-          settings.language === "ms"
-            ? "Navigasi mudah alih"
-            : "Mobile navigation"
-        }
-      >
-        {links
-          .filter((x) => x.to !== "/statistik")
-          .map(({ to, label, icon: Icon }) => (
-            <NavLink key={to} to={to} end={to === "/"}>
-              <Icon size={21} />
-              <span>{label}</span>
-            </NavLink>
-          ))}
-      </nav>
-      <PwaUpdate />
-    </MotionConfig>
+        <PwaUpdate />
+      </MotionConfig>
+    </AuthProvider>
   );
 }

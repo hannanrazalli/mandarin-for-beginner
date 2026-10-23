@@ -1152,3 +1152,130 @@ input[type="radio"] {
     scroll-behavior: auto;
   }
 }
+.account-card {
+  max-width: 730px;
+  padding: 32px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+}
+.account-card > .icon-tile {
+  margin-bottom: 24px;
+}
+.account-card > h2 {
+  margin-bottom: 14px;
+}
+.account-card > p {
+  margin-top: 14px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.account-config {
+  font-family: monospace;
+  font-size: 12px;
+  line-height: 2;
+  background: var(--soft);
+  padding: 16px;
+  border-radius: 12px;
+}
+.auth-form {
+  display: grid;
+  gap: 10px;
+  max-width: 460px;
+}
+.auth-form label {
+  font-weight: 800;
+  font-size: 14px;
+}
+.auth-form input {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid var(--outline);
+  border-radius: 12px;
+  background: var(--bg);
+  color: var(--ink);
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+.auth-form .button {
+  justify-self: start;
+}
+.auth-note {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.account-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.account-card .auth-error {
+  padding: 16px;
+  background: #fff1f0;
+  color: #9d3038;
+  border: 1px solid #9d3038;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.auth-error h2 {
+  font-size: 18px;
+}
+.auth-error p {
+  margin-top: 10px;
+}
+.auth-status {
+  font-size: 14px;
+}
+.verified-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.account-settings {
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+  margin-top: 24px;
+}
+.account-settings h2 {
+  font-size: 16px;
+}
+.account-settings p {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.account-card button:disabled {
+  opacity: 0.7;
+}
+.owner-email {
+  font-weight: 800;
+}
+.account-card > .text-link {
+  margin-top: 18px;
+}
+[data-theme="dark"] .account-card .auth-error {
+  background: #3b2529;
+  color: #ffb4b8;
+  border-color: #ffb4b8;
+}
+@media (max-width: 699px) {
+  .account-card {
+    padding: 24px 20px;
+  }
+  .account-card h2 {
+    font-size: 20px;
+  }
+  .account-card > p {
+    font-size: 14px;
+  }
+  .account-actions {
+    flex-direction: column;
+  }
+  .account-actions .button {
+    width: 100%;
+  }
+  .account-config {
+    font-size: 10px;
+  }
+}

@@ -29,6 +29,7 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm lint
       - run: pnpm test
+      - run: bash supabase/tests/run.sh
       - run: pnpm audit --audit-level=high
       - run: pnpm build
       - run: pnpm exec playwright install --with-deps chromium

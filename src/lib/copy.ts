@@ -1,6 +1,47 @@
 import type { Language } from "./settings";
 
 const ms = {
+  sessionExpired: "Sesi 12 jam telah tamat. Log masuk semula untuk meneruskan.",
+  account: "Akaun",
+  accountTitle: "Ruang peribadi anda.",
+  accountBody:
+    "Log masuk hanya untuk pemilik yang telah disediakan. Pratonton awam boleh diteroka tanpa akaun.",
+  authMissing: "Akaun awan belum disambungkan.",
+  authMissingBody:
+    "Pratonton masih tersedia. Pemilik boleh menambah URL projek Supabase dan kunci publishable awam melalui tetapan persekitaran aplikasi, kemudian membina semula aplikasi. Jangan masukkan kunci rahsia.",
+  authChecking: "Sedang menyemak sesi dan akses pemilik…",
+  authBlocked: "Akses pemilik tidak dapat disahkan.",
+  authBlockedBody:
+    "Akaun mesti mempunyai e-mel disahkan dan profil pemilik yang dibenarkan. Hubungi pengurus projek untuk menyemak penyediaan akaun.",
+  authError: "Sesi tidak dapat disemak. Semak sambungan dan cuba lagi.",
+  authRetry: "Cuba lagi",
+  email: "E-mel",
+  password: "Kata laluan",
+  login: "Log masuk",
+  loggingIn: "Sedang log masuk…",
+  authInvalid:
+    "Masukkan e-mel yang sah dan kata laluan antara 8 hingga 128 aksara.",
+  authFailed:
+    "Log masuk tidak berjaya. Semak butiran, pengesahan e-mel dan sambungan anda.",
+  ownerVerified: "Akses pemilik disahkan",
+  ownerBody:
+    "Sesi ini telah disemak dengan pelayan. Tiada data pembelajaran awan ditambah dalam pratonton ini.",
+  logout: "Log keluar tab ini",
+  logoutAll: "Log keluar semua sesi",
+  loggingOut: "Sedang log keluar…",
+  logoutNote:
+    "Sesi disimpan dalam tab ini sahaja dan tamat selepas 12 jam. Log keluar semua sesi membatalkan token pembaharuan; token akses sedia ada mungkin kekal sah sehingga tamat tempohnya.",
+  loggedOut: "Sesi tab ini telah dipadamkan.",
+  globalOut:
+    "Permintaan log keluar semua sesi berjaya. Sesi tab ini telah dipadamkan.",
+  logoutFailed:
+    "Data sesi setempat telah dipadamkan. Pembatalan sesi pelayan tidak dapat disahkan. Sambung semula ke internet, log masuk semula, kemudian pilih “Log keluar semua sesi”.",
+  previewAccess: "Teroka pratonton awam",
+  noSignup:
+    "Tiada pendaftaran awam. Akaun pemilik mesti disediakan oleh pengurus projek.",
+  accountSettingsBody: "Semak sambungan awan atau urus sesi pemilik anda.",
+  accountDeviceBody:
+    "Pilihan paparan disimpan pada peranti ini. Sesi akaun, jika disambungkan, disimpan dalam tab sahaja.",
   home: "Utama",
   learn: "Belajar",
   review: "Ulang kaji",
@@ -81,6 +122,50 @@ const ms = {
   error: "Pratonton tidak dapat dibuka. Cuba lagi.",
 };
 const en: typeof ms = {
+  sessionExpired:
+    "Your 12-hour session has expired. Sign in again to continue.",
+  account: "Account",
+  accountTitle: "Your personal space.",
+  accountBody:
+    "Sign in is reserved for the provisioned owner. The public preview can be explored without an account.",
+  authMissing: "Cloud account is not connected yet.",
+  authMissingBody:
+    "The preview remains available. The owner can add the Supabase project URL and public publishable key in the app environment settings, then rebuild the app. Never enter a secret key.",
+  authChecking: "Checking the session and owner access…",
+  authBlocked: "Owner access could not be verified.",
+  authBlockedBody:
+    "The account needs a confirmed email and an authorized owner profile. Ask the project administrator to check account provisioning.",
+  authError:
+    "The session could not be checked. Check your connection and try again.",
+  authRetry: "Try again",
+  email: "Email",
+  password: "Password",
+  login: "Sign in",
+  loggingIn: "Signing in…",
+  authInvalid:
+    "Enter a valid email and a password between 8 and 128 characters.",
+  authFailed:
+    "Sign in failed. Check your details, email confirmation and connection.",
+  ownerVerified: "Owner access verified",
+  ownerBody:
+    "This session was checked with the server. No cloud learning data is added in this preview.",
+  logout: "Sign out of this tab",
+  logoutAll: "Sign out of all sessions",
+  loggingOut: "Signing out…",
+  logoutNote:
+    "Your session is stored in this tab only and expires after 12 hours. Signing out of all sessions revokes refresh tokens; existing access tokens may remain valid until they expire.",
+  loggedOut: "This tab’s session has been cleared.",
+  globalOut:
+    "The request to sign out of all sessions succeeded. This tab’s session has been cleared.",
+  logoutFailed:
+    "Local session data has been removed. Server session revocation could not be confirmed. Reconnect, sign in again, then choose “Sign out of all sessions”.",
+  previewAccess: "Explore the public preview",
+  noSignup:
+    "There is no public signup. The owner account must be provisioned by the project administrator.",
+  accountSettingsBody:
+    "Check the cloud connection or manage your owner session.",
+  accountDeviceBody:
+    "Display preferences are saved on this device. Account sessions, when connected, are stored in this tab only.",
   home: "Home",
   learn: "Learn",
   review: "Review",
