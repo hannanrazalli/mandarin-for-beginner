@@ -10,12 +10,16 @@
 - Web Speech zh-CN voice availability and offline behavior vary. Unit 0 tone-pair teaching
   needs teacher-checked recordings or verified audio, rather than trusting arbitrary TTS.
   No pronunciation scoring implied. Missing audio must be visible and never block all learning.
-- No visual direction selected. Phase 1 pauses after TWO compared directions and waits for
-  the user's choice; scaffold/components/tokens follow that choice.
+- User selected A — Taman Bunyi in Phase 1: jade/cream, Nunito Sans + Noto Sans SC and Pipit.
+  Detailed selected specification is design/SYSTEM.md; the choice gate is satisfied.
 - Agent directory and reviewer limits are instruction-level in this runtime. No claimed
   independent sandbox. No unknown keys added to pretend enforcement.
 - Desktop account's model picker/quotas unavailable here; environment catalog is provisional.
-- Full app dependency versions will be verified and pinned in Phase 1, not guessed now.
+- Phase 1 app versions verified against official npm latest metadata; see docs/DEPENDENCIES.md.
+- Phase 1 is a functional shell/Unit 0 preview, not a finished curriculum or learning backend.
+  Device voice demos are unverified examples. No XP, streak, account or learning progress is invented.
+- Git origin is now https://github.com/hannanrazalli/mandarin-for-beginner.git. This proves
+  repository configuration, not successful push, authorization or Vercel connection.
 - Offline event conflict/replay and server-authoritative scores are Phase 2 design inputs,
   implemented fully in Phase 6. No personal data should leak between sessions.
 - Only eight agents. Architecture/ADRs belong to backend_security_engineer; code_specialist

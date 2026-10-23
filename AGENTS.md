@@ -2,7 +2,7 @@
 
 Personal Mandarin PWA for one Malay-speaking learner in Malaysia, starting from zero.
 UI: Bahasa Melayu with English toggle. Teach Simplified Chinese directly from Malay.
-The user's overrides take precedence over the original brief. Current phase: 1 (visual choice pending).
+The user's overrides take precedence over the original brief. Current phase: 1 (A — Taman Bunyi selected).
 
 ## Working agreement
 - Complete only the approved phase; summarize in at most 10 lines and STOP for "continue".
@@ -27,8 +27,8 @@ See docs/SCHEMA_PROPOSAL.md and docs/ASSUMPTIONS.md.
 ## Commands
 Phase 0: `python3 scripts/configure_agents.py` validates all eight TOMLs.
 Change model tiers in docs/MODEL_TIERS.md, then `python3 scripts/configure_agents.py --sync`.
-After Phase 1 defines scripts: pnpm dev, pnpm typecheck, pnpm lint, pnpm test,
-pnpm test:e2e, pnpm build. They do NOT exist yet; never report them as passed.
+App scripts: pnpm dev, pnpm typecheck, pnpm lint, pnpm test, pnpm test:e2e,
+pnpm build, pnpm preview and pnpm secrets:check. See docs/PHASE_1.md for verified results.
 
 ## Coding and learning quality
 - Feature-based folders, small pure functions, semantic HTML, no any or unsafe HTML injection.
@@ -49,7 +49,7 @@ pnpm test:e2e, pnpm build. They do NOT exist yet; never report them as passed.
 - Confirm email, strong password policy, rate limits; close signup after owner is provisioned.
 - Zod at boundaries, parameterized SQL, strict CSP/security headers, HTTPS, no trackers.
 - No unsafe caching of authenticated API/session responses or secrets in logs.
-- Phase 1: secret-scanning pre-commit + CI, dependency audit/updates. No hooks installed yet.
+- Secretlint pre-commit + CI, dependency audit and monthly Dependabot updates are configured.
 - Session lifetime, logout-all and offline user-data purge need a documented implementation.
 
 ## Delegation roster and solo checklists

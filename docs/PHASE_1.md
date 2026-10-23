@@ -14,8 +14,44 @@
 ## Progress
 
 - Phase 0 accepted by user's "continue" on 2026-10-24 (Asia/Kuala_Lumpur).
-- Two directions ready in design/DIRECTIONS.md; awaiting A/B choice before any implementation.
+- User selected A — Taman Bunyi. Proceed with chosen design spec, then application build.
 - Account/software checklist remains in docs/SETUP.md; completion not yet confirmed.
-- Runs so far: one MID uiux_specialist run for the required direction comparison.
+- Runs: five MID runs total — two uiux_specialist runs (directions, selected spec),
+  one code_specialist build, one code_reviewer and one uiux_reviewer phase-end review.
 - Parent checked both options include palette/type/mascot/mood and shared beginner/a11y requirements.
-- No phase-end reviews yet: the phase build has not started. No app checks are claimed.
+- Selected design, shell, local PWA, CI workflow and Vercel configuration implemented.
+
+## Verified locally
+
+- `pnpm typecheck`, global `pnpm lint`, `pnpm test`: PASS (3 settings tests).
+- `node --test scripts/scan-secrets.test.mjs`: PASS; staged fake secret is caught even
+  after the working copy is cleaned. Whole-index `pnpm secrets:check`: PASS.
+- `pnpm audit --audit-level=high`: zero vulnerabilities across all reported severities.
+- Production `pnpm build`: PASS; PWA precaches 24 static entries, about 502 KiB.
+- `CHROMIUM_PATH=/usr/bin/chromium pnpm test:e2e`: 3 PASS, covering 360/768/1280px,
+  persisted English/dark settings, route focus, honest empty screens and axe checks.
+- Browser tests enforce the Vercel global security headers through Vite preview settings.
+- Additional production browser smoke: cached home and lazy Unit 0 reopen offline;
+  `/auth` is not cached; no JavaScript page errors. This does not establish account sync.
+- Parent inspected desktop/mobile screenshots. Review screenshots are local ignored artifacts.
+- Native custom-agent discovery/account entitlement, hosted CI, Vercel deployment and actual
+  deployed headers remain unverified. No Supabase/auth backend or verified lesson audio yet.
+
+## Single review-fix pass
+
+- code_reviewer: remove sandbox-specific absolute pnpm store-dir from repository config;
+  fixed. Sandbox installs may pass the store override as a command flag only.
+- uiux_reviewer: mobile brand/home link needs a 44px target; fixed and covered by the
+  mobile browser flow. No other reviewer findings; no second review or security-agent run.
+- UX reviewer inspected changed source and screenshots; its own Chromium launch was blocked
+  by sandbox socket restrictions. Parent's browser checks succeeded with execution permissions.
+- Rechecked frozen install, typecheck, global lint, agent config, production build and all
+  3 browser flows after fixes; final secret/whitespace gates passed. No additional review loop.
+
+## Checkpoint and limits
+
+Phase 1 is a working preview shell, not a complete Mandarin course: no login, real XP,
+streaks, learning completion, synced progress, verified pronunciation or speech scoring.
+Vercel deployment requires connected hosting access; use docs/DEPLOYMENT.md when ready.
+Five subagent runs were justified above; say "low credits mode" to do future role checklists solo.
+Stop after this checkpoint and wait for "continue" before Phase 2 (Supabase/auth/RLS).
