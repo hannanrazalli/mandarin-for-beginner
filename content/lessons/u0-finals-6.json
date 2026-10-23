@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-finals-6",
+  "unit": 0,
+  "title_ms": "Akhiran panjang dalam satu suku kata",
+  "duration_seconds": 120,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-6-1",
+      "focus": "finals",
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Iao: dengarkan xiǎo sebagai satu suku kata dengan geluncuran berterusan.",
+      "tones": [
+        3
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "小",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-6-2",
+      "focus": "finals",
+      "hanzi": "六",
+      "pinyin": "liù",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Iou ditulis iu selepas awalan: liù. Tanda nada diletakkan pada u.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "六",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-6-3",
+      "focus": "finals",
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Uai: u meluncur ke ai dalam satu suku kata kuài.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "快",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-6-4",
+      "focus": "finals",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Uei ditulis ui selepas awalan: shuǐ. Tanda nada diletakkan pada i.",
+      "tones": [
+        3
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "水",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-6-5",
+      "focus": "finals",
+      "hanzi": "关",
+      "pinyin": "guān",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Uan: u meluncur ke an, berakhir dengan n di hadapan mulut.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "关",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

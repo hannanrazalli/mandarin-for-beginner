@@ -1,42 +1,78 @@
-import { ArrowRight, LockKeyhole, Sprout } from "lucide-react";
+import { ArrowRight, Check, LockKeyhole } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Page } from "../components/Page";
-import { copy } from "../lib/copy";
+import { useLearningProgress } from "../learning/cloud";
+import { learningCopy } from "../learning/copy";
+import { curriculum, getLesson, isLessonUnlocked } from "../lib/curriculum";
 import { useSettings } from "../lib/settings";
 export default function Learn() {
-  const t = copy(useSettings().language);
+  const { language } = useSettings();
+  const t = learningCopy(language);
+  const progress = useLearningProgress();
   return (
-    <Page eyebrow={t.learn} title={t.learnTitle} description={t.learnBody}>
-      <div className="learning-path">
-        <section className="path-card">
-          <div className="path-number">
-            <Sprout />
-          </div>
-          <div>
-            <span className="pill">UNIT 0 · {t.preview}</span>
-            <h2>{t.unit}</h2>
-            <p className="eyebrow">{t.planned}</p>
-            <ul className="scope-list">
-              {[t.initial, t.tones, t.pairs, t.sandhi].map((x) => (
-                <li key={x}>{x}</li>
-              ))}
-            </ul>
-            <Link className="button primary" to="/unit-0">
-              {t.try}
-              <ArrowRight size={18} />
-            </Link>
-          </div>
-        </section>
-        <section className="path-card future">
-          <div className="path-number">
-            <LockKeyhole />
-          </div>
-          <div>
-            <span className="eyebrow">HSK 1 · {t.coming}</span>
-            <h2>{t.coming}</h2>
-            <p>{t.locked}</p>
-          </div>
-        </section>
+    <Page
+      eyebrow={language === "ms" ? "Laluan belajar" : "Learning path"}
+      title={t.overview}
+      description={t.overviewBody}
+    >
+      <p className="mode-label">{progress.owner ? t.cloud : t.local}</p>
+      {progress.owner && progress.query.isPending && (
+        <p role="status">{t.loading}</p>
+      )}
+      {progress.query.isError && <p role="alert">{t.cloudError}</p>}
+      <div className="curriculum-units">
+        {curriculum.units.map((unit) => (
+          <section key={unit.id} className="curriculum-unit">
+            <p className="eyebrow">
+              UNIT {unit.position} {unit.position === 1 ? "· HSK 1" : ""}
+            </p>
+            <h2>{language === "ms" ? unit.title_ms : unit.title_en}</h2>
+            <ol className="lesson-list">
+              {unit.lesson_ids.map((slug, index) => {
+                const lesson = getLesson(slug);
+                const done = progress.completed.includes(slug);
+                const unlocked =
+                  isLessonUnlocked(slug, progress.completed) &&
+                  !progress.query.isError &&
+                  !(progress.owner && progress.query.isPending);
+                return (
+                  <li key={slug}>
+                    <span className={`lesson-marker ${done ? "done" : ""}`}>
+                      {done ? (
+                        <Check size={18} />
+                      ) : unlocked ? (
+                        String(index + 1).padStart(2, "0")
+                      ) : (
+                        <LockKeyhole size={17} />
+                      )}
+                    </span>
+                    <div>
+                      <h3>{lesson?.title_ms}</h3>
+                      <p>
+                        {done
+                          ? t.complete
+                          : unlocked
+                            ? `${Math.round((lesson?.duration_seconds ?? 120) / 60)} min · ${t.ready}`
+                            : t.locked}
+                      </p>
+                    </div>
+                    {unlocked ? (
+                      <Link
+                        className="lesson-open"
+                        to={`/belajar/${slug}`}
+                        aria-label={`${t.start}: ${lesson?.title_ms}`}
+                      >
+                        <ArrowRight size={21} />
+                      </Link>
+                    ) : (
+                      <span className="locked-label">{t.locked}</span>
+                    )}
+                  </li>
+                );
+              })}
+            </ol>
+          </section>
+        ))}
       </div>
     </Page>
   );

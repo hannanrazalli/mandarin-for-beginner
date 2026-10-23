@@ -24,6 +24,7 @@ jobs:
           cache: true
       - run: pnpm install --frozen-lockfile
       - run: python3 scripts/configure_agents.py
+      - run: node scripts/validate-content.mjs
       - run: pnpm secrets:check
       - run: node --test scripts/scan-secrets.test.mjs
       - run: pnpm typecheck

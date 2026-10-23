@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-initials-3",
+  "unit": 0,
+  "title_ms": "Awalan 3: n, l, g",
+  "duration_seconds": 100,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-3-1",
+      "focus": "initials",
+      "hanzi": "拿",
+      "pinyin": "ná",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan n: Untuk n, hujung lidah di belakang gigi atas; suara keluar melalui hidung.",
+      "tones": [
+        2
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "拿",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-3-2",
+      "focus": "initials",
+      "hanzi": "拉",
+      "pinyin": "lā",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan l: Untuk l, hujung lidah di belakang gigi atas; udara keluar di sisi lidah. Bezakan dengan n.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "拉",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-3-3",
+      "focus": "initials",
+      "hanzi": "哥",
+      "pinyin": "gē",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan g: Untuk g, bahagian belakang lidah menyentuh lelangit lembut; hembusan sedikit.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "哥",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

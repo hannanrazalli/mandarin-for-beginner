@@ -47,7 +47,7 @@ insert into public.achievements values ('50000000-0000-0000-0000-000000000001','
 insert into public.user_achievements(user_id,achievement_id) values ('00000000-0000-0000-0000-000000000001','50000000-0000-0000-0000-000000000001');
 insert into public.daily_activity(user_id,local_date,timezone,xp) values ('00000000-0000-0000-0000-000000000001',current_date,'Asia/Kuala_Lumpur',10);
 insert into public.streak_state(user_id,current_days,longest_days) values ('00000000-0000-0000-0000-000000000001',1,1);
-select test.ok(count(*)=13 and bool_and(relrowsecurity),'all thirteen application tables have RLS') from pg_class c join pg_namespace n on n.oid=c.relnamespace where n.nspname in ('public','private') and c.relkind='r';
+select test.ok(count(*)=15 and bool_and(relrowsecurity),'all fifteen application tables have RLS') from pg_class c join pg_namespace n on n.oid=c.relnamespace where n.nspname in ('public','private') and c.relkind='r';
 select test.denied($$update public.lessons set published=true where id='20000000-0000-0000-0000-000000000003'$$,'cannot publish draft word','23514');
 select test.denied($$update public.words set needs_review=true where id='30000000-0000-0000-0000-000000000001'$$,'cannot unapprove published word','23514');
 select test.denied($$insert into public.lesson_words values ('20000000-0000-0000-0000-000000000001','30000000-0000-0000-0000-000000000002',1)$$,'cannot attach draft word to published lesson','23514');

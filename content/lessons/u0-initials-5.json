@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-initials-5",
+  "unit": 0,
+  "title_ms": "Awalan 5: q, x, zh",
+  "duration_seconds": 100,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-5-1",
+      "focus": "initials",
+      "hanzi": "七",
+      "pinyin": "qī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan q: Untuk q, kedudukan lidah seperti j dengan hembusan jelas. Ejaan q bukan bunyi k.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "七",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-5-2",
+      "focus": "initials",
+      "hanzi": "西",
+      "pinyin": "xī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan x: Untuk x, udara bergeser antara lidah dan lelangit hadapan; jangan baca sebagai huruf x Melayu.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "西",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-5-3",
+      "focus": "initials",
+      "hanzi": "知",
+      "pinyin": "zhī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan zh: Untuk zh, hujung lidah sedikit diangkat ke belakang. Hembusan sedikit; bandingkan z kemudian.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "知",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-tones-1",
+  "unit": 0,
+  "title_ms": "Nada 1, 2 dan 3",
+  "duration_seconds": 120,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-tones-1-1",
+      "focus": "tones",
+      "hanzi": "妈",
+      "pinyin": "mā",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Nada 1: suara tinggi dan rata, seperti garisan mendatar.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Mā ialah ibu; tanda lurus menunjukkan nada 1.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "妈",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-tones-1-2",
+      "focus": "tones",
+      "hanzi": "麻",
+      "pinyin": "má",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Nada 2: suara naik dari tengah ke tinggi. Bandingkan dengan mā.",
+      "tones": [
+        2
+      ],
+      "tone_note_ms": "Má ialah rami; contoh ini hanya untuk mendengar nada.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "麻",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-tones-1-3",
+      "focus": "tones",
+      "hanzi": "马",
+      "pinyin": "mǎ",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Nada 3 ketika disebut sendiri: turun rendah kemudian boleh naik. Dalam pertuturan bersambung, bahagian naik sering tidak penuh.",
+      "tones": [
+        3
+      ],
+      "tone_note_ms": "Mǎ ialah kuda. Jangan paksa lengkung penuh untuk setiap nada 3 dalam ayat.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "马",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

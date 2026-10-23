@@ -2,11 +2,21 @@ import { ArrowRight, AudioLines, Leaf, Sprout } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Page } from "../components/Page";
 import { Pipit } from "../components/Pipit";
+import { useLearningProgress } from "../learning/cloud";
+import { learningCopy } from "../learning/copy";
+import { useLessonPlayer } from "../learning/store";
 import { copy } from "../lib/copy";
+import { nextLesson } from "../lib/curriculum";
 import { useSettings } from "../lib/settings";
 export default function Home() {
   const { language } = useSettings();
   const t = copy(language);
+  const l = learningCopy(language);
+  const progress = useLearningProgress();
+  const active = useLessonPlayer((state) =>
+    state.stage === "result" ? null : state.slug,
+  );
+  const next = nextLesson(progress.completed);
   return (
     <Page eyebrow={t.welcome} title={t.greeting} description={t.intro}>
       <div className="home-grid">
@@ -18,8 +28,11 @@ export default function Home() {
             </span>
             <h2>{t.hero}</h2>
             <p>{t.heroBody}</p>
-            <Link className="button primary" to="/unit-0">
-              {t.try}
+            <Link
+              className="button primary"
+              to={`/belajar/${active ?? next.id}`}
+            >
+              {progress.completed.length || active ? l.resume : l.start}
               <ArrowRight size={19} />
             </Link>
           </div>
@@ -69,7 +82,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <p className="page-note">{t.note}</p>
+      <p className="page-note">{progress.owner ? l.cloud : l.local}</p>
     </Page>
   );
 }

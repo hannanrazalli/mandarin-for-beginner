@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-finals-4",
+  "unit": 0,
+  "title_ms": "Akhiran dengan geluncuran: ia, ie, ua, uo, üe",
+  "duration_seconds": 120,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-4-1",
+      "focus": "finals",
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Ia: bunyi i meluncur terus kepada a dalam jiā; bukan dua suku kata.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "家",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-4-2",
+      "focus": "finals",
+      "hanzi": "街",
+      "pinyin": "jiē",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Ie: bunyi i meluncur kepada e yang lebih terbuka daripada e dalam gē.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "街",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-4-3",
+      "focus": "finals",
+      "hanzi": "花",
+      "pinyin": "huā",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Ua: dari bibir membulat kepada a dalam huā.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "花",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-4-4",
+      "focus": "finals",
+      "hanzi": "多",
+      "pinyin": "duō",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Uo: dengarkan geluncuran u menuju o dalam duō.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "多",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-4-5",
+      "focus": "finals",
+      "hanzi": "月",
+      "pinyin": "yuè",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Üe: bibir mula membulat seperti ü. Ejaan yuè menggugurkan titik ü, seperti jué, què dan xué.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "月",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

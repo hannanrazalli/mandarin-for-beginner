@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-initials-6",
+  "unit": 0,
+  "title_ms": "Awalan 6: ch, sh, r",
+  "duration_seconds": 100,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-6-1",
+      "focus": "initials",
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan ch: Untuk ch, hujung lidah seperti zh dengan hembusan jelas.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "吃",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-6-2",
+      "focus": "initials",
+      "hanzi": "师",
+      "pinyin": "shī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan sh: Untuk sh, hujung lidah sedikit ke belakang dan udara bergeser berterusan.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "师",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-6-3",
+      "focus": "initials",
+      "hanzi": "日",
+      "pinyin": "rì",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan r: Untuk r, hujung lidah sedikit ke belakang. Dengarkan geseran lembut; jangan gulung r seperti dalam sesetengah sebutan Melayu.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "日",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-tones-2",
+  "unit": 0,
+  "title_ms": "Nada 4 dan nada ringan",
+  "duration_seconds": 120,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-tones-2-1",
+      "focus": "tones",
+      "hanzi": "骂",
+      "pinyin": "mà",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Nada 4: suara turun dengan tegas dari tinggi ke rendah.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Mà bermaksud memarahi; dengar sebagai perbandingan nada sahaja.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "骂",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-tones-2-2",
+      "focus": "tones",
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Nada ringan pada ma kedua: pendek dan tidak ditekankan. Tingginya bergantung pada suku kata sebelumnya.",
+      "tones": [
+        1,
+        0
+      ],
+      "tone_note_ms": "Dalam perkataan māma, ma kedua bernada ringan, bukan mā nada 1. Ini sebutan perkataan, bukan aturan bahawa semua aksara berulang menjadi nada ringan.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "妈妈",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-tones-2-3",
+      "focus": "tones",
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Ma di hujung soalan biasanya bernada ringan. Dengarkan suku kata ringkas tanpa memanjangkannya.",
+      "tones": [
+        0
+      ],
+      "tone_note_ms": "Tiada tanda nada pada ma menunjukkan nada ringan; 0 ialah label latihan, bukan nada kelima yang tetap.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "吗",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

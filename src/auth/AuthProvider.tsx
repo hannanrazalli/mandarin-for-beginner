@@ -41,6 +41,7 @@ type Message =
   | "logoutFailed"
   | null;
 type AuthContextValue = {
+  client: PublicAuthClient | null;
   status: Status;
   owner: Owner | null;
   pending: boolean;
@@ -248,6 +249,7 @@ export function AuthProvider({
   );
   const value = useMemo(
     () => ({
+      client: status === "owner" ? client : null,
       status,
       owner,
       pending,
@@ -256,7 +258,7 @@ export function AuthProvider({
       logout,
       retry: () => setAttempt((value) => value + 1),
     }),
-    [status, owner, pending, message, login, logout],
+    [client, status, owner, pending, message, login, logout],
   );
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

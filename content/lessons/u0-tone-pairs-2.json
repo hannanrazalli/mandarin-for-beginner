@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-tone-pairs-2",
+  "unit": 0,
+  "title_ms": "Nada 3 dalam perkataan",
+  "duration_seconds": 150,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-tone-pairs-2-1",
+      "focus": "tone_pairs",
+      "hanzi": "你好",
+      "pinyin": "nǐ hǎo",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Nada kamus ialah 3 + 3. Dalam sapaan biasa, nǐ berubah menjadi nada naik seperti ní sebelum hǎo.",
+      "tones": [
+        3,
+        3
+      ],
+      "tone_note_ms": "Pinyin kamus nǐ hǎo; bunyi lazim ní hǎo. Perubahan sebutan ini tidak menukar makna atau tulisan.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "你好",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-tone-pairs-2-2",
+      "focus": "tone_pairs",
+      "hanzi": "很好",
+      "pinyin": "hěn hǎo",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Nada kamus 3 + 3; hěn biasanya disebut seperti hén sebelum hǎo. Ertinya sangat baik.",
+      "tones": [
+        3,
+        3
+      ],
+      "tone_note_ms": "Pinyin kamus hěn hǎo; sebutan bersambung lazim hén hǎo. Rangkaian lebih panjang bergantung pada pengelompokan kata.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "很好",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-tone-pairs-2-3",
+      "focus": "tone_pairs",
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Nada 3 diikuti nada 1: lǎo biasanya rendah tanpa naik penuh, kemudian shī tinggi rata. Ertinya guru.",
+      "tones": [
+        3,
+        1
+      ],
+      "tone_note_ms": "Nada kamus 3 + 1. Nada 3 rendah sebelum nada lain tidak sama dengan perubahan menjadi nada 2.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "老师",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

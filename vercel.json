@@ -28,6 +28,10 @@
     {
       "source": "/akaun",
       "destination": "/index.html"
+    },
+    {
+      "source": "/belajar/:slug",
+      "destination": "/index.html"
     }
   ],
   "headers": [

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-initials-7",
+  "unit": 0,
+  "title_ms": "Awalan 7: z, c, s",
+  "duration_seconds": 100,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-7-1",
+      "focus": "initials",
+      "hanzi": "字",
+      "pinyin": "zì",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan z: Untuk z, hujung lidah dekat belakang gigi atas; hembusan sedikit. Lidah lebih ke hadapan daripada zh.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "字",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-7-2",
+      "focus": "initials",
+      "hanzi": "次",
+      "pinyin": "cì",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan c: Untuk c, tempat lidah seperti z dengan hembusan jelas. Bukan bunyi c dalam cara.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "次",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-7-3",
+      "focus": "initials",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan s: Untuk s, udara bergeser dekat belakang gigi atas. Bezakan s dengan sh yang lidahnya lebih ke belakang.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "四",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

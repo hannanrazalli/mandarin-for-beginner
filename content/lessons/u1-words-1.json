@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u1-words-1",
+  "unit": 1,
+  "title_ms": "Awak, saya dan dia",
+  "duration_seconds": 150,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w001",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "meaning_ms": "awak",
+      "example": {
+        "hanzi": "你好吗？",
+        "pinyin": "Nǐ hǎo ma?",
+        "meaning_ms": "Apa khabar?"
+      },
+      "tone_note_ms": "Nada kamus 3. Dalam 你好, nǐ biasanya disebut seperti ní sebelum hǎo.",
+      "topic": "orang",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "你",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w002",
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "meaning_ms": "saya",
+      "example": {
+        "hanzi": "我是学生。",
+        "pinyin": "Wǒ shì xuésheng.",
+        "meaning_ms": "Saya pelajar."
+      },
+      "tone_note_ms": "Nada 3; sebelum shì, wǒ biasanya rendah tanpa naik penuh.",
+      "topic": "orang",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "我",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w003",
+      "hanzi": "他",
+      "pinyin": "tā",
+      "meaning_ms": "dia (lelaki)",
+      "example": {
+        "hanzi": "他是老师。",
+        "pinyin": "Tā shì lǎoshī.",
+        "meaning_ms": "Dia guru."
+      },
+      "tone_note_ms": "Nada 1, tinggi dan rata. Bunyi sama dengan 她.",
+      "topic": "orang",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "他",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w004",
+      "hanzi": "她",
+      "pinyin": "tā",
+      "meaning_ms": "dia (perempuan)",
+      "example": {
+        "hanzi": "她是老师。",
+        "pinyin": "Tā shì lǎoshī.",
+        "meaning_ms": "Dia guru."
+      },
+      "tone_note_ms": "Nada 1, sama bunyi dengan 他; tulisan menunjukkan rujukan orang.",
+      "topic": "orang",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "她",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

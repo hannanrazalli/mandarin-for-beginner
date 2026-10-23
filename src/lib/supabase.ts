@@ -5,6 +5,36 @@ import { createTabAuthStorage } from "../auth/tab-storage";
 type Database = {
   public: {
     Tables: {
+      lessons: {
+        Row: { id: string; slug: string };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      user_progress: {
+        Row: {
+          user_id: string;
+          lesson_id: string;
+          status: string;
+          best_accuracy: number;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      study_sessions: {
+        Row: {
+          user_id: string;
+          xp_awarded: number;
+          ended_at: string;
+          lesson_id: string | null;
+          correct_count: number;
+          answer_count: number;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
       profiles: {
         Row: { id: string };
         Insert: never;
@@ -13,7 +43,18 @@ type Database = {
       };
     };
     Views: Record<string, never>;
-    Functions: Record<string, never>;
+    Functions: {
+      complete_lesson: {
+        Args: {
+          p_event_id: string;
+          p_lesson_slug: string;
+          p_content_version: number;
+          p_answers: { item_id: string; answer: string }[];
+          p_duration_seconds: number;
+        };
+        Returns: unknown;
+      };
+    };
     Enums: Record<string, never>;
     CompositeTypes: Record<string, never>;
   };

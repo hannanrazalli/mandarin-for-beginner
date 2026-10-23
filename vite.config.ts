@@ -62,9 +62,10 @@ export default defineConfig(({ mode }) => {
           ],
         },
         workbox: {
-          globPatterns: ["**/*.{js,css,html,svg,png,woff2}"],
+          globPatterns: ["**/*.{js,css,html,svg,png,woff,woff2}"],
           navigateFallbackAllowlist: [
             /^\/$/,
+            /^\/belajar\/[a-z0-9]+(?:-[a-z0-9]+)*\/?$/,
             /^\/(belajar|unit-0|ulang-kaji|statistik|tetapan|akaun)\/?$/,
           ],
           runtimeCaching: [],

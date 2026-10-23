@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-sandhi-bu",
+  "unit": 0,
+  "title_ms": "不: dengar bù dan bú",
+  "duration_seconds": 120,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-sandhi-bu-1",
+      "focus": "sandhi",
+      "hanzi": "不是",
+      "pinyin": "bù shì",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Nada kamus bù shì ialah 4 + 4; sebelum nada 4, 不 biasanya disebut bú. Ertinya bukan.",
+      "tones": [
+        4,
+        4
+      ],
+      "tone_note_ms": "Tulisan pinyin kamus bù shì; bunyi bersambung bú shì.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "不是",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-sandhi-bu-2",
+      "focus": "sandhi",
+      "hanzi": "不好",
+      "pinyin": "bù hǎo",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Sebelum nada 3, 不 kekal bù. Ertinya tidak baik.",
+      "tones": [
+        4,
+        3
+      ],
+      "tone_note_ms": "Perubahan bù menjadi bú berlaku sebelum nada 4, bukan sebelum semua nada.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "不好",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-sandhi-bu-3",
+      "focus": "sandhi",
+      "hanzi": "不",
+      "pinyin": "bù",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Apabila disebut sendiri atau dengan penegasan, dengar bentuk kamus bù.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Dalam pola A不A seperti 是不是, 不 boleh menjadi ringan. Itu pola lain untuk dipelajari kemudian; jangan gunakan aturan bú secara membuta tuli.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "不",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

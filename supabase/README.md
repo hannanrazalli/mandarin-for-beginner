@@ -71,3 +71,27 @@ Verified 2026-10-24: **107 assertions passed** on PostgreSQL **17.11** (Debian
 Two implementation runs were performed; the final run includes isolated RLS tests with
 write grants temporarily enabled inside a transaction that is then rolled back.
 This version also validates confirmed status when checking the active owner allowlist.
+
+## Curriculum and canonical completion (phase 3)
+
+Run `python3 supabase/scripts/generate_seed.py` after curriculum validation. Apply migration
+`202610240003_lesson_completion.sql` before the generated `supabase/seed.sql` through trusted
+operator tooling. The seed contains public teaching content and private grading keys, never
+an owner identifier or credential. It uses authored slugs rather than generated UUIDs.
+It creates 2 units, 25 lessons and 20 vocabulary words. Semantic `needs_review` blocks lesson
+publication; synthetic TTS `needs_audio_review` is independent and remains disclosed by UI.
+Reapplying the same seed preserves personal progress, sessions and receipts. A changed
+answer/item set at the same `content_version` fails: increment that field and regenerate.
+The format `schema_version` is separate. Reordering/removing established content requires
+an explicit migration review; the generator deliberately performs no destructive deletes.
+
+Call the authenticated `complete_lesson` RPC with the five named parameters documented in
+ADR 003. Read `user_progress`, `study_sessions` and `daily_activity` for current state.
+Historical retry responses retain their original aggregate snapshot. Streaks/reviews/badges
+are not yet awarded by this RPC. Practice duration is bounded client-reported time.
+The expanded test harness also checks actual seed completion and reseeding preservation
+in a second fresh database inside the same disposable, network-isolated container.
+
+Phase 3 verification, 2026-10-24: **159 PostgreSQL assertions passed** (the original 107,
+41 RPC/seed-helper assertions, and 11 actual curriculum/reseed assertions), PostgreSQL
+17.11. Two implementation runs: initial 144 and final 159. No hosted behavior is inferred.

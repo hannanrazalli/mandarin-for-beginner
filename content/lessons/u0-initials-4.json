@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-initials-4",
+  "unit": 0,
+  "title_ms": "Awalan 4: k, h, j",
+  "duration_seconds": 100,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-4-1",
+      "focus": "initials",
+      "hanzi": "科",
+      "pinyin": "kē",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan k: Untuk k, tempat lidah seperti g tetapi ada hembusan jelas.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "科",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-4-2",
+      "focus": "initials",
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan h: Untuk h, udara bergeser di belakang mulut; dengar bunyi dalam hē.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "喝",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-initials-4-3",
+      "focus": "initials",
+      "hanzi": "鸡",
+      "pinyin": "jī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Awalan j: Untuk j, lidah di hadapan lelangit keras; bibir tidak dibulatkan. Hembusan sedikit.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "鸡",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

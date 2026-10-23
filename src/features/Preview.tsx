@@ -1,55 +1,39 @@
-import { ArrowRight, Info, Volume2 } from "lucide-react";
+import { ArrowRight, AudioLines, Info } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Page } from "../components/Page";
-import { copy } from "../lib/copy";
+import { Pipit } from "../components/Pipit";
+import { useLearningProgress } from "../learning/cloud";
+import { learningCopy } from "../learning/copy";
+import { isLessonUnlocked, lessons } from "../lib/curriculum";
 import { useSettings } from "../lib/settings";
 export default function Preview() {
-  const t = copy(useSettings().language);
+  const t = learningCopy(useSettings().language);
+  const progress = useLearningProgress();
+  const lesson = lessons[0];
   return (
-    <Page
-      eyebrow={`UNIT 0 · ${t.preview}`}
-      title={t.previewTitle}
-      description={t.previewBody}
-    >
-      <section className="preview-card">
-        <span className="sample-label">
-          <Info size={17} />
-          {t.sample}
-        </span>
-        <div className="character" lang="zh-CN">
-          你好
+    <Page eyebrow="UNIT 0" title={t.intro} description={t.introBody}>
+      <section className="unit-intro">
+        <div>
+          <span className="pill">
+            <AudioLines size={17} />
+            1–3 min
+          </span>
+          <h2>{lesson.title_ms}</h2>
+          <p>{t.overviewBody}</p>
+          <p className="mode-label">{progress.owner ? t.cloud : t.local}</p>
+          {isLessonUnlocked(lesson.id, progress.completed) && (
+            <Link className="button primary" to={`/belajar/${lesson.id}`}>
+              {t.start}
+              <ArrowRight size={18} />
+            </Link>
+          )}
         </div>
-        <p className="pinyin" lang="zh-Latn">
-          nǐ hǎo
-        </p>
-        <p className="translation">{t.hello}</p>
-        <button
-          className="button unavailable"
-          type="button"
-          disabled
-          aria-describedby="audio-note"
-        >
-          <Volume2 size={20} />
-          {t.unavailable}
-        </button>
-        <p id="audio-note" className="audio-note">
-          {t.audio}
-        </p>
+        <Pipit />
       </section>
       <div className="notice">
-        <Info size={21} />
-        <p>{t.audioBody}</p>
+        <Info size={20} />
+        <p>{t.notAudio}</p>
       </div>
-      <section className="next-card">
-        <div>
-          <h2>{t.next}</h2>
-          <p>{t.nextBody}</p>
-        </div>
-        <Link className="text-link" to="/belajar">
-          {t.back}
-          <ArrowRight size={18} />
-        </Link>
-      </section>
     </Page>
   );
 }

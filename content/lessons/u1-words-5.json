@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u1-words-5",
+  "unit": 1,
+  "title_ms": "Tujuh hingga sepuluh",
+  "duration_seconds": 150,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w017",
+      "hanzi": "七",
+      "pinyin": "qī",
+      "meaning_ms": "tujuh",
+      "example": {
+        "hanzi": "七个人。",
+        "pinyin": "Qī gè rén.",
+        "meaning_ms": "Tujuh orang."
+      },
+      "tone_note_ms": "Nada 1. Q mempunyai hembusan jelas.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "七",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w018",
+      "hanzi": "八",
+      "pinyin": "bā",
+      "meaning_ms": "lapan",
+      "example": {
+        "hanzi": "八个人。",
+        "pinyin": "Bā gè rén.",
+        "meaning_ms": "Lapan orang."
+      },
+      "tone_note_ms": "Nada 1. B mempunyai hembusan lebih sedikit daripada p.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "八",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w019",
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "meaning_ms": "sembilan",
+      "example": {
+        "hanzi": "九个人。",
+        "pinyin": "Jiǔ gè rén.",
+        "meaning_ms": "Sembilan orang."
+      },
+      "tone_note_ms": "Nada 3; sebelum gè biasanya rendah. Iu ialah satu akhiran, bukan dua suku kata.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "九",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w020",
+      "hanzi": "十",
+      "pinyin": "shí",
+      "meaning_ms": "sepuluh",
+      "example": {
+        "hanzi": "十个人。",
+        "pinyin": "Shí gè rén.",
+        "meaning_ms": "Sepuluh orang."
+      },
+      "tone_note_ms": "Nada 2, naik; hujung lidah untuk sh sedikit ke belakang.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "十",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

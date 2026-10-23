@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+  "units": [
+    {
+      "id": "unit-0",
+      "position": 0,
+      "title_ms": "Asas bunyi Mandarin",
+      "title_en": "Mandarin sound foundations",
+      "lesson_ids": [
+        "u0-initials-1",
+        "u0-initials-2",
+        "u0-initials-3",
+        "u0-initials-4",
+        "u0-initials-5",
+        "u0-initials-6",
+        "u0-initials-7",
+        "u0-finals-1",
+        "u0-finals-2",
+        "u0-finals-3",
+        "u0-finals-4",
+        "u0-finals-5",
+        "u0-finals-6",
+        "u0-finals-7",
+        "u0-tones-1",
+        "u0-tones-2",
+        "u0-tone-pairs-1",
+        "u0-tone-pairs-2",
+        "u0-sandhi-bu",
+        "u0-sandhi-yi"
+      ]
+    },
+    {
+      "id": "unit-1",
+      "position": 1,
+      "title_ms": "20 perkataan pertama",
+      "title_en": "First 20 words",
+      "lesson_ids": [
+        "u1-words-1",
+        "u1-words-2",
+        "u1-words-3",
+        "u1-words-4",
+        "u1-words-5"
+      ]
+    }
+  ]
+}

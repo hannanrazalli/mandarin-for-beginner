@@ -23,10 +23,19 @@ for attempt in {1..60}; do
   sleep 1
 done
 if [[ "$ready" != true ]]; then docker_local logs "$container"; exit 1; fi
-sql() { docker_local exec -i "$container" psql -X -q -A -t -v ON_ERROR_STOP=1 -U postgres -d postgres; }
+sql() { docker_local exec -i "$container" psql -X -q -A -t -v ON_ERROR_STOP=1 -U postgres -d "${1:-postgres}"; }
 sql < supabase/tests/fixture.sql
 for migration in supabase/migrations/*.sql; do sql < "$migration"; done
 sql < supabase/tests/rls.sql | tee "$log"
+sql < supabase/tests/completion.sql | tee -a "$log"
+# Apply generated seed twice in a separate fresh database; preserve a real completion.
+docker_local exec "$container" createdb -U postgres curriculum
+sed '/^create role /d' supabase/tests/fixture.sql | sql curriculum
+for migration in supabase/migrations/*.sql; do sql curriculum < "$migration"; done
+sql curriculum < supabase/seed.sql >/dev/null
+sql curriculum < supabase/tests/seed_setup.sql | tee -a "$log"
+sql curriculum < supabase/seed.sql >/dev/null
+sql curriculum < supabase/tests/seed_verify.sql | tee -a "$log"
 count="$(grep -c '^ok - ' "$log")"
 printf 'PASS: %s PostgreSQL security assertions\n' "$count"
 docker_local exec "$container" postgres --version

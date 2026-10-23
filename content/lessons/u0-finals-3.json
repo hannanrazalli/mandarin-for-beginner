@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-finals-3",
+  "unit": 0,
+  "title_ms": "Akhiran beralih: ai, ei, ao, ou",
+  "duration_seconds": 120,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-3-1",
+      "focus": "finals",
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Ai beralih dari a ke i dalam satu suku kata.",
+      "tones": [
+        4
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "爱",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-3-2",
+      "focus": "finals",
+      "hanzi": "北",
+      "pinyin": "běi",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Ei beralih dari e ke i; dengarkan běi.",
+      "tones": [
+        3
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "北",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-3-3",
+      "focus": "finals",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Ao beralih dari a ke hujung bunyi o; kekalkan satu suku kata.",
+      "tones": [
+        3
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "好",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-3-4",
+      "focus": "finals",
+      "hanzi": "走",
+      "pinyin": "zǒu",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Ou beralih dari o ke u dalam satu suku kata.",
+      "tones": [
+        3
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "走",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

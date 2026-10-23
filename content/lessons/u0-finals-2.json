@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-finals-2",
+  "unit": 0,
+  "title_ms": "Akhiran asas: i, u, ü",
+  "duration_seconds": 120,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-2-1",
+      "focus": "finals",
+      "hanzi": "衣",
+      "pinyin": "yī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Akhiran i seperti dalam yī: bibir direnggangkan sedikit. Y membantu ejaan suku kata tanpa awalan.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "衣",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-2-2",
+      "focus": "finals",
+      "hanzi": "乌",
+      "pinyin": "wū",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Akhiran u dalam wū: bibir membulat, lidah di belakang. W membantu ejaan suku kata tanpa awalan.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "乌",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-finals-2-3",
+      "focus": "finals",
+      "hanzi": "鱼",
+      "pinyin": "yú",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Akhiran ü: bentuk lidah seperti i tetapi bibir membulat. Dalam yú, titik ü digugurkan dalam ejaan; bunyinya tetap ü.",
+      "tones": [
+        2
+      ],
+      "tone_note_ms": "Tanda nada pada pinyin ialah nada kamus. Fokus pada bunyi ini dahulu; jangan meneka bunyi melalui ejaan Melayu.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "鱼",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

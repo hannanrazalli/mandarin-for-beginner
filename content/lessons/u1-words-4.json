@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u1-words-4",
+  "unit": 1,
+  "title_ms": "Tiga hingga enam",
+  "duration_seconds": 150,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w013",
+      "hanzi": "三",
+      "pinyin": "sān",
+      "meaning_ms": "tiga",
+      "example": {
+        "hanzi": "三个人。",
+        "pinyin": "Sān gè rén.",
+        "meaning_ms": "Tiga orang."
+      },
+      "tone_note_ms": "Nada 1, tinggi rata.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "三",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w014",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "meaning_ms": "empat",
+      "example": {
+        "hanzi": "四个人。",
+        "pinyin": "Sì gè rén.",
+        "meaning_ms": "Empat orang."
+      },
+      "tone_note_ms": "Nada 4. Dengarkan s di hadapan mulut, berbeza daripada sh dalam 是.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "四",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w015",
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "meaning_ms": "lima",
+      "example": {
+        "hanzi": "五个人。",
+        "pinyin": "Wǔ gè rén.",
+        "meaning_ms": "Lima orang."
+      },
+      "tone_note_ms": "Nada 3; sebelum gè biasanya rendah tanpa naik penuh.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "五",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w016",
+      "hanzi": "六",
+      "pinyin": "liù",
+      "meaning_ms": "enam",
+      "example": {
+        "hanzi": "六个人。",
+        "pinyin": "Liù gè rén.",
+        "meaning_ms": "Enam orang."
+      },
+      "tone_note_ms": "Nada 4; iu ialah ejaan ringkas akhiran iou.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "六",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "w001",
+    "hanzi": "你",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "orang"
+  },
+  {
+    "id": "w002",
+    "hanzi": "我",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "orang"
+  },
+  {
+    "id": "w003",
+    "hanzi": "他",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "orang"
+  },
+  {
+    "id": "w004",
+    "hanzi": "她",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "orang"
+  },
+  {
+    "id": "w005",
+    "hanzi": "我们",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "orang"
+  },
+  {
+    "id": "w006",
+    "hanzi": "好",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "sapaan"
+  },
+  {
+    "id": "w007",
+    "hanzi": "是",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "ayat-asas"
+  },
+  {
+    "id": "w008",
+    "hanzi": "不",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "ayat-asas"
+  },
+  {
+    "id": "w009",
+    "hanzi": "谢谢",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "sapaan"
+  },
+  {
+    "id": "w010",
+    "hanzi": "再见",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "sapaan"
+  },
+  {
+    "id": "w011",
+    "hanzi": "一",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w012",
+    "hanzi": "二",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w013",
+    "hanzi": "三",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w014",
+    "hanzi": "四",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w015",
+    "hanzi": "五",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w016",
+    "hanzi": "六",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w017",
+    "hanzi": "七",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w018",
+    "hanzi": "八",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w019",
+    "hanzi": "九",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w020",
+    "hanzi": "十",
+    "hsk_level": 1,
+    "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+    "topic": "nombor"
+  },
+  {
+    "id": "w021",
+    "hanzi": "爸爸",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w022",
+    "hanzi": "妈妈",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w023",
+    "hanzi": "哥哥",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w024",
+    "hanzi": "姐姐",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w025",
+    "hanzi": "弟弟",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w026",
+    "hanzi": "妹妹",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w027",
+    "hanzi": "儿子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w028",
+    "hanzi": "女儿",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w029",
+    "hanzi": "孩子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w030",
+    "hanzi": "父母",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w031",
+    "hanzi": "家庭",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w032",
+    "hanzi": "丈夫",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w033",
+    "hanzi": "妻子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w034",
+    "hanzi": "爷爷",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w035",
+    "hanzi": "奶奶",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w036",
+    "hanzi": "外公",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w037",
+    "hanzi": "外婆",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w038",
+    "hanzi": "叔叔",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w039",
+    "hanzi": "阿姨",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w040",
+    "hanzi": "朋友",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w041",
+    "hanzi": "同学",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w042",
+    "hanzi": "老师",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w043",
+    "hanzi": "学生",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w044",
+    "hanzi": "人",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w045",
+    "hanzi": "男人",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "keluarga"
+  },
+  {
+    "id": "w046",
+    "hanzi": "米饭",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w047",
+    "hanzi": "面条",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w048",
+    "hanzi": "面包",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w049",
+    "hanzi": "鸡蛋",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w050",
+    "hanzi": "鸡肉",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w051",
+    "hanzi": "牛肉",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w052",
+    "hanzi": "鱼",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w053",
+    "hanzi": "菜",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w054",
+    "hanzi": "水果",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w055",
+    "hanzi": "苹果",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w056",
+    "hanzi": "香蕉",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w057",
+    "hanzi": "橙子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w058",
+    "hanzi": "西瓜",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w059",
+    "hanzi": "葡萄",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w060",
+    "hanzi": "牛奶",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w061",
+    "hanzi": "水",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w062",
+    "hanzi": "茶",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w063",
+    "hanzi": "咖啡",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w064",
+    "hanzi": "果汁",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w065",
+    "hanzi": "糖",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w066",
+    "hanzi": "盐",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w067",
+    "hanzi": "油",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w068",
+    "hanzi": "汤",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w069",
+    "hanzi": "饭",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w070",
+    "hanzi": "早餐",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w071",
+    "hanzi": "午餐",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w072",
+    "hanzi": "晚餐",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w073",
+    "hanzi": "食物",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w074",
+    "hanzi": "蔬菜",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w075",
+    "hanzi": "土豆",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w076",
+    "hanzi": "西红柿",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w077",
+    "hanzi": "豆腐",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w078",
+    "hanzi": "黄瓜",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w079",
+    "hanzi": "胡萝卜",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w080",
+    "hanzi": "洋葱",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w081",
+    "hanzi": "大蒜",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w082",
+    "hanzi": "辣椒",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w083",
+    "hanzi": "椰子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w084",
+    "hanzi": "饼干",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w085",
+    "hanzi": "蛋糕",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w086",
+    "hanzi": "冰淇淋",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w087",
+    "hanzi": "巧克力",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w088",
+    "hanzi": "花生",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w089",
+    "hanzi": "米粉",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w090",
+    "hanzi": "炒饭",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w091",
+    "hanzi": "沙拉",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w092",
+    "hanzi": "清真",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "makanan-minuman"
+  },
+  {
+    "id": "w093",
+    "hanzi": "家",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w094",
+    "hanzi": "学校",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w095",
+    "hanzi": "医院",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w096",
+    "hanzi": "商店",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w097",
+    "hanzi": "超市",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w098",
+    "hanzi": "饭店",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w099",
+    "hanzi": "餐厅",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w100",
+    "hanzi": "银行",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w101",
+    "hanzi": "邮局",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w102",
+    "hanzi": "机场",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w103",
+    "hanzi": "车站",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w104",
+    "hanzi": "公园",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w105",
+    "hanzi": "图书馆",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w106",
+    "hanzi": "厕所",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w107",
+    "hanzi": "房间",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w108",
+    "hanzi": "厨房",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w109",
+    "hanzi": "客厅",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w110",
+    "hanzi": "卧室",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w111",
+    "hanzi": "门",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w112",
+    "hanzi": "窗",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w113",
+    "hanzi": "桌子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w114",
+    "hanzi": "椅子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w115",
+    "hanzi": "床",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w116",
+    "hanzi": "路",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w117",
+    "hanzi": "街道",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w118",
+    "hanzi": "城市",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w119",
+    "hanzi": "国家",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w120",
+    "hanzi": "中国",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w121",
+    "hanzi": "马来西亚",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w122",
+    "hanzi": "吉隆坡",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w123",
+    "hanzi": "地铁",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w124",
+    "hanzi": "公共汽车",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w125",
+    "hanzi": "火车",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w126",
+    "hanzi": "飞机",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w127",
+    "hanzi": "出租车",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w128",
+    "hanzi": "汽车",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w129",
+    "hanzi": "自行车",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w130",
+    "hanzi": "摩托车",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w131",
+    "hanzi": "船",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w132",
+    "hanzi": "票",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w133",
+    "hanzi": "地图",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w134",
+    "hanzi": "地址",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w135",
+    "hanzi": "这里",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w136",
+    "hanzi": "那里",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w137",
+    "hanzi": "哪里",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "tempat-perjalanan"
+  },
+  {
+    "id": "w138",
+    "hanzi": "今天",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w139",
+    "hanzi": "明天",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w140",
+    "hanzi": "昨天",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w141",
+    "hanzi": "现在",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w142",
+    "hanzi": "早上",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w143",
+    "hanzi": "上午",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w144",
+    "hanzi": "中午",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w145",
+    "hanzi": "下午",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w146",
+    "hanzi": "晚上",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w147",
+    "hanzi": "时候",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w148",
+    "hanzi": "时间",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w149",
+    "hanzi": "年",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w150",
+    "hanzi": "月",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w151",
+    "hanzi": "日",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w152",
+    "hanzi": "星期",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w153",
+    "hanzi": "分钟",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w154",
+    "hanzi": "小时",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w155",
+    "hanzi": "点",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w156",
+    "hanzi": "半",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w157",
+    "hanzi": "生日",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w158",
+    "hanzi": "周末",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w159",
+    "hanzi": "天气",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w160",
+    "hanzi": "下雨",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w161",
+    "hanzi": "雨",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w162",
+    "hanzi": "晴天",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w163",
+    "hanzi": "阴天",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w164",
+    "hanzi": "风",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w165",
+    "hanzi": "太阳",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w166",
+    "hanzi": "热天",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w167",
+    "hanzi": "凉快",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "masa-cuaca"
+  },
+  {
+    "id": "w168",
+    "hanzi": "钱",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w169",
+    "hanzi": "块",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w170",
+    "hanzi": "元",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w171",
+    "hanzi": "角",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w172",
+    "hanzi": "分",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w173",
+    "hanzi": "价格",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w174",
+    "hanzi": "多少",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w175",
+    "hanzi": "贵",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w176",
+    "hanzi": "便宜",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w177",
+    "hanzi": "买",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w178",
+    "hanzi": "卖",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w179",
+    "hanzi": "付钱",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w180",
+    "hanzi": "现金",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w181",
+    "hanzi": "银行卡",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w182",
+    "hanzi": "付款",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w183",
+    "hanzi": "找钱",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w184",
+    "hanzi": "收据",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w185",
+    "hanzi": "零钱",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w186",
+    "hanzi": "购物",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w187",
+    "hanzi": "打折",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "wang-belian"
+  },
+  {
+    "id": "w188",
+    "hanzi": "春节",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w189",
+    "hanzi": "中秋节",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w190",
+    "hanzi": "端午节",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w191",
+    "hanzi": "元宵节",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w192",
+    "hanzi": "国庆节",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w193",
+    "hanzi": "圣诞节",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w194",
+    "hanzi": "开斋节",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w195",
+    "hanzi": "屠妖节",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w196",
+    "hanzi": "新年",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w197",
+    "hanzi": "节日",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w198",
+    "hanzi": "假期",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w199",
+    "hanzi": "月饼",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w200",
+    "hanzi": "粽子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w201",
+    "hanzi": "红包",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w202",
+    "hanzi": "礼物",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w203",
+    "hanzi": "祝福",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w204",
+    "hanzi": "快乐",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w205",
+    "hanzi": "欢迎",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w206",
+    "hanzi": "祝贺",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w207",
+    "hanzi": "恭喜",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "perayaan-budaya"
+  },
+  {
+    "id": "w208",
+    "hanzi": "吃",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w209",
+    "hanzi": "喝",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w210",
+    "hanzi": "看",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w211",
+    "hanzi": "听",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w212",
+    "hanzi": "说",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w213",
+    "hanzi": "读",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w214",
+    "hanzi": "写",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w215",
+    "hanzi": "学习",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w216",
+    "hanzi": "工作",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w217",
+    "hanzi": "休息",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w218",
+    "hanzi": "睡觉",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w219",
+    "hanzi": "起床",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w220",
+    "hanzi": "去",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w221",
+    "hanzi": "来",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w222",
+    "hanzi": "回",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w223",
+    "hanzi": "走",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w224",
+    "hanzi": "跑",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w225",
+    "hanzi": "坐",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w226",
+    "hanzi": "站",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w227",
+    "hanzi": "开",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w228",
+    "hanzi": "关",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w229",
+    "hanzi": "做",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w230",
+    "hanzi": "用",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w231",
+    "hanzi": "给",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w232",
+    "hanzi": "想",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w233",
+    "hanzi": "喜欢",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w234",
+    "hanzi": "爱",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w235",
+    "hanzi": "知道",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w236",
+    "hanzi": "认识",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w237",
+    "hanzi": "会",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w238",
+    "hanzi": "能",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w239",
+    "hanzi": "可以",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w240",
+    "hanzi": "要",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w241",
+    "hanzi": "有",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w242",
+    "hanzi": "没有",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w243",
+    "hanzi": "在",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w244",
+    "hanzi": "住",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w245",
+    "hanzi": "叫",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w246",
+    "hanzi": "问",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w247",
+    "hanzi": "回答",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "kegiatan"
+  },
+  {
+    "id": "w248",
+    "hanzi": "大",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w249",
+    "hanzi": "小",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w250",
+    "hanzi": "多",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w251",
+    "hanzi": "少",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w252",
+    "hanzi": "长",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w253",
+    "hanzi": "短",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w254",
+    "hanzi": "高",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w255",
+    "hanzi": "矮",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w256",
+    "hanzi": "快",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w257",
+    "hanzi": "慢",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w258",
+    "hanzi": "新",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w259",
+    "hanzi": "旧",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w260",
+    "hanzi": "干净",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w261",
+    "hanzi": "漂亮",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w262",
+    "hanzi": "忙",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w263",
+    "hanzi": "累",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w264",
+    "hanzi": "对",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w265",
+    "hanzi": "错",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w266",
+    "hanzi": "容易",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w267",
+    "hanzi": "难",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w268",
+    "hanzi": "什么",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w269",
+    "hanzi": "谁",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w270",
+    "hanzi": "为什么",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w271",
+    "hanzi": "怎么",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w272",
+    "hanzi": "几",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w273",
+    "hanzi": "哪",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w274",
+    "hanzi": "这",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w275",
+    "hanzi": "那",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w276",
+    "hanzi": "的",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w277",
+    "hanzi": "了",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "sifat-soalan"
+  },
+  {
+    "id": "w278",
+    "hanzi": "书",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w279",
+    "hanzi": "本子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w280",
+    "hanzi": "笔",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w281",
+    "hanzi": "手机",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w282",
+    "hanzi": "电脑",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w283",
+    "hanzi": "电视",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w284",
+    "hanzi": "衣服",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w285",
+    "hanzi": "鞋",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w286",
+    "hanzi": "裤子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w287",
+    "hanzi": "裙子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w288",
+    "hanzi": "帽子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w289",
+    "hanzi": "包",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w290",
+    "hanzi": "雨伞",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w291",
+    "hanzi": "眼镜",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w292",
+    "hanzi": "杯子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w293",
+    "hanzi": "碗",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w294",
+    "hanzi": "盘子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w295",
+    "hanzi": "筷子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w296",
+    "hanzi": "勺子",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w297",
+    "hanzi": "头",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w298",
+    "hanzi": "手",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w299",
+    "hanzi": "脚",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  },
+  {
+    "id": "w300",
+    "hanzi": "眼睛",
+    "hsk_level": null,
+    "hsk_edition": null,
+    "topic": "barang-kesihatan"
+  }
+]

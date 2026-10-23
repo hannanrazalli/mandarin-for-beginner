@@ -3,9 +3,10 @@
   "title": "BelajarMandarin lesson proposal",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "id", "unit", "title_ms", "duration_seconds", "items"],
+  "required": ["schema_version", "content_version", "id", "unit", "title_ms", "duration_seconds", "items"],
   "properties": {
     "schema_version": {"const": 1},
+    "content_version": {"type": "integer", "minimum": 1},
     "id": {"$ref": "#/$defs/id"},
     "unit": {"type": "integer", "minimum": 0},
     "title_ms": {"$ref": "#/$defs/text"},

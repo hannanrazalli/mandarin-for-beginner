@@ -24,6 +24,7 @@ import { copy } from "../lib/copy";
 import { useSettings } from "../lib/settings";
 
 const Home = lazy(() => import("../features/Home"));
+const LessonPlayer = lazy(() => import("../learning/LessonPlayer"));
 const Learn = lazy(() => import("../features/Learn"));
 const Empty = lazy(() => import("../features/Empty"));
 const Settings = lazy(() => import("../features/Settings"));
@@ -221,6 +222,7 @@ export default function App() {
                   <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/belajar" element={<Learn />} />
+                    <Route path="/belajar/:slug" element={<LessonPlayer />} />
                     <Route path="/ulang-kaji" element={<Empty />} />
                     <Route path="/statistik" element={<Empty />} />
                     <Route path="/tetapan" element={<Settings />} />

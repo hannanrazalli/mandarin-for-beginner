@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u1-words-3",
+  "unit": 1,
+  "title_ms": "Sapaan, satu dan dua",
+  "duration_seconds": 150,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w009",
+      "hanzi": "谢谢",
+      "pinyin": "xièxie",
+      "meaning_ms": "terima kasih",
+      "example": {
+        "hanzi": "谢谢你！",
+        "pinyin": "Xièxie nǐ!",
+        "meaning_ms": "Terima kasih kepada awak!"
+      },
+      "tone_note_ms": "Xiè nada 4; xie kedua lazimnya ringan.",
+      "topic": "sapaan",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "谢谢",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w010",
+      "hanzi": "再见",
+      "pinyin": "zàijiàn",
+      "meaning_ms": "jumpa lagi",
+      "example": {
+        "hanzi": "老师，再见！",
+        "pinyin": "Lǎoshī, zàijiàn!",
+        "meaning_ms": "Cikgu, jumpa lagi!"
+      },
+      "tone_note_ms": "Nada 4 + 4; nada 4 pertama biasanya lebih pendek.",
+      "topic": "sapaan",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "再见",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w011",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "meaning_ms": "satu",
+      "example": {
+        "hanzi": "一个人。",
+        "pinyin": "Yī gè rén.",
+        "meaning_ms": "Seorang."
+      },
+      "tone_note_ms": "Nada kamus 1; yí sebelum nada 4, yì sebelum nada 1/2/3. Ketika membilang atau dalam 第一, kekal yī.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "一",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w012",
+      "hanzi": "二",
+      "pinyin": "èr",
+      "meaning_ms": "dua",
+      "example": {
+        "hanzi": "一，二，三。",
+        "pinyin": "Yī, èr, sān.",
+        "meaning_ms": "Satu, dua, tiga."
+      },
+      "tone_note_ms": "Nada 4. 二 digunakan ketika membilang; 两 digunakan dalam banyak pola kuantiti yang dipelajari kemudian.",
+      "topic": "nombor",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "二",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

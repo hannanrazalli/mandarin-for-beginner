@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u0-sandhi-yi",
+  "unit": 0,
+  "title_ms": "一: nombor dan perubahan nada",
+  "duration_seconds": 150,
+  "items": [
+    {
+      "kind": "pronunciation",
+      "id": "u0-sandhi-yi-1",
+      "focus": "sandhi",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Apabila membilang atau menyebut nombor ini sendiri, 一 disebut yī: satu.",
+      "tones": [
+        1
+      ],
+      "tone_note_ms": "Nada kamus ialah 1. Dalam nombor siri atau selepas 第 untuk urutan, yī biasanya dikekalkan.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "一",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-sandhi-yi-2",
+      "focus": "sandhi",
+      "hanzi": "一个",
+      "pinyin": "yī gè",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Sebelum nada 4, 一 biasanya disebut yí. Ertinya satu unit atau seorang, mengikut benda yang dirujuk.",
+      "tones": [
+        1,
+        4
+      ],
+      "tone_note_ms": "Pinyin kamus yī gè; bunyi asas bersambung yí gè. 个 juga kerap menjadi ringan dalam pertuturan.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "一个",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-sandhi-yi-3",
+      "focus": "sandhi",
+      "hanzi": "一天",
+      "pinyin": "yī tiān",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Sebelum nada 1, 2 atau 3, 一 biasanya disebut yì. Contoh ini bermaksud satu hari.",
+      "tones": [
+        1,
+        1
+      ],
+      "tone_note_ms": "Pinyin kamus yī tiān; bunyi bersambung yì tiān.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "一天",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "pronunciation",
+      "id": "u0-sandhi-yi-4",
+      "focus": "sandhi",
+      "hanzi": "第一",
+      "pinyin": "dì yī",
+      "explanation_ms": "Dengar dahulu, ulang audio perlahan, kemudian cuba sebut. Dalam nombor urutan 第一, 一 kekal yī. Ertinya pertama.",
+      "tones": [
+        4,
+        1
+      ],
+      "tone_note_ms": "Bezakan nombor urutan dengan kuantiti. Dalam pola kata kerja 一 kata kerja, 一 boleh menjadi ringan; pelajari pola itu kemudian.",
+      "source": "Standard Mandarin Hanyu Pinyin teaching notes; pronunciation and generated audio require teacher listening review before pronunciation assessment.",
+      "needs_review": false,
+      "audio": {
+        "text": "第一",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

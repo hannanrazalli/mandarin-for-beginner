@@ -8,16 +8,18 @@ test("desktop preview, route focus and accessible shell", async ({ page }) => {
     page.getByRole("heading", { name: "Sedikit demi sedikit, kita belajar." }),
   ).toBeVisible();
   await expect(page.locator(".sidebar")).toBeVisible();
-  await page.getByRole("link", { name: "Cuba Unit 0", exact: true }).click();
+  await page.getByRole("link", { name: "Mula pelajaran", exact: true }).click();
   await expect(
-    page.getByRole("heading", { name: "Dengar dahulu." }),
+    page.getByRole("heading", { name: "Awalan 1: b, p, m" }),
   ).toBeFocused();
   await expect(
-    page.getByText("Contoh paparan · kandungan dan audio belum disahkan"),
+    page
+      .getByText("Latihan setempat · peranti ini sahaja", { exact: false })
+      .first(),
   ).toBeVisible();
   await expect(
-    page.getByRole("button", { name: "Dengar contoh · belum tersedia" }),
-  ).toBeDisabled();
+    page.getByRole("button", { name: "Lihat penerangan", exact: true }),
+  ).toBeVisible();
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
 });
 test("mobile language and appearance persist without horizontal overflow", async ({
@@ -52,7 +54,9 @@ test("mobile language and appearance persist without horizontal overflow", async
 test("tablet path and statistics remain honest", async ({ page }) => {
   await page.setViewportSize({ width: 768, height: 900 });
   await page.goto("/belajar");
-  await expect(page.getByText("Skop dirancang")).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Asas bunyi Mandarin", exact: true }),
+  ).toBeVisible();
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u1-words-2",
+  "unit": 1,
+  "title_ms": "Kami dan ayat pertama",
+  "duration_seconds": 150,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w005",
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "meaning_ms": "kami; kita",
+      "example": {
+        "hanzi": "我们是学生。",
+        "pinyin": "Wǒmen shì xuésheng.",
+        "meaning_ms": "Kami pelajar."
+      },
+      "tone_note_ms": "Wǒ nada 3; men ringan. Kami atau kita ditentukan oleh konteks, bukan bentuk perkataan lain.",
+      "topic": "orang",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "我们",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w006",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "meaning_ms": "baik",
+      "example": {
+        "hanzi": "你好！",
+        "pinyin": "Nǐ hǎo!",
+        "meaning_ms": "Helo!"
+      },
+      "tone_note_ms": "Nada kamus 3. Dalam sapaan 你好, nǐ berubah, sementara hǎo kekal nada 3.",
+      "topic": "sapaan",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "好",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w007",
+      "hanzi": "是",
+      "pinyin": "shì",
+      "meaning_ms": "ialah; adalah",
+      "example": {
+        "hanzi": "我是老师。",
+        "pinyin": "Wǒ shì lǎoshī.",
+        "meaning_ms": "Saya guru."
+      },
+      "tone_note_ms": "Nada 4, turun; 是 menghubungkan orang atau benda dengan identiti, bukan untuk setiap ayat sifat.",
+      "topic": "ayat-asas",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "是",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w008",
+      "hanzi": "不",
+      "pinyin": "bù",
+      "meaning_ms": "tidak; bukan",
+      "example": {
+        "hanzi": "我不是老师。",
+        "pinyin": "Wǒ bù shì lǎoshī.",
+        "meaning_ms": "Saya bukan guru."
+      },
+      "tone_note_ms": "Nada kamus 4; sebelum shì nada 4, biasanya disebut bú.",
+      "topic": "ayat-asas",
+      "hsk_level": 1,
+      "hsk_edition": "HSK 2.0 (2015; legacy 150-word Level 1)",
+      "source": "Chinese Testing International, HSK Level 1 (legacy 150-word framework): https://www.chinesetest.cn/HSK/1?lang=en ; edition selection: HSK 2.0 (2015).",
+      "needs_review": false,
+      "audio": {
+        "text": "不",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

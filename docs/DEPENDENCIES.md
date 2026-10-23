@@ -57,3 +57,5 @@ GitHub Action tags/SHAs were resolved from official repositories via git ls-remo
 pnpm latest registry is 12.15.0; this phase intentionally retains the environment-supported pnpm 11.25.0, pinned for reproducibility. App libraries use their verified latest stable pins.
 
 Phase 2 registry checks (2026-10-24): @supabase/supabase-js 2.118.0; zod 4.6.7. Official auth/RLS/session guidance: https://supabase.com/docs/guides/database/postgres/row-level-security and https://supabase.com/docs/guides/auth/sessions.
+
+Phase 3 official npm registry checks: @tanstack/react-query 5.104.5, zustand 5.0.16, ajv 8.20.0. These support owner-scoped queries, lesson sessions and Draft2020-12 curriculum validation.
