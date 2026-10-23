@@ -2,7 +2,7 @@
 
 Personal Mandarin PWA for one Malay-speaking learner in Malaysia, starting from zero.
 UI: Bahasa Melayu with English toggle. Teach Simplified Chinese directly from Malay.
-The user's overrides take precedence over the original brief. Current phase: 0.
+The user's overrides take precedence over the original brief. Current phase: 1 (visual choice pending).
 
 ## Working agreement
 - Complete only the approved phase; summarize in at most 10 lines and STOP for "continue".
