@@ -1,0 +1,7 @@
+# Current docs: excludes the primary agent. No agent may delegate further.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
+
+# max_depth and job_max_runtime_seconds are absent from the current reference.
+# AGENTS.md enforces no nested spawning and a 600-second task budget.

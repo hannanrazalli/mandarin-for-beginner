@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BelajarMandarin lesson proposal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "unit", "title_ms", "duration_seconds", "items"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"$ref": "#/$defs/id"},
+    "unit": {"type": "integer", "minimum": 0},
+    "title_ms": {"$ref": "#/$defs/text"},
+    "duration_seconds": {"type": "integer", "minimum": 30, "maximum": 600},
+    "items": {
+      "type": "array", "minItems": 1, "maxItems": 20,
+      "items": {"oneOf": [{"$ref": "#/$defs/pronunciation"}, {"$ref": "#/$defs/vocabulary"}]}
+    }
+  },
+  "allOf": [{
+    "if": {"properties": {"unit": {"const": 0}}},
+    "then": {"properties": {
+      "duration_seconds": {"minimum": 60, "maximum": 180},
+      "items": {"minItems": 3, "maxItems": 5, "items": {"$ref": "#/$defs/pronunciation"}}
+    }}
+  }],
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 80},
+    "text": {"type": "string", "minLength": 1, "maxLength": 2000},
+    "audio": {
+      "type": "object", "additionalProperties": false,
+      "required": ["text", "lang", "slow_rate", "needs_audio_review"],
+      "properties": {
+        "text": {"$ref": "#/$defs/text"},
+        "lang": {"const": "zh-CN"},
+        "slow_rate": {"type": "number", "minimum": 0.5, "maximum": 1},
+        "asset_path": {"type": "string", "pattern": "^/audio/[a-zA-Z0-9_/-]+\\.(mp3|ogg|wav)$"},
+        "license": {"$ref": "#/$defs/text"},
+        "needs_audio_review": {"type": "boolean"}
+      },
+      "dependentRequired": {"asset_path": ["license"]}
+    },
+    "example": {
+      "type": "object", "additionalProperties": false,
+      "required": ["hanzi", "pinyin", "meaning_ms"],
+      "properties": {
+        "hanzi": {"$ref": "#/$defs/text"},
+        "pinyin": {"$ref": "#/$defs/text"},
+        "meaning_ms": {"$ref": "#/$defs/text"}
+      }
+    },
+    "vocabulary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "id", "hanzi", "pinyin", "meaning_ms", "example", "tone_note_ms", "topic", "hsk_level", "hsk_edition", "source", "needs_review", "audio"],
+      "properties": {
+        "kind": {"const": "vocabulary"},
+        "id": {"$ref": "#/$defs/id"},
+        "hanzi": {"$ref": "#/$defs/text"},
+        "pinyin": {"$ref": "#/$defs/text"},
+        "meaning_ms": {"$ref": "#/$defs/text"},
+        "example": {"$ref": "#/$defs/example"},
+        "tone_note_ms": {"$ref": "#/$defs/text"},
+        "topic": {"$ref": "#/$defs/text"},
+        "hsk_level": {"type": ["integer", "null"], "minimum": 1, "maximum": 9},
+        "hsk_edition": {"type": ["string", "null"], "minLength": 1},
+        "source": {"$ref": "#/$defs/text"},
+        "needs_review": {"type": "boolean"},
+        "audio": {"$ref": "#/$defs/audio"}
+      }
+    },
+    "pronunciation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "id", "focus", "pinyin", "explanation_ms", "tones", "tone_note_ms", "source", "needs_review", "audio"],
+      "properties": {
+        "kind": {"const": "pronunciation"},
+        "id": {"$ref": "#/$defs/id"},
+        "focus": {"enum": ["initials", "finals", "syllables", "tones", "tone_pairs", "sandhi"]},
+        "hanzi": {"$ref": "#/$defs/text"},
+        "pinyin": {"$ref": "#/$defs/text"},
+        "explanation_ms": {"$ref": "#/$defs/text"},
+        "tones": {"type": "array", "maxItems": 2, "items": {"type": "integer", "minimum": 0, "maximum": 4}},
+        "tone_note_ms": {"$ref": "#/$defs/text"},
+        "source": {"$ref": "#/$defs/text"},
+        "needs_review": {"type": "boolean"},
+        "audio": {"$ref": "#/$defs/audio"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"focus": {"enum": ["syllables", "tones", "tone_pairs", "sandhi"]}}},
+          "then": {"properties": {"tones": {"minItems": 1}}}
+        },
+        {
+          "if": {"properties": {"focus": {"const": "tone_pairs"}}},
+          "then": {"properties": {"tones": {"minItems": 2}}}
+        }
+      ]
+    }
+  }
+}
