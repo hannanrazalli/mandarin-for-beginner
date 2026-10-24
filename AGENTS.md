@@ -5,6 +5,8 @@ UI: Bahasa Melayu with English toggle. Teach Simplified Chinese directly from Ma
 The user's overrides take precedence over the original brief. Phases 0–6 implemented and deployed; A — Taman Bunyi selected.
 
 ## Working agreement
+- User override: no CI/CD pipeline is required. Keep code in GitHub; run checks locally.
+  Do not recreate automated workflows or deployment integration unless requested.
 - User now authorizes automatic continuation through phases 2–6; do not pause for "continue".
   Keep phase checkpoints and quality gates; pause only for genuinely required external access.
 - Do small tasks solo. Read relevant files only. Orchestrator checks official docs directly.

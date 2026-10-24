@@ -49,12 +49,9 @@ Panduan lanjut: [USER_GUIDE.md](USER_GUIDE.md).
    status pada branch production jika akaun menyokongnya; jangan mendakwa gate ini aktif
    selagi tetapan provider belum disahkan.
 
-Workflow Quality mempunyai trigger push/PR/manual. Jika tiada run automatik, buka repositori
-→ Actions → Quality → Run workflow → pilih work. Tiada token tambahan perlu dihantar ke chat.
-
-Lookup connector untuk commit release tidak memulangkan workflow run. Local quality gates
-lulus; status GitHub Actions hosted tidak didakwa lulus. Deployment ini dibina terus daripada
-commit yang telah disemak melalui Vercel API. Auto-deploy push Git tidak disahkan aktif.
+Pemilik tidak memerlukan CI/CD. Workflow Quality telah dibuang; kod disimpan dalam GitHub
+dan semakan dijalankan secara setempat. Deployment sedia ada kekal; tiada integrasi
+auto-deploy baru disediakan.
 
 ## Akses dan cache
 

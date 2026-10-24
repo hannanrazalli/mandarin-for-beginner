@@ -70,9 +70,9 @@ menggunakan `CHROMIUM_PATH=/usr/bin/chromium`; komputer biasa menggunakan Chromi
 Ujian SQL terasing: `bash supabase/tests/run.sh` memerlukan Docker. Pengguna aplikasi tidak
 memerlukan Docker. Fixture mencipta database sementara dan tidak menggunakan akaun sebenar.
 
-Git hook mengimbas fail yang hendak dicommit; CI menguji types, lint, kandungan, ujian,
-RLS, audit dependency dan binaan. Status CI hosted perlu disahkan berasingan daripada ujian
-cloud tempatan. Versi dipin dalam lockfile dan actions dipin kepada commit.
+Git hook mengimbas fail yang hendak dicommit; Semakan types, lint, kandungan, ujian, RLS, audit dependency dan binaan boleh dijalankan
+secara setempat. Mengikut permintaan pemilik, tiada workflow CI/CD disediakan.
+Versi dependency dipin dalam lockfile.
 
 Lihat [rekod fasa](docs/PHASE_6.md), [keputusan keselamatan](docs/adr),
 [sumber dependency](docs/DEPENDENCIES.md), [had/tindakan susulan](NEXT_STEPS.md) dan

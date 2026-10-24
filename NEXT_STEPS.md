@@ -12,8 +12,8 @@ phase; no unresolved code/security BLOCKER remains after local verification.
   password. Guidance: https://supabase.com/docs/guides/auth/password-security.
 - Native listening review/recordings remain desirable: every TTS request retains its audio
   review flag. Text was teacher-reviewed; no native audio or speech-scoring claim is made.
-- Confirm hosted GitHub Actions independently. Connector workflow lookup returned no runs;
-  local quality checks passed. A manual Run workflow trigger is now included.
+- User requested no CI/CD; the GitHub Actions Quality workflow was removed. Code remains
+  in GitHub and local verification commands remain available.
 - Offline owner work requires a prior verified tab and its original 12-hour session. Flush
   before logout/expiry/tab closure; cold offline browsers use local practice. Analytics and
   account export require online verification. Queued activity uses the server receipt day.
