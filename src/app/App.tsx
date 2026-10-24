@@ -27,7 +27,7 @@ const Home = lazy(() => import("../features/Home"));
 const LessonPlayer = lazy(() => import("../learning/LessonPlayer"));
 const Learn = lazy(() => import("../features/Learn"));
 const Reviews = lazy(() => import("../reviews/Reviews"));
-const Statistics = lazy(() => import("../reviews/Statistics"));
+const Statistics = lazy(() => import("../analytics/AnalyticsPage"));
 const Exercises = lazy(() => import("../reviews/Exercises"));
 const TestOut = lazy(() => import("../reviews/TestOut"));
 const Settings = lazy(() => import("../features/Settings"));

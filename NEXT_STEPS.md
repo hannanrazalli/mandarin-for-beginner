@@ -12,8 +12,9 @@
 - Phase 4 complete: SM-2, streak/freeze, goals, extra exercises and secure test-out;
   all review findings fixed in one pass. Remaining optional celebration/elapsed review timing
   will be addressed in final polish if practical.
-- Phase 5 follows: analytics and own-record export. Phase 6: offline queue, 300-word content,
-  performance/accessibility/security checks and real deployment.
+- Phase 5 complete: truthful analytics and own-record JSON/CSV export, one UX fix pass,
+  actual hosted insights role/grants checked with a read-only transaction.
+- Phase 6: offline queue, 300-word content, performance/accessibility/security checks and deployment.
 - Device TTS requires a suitable installed voice and may require internet; no native recording
   or pronunciation-recognition claim is made. Native listening review remains desirable.
 - Hosted Auth leaked-password protection is disabled; Supabase documents this feature as

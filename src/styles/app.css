@@ -1688,3 +1688,77 @@ input[type="radio"] {
   box-shadow: inset 0 0 0 2px var(--green);
   font-weight: 800;
 }
+
+.analytics-details {
+  display: grid;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+.analytics-details summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  cursor: pointer;
+}
+.analytics-details summary:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 4px;
+}
+.analytics-details button[aria-pressed="true"] {
+  background: var(--green);
+  color: var(--on-green);
+  border-color: var(--green);
+}
+.study-calendar {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+  list-style: none;
+  padding: 0;
+}
+.study-calendar > li {
+  min-height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.study-calendar > li.studied {
+  background: var(--soft);
+  border-color: var(--green);
+}
+.study-calendar small {
+  line-height: 1;
+}
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.table-scroll table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table-scroll th,
+.table-scroll td {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--line);
+}
+.xp-chart {
+  height: 120px;
+  display: flex;
+  align-items: end;
+  gap: 3px;
+  padding-top: 12px;
+}
+.xp-bar {
+  min-width: 2px;
+  flex: 1;
+  background: var(--green);
+  border-radius: 4px 4px 0 0;
+}
+.calendar-date {
+  font-size: 0.75rem;
+}

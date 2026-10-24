@@ -31,6 +31,7 @@ for migration in supabase/migrations/*.sql; do sql < "$migration"; done
 sql < supabase/tests/rls.sql | tee "$log"
 sql < supabase/tests/completion.sql | tee -a "$log"
 sql < supabase/tests/phase4.sql | tee -a "$log"
+sql < supabase/tests/insights.sql | tee -a "$log"
 # Concurrent different event IDs with the same schedule version: exactly one wins.
 sql <<< "update public.review_schedule set due_at=now()-interval '1 minute' where word_id='30000000-0000-0000-0000-000000000001';"
 sql < supabase/tests/review_race.sql >"$race_one" 2>&1 & race_pid_one=$!

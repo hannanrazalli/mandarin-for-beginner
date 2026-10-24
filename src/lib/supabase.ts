@@ -25,6 +25,7 @@ type Database = {
       study_sessions: {
         Row: {
           user_id: string;
+          duration_seconds: number;
           xp_awarded: number;
           ended_at: string;
           lesson_id: string | null;
@@ -119,6 +120,7 @@ type Database = {
     };
     Views: Record<string, never>;
     Functions: {
+      learning_insights: { Args: Record<string, never>; Returns: unknown };
       review_word: {
         Args: {
           p_event_id: string;
