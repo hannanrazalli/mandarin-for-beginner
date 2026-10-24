@@ -59,7 +59,8 @@ select test.denied('select private.is_app_owner()','anonymous cannot execute own
 reset role;
 set role authenticated;
 select set_config('request.jwt.claim.sub','00000000-0000-0000-0000-000000000001',false);
-select test.ok(test.one_row(t),'owner sees exactly one approved/owned row: '||t) from unnest(array['profiles','units','lessons','words','lesson_words','user_progress','review_schedule','study_sessions','achievements','user_achievements','daily_activity','streak_state']) t;
+select test.ok(test.one_row(t),'owner sees exactly one approved/owned row: '||t) from unnest(array['profiles','units','lessons','words','lesson_words','user_progress','review_schedule','study_sessions','user_achievements','daily_activity','streak_state']) t;
+select test.ok((select count(*) from public.achievements)=4,'owner sees initial achievement plus three system badges');
 update public.profiles set locale='en',daily_goal=10,sound_enabled=false,reduced_motion=true;
 select test.ok(locale='en' and daily_goal=10 and not sound_enabled and reduced_motion,'owner settings update works') from public.profiles;
 select test.denied('update public.profiles set daily_goal=999','settings validation','23514');

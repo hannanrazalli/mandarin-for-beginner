@@ -5,6 +5,8 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
   "rewrites": [
+    { "source": "/latihan", "destination": "/index.html" },
+    { "source": "/uji-unit-1", "destination": "/index.html" },
     {
       "source": "/belajar",
       "destination": "/index.html"

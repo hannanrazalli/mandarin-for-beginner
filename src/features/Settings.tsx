@@ -9,6 +9,7 @@ import {
   updateSettings,
   useSettings,
 } from "../lib/settings";
+import Goal from "../reviews/Goal";
 export default function Settings() {
   const settings = useSettings();
   const t = copy(settings.language);
@@ -24,6 +25,7 @@ export default function Settings() {
       description={t.settingsBody}
     >
       <div className="settings-stack">
+        <Goal />
         <fieldset className="setting-card">
           <legend>
             <Globe2 size={21} />

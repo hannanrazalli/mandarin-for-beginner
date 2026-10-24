@@ -5,6 +5,7 @@ import { useLearningProgress } from "../learning/cloud";
 import { learningCopy } from "../learning/copy";
 import { curriculum, getLesson, isLessonUnlocked } from "../lib/curriculum";
 import { useSettings } from "../lib/settings";
+import { reviewCopy } from "../reviews/copy";
 export default function Learn() {
   const { language } = useSettings();
   const t = learningCopy(language);
@@ -20,6 +21,14 @@ export default function Learn() {
         <p role="status">{t.loading}</p>
       )}
       {progress.query.isError && <p role="alert">{t.cloudError}</p>}
+      <div className="result-actions">
+        <Link className="button secondary" to="/latihan">
+          {reviewCopy(language).practice}
+        </Link>
+        <Link className="button secondary" to="/uji-unit-1">
+          {reviewCopy(language).testout}
+        </Link>
+      </div>
       <div className="curriculum-units">
         {curriculum.units.map((unit) => (
           <section key={unit.id} className="curriculum-unit">

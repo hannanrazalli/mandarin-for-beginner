@@ -26,7 +26,10 @@ import { useSettings } from "../lib/settings";
 const Home = lazy(() => import("../features/Home"));
 const LessonPlayer = lazy(() => import("../learning/LessonPlayer"));
 const Learn = lazy(() => import("../features/Learn"));
-const Empty = lazy(() => import("../features/Empty"));
+const Reviews = lazy(() => import("../reviews/Reviews"));
+const Statistics = lazy(() => import("../reviews/Statistics"));
+const Exercises = lazy(() => import("../reviews/Exercises"));
+const TestOut = lazy(() => import("../reviews/TestOut"));
 const Settings = lazy(() => import("../features/Settings"));
 const Account = lazy(() => import("../auth/Account"));
 const Preview = lazy(() => import("../features/Preview"));
@@ -223,8 +226,10 @@ export default function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/belajar" element={<Learn />} />
                     <Route path="/belajar/:slug" element={<LessonPlayer />} />
-                    <Route path="/ulang-kaji" element={<Empty />} />
-                    <Route path="/statistik" element={<Empty />} />
+                    <Route path="/ulang-kaji" element={<Reviews />} />
+                    <Route path="/statistik" element={<Statistics />} />
+                    <Route path="/latihan" element={<Exercises />} />
+                    <Route path="/uji-unit-1" element={<TestOut />} />
                     <Route path="/tetapan" element={<Settings />} />
                     <Route path="/unit-0" element={<Preview />} />
                     <Route path="/akaun" element={<Account />} />

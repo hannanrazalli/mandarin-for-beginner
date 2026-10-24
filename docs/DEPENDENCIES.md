@@ -59,3 +59,5 @@ pnpm latest registry is 12.15.0; this phase intentionally retains the environmen
 Phase 2 registry checks (2026-10-24): @supabase/supabase-js 2.118.0; zod 4.6.7. Official auth/RLS/session guidance: https://supabase.com/docs/guides/database/postgres/row-level-security and https://supabase.com/docs/guides/auth/sessions.
 
 Phase 3 official npm registry checks: @tanstack/react-query 5.104.5, zustand 5.0.16, ajv 8.20.0. These support owner-scoped queries, lesson sessions and Draft2020-12 curriculum validation.
+
+Phase4 adds pinned hanzi-writer3.7.3 and hanzi-writer-data2.0.1. Only characters in the first20 words are self-hosted under public/strokes with ARPHICPL.TXT; custom charDataLoader never requests the defaultCDN.

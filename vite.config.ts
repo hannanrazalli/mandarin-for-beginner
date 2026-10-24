@@ -62,11 +62,15 @@ export default defineConfig(({ mode }) => {
           ],
         },
         workbox: {
-          globPatterns: ["**/*.{js,css,html,svg,png,woff,woff2}"],
+          globPatterns: [
+            "**/*.{js,css,html,svg,png,woff,woff2}",
+            "strokes/*.json",
+            "strokes/ARPHICPL.TXT",
+          ],
           navigateFallbackAllowlist: [
             /^\/$/,
             /^\/belajar\/[a-z0-9]+(?:-[a-z0-9]+)*\/?$/,
-            /^\/(belajar|unit-0|ulang-kaji|statistik|tetapan|akaun)\/?$/,
+            /^\/(belajar|unit-0|ulang-kaji|statistik|tetapan|akaun|latihan|uji-unit-1)\/?$/,
           ],
           runtimeCaching: [],
         },

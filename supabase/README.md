@@ -95,3 +95,18 @@ in a second fresh database inside the same disposable, network-isolated containe
 Phase 3 verification, 2026-10-24: **159 PostgreSQL assertions passed** (the original 107,
 41 RPC/seed-helper assertions, and 11 actual curriculum/reseed assertions), PostgreSQL
 17.11. Two implementation runs: initial 144 and final 159. No hosted behavior is inferred.
+
+## Reviews, streaks and test-out (phase 4)
+
+Migration `202610240004_reviews_streaks_testout.sql` adds `review_word` and `test_out_unit`,
+wraps canonical completion to initialize vocabulary reviews and award activity, and seeds
+three badge definitions. See ADR 004 for exact RPC arguments, grading and freeze rules.
+Owner reads remain ordinary RLS-protected SELECTs: `review_schedule` joined to `words`,
+`streak_state` (now including `active_days`), and `user_achievements` joined to `achievements`.
+No existing historical receipts are replayed into new rewards. Unit 0 cannot be tested out.
+
+Phase 4 verification: **199 PostgreSQL 17.11 assertions passed**, including the prior
+159, real two-connection same-version review contention, SM-2 intervals/lapse/ease floor,
+idempotency, access denial, Malaysia date boundary, one-use freezes/refills and 90% test-out.
+Two implementation runs: the first caught a test-out SQL alias collision, fixed before
+the passing run. Hosted auth/session integration remains a separate deployment check.

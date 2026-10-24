@@ -10,6 +10,7 @@ import {
   useLessonPlayer,
   usePractice,
 } from "./store";
+import { testOutCompleted, useLocalTestOut } from "./testout";
 export const learningQueryClient = new QueryClient({
   defaultOptions: { queries: { retry: 1, staleTime: 30000 } },
 });
@@ -49,6 +50,7 @@ export const completionSchema = z.object({
 export function useLearningProgress() {
   const auth = useAuth();
   const events = usePractice((state) => state.events);
+  const tests = useLocalTestOut((state) => state.events);
   const lastOwner = useRef<string | null>(null);
   if (auth.status === "owner" && auth.owner) lastOwner.current = auth.owner.id;
   else if (auth.status !== "initializing") lastOwner.current = null;
@@ -97,7 +99,12 @@ export function useLearningProgress() {
     owner: !!scopeOwner,
     completed: scopeOwner
       ? (query.data?.completed ?? [])
-      : practiceCompleted(events),
+      : [
+          ...new Set([
+            ...practiceCompleted(events),
+            ...testOutCompleted(tests),
+          ]),
+        ],
     query,
   };
 }

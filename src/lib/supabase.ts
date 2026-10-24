@@ -35,15 +35,113 @@ type Database = {
         Update: never;
         Relationships: [];
       };
-      profiles: {
-        Row: { id: string };
+      review_schedule: {
+        Row: {
+          user_id: string;
+          word_id: string;
+          modality: string;
+          ease_factor: number;
+          repetitions: number;
+          interval_days: number;
+          due_at: string;
+          last_reviewed_at: string | null;
+          version: number;
+        };
         Insert: never;
         Update: never;
+        Relationships: [];
+      };
+      words: {
+        Row: {
+          id: string;
+          slug: string;
+          hanzi: string;
+          pinyin: string;
+          meaning_ms: string;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      streak_state: {
+        Row: {
+          user_id: string;
+          current_days: number;
+          longest_days: number;
+          last_active_date: string | null;
+          freeze_balance: number;
+          active_days: number;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      user_achievements: {
+        Row: { user_id: string; achievement_id: string; earned_at: string };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      achievements: {
+        Row: { id: string; code: string; label_ms: string; label_en: string };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      daily_activity: {
+        Row: {
+          user_id: string;
+          local_date: string;
+          seconds_studied: number;
+          xp: number;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      profiles: {
+        Row: {
+          id: string;
+          daily_goal: number;
+          locale: string;
+          sound_enabled: boolean;
+          reduced_motion: boolean;
+        };
+        Insert: never;
+        Update: {
+          daily_goal?: number;
+          locale?: string;
+          sound_enabled?: boolean;
+          reduced_motion?: boolean;
+        };
         Relationships: [];
       };
     };
     Views: Record<string, never>;
     Functions: {
+      review_word: {
+        Args: {
+          p_event_id: string;
+          p_word_id: string;
+          p_modality: string;
+          p_answer: string;
+          p_expected_version: number;
+          p_hints_used: number;
+          p_duration_seconds: number;
+        };
+        Returns: unknown;
+      };
+      test_out_unit: {
+        Args: {
+          p_event_id: string;
+          p_unit_slug: string;
+          p_content_version: number;
+          p_answers: { lesson_slug: string; item_id: string; answer: string }[];
+          p_duration_seconds: number;
+        };
+        Returns: unknown;
+      };
+
       complete_lesson: {
         Args: {
           p_event_id: string;
