@@ -43,6 +43,15 @@ export function createTabAuthStorage(
           failed = true;
         }
       }
+      try {
+        storage.removeItem("bm-owner-verified:v1");
+        for (let index = storage.length - 1; index >= 0; index--) {
+          const key = storage.key(index);
+          if (key?.startsWith("bm-owner-snapshot:")) storage.removeItem(key);
+        }
+      } catch {
+        failed = true;
+      }
       if (failed) throw new Error("Session storage purge failed");
     },
     get sealed() {

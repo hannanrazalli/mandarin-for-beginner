@@ -5,10 +5,10 @@ const ms = {
   account: "Akaun",
   accountTitle: "Ruang peribadi anda.",
   accountBody:
-    "Log masuk hanya untuk pemilik yang telah disediakan. Pratonton awam boleh diteroka tanpa akaun.",
+    "Log masuk untuk menyelaraskan kemajuan telefon dan PC. Latihan tanpa akaun kekal pada peranti ini.",
   authMissing: "Akaun awan belum disambungkan.",
   authMissingBody:
-    "Pratonton masih tersedia. Pemilik boleh menambah URL projek Supabase dan kunci publishable awam melalui tetapan persekitaran aplikasi, kemudian membina semula aplikasi. Jangan masukkan kunci rahsia.",
+    "Sambungan akaun perlu disediakan melalui tetapan projek. Latihan setempat masih tersedia.",
   authChecking: "Sedang menyemak sesi dan akses pemilik…",
   authBlocked: "Akses pemilik tidak dapat disahkan.",
   authBlockedBody:
@@ -25,7 +25,7 @@ const ms = {
     "Log masuk tidak berjaya. Semak butiran, pengesahan e-mel dan sambungan anda.",
   ownerVerified: "Akses pemilik disahkan",
   ownerBody:
-    "Sesi ini telah disemak dengan pelayan. Tiada data pembelajaran awan ditambah dalam pratonton ini.",
+    "Sesi ini telah disahkan. Gunakan akaun belajar yang sama pada telefon dan PC untuk melihat kemajuan yang disegerakkan.",
   logout: "Log keluar tab ini",
   logoutAll: "Log keluar semua sesi",
   loggingOut: "Sedang log keluar…",
@@ -35,8 +35,8 @@ const ms = {
   globalOut:
     "Permintaan log keluar semua sesi berjaya. Sesi tab ini telah dipadamkan.",
   logoutFailed:
-    "Data sesi setempat telah dipadamkan. Pembatalan sesi pelayan tidak dapat disahkan. Sambung semula ke internet, log masuk semula, kemudian pilih “Log keluar semua sesi”.",
-  previewAccess: "Teroka pratonton awam",
+    "Log keluar belum dapat disahkan sepenuhnya. Tutup tab ini. Selepas menyambung internet, log masuk semula dan pilih “Log keluar semua sesi”.",
+  previewAccess: "Teruskan latihan setempat",
   noSignup:
     "Tiada pendaftaran awam. Akaun pemilik mesti disediakan oleh pengurus projek.",
   accountSettingsBody: "Semak sambungan awan atau urus sesi pemilik anda.",
@@ -47,7 +47,7 @@ const ms = {
   review: "Ulang kaji",
   stats: "Statistik",
   settings: "Tetapan",
-  preview: "Pratonton",
+  preview: "Sedia",
   greeting: "Sedikit demi sedikit, kita belajar.",
   intro: "Satu bunyi baharu. Satu langkah kecil.",
   welcome: "Selamat datang ke taman bunyi anda",
@@ -63,26 +63,25 @@ const ms = {
   small: "Kecil, tetapi bermakna",
   smallBody: "Ruang belajar yang tenang. Tanpa perlumbaan, tanpa tekanan.",
   path: "Lihat laluan belajar",
-  note: "Shell pratonton · tiada rekod pembelajaran disimpan",
+  note: "Latihan setempat dan kemajuan akaun dipisahkan",
   learnTitle: "Perjalanan bermula dengan bunyi.",
   learnBody:
-    "Sedikit asas, sebelum banyak perkataan. Inilah laluan yang dirancang.",
+    "Sedikit asas, sebelum banyak perkataan. Siapkan pelajaran untuk membuka langkah seterusnya.",
   unit: "Asas bunyi dan nada",
-  planned: "Skop dirancang",
+  planned: "Asas pembelajaran",
   initial: "Initial dan final",
   tones: "Empat nada + nada neutral",
   pairs: "Pasangan nada",
   sandhi: "Perubahan nada 不 / 一",
   coming: "Akan datang",
-  locked: "Akan datang selepas asas Unit 0 disiapkan.",
+  locked: "Siapkan pelajaran sebelumnya untuk membuka langkah ini.",
   reviewTitle: "Beri ingatan ruang untuk tumbuh.",
   reviewEmpty: "Belum ada bahan untuk diulang kaji.",
   reviewBody:
-    "Kandungan ulang kaji akan tersedia apabila pelajaran sebenar ditambah.",
+    "Siapkan pelajaran perkataan dahulu. Ulang kaji akan muncul mengikut jadual ingatan anda.",
   statsTitle: "Setiap langkah ada waktunya.",
   statsEmpty: "Belum ada data pembelajaran",
-  statsBody:
-    "Pratonton ini tidak mengukur pencapaian. Rekod akan bermula apabila pelajaran sebenar tersedia.",
+  statsBody: "Rekod bermula selepas anda menjawab pelajaran atau ulang kaji.",
   settingsTitle: "Jadikan ruang ini milik anda.",
   settingsBody: "Pilihan kecil untuk belajar dengan selesa.",
   language: "Bahasa antara muka",
@@ -96,12 +95,14 @@ const ms = {
   notSaved:
     "Pilihan digunakan untuk sesi ini sahaja. Storan peranti tidak tersedia.",
   device: "Pada peranti anda sahaja",
-  deviceBody: "Tiada akaun atau penyegerakan dalam pratonton ini.",
+  deviceBody:
+    "Pilihan paparan kekal pada peranti ini; kemajuan akaun menggunakan login yang sama.",
   sample: "Contoh paparan · kandungan dan audio belum disahkan",
   hello: "Helo",
-  audio: "Audio pelajaran belum tersedia atau disahkan.",
+  audio:
+    "Audio menggunakan suara Mandarin peranti dan belum disahkan melalui semakan pendengaran.",
   audioBody:
-    "Contoh ini menunjukkan rupa paparan. Pelajaran penuh akan bermula dengan asas bunyi, bukan contoh ini.",
+    "Dengar contoh pada kadar biasa atau perlahan, kemudian baca penerangan nada.",
   back: "Lihat laluan belajar",
   previewTitle: "Dengar dahulu.",
   previewBody: "Kenali ruang belajar anda, satu bunyi pada satu masa.",
@@ -119,7 +120,7 @@ const ms = {
   loading: "Sedang memuatkan…",
   notFound: "Halaman tidak ditemui.",
   return: "Kembali ke Utama",
-  error: "Pratonton tidak dapat dibuka. Cuba lagi.",
+  error: "Aplikasi tidak dapat dibuka. Cuba lagi.",
 };
 const en: typeof ms = {
   sessionExpired:
@@ -127,10 +128,10 @@ const en: typeof ms = {
   account: "Account",
   accountTitle: "Your personal space.",
   accountBody:
-    "Sign in is reserved for the provisioned owner. The public preview can be explored without an account.",
+    "Sign in to sync progress between your phone and PC. Practice without an account stays on this device.",
   authMissing: "Cloud account is not connected yet.",
   authMissingBody:
-    "The preview remains available. The owner can add the Supabase project URL and public publishable key in the app environment settings, then rebuild the app. Never enter a secret key.",
+    "The account connection needs to be configured in project settings. Local practice remains available.",
   authChecking: "Checking the session and owner access…",
   authBlocked: "Owner access could not be verified.",
   authBlockedBody:
@@ -148,7 +149,7 @@ const en: typeof ms = {
     "Sign in failed. Check your details, email confirmation and connection.",
   ownerVerified: "Owner access verified",
   ownerBody:
-    "This session was checked with the server. No cloud learning data is added in this preview.",
+    "This session is verified. Use the same learner account on your phone and PC to see synced progress.",
   logout: "Sign out of this tab",
   logoutAll: "Sign out of all sessions",
   loggingOut: "Signing out…",
@@ -158,8 +159,8 @@ const en: typeof ms = {
   globalOut:
     "The request to sign out of all sessions succeeded. This tab’s session has been cleared.",
   logoutFailed:
-    "Local session data has been removed. Server session revocation could not be confirmed. Reconnect, sign in again, then choose “Sign out of all sessions”.",
-  previewAccess: "Explore the public preview",
+    "Sign-out could not be fully confirmed. Close this tab. After reconnecting, sign in again and choose “Sign out of all sessions”.",
+  previewAccess: "Continue local practice",
   noSignup:
     "There is no public signup. The owner account must be provisioned by the project administrator.",
   accountSettingsBody:
@@ -171,7 +172,7 @@ const en: typeof ms = {
   review: "Review",
   stats: "Statistics",
   settings: "Settings",
-  preview: "Preview",
+  preview: "Ready",
   greeting: "Little by little, we learn.",
   intro: "One new sound. One small step.",
   welcome: "Welcome to your sound garden",
@@ -187,25 +188,25 @@ const en: typeof ms = {
   small: "Small, but meaningful",
   smallBody: "A calm learning space. No race, no pressure.",
   path: "Explore the learning path",
-  note: "Preview shell · no learning records are saved",
+  note: "Local practice and account progress stay separate",
   learnTitle: "Your journey starts with sound.",
   learnBody:
-    "A little foundation, before many words. Here is the planned path.",
+    "A little foundation before many words. Complete lessons to unlock your next steps.",
   unit: "Sounds and tones",
-  planned: "Planned scope",
+  planned: "Learning foundations",
   initial: "Initials and finals",
   tones: "Four tones + neutral tone",
   pairs: "Tone pairs",
   sandhi: "Tone changes 不 / 一",
   coming: "Coming soon",
-  locked: "Coming after the foundations of Unit 0 are completed.",
+  locked: "Complete earlier lessons to unlock this step.",
   reviewTitle: "Give your memory room to grow.",
   reviewEmpty: "Nothing to review yet.",
-  reviewBody: "Review material will be available when real lessons are added.",
+  reviewBody:
+    "Complete vocabulary lessons first. Reviews appear according to your memory schedule.",
   statsTitle: "Every step has its own time.",
   statsEmpty: "No learning data yet",
-  statsBody:
-    "This preview does not measure achievement. Records will begin when real lessons are available.",
+  statsBody: "Records begin after you answer lessons or reviews.",
   settingsTitle: "Make this space your own.",
   settingsBody: "Small choices to help you learn comfortably.",
   language: "Interface language",
@@ -219,12 +220,13 @@ const en: typeof ms = {
   notSaved:
     "Preferences apply to this session only. Device storage is unavailable.",
   device: "Only on your device",
-  deviceBody: "There is no account or sync in this preview.",
+  deviceBody:
+    "Display choices stay on this device; account progress uses the same login.",
   sample: "Display example · content and audio are unverified",
   hello: "Hello",
-  audio: "Lesson audio is not available or verified yet.",
-  audioBody:
-    "This example shows the interface. Full lessons will begin with sound foundations, rather than this example.",
+  audio:
+    "Audio uses your device’s Mandarin voice and has not passed a listening review.",
+  audioBody: "Listen at normal or slow speed, then read the tone explanation.",
   back: "View learning path",
   previewTitle: "Listen first.",
   previewBody: "Discover your learning space, one sound at a time.",
@@ -242,7 +244,7 @@ const en: typeof ms = {
   loading: "Loading…",
   notFound: "Page not found.",
   return: "Return home",
-  error: "The preview could not open. Please try again.",
+  error: "The app could not open. Please try again.",
 };
 export function copy(language: Language) {
   return language === "ms" ? ms : en;

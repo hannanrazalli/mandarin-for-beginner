@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-43",
+  "unit": 2,
+  "title_ms": "Perayaan dan budaya 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w189",
+      "hanzi": "中秋节",
+      "pinyin": "Zhōngqiūjié",
+      "meaning_ms": "Pesta Pertengahan Musim Luruh",
+      "example": {
+        "hanzi": "中秋节我们吃月饼。",
+        "pinyin": "Zhōngqiūjié wǒmen chī yuèbǐng.",
+        "meaning_ms": "Kami makan kuih bulan semasa Pesta Pertengahan Musim Luruh."
+      },
+      "tone_note_ms": "中 zhōng nada 1; 秋 qiū nada 1; 节 jié nada 2.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "中秋节",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w190",
+      "hanzi": "端午节",
+      "pinyin": "Duānwǔjié",
+      "meaning_ms": "Pesta Perahu Naga (Duanwu)",
+      "example": {
+        "hanzi": "端午节我们吃粽子。",
+        "pinyin": "Duānwǔjié wǒmen chī zòngzi.",
+        "meaning_ms": "Kami makan zongzi semasa Pesta Duanwu."
+      },
+      "tone_note_ms": "端 duān nada 1; 午 wǔ nada 3; 节 jié nada 2.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "端午节",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w191",
+      "hanzi": "元宵节",
+      "pinyin": "Yuánxiāojié",
+      "meaning_ms": "Pesta Tanglung (Yuanxiao)",
+      "example": {
+        "hanzi": "元宵节我们吃汤圆。",
+        "pinyin": "Yuánxiāojié wǒmen chī tāngyuán.",
+        "meaning_ms": "Kami makan tangyuan semasa Pesta Yuanxiao."
+      },
+      "tone_note_ms": "元 yuán nada 2; 宵 xiāo nada 1; 节 jié nada 2.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "元宵节",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w192",
+      "hanzi": "国庆节",
+      "pinyin": "Guóqìngjié",
+      "meaning_ms": "Hari Kebangsaan (China)",
+      "example": {
+        "hanzi": "中国国庆节是十月一日。",
+        "pinyin": "Zhōngguó Guóqìngjié shì shí yuè yī rì.",
+        "meaning_ms": "Hari Kebangsaan China ialah pada 1 Oktober."
+      },
+      "tone_note_ms": "国 guó nada 2; 庆 qìng nada 4; 节 jié nada 2. Rujukan di sini khusus kepada China.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "国庆节",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

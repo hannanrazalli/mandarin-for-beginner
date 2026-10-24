@@ -1,12 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { z } from "zod";
 import { useAuth } from "../auth/AuthProvider";
 import { Page } from "../components/Page";
 import { learningQueryClient, useLearningProgress } from "../learning/cloud";
 import { testOutAccuracy, useLocalTestOut } from "../learning/testout";
 import { lessons } from "../lib/curriculum";
 import { useSettings } from "../lib/settings";
+import { z } from "../lib/zod-config";
+import { queueMutation } from "../offline/dispatch";
+import { useEventResolution } from "../offline/receipts";
 import { reviewCopy } from "./copy";
 
 const unitLessons = lessons.filter((lesson) => lesson.unit === 1);
@@ -51,11 +53,34 @@ function TestOut() {
   const resultHeading = useRef<HTMLHeadingElement>(null);
   const firstAnswer = useRef<HTMLInputElement>(null);
   const previousAccuracy = useRef<number | null>(null);
+  const [attemptNumber, setAttemptNumber] = useState(0);
+  useEffect(() => {
+    if (attemptNumber > 0) firstAnswer.current?.focus();
+  }, [attemptNumber]);
   useEffect(() => {
     if (accuracy !== null) resultHeading.current?.focus();
     else if (previousAccuracy.current !== null) firstAnswer.current?.focus();
     previousAccuracy.current = accuracy;
   }, [accuracy]);
+  const resolution = useEventResolution(request.current?.id ?? null, "testout");
+  const accepted = resolution.outcome?.state === "accepted";
+  const rejected = resolution.outcome?.state === "rejected";
+  useEffect(() => {
+    if (resolution.receipt) {
+      const parsed = responseSchema.safeParse(resolution.receipt);
+      if (parsed.success) {
+        setAccuracy(parsed.data.accuracy);
+        setPending(false);
+        setFailed(false);
+      }
+    } else if (accepted) {
+      setPending(false);
+      setFailed(false);
+    } else if (rejected) {
+      setPending(false);
+      setFailed(true);
+    }
+  }, [resolution.receipt, accepted, rejected]);
   const scope = useRef(progress.scope);
   const allowed = lessons
     .filter((lesson) => lesson.unit === 0)
@@ -96,17 +121,20 @@ function TestOut() {
           }),
         );
       } else {
-        if (!auth.client || auth.owner?.id !== scope.current)
-          throw new Error("Scope mismatch");
-        const response = await auth.client.rpc("test_out_unit", {
-          p_event_id: event.id,
-          p_unit_slug: "unit-1",
-          p_content_version: 1,
-          p_answers: event.answers,
-          p_duration_seconds: 0,
-        });
-        if (response.error) throw new Error("Unconfirmed test");
-        const result = responseSchema.parse(response.data);
+        if (auth.owner?.id !== scope.current) throw new Error("Scope mismatch");
+        const response = await queueMutation(
+          "testout",
+          {
+            p_event_id: event.id,
+            p_unit_slug: "unit-1",
+            p_content_version: 1,
+            p_answers: event.answers,
+            p_duration_seconds: 0,
+          },
+          auth.client,
+          failed,
+        );
+        const result = responseSchema.parse(response);
         if (result.event_id !== event.id) throw new Error("Mismatched event");
         setAccuracy(result.accuracy);
         await learningQueryClient.invalidateQueries({
@@ -126,7 +154,14 @@ function TestOut() {
       ) : (
         <section className="setting-card">
           <p className="mode-label">{progress.owner ? t.cloud : t.local}</p>
-          {accuracy !== null ? (
+          {accepted && accuracy === null ? (
+            <p role="status">
+              {t.cloud} ·{" "}
+              <Link className="text-link" to="/statistik">
+                {t.stats}
+              </Link>
+            </p>
+          ) : accuracy !== null ? (
             <>
               <h2 ref={resultHeading} tabIndex={-1}>
                 {Math.round(accuracy * 100)}% ·{" "}
@@ -169,7 +204,7 @@ function TestOut() {
                     required
                     maxLength={2000}
                     value={answers[item.id] ?? ""}
-                    disabled={pending || failed}
+                    disabled={pending || failed || accepted}
                     onChange={(event) =>
                       setAnswers((old) => ({
                         ...old,
@@ -182,23 +217,48 @@ function TestOut() {
               <button
                 className="button primary"
                 type="submit"
-                disabled={pending || failed}
+                disabled={pending || failed || accepted}
               >
                 {pending ? t.saving : t.check}
               </button>
             </form>
           )}
-          {failed && (
+          {rejected ? (
             <div className="notice" role="alert">
-              <p>{t.pending}</p>
+              <p>
+                {language === "ms"
+                  ? "Percubaan ini ditolak. Selesaikan konflik di atas sebelum mencuba semula. Permintaan terdahulu dikekalkan sebagai rekod keputusan."
+                  : "This attempt was rejected. Resolve the conflict above before trying again. The earlier request remains an outcome record."}
+              </p>
               <button
-                className="button secondary"
                 type="button"
-                onClick={() => void submit()}
+                className="button secondary"
+                onClick={() => {
+                  request.current = null;
+                  setAnswers({});
+                  setAccuracy(null);
+                  setFailed(false);
+                  setPending(false);
+                  setAttemptNumber((value) => value + 1);
+                }}
               >
-                {t.retry}
+                {t.again}
               </button>
             </div>
+          ) : (
+            failed && (
+              <div className="notice" role="alert">
+                <p>{t.pending}</p>
+                <button
+                  className="button secondary"
+                  type="button"
+                  disabled={rejected}
+                  onClick={() => void submit()}
+                >
+                  {t.retry}
+                </button>
+              </div>
+            )
           )}
         </section>
       )}

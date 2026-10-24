@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-66",
+  "unit": 2,
+  "title_ms": "Barang dan anggota badan 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w281",
+      "hanzi": "手机",
+      "pinyin": "shǒujī",
+      "meaning_ms": "telefon bimbit",
+      "example": {
+        "hanzi": "我的手机在这里。",
+        "pinyin": "Wǒ de shǒujī zài zhèlǐ.",
+        "meaning_ms": "Telefon bimbit saya ada di sini."
+      },
+      "tone_note_ms": "手 shǒu nada 3; 机 jī nada 1.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "手机",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w282",
+      "hanzi": "电脑",
+      "pinyin": "diànnǎo",
+      "meaning_ms": "komputer",
+      "example": {
+        "hanzi": "我用电脑学习。",
+        "pinyin": "Wǒ yòng diànnǎo xuéxí.",
+        "meaning_ms": "Saya menggunakan komputer untuk belajar."
+      },
+      "tone_note_ms": "电 diàn nada 4; 脑 nǎo nada 3.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "电脑",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w283",
+      "hanzi": "电视",
+      "pinyin": "diànshì",
+      "meaning_ms": "televisyen",
+      "example": {
+        "hanzi": "我们晚上看电视。",
+        "pinyin": "Wǒmen wǎnshang kàn diànshì.",
+        "meaning_ms": "Kami menonton televisyen pada waktu malam."
+      },
+      "tone_note_ms": "电 diàn nada 4; 视 shì nada 4.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "电视",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w284",
+      "hanzi": "衣服",
+      "pinyin": "yīfu",
+      "meaning_ms": "pakaian",
+      "example": {
+        "hanzi": "她买了新衣服。",
+        "pinyin": "Tā mǎi le xīn yīfu.",
+        "meaning_ms": "Dia membeli pakaian baharu."
+      },
+      "tone_note_ms": "衣 yī nada 1; 服 fu biasanya neutral dalam 衣服.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "衣服",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

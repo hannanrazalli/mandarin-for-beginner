@@ -17,10 +17,12 @@ export default function Learn() {
       description={t.overviewBody}
     >
       <p className="mode-label">{progress.owner ? t.cloud : t.local}</p>
-      {progress.owner && progress.query.isPending && (
+      {progress.owner && !progress.offline && progress.query.isPending && (
         <p role="status">{t.loading}</p>
       )}
-      {progress.query.isError && <p role="alert">{t.cloudError}</p>}
+      {!progress.offline && progress.query.isError && (
+        <p role="alert">{t.cloudError}</p>
+      )}
       <div className="result-actions">
         <Link className="button secondary" to="/latihan">
           {reviewCopy(language).practice}
@@ -42,8 +44,12 @@ export default function Learn() {
                 const done = progress.completed.includes(slug);
                 const unlocked =
                   isLessonUnlocked(slug, progress.completed) &&
-                  !progress.query.isError &&
-                  !(progress.owner && progress.query.isPending);
+                  !(!progress.offline && progress.query.isError) &&
+                  !(
+                    progress.owner &&
+                    !progress.offline &&
+                    progress.query.isPending
+                  );
                 return (
                   <li key={slug}>
                     <span className={`lesson-marker ${done ? "done" : ""}`}>

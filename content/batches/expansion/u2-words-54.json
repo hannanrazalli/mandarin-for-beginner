@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-54",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w233",
+      "hanzi": "喜欢",
+      "pinyin": "xǐhuan",
+      "meaning_ms": "suka",
+      "example": {
+        "hanzi": "我喜欢吃米饭。",
+        "pinyin": "Wǒ xǐhuan chī mǐfàn.",
+        "meaning_ms": "Saya suka makan nasi."
+      },
+      "tone_note_ms": "喜 xǐ nada 3; 欢 huan biasanya neutral dalam 喜欢.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "喜欢",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w234",
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "meaning_ms": "sayang; cinta",
+      "example": {
+        "hanzi": "我爱我的家人。",
+        "pinyin": "Wǒ ài wǒ de jiārén.",
+        "meaning_ms": "Saya menyayangi keluarga saya."
+      },
+      "tone_note_ms": "爱 ài bernada 4.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "爱",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w235",
+      "hanzi": "知道",
+      "pinyin": "zhīdào",
+      "meaning_ms": "tahu",
+      "example": {
+        "hanzi": "我知道那个地方。",
+        "pinyin": "Wǒ zhīdào nàge dìfang.",
+        "meaning_ms": "Saya tahu tempat itu."
+      },
+      "tone_note_ms": "知 zhī nada 1; 道 dào nada 4.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "知道",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w236",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "meaning_ms": "kenal",
+      "example": {
+        "hanzi": "我认识你的老师。",
+        "pinyin": "Wǒ rènshi nǐ de lǎoshī.",
+        "meaning_ms": "Saya kenal guru awak."
+      },
+      "tone_note_ms": "认 rèn nada 4; 识 shi biasanya neutral dalam 认识.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "认识",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

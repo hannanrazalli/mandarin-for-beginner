@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-35",
+  "unit": 2,
+  "title_ms": "Masa dan cuaca 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w157",
+      "hanzi": "生日",
+      "pinyin": "shēngrì",
+      "meaning_ms": "hari jadi",
+      "example": {
+        "hanzi": "今天是我的生日。",
+        "pinyin": "Jīntiān shì wǒ de shēngrì.",
+        "meaning_ms": "Hari ini hari jadi saya."
+      },
+      "tone_note_ms": "生 shēng nada 1; 日 rì nada 4.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "生日",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w158",
+      "hanzi": "周末",
+      "pinyin": "zhōumò",
+      "meaning_ms": "hujung minggu",
+      "example": {
+        "hanzi": "周末我去公园。",
+        "pinyin": "Zhōumò wǒ qù gōngyuán.",
+        "meaning_ms": "Saya pergi ke taman pada hujung minggu."
+      },
+      "tone_note_ms": "周 zhōu nada 1; 末 mò nada 4.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "周末",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w159",
+      "hanzi": "天气",
+      "pinyin": "tiānqì",
+      "meaning_ms": "cuaca",
+      "example": {
+        "hanzi": "今天天气很好。",
+        "pinyin": "Jīntiān tiānqì hěn hǎo.",
+        "meaning_ms": "Cuaca hari ini baik."
+      },
+      "tone_note_ms": "天 tiān nada 1; 气 qì nada 4.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "天气",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w160",
+      "hanzi": "下雨",
+      "pinyin": "xiàyǔ",
+      "meaning_ms": "hujan; turun hujan",
+      "example": {
+        "hanzi": "今天下雨了。",
+        "pinyin": "Jīntiān xiàyǔ le.",
+        "meaning_ms": "Hari ini hujan."
+      },
+      "tone_note_ms": "下 xià nada 4; 雨 yǔ nada 3.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "下雨",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

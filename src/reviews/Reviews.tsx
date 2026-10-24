@@ -5,6 +5,8 @@ import { useMandarinAudio } from "../learning/audio";
 import { learningQueryClient } from "../learning/cloud";
 import { usePractice } from "../learning/store";
 import { useSettings } from "../lib/settings";
+import { queueMutation } from "../offline/dispatch";
+import { useEventResolution } from "../offline/receipts";
 import { normalizeReviewAnswer } from "./algorithms";
 import { reviewResultSchema, useReviewData } from "./cloud";
 import { reviewCopy } from "./copy";
@@ -21,7 +23,9 @@ export default function Reviews() {
   const local = useLocalReviews();
   usePractice((state) => state.events);
   const cards = data.progress.owner
-    ? (data.query.data?.due ?? [])
+    ? data.progress.offline
+      ? data.offlineDue
+      : (data.query.data?.due ?? [])
     : localCards(local.events);
   const scope = data.progress.scope;
   if (data.progress.scope === "verifying")
@@ -30,7 +34,7 @@ export default function Reviews() {
         <p role="status">{t.load}</p>
       </Page>
     );
-  if (data.query.isError)
+  if (!data.progress.offline && data.query.isError)
     return (
       <Page eyebrow={t.review} title={t.title}>
         <p role="alert">{t.error}</p>
@@ -68,6 +72,25 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
       else nextHeading.current?.focus();
     }
   }, [focusNext]);
+  const resolution = useEventResolution(request.current?.id ?? null, "review");
+  const accepted = resolution.outcome?.state === "accepted";
+  const rejected = resolution.outcome?.state === "rejected";
+  useEffect(() => {
+    if (resolution.receipt) {
+      const parsed = reviewResultSchema.safeParse(resolution.receipt);
+      if (parsed.success) {
+        setFeedback(parsed.data.correct);
+        setPending(false);
+        setFailed(false);
+      }
+    } else if (accepted) {
+      setPending(false);
+      setFailed(false);
+    } else if (rejected) {
+      setPending(false);
+      setFailed(true);
+    }
+  }, [resolution.receipt, accepted, rejected]);
   const authRef = useRef(data.auth);
   authRef.current = data.auth;
   async function submit() {
@@ -87,25 +110,28 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
       return;
     }
     if (
-      data.auth.status !== "owner" ||
-      !data.auth.client ||
+      (data.auth.status !== "owner" && data.auth.status !== "ownerOffline") ||
       data.auth.owner?.id !== scope
     ) {
       setPending(false);
       return;
     }
     try {
-      const response = await data.auth.client.rpc("review_word", {
-        p_event_id: event.id,
-        p_word_id: active.word_id,
-        p_modality: active.modality,
-        p_answer: event.answer,
-        p_expected_version: active.schedule.version,
-        p_hints_used: event.hints,
-        p_duration_seconds: 0,
-      });
-      if (response.error) throw new Error("Unconfirmed review");
-      const result = reviewResultSchema.parse(response.data);
+      const response = await queueMutation(
+        "review",
+        {
+          p_event_id: event.id,
+          p_word_id: active.word_id,
+          p_modality: active.modality,
+          p_answer: event.answer,
+          p_expected_version: active.schedule.version,
+          p_hints_used: event.hints,
+          p_duration_seconds: 0,
+        },
+        data.auth.client,
+        failed,
+      );
+      const result = reviewResultSchema.parse(response);
       if (
         result.event_id !== event.id ||
         result.word_id !== active.word_id ||
@@ -196,13 +222,13 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
               onChange={(event) => setAnswer(event.target.value)}
               maxLength={2000}
               required
-              disabled={pending || feedback !== null || failed}
+              disabled={pending || feedback !== null || failed || accepted}
             />
             <div className="result-actions">
               <button
                 className="button primary"
                 type="submit"
-                disabled={pending || feedback !== null || failed}
+                disabled={pending || feedback !== null || failed || accepted}
               >
                 {pending ? t.saving : t.submit}
               </button>
@@ -223,12 +249,26 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
                 : reviewAnswer(current)}
             </p>
           )}
+          {accepted && feedback === null && (
+            <div role="status">
+              <p>
+                {t.cloud} ·{" "}
+                <Link className="text-link" to="/statistik">
+                  {t.stats}
+                </Link>
+              </p>
+              <button className="button primary" type="button" onClick={next}>
+                {t.next}
+              </button>
+            </div>
+          )}
           {failed && (
             <div className="notice" role="alert">
               <p>{t.pending}</p>
               <button
                 className="button secondary"
                 type="button"
+                disabled={rejected}
                 onClick={() => void submit()}
               >
                 {t.retry}

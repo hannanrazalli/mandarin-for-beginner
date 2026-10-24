@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-56",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w241",
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "meaning_ms": "ada; mempunyai",
+      "example": {
+        "hanzi": "我有一个哥哥。",
+        "pinyin": "Wǒ yǒu yī gè gēge.",
+        "meaning_ms": "Saya mempunyai seorang abang."
+      },
+      "tone_note_ms": "有 yǒu bernada 3. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "有",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w242",
+      "hanzi": "没有",
+      "pinyin": "méiyǒu",
+      "meaning_ms": "tiada; tidak mempunyai; belum (dengan kata kerja)",
+      "example": {
+        "hanzi": "我没有现金。",
+        "pinyin": "Wǒ méiyǒu xiànjīn.",
+        "meaning_ms": "Saya tiada wang tunai."
+      },
+      "tone_note_ms": "没 méi nada 2; 有 yǒu nada 3.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "没有",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w243",
+      "hanzi": "在",
+      "pinyin": "zài",
+      "meaning_ms": "berada di; sedang",
+      "example": {
+        "hanzi": "我在家。",
+        "pinyin": "Wǒ zài jiā.",
+        "meaning_ms": "Saya berada di rumah."
+      },
+      "tone_note_ms": "在 zài bernada 4; 在 sebelum kata kerja juga boleh menandakan tindakan sedang berlangsung.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "在",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w244",
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "meaning_ms": "tinggal",
+      "example": {
+        "hanzi": "我住在吉隆坡。",
+        "pinyin": "Wǒ zhù zài Jílóngpō.",
+        "meaning_ms": "Saya tinggal di Kuala Lumpur."
+      },
+      "tone_note_ms": "住 zhù bernada 4.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "住",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

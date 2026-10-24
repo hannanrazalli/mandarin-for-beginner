@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-18",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w089",
+      "hanzi": "米粉",
+      "pinyin": "mǐfěn",
+      "meaning_ms": "mi beras; tepung beras",
+      "example": {
+        "hanzi": "我午餐吃米粉。",
+        "pinyin": "Wǒ wǔcān chī mǐfěn.",
+        "meaning_ms": "Saya makan mi beras untuk makan tengah hari."
+      },
+      "tone_note_ms": "Nada kamus mǐfěn ialah 3 + 3; mǐ lazimnya naik seperti mí sebelum fěn. 米粉 boleh bermaksud mi beras (termasuk bihun) atau tepung beras mengikut konteks.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "米粉",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w090",
+      "hanzi": "炒饭",
+      "pinyin": "chǎofàn",
+      "meaning_ms": "nasi goreng",
+      "example": {
+        "hanzi": "我们午餐吃炒饭。",
+        "pinyin": "Wǒmen wǔcān chī chǎofàn.",
+        "meaning_ms": "Kami makan nasi goreng untuk makan tengah hari."
+      },
+      "tone_note_ms": "炒 chǎo nada 3; 饭 fàn nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "炒饭",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w091",
+      "hanzi": "沙拉",
+      "pinyin": "shālā",
+      "meaning_ms": "salad",
+      "example": {
+        "hanzi": "她喜欢吃沙拉。",
+        "pinyin": "Tā xǐhuan chī shālā.",
+        "meaning_ms": "Dia suka makan salad."
+      },
+      "tone_note_ms": "沙 shā dan 拉 lā bernada 1. Sebutan 沙拉 ialah pinjaman yang lazim.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "沙拉",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w092",
+      "hanzi": "清真",
+      "pinyin": "qīngzhēn",
+      "meaning_ms": "halal (tentang makanan)",
+      "example": {
+        "hanzi": "这是一家清真餐厅。",
+        "pinyin": "Zhè shì yī jiā qīngzhēn cāntīng.",
+        "meaning_ms": "Ini sebuah restoran halal."
+      },
+      "tone_note_ms": "清 qīng dan 真 zhēn nada 1. 清真 digunakan untuk makanan menurut amalan Islam serta dalam istilah seperti 清真寺 (masjid); bukan kata ganti umum bagi semua makna Islam. Pinyin contoh mengekalkan yī kamus; sebelum jiā nada 1, 一 lazimnya berbunyi yì.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "清真",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

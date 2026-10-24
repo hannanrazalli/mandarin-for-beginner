@@ -22,6 +22,7 @@ import { Link, NavLink, Route, Routes, useLocation } from "react-router-dom";
 import { AuthProvider } from "../auth/AuthProvider";
 import { copy } from "../lib/copy";
 import { useSettings } from "../lib/settings";
+import OfflineStatus from "../offline/Status";
 
 const Home = lazy(() => import("../features/Home"));
 const LessonPlayer = lazy(() => import("../learning/LessonPlayer"));
@@ -209,6 +210,7 @@ export default function App() {
             </Link>
           </header>
           <main id="main" tabIndex={-1}>
+            <OfflineStatus />
             <ErrorBoundary message={t.error}>
               <Suspense
                 fallback={

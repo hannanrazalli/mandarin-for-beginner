@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-01",
+  "unit": 2,
+  "title_ms": "Keluarga dan orang terdekat 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w021",
+      "hanzi": "爸爸",
+      "pinyin": "bàba",
+      "meaning_ms": "ayah",
+      "example": {
+        "hanzi": "我爸爸在家。",
+        "pinyin": "Wǒ bàba zài jiā.",
+        "meaning_ms": "Ayah saya ada di rumah."
+      },
+      "tone_note_ms": "爸 bà bernada 4; 爸爸 lazimnya disebut bàba, dengan suku kata kedua neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "爸爸",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w022",
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "meaning_ms": "ibu",
+      "example": {
+        "hanzi": "我妈妈喜欢茶。",
+        "pinyin": "Wǒ māma xǐhuan chá.",
+        "meaning_ms": "Ibu saya suka teh."
+      },
+      "tone_note_ms": "妈 mā bernada 1; suku kata kedua dalam 妈妈 lazimnya ringan: māma. Ini sebutan perkataan ini, bukan aturan untuk semua aksara berulang.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "妈妈",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w023",
+      "hanzi": "哥哥",
+      "pinyin": "gēge",
+      "meaning_ms": "abang",
+      "example": {
+        "hanzi": "我哥哥是老师。",
+        "pinyin": "Wǒ gēge shì lǎoshī.",
+        "meaning_ms": "Abang saya seorang guru."
+      },
+      "tone_note_ms": "哥 gē bernada 1; suku kata kedua dalam 哥哥 biasanya neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "哥哥",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w024",
+      "hanzi": "姐姐",
+      "pinyin": "jiějie",
+      "meaning_ms": "kakak",
+      "example": {
+        "hanzi": "姐姐在学校。",
+        "pinyin": "Jiějie zài xuéxiào.",
+        "meaning_ms": "Kakak berada di sekolah."
+      },
+      "tone_note_ms": "姐 jiě bernada 3; suku kata kedua biasanya neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "姐姐",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

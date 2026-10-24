@@ -1,6 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
-import { z } from "zod";
 import { createTabAuthStorage } from "../auth/tab-storage";
+import { createRpcTransport } from "../offline/transport";
+import { z } from "./zod-config";
 
 type Database = {
   public: {
@@ -172,6 +173,7 @@ type Runtime = {
   config: { url: string; key: string };
   storage: Storage;
   tab: ReturnType<typeof createTabAuthStorage>;
+  transport: ReturnType<typeof createRpcTransport>;
 };
 const runtimes = new WeakMap<PublicAuthClient, Runtime>();
 export function createPublicClient(
@@ -185,7 +187,9 @@ export function createPublicClient(
     storage.setItem("bm-auth-storage-check", "1");
     storage.removeItem("bm-auth-storage-check");
     const tab = createTabAuthStorage(storage);
+    const transport = createRpcTransport();
     const client = createClient<Database>(config.url, config.key, {
+      global: { fetch: transport.fetch },
       auth: {
         storage: tab.adapter,
         storageKey: tab.channelKey,
@@ -195,7 +199,7 @@ export function createPublicClient(
         flowType: "pkce",
       },
     });
-    runtimes.set(client, { config, storage, tab });
+    runtimes.set(client, { config, storage, tab, transport });
     return client;
   } catch {
     return null;
@@ -216,8 +220,10 @@ export const supabase = createPublicClient(
 export function sealPublicClient(client: PublicAuthClient) {
   const runtime = runtimes.get(client);
   // Seal before any asynchronous work; the old SDK can never write to a new session.
-  if (runtime) runtime.tab.seal();
-  else {
+  if (runtime) {
+    runtime.transport.seal();
+    runtime.tab.seal();
+  } else {
     for (const key of [
       "bm-auth-session",
       "bm-auth-session-code-verifier",
@@ -283,4 +289,8 @@ export async function revokePublicSession(
     if (timer) clearTimeout(timer);
     controller.abort();
   }
+}
+
+export function takeRpcTransport(client: PublicAuthClient, eventId: string) {
+  return runtimes.get(client)?.transport.take(eventId) ?? null;
 }

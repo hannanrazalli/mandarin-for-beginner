@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-69",
+  "unit": 2,
+  "title_ms": "Barang dan anggota badan 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w293",
+      "hanzi": "碗",
+      "pinyin": "wǎn",
+      "meaning_ms": "mangkuk",
+      "example": {
+        "hanzi": "我有一个碗。",
+        "pinyin": "Wǒ yǒu yī gè wǎn.",
+        "meaning_ms": "Saya ada sebuah mangkuk."
+      },
+      "tone_note_ms": "碗 wǎn bernada 3. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "碗",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w294",
+      "hanzi": "盘子",
+      "pinyin": "pánzi",
+      "meaning_ms": "pinggan",
+      "example": {
+        "hanzi": "盘子在桌子上。",
+        "pinyin": "Pánzi zài zhuōzi shàng.",
+        "meaning_ms": "Pinggan berada di atas meja."
+      },
+      "tone_note_ms": "盘 pán nada 2; 子 zi biasanya neutral.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "盘子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w295",
+      "hanzi": "筷子",
+      "pinyin": "kuàizi",
+      "meaning_ms": "penyepit makanan",
+      "example": {
+        "hanzi": "我用筷子吃饭。",
+        "pinyin": "Wǒ yòng kuàizi chīfàn.",
+        "meaning_ms": "Saya makan menggunakan penyepit makanan."
+      },
+      "tone_note_ms": "筷 kuài nada 4; 子 zi biasanya neutral.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "筷子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w296",
+      "hanzi": "勺子",
+      "pinyin": "sháozi",
+      "meaning_ms": "sudu",
+      "example": {
+        "hanzi": "碗里有一把勺子。",
+        "pinyin": "Wǎn lǐ yǒu yī bǎ sháozi.",
+        "meaning_ms": "Ada sebatang sudu di dalam mangkuk."
+      },
+      "tone_note_ms": "勺 sháo nada 2; 子 zi biasanya neutral. Pinyin contoh mengekalkan yī kamus; sebelum nada 3 dalam contoh ini, 一 lazimnya berbunyi yì.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "勺子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

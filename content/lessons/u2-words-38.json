@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-38",
+  "unit": 2,
+  "title_ms": "Wang dan membeli-belah 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w169",
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "meaning_ms": "yuan; unit wang tidak formal",
+      "example": {
+        "hanzi": "这杯茶十块钱。",
+        "pinyin": "Zhè bēi chá shí kuài qián.",
+        "meaning_ms": "Teh ini berharga sepuluh yuan."
+      },
+      "tone_note_ms": "块 kuài nada 4; unit wang lisan terutama di China, bukan mata wang Malaysia.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "块",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w170",
+      "hanzi": "元",
+      "pinyin": "yuán",
+      "meaning_ms": "yuan (unit mata wang)",
+      "example": {
+        "hanzi": "这本书二十元。",
+        "pinyin": "Zhè běn shū èrshí yuán.",
+        "meaning_ms": "Buku ini berharga dua puluh yuan."
+      },
+      "tone_note_ms": "元 yuán bernada 2; unit wang yang rasmi terutama untuk renminbi.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "元",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w171",
+      "hanzi": "角",
+      "pinyin": "jiǎo",
+      "meaning_ms": "jiao (sepersepuluh yuan)",
+      "example": {
+        "hanzi": "这个东西五角。",
+        "pinyin": "Zhège dōngxi wǔ jiǎo.",
+        "meaning_ms": "Barang ini berharga lima jiao."
+      },
+      "tone_note_ms": "角 jiǎo nada 3. Unit ini bernilai sepersepuluh yuan dan tidak digunakan sebagai unit ringgit.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "角",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w172",
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "meaning_ms": "fen (seperseratus yuan); minit",
+      "example": {
+        "hanzi": "一元等于一百分。",
+        "pinyin": "Yī yuán děngyú yī bǎi fēn.",
+        "meaning_ms": "Satu yuan bersamaan seratus fen."
+      },
+      "tone_note_ms": "分 fēn nada 1. Sebagai wang renminbi, satu fen ialah seperseratus yuan; 分 juga boleh bermaksud minit. Pinyin contoh mengekalkan yī kamus; kedua-dua 一 dalam contoh lazimnya disebut yì.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "分",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

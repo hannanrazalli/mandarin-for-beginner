@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-14",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w073",
+      "hanzi": "食物",
+      "pinyin": "shíwù",
+      "meaning_ms": "makanan",
+      "example": {
+        "hanzi": "这些食物很好吃。",
+        "pinyin": "Zhèxiē shíwù hěn hǎochī.",
+        "meaning_ms": "Makanan ini sedap."
+      },
+      "tone_note_ms": "食 shí nada 2; 物 wù nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "食物",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w074",
+      "hanzi": "蔬菜",
+      "pinyin": "shūcài",
+      "meaning_ms": "sayur-sayuran",
+      "example": {
+        "hanzi": "我每天吃蔬菜。",
+        "pinyin": "Wǒ měitiān chī shūcài.",
+        "meaning_ms": "Saya makan sayur-sayuran setiap hari."
+      },
+      "tone_note_ms": "蔬 shū nada 1; 菜 cài nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "蔬菜",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w075",
+      "hanzi": "土豆",
+      "pinyin": "tǔdòu",
+      "meaning_ms": "kentang",
+      "example": {
+        "hanzi": "我喜欢吃土豆。",
+        "pinyin": "Wǒ xǐhuan chī tǔdòu.",
+        "meaning_ms": "Saya suka makan kentang."
+      },
+      "tone_note_ms": "土 tǔ nada 3; 豆 dòu nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "土豆",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w076",
+      "hanzi": "西红柿",
+      "pinyin": "xīhóngshì",
+      "meaning_ms": "tomato",
+      "example": {
+        "hanzi": "西红柿是红色的。",
+        "pinyin": "Xīhóngshì shì hóngsè de.",
+        "meaning_ms": "Tomato berwarna merah."
+      },
+      "tone_note_ms": "西 xī nada 1; 红 hóng nada 2; 柿 shì nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "西红柿",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

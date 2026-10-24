@@ -1,9 +1,12 @@
 import { useQuery } from "@tanstack/react-query";
-import { z } from "zod";
 import { useAuth } from "../auth/AuthProvider";
 import { useLearningProgress } from "../learning/cloud";
+import type { PublicAuthClient } from "../lib/supabase";
+import { z } from "../lib/zod-config";
+import { lease, readSnapshot, writeSnapshot } from "../offline/store";
 import { malaysiaDay } from "./algorithms";
 import type { ReviewCard } from "./local";
+import { vocabulary } from "./local";
 
 const scheduleSchema = z.object({
   word_id: z.string(),
@@ -38,6 +41,30 @@ export const reviewResultSchema = z.object({
     version: z.number().int(),
   }),
 });
+export async function fetchReviewSchedules(
+  client: PublicAuthClient,
+  ownerId: string,
+  signal: AbortSignal,
+) {
+  const all: z.infer<typeof scheduleSchema>[] = [];
+  const pageSize = 500;
+  for (let from = 0; from < 2000; from += pageSize) {
+    const response = await client
+      .from("review_schedule")
+      .select("*")
+      .eq("user_id", ownerId)
+      .order("word_id", { ascending: true })
+      .order("modality", { ascending: true })
+      .range(from, from + pageSize - 1)
+      .abortSignal(signal);
+    if (response.error) throw response.error;
+    const page = z.array(scheduleSchema).parse(response.data);
+    all.push(...page);
+    if (all.length > 1200) throw new Error("Review snapshot exceeds bound");
+    if (page.length < pageSize) return { data: all, error: null };
+  }
+  throw new Error("Review pagination exceeds bound");
+}
 export function useReviewData() {
   const auth = useAuth();
   const progress = useLearningProgress();
@@ -46,13 +73,10 @@ export function useReviewData() {
     enabled: auth.status === "owner" && !!auth.client,
     queryFn: async ({ signal }) => {
       if (!auth.client || !auth.owner) throw new Error("Owner required");
+      const token = lease();
       const id = auth.owner.id;
       const results = await Promise.all([
-        auth.client
-          .from("review_schedule")
-          .select("*")
-          .eq("user_id", id)
-          .abortSignal(signal),
+        fetchReviewSchedules(auth.client, id, signal),
         auth.client
           .from("words")
           .select("id,slug,hanzi,pinyin,meaning_ms")
@@ -143,6 +167,22 @@ export function useReviewData() {
         .array(z.object({ seconds_studied: z.number() }))
         .parse(results[6].data)
         .reduce((sum, row) => sum + row.seconds_studied, 0);
+      if (token && !token.valid()) throw new Error("Expired owner lease");
+      if (token)
+        writeSnapshot(
+          {
+            reviews: schedules.map((row) => ({
+              wordId: row.word_id,
+              wordSlug:
+                words.find((word) => word.id === row.word_id)?.slug ??
+                "unknown",
+              modality: row.modality,
+              version: row.version,
+              dueAt: row.due_at,
+            })),
+          },
+          token,
+        );
       return {
         due,
         streak,
@@ -154,5 +194,30 @@ export function useReviewData() {
       };
     },
   });
-  return { auth, progress, query };
+  const snapshot = progress.offline ? readSnapshot() : null;
+  const offlineDue: ReviewCard[] = (snapshot?.reviews ?? [])
+    .filter((row) => Date.parse(row.dueAt) <= Date.now())
+    .flatMap((row) => {
+      const word = vocabulary.find((value) => value.id === row.wordSlug);
+      return word
+        ? [
+            {
+              word_id: row.wordId,
+              slug: row.wordSlug,
+              hanzi: word.hanzi,
+              pinyin: word.pinyin,
+              meaning_ms: word.meaning_ms,
+              modality: row.modality,
+              schedule: {
+                ease_factor: 2.5,
+                repetitions: 0,
+                interval_days: 0,
+                due_at: row.dueAt,
+                version: row.version,
+              },
+            },
+          ]
+        : [];
+    });
+  return { auth, progress, query, offlineDue };
 }

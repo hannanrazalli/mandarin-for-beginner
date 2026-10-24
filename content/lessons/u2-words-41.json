@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-41",
+  "unit": 2,
+  "title_ms": "Wang dan membeli-belah 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w181",
+      "hanzi": "银行卡",
+      "pinyin": "yínhángkǎ",
+      "meaning_ms": "kad bank",
+      "example": {
+        "hanzi": "我用银行卡付款。",
+        "pinyin": "Wǒ yòng yínhángkǎ fùkuǎn.",
+        "meaning_ms": "Saya membayar menggunakan kad bank."
+      },
+      "tone_note_ms": "银 yín dan 行 háng nada 2; 卡 kǎ nada 3.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "银行卡",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w182",
+      "hanzi": "付款",
+      "pinyin": "fùkuǎn",
+      "meaning_ms": "membuat bayaran",
+      "example": {
+        "hanzi": "我在这里付款。",
+        "pinyin": "Wǒ zài zhèlǐ fùkuǎn.",
+        "meaning_ms": "Saya membuat bayaran di sini."
+      },
+      "tone_note_ms": "付 fù nada 4; 款 kuǎn nada 3.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "付款",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w183",
+      "hanzi": "找钱",
+      "pinyin": "zhǎoqián",
+      "meaning_ms": "memberi baki",
+      "example": {
+        "hanzi": "店员找钱给我。",
+        "pinyin": "Diànyuán zhǎoqián gěi wǒ.",
+        "meaning_ms": "Pekerja kedai memberikan wang baki kepada saya."
+      },
+      "tone_note_ms": "找 zhǎo nada 3; 钱 qián nada 2. Dalam konteks bayaran, 找钱 bermaksud memulangkan wang baki, bukan mencari wang yang hilang.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "找钱",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w184",
+      "hanzi": "收据",
+      "pinyin": "shōujù",
+      "meaning_ms": "resit",
+      "example": {
+        "hanzi": "请给我收据。",
+        "pinyin": "Qǐng gěi wǒ shōujù.",
+        "meaning_ms": "Tolong berikan saya resit."
+      },
+      "tone_note_ms": "收 shōu nada 1; 据 jù nada 4.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "收据",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-68",
+  "unit": 2,
+  "title_ms": "Barang dan anggota badan 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w289",
+      "hanzi": "包",
+      "pinyin": "bāo",
+      "meaning_ms": "beg; bungkusan",
+      "example": {
+        "hanzi": "我的包在椅子上。",
+        "pinyin": "Wǒ de bāo zài yǐzi shàng.",
+        "meaning_ms": "Beg saya berada di atas kerusi."
+      },
+      "tone_note_ms": "包 bāo bernada 1.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "包",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w290",
+      "hanzi": "雨伞",
+      "pinyin": "yǔsǎn",
+      "meaning_ms": "payung",
+      "example": {
+        "hanzi": "下雨了，我带雨伞。",
+        "pinyin": "Xiàyǔ le, wǒ dài yǔsǎn.",
+        "meaning_ms": "Hujan, saya membawa payung."
+      },
+      "tone_note_ms": "Nada kamus yǔsǎn ialah 3 + 3. Dalam sebutan bersambung, yǔ lazimnya naik seperti yú sebelum sǎn; bukan sekadar direndahkan.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "雨伞",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w291",
+      "hanzi": "眼镜",
+      "pinyin": "yǎnjìng",
+      "meaning_ms": "cermin mata",
+      "example": {
+        "hanzi": "我的眼镜在桌子上。",
+        "pinyin": "Wǒ de yǎnjìng zài zhuōzi shàng.",
+        "meaning_ms": "Cermin mata saya berada di atas meja."
+      },
+      "tone_note_ms": "眼 yǎn nada 3; 镜 jìng nada 4.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "眼镜",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w292",
+      "hanzi": "杯子",
+      "pinyin": "bēizi",
+      "meaning_ms": "cawan; gelas",
+      "example": {
+        "hanzi": "桌子上有一个杯子。",
+        "pinyin": "Zhuōzi shàng yǒu yī gè bēizi.",
+        "meaning_ms": "Ada sebuah cawan di atas meja."
+      },
+      "tone_note_ms": "杯 bēi nada 1; 子 zi biasanya neutral. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "杯子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

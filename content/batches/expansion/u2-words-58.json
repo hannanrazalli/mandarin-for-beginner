@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-58",
+  "unit": 2,
+  "title_ms": "Penerangan dan soalan 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w249",
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "meaning_ms": "kecil",
+      "example": {
+        "hanzi": "我的房间很小。",
+        "pinyin": "Wǒ de fángjiān hěn xiǎo.",
+        "meaning_ms": "Bilik saya kecil."
+      },
+      "tone_note_ms": "小 xiǎo bernada 3.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "小",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w250",
+      "hanzi": "多",
+      "pinyin": "duō",
+      "meaning_ms": "banyak",
+      "example": {
+        "hanzi": "这里有很多学生。",
+        "pinyin": "Zhèlǐ yǒu hěn duō xuésheng.",
+        "meaning_ms": "Di sini ada ramai pelajar."
+      },
+      "tone_note_ms": "多 duō bernada 1.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "多",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w251",
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "meaning_ms": "sedikit",
+      "example": {
+        "hanzi": "杯子里的水很少。",
+        "pinyin": "Bēizi lǐ de shuǐ hěn shǎo.",
+        "meaning_ms": "Air di dalam gelas itu sedikit."
+      },
+      "tone_note_ms": "少 shǎo nada 3 dalam makna sedikit; 少 shào bernada 4 dalam makna muda.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "少",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w252",
+      "hanzi": "长",
+      "pinyin": "cháng",
+      "meaning_ms": "panjang",
+      "example": {
+        "hanzi": "这条路很长。",
+        "pinyin": "Zhè tiáo lù hěn cháng.",
+        "meaning_ms": "Jalan ini panjang."
+      },
+      "tone_note_ms": "长 cháng nada 2 dalam makna panjang; aksara sama dibaca zhǎng dalam makna ketua/bertumbuh.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "长",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

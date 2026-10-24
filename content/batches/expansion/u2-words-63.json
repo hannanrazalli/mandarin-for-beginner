@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-63",
+  "unit": 2,
+  "title_ms": "Penerangan dan soalan 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w269",
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "meaning_ms": "siapa",
+      "example": {
+        "hanzi": "那个人是谁？",
+        "pinyin": "Nàge rén shì shéi?",
+        "meaning_ms": "Siapakah orang itu?"
+      },
+      "tone_note_ms": "谁 lazim dibaca shéi (nada 2); shuí juga wujud sebagai variasi.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "谁",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w270",
+      "hanzi": "为什么",
+      "pinyin": "wèishénme",
+      "meaning_ms": "mengapa",
+      "example": {
+        "hanzi": "你为什么学习中文？",
+        "pinyin": "Nǐ wèishénme xuéxí Zhōngwén?",
+        "meaning_ms": "Mengapa awak belajar bahasa Cina?"
+      },
+      "tone_note_ms": "为 wèi nada 4; 什 shén nada 2; 么 me neutral.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "为什么",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w271",
+      "hanzi": "怎么",
+      "pinyin": "zěnme",
+      "meaning_ms": "bagaimana",
+      "example": {
+        "hanzi": "这个字怎么读？",
+        "pinyin": "Zhège zì zěnme dú?",
+        "meaning_ms": "Bagaimanakah aksara ini dibaca?"
+      },
+      "tone_note_ms": "怎 zěn nada 3; 么 me biasanya neutral.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "怎么",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w272",
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "meaning_ms": "berapa (bilangan kecil)",
+      "example": {
+        "hanzi": "你有几个朋友？",
+        "pinyin": "Nǐ yǒu jǐ ge péngyou?",
+        "meaning_ms": "Awak ada berapa orang kawan?"
+      },
+      "tone_note_ms": "几 jǐ bernada 3; biasanya untuk bilangan yang tidak besar atau soalan waktu.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "几",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

@@ -65,6 +65,7 @@ async function renderOwner(client: PublicAuthClient) {
     );
   });
   await screen.findByRole("heading", { name: "Akses pemilik disahkan" });
+  expect(screen.getByRole("link", { name: "Teruskan belajar" })).toBeTruthy();
 }
 describe("immediate local logout", () => {
   it("purges before delayed remote completion, then focuses signed-out heading", async () => {
@@ -110,7 +111,7 @@ describe("immediate local logout", () => {
         .disabled,
     ).toBe(false);
     expect(
-      screen.getByText(/Pembatalan sesi pelayan tidak dapat disahkan/),
+      screen.getByText(/Log keluar belum dapat disahkan sepenuhnya/),
     ).toBeTruthy();
   });
   it("expiry purges immediately even if remote revocation never resolves", async () => {

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-59",
+  "unit": 2,
+  "title_ms": "Penerangan dan soalan 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w253",
+      "hanzi": "短",
+      "pinyin": "duǎn",
+      "meaning_ms": "pendek",
+      "example": {
+        "hanzi": "这条路很短。",
+        "pinyin": "Zhè tiáo lù hěn duǎn.",
+        "meaning_ms": "Jalan ini pendek."
+      },
+      "tone_note_ms": "短 duǎn bernada 3.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "短",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w254",
+      "hanzi": "高",
+      "pinyin": "gāo",
+      "meaning_ms": "tinggi",
+      "example": {
+        "hanzi": "那座山很高。",
+        "pinyin": "Nà zuò shān hěn gāo.",
+        "meaning_ms": "Gunung itu tinggi."
+      },
+      "tone_note_ms": "高 gāo bernada 1.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "高",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w255",
+      "hanzi": "矮",
+      "pinyin": "ǎi",
+      "meaning_ms": "rendah; pendek (orang)",
+      "example": {
+        "hanzi": "他不高也不矮。",
+        "pinyin": "Tā bù gāo yě bù ǎi.",
+        "meaning_ms": "Dia tidak tinggi dan tidak juga pendek."
+      },
+      "tone_note_ms": "矮 ǎi bernada 3; untuk orang, ia merujuk ketinggian tubuh.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "矮",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w256",
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "meaning_ms": "cepat",
+      "example": {
+        "hanzi": "这辆公共汽车开得很快。",
+        "pinyin": "Zhè liàng gōnggòng qìchē kāi de hěn kuài.",
+        "meaning_ms": "Bas ini bergerak laju."
+      },
+      "tone_note_ms": "快 kuài bernada 4.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "快",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

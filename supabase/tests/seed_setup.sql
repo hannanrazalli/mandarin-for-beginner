@@ -5,9 +5,9 @@ begin if condition is distinct from true then raise exception 'FAIL: %',label; e
 insert into auth.users values ('00000000-0000-0000-0000-000000000001',now(),'{}');
 insert into private.app_owner(user_id) values ('00000000-0000-0000-0000-000000000001');
 insert into public.profiles(id) values ('00000000-0000-0000-0000-000000000001');
-select test.ok((select count(*) from public.units)=2,'seed creates two units');
-select test.ok((select count(*) from public.lessons)=25,'seed creates twenty-five lessons');
-select test.ok((select count(*) from public.words)=20,'seed creates twenty words');
+select test.ok((select count(*) from public.units)=3,'seed creates three units');
+select test.ok((select count(*) from public.lessons)=95,'seed creates ninety-five lessons');
+select test.ok((select count(*) from public.words)=300,'seed creates three hundred words');
 select test.ok(not exists(select 1 from private.lesson_items where needs_review),'seed canonical items semantically approved');
 select test.ok(not exists(select 1 from public.lessons where not published),'all initial lessons published');
 select jsonb_agg(jsonb_build_object('item_id',k.item_id,'answer',k.correct_answer)) as answers

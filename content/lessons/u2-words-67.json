@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-67",
+  "unit": 2,
+  "title_ms": "Barang dan anggota badan 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w285",
+      "hanzi": "鞋",
+      "pinyin": "xié",
+      "meaning_ms": "kasut",
+      "example": {
+        "hanzi": "我的鞋在门旁边。",
+        "pinyin": "Wǒ de xié zài mén pángbiān.",
+        "meaning_ms": "Kasut saya berada di sebelah pintu."
+      },
+      "tone_note_ms": "鞋 xié bernada 2.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "鞋",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w286",
+      "hanzi": "裤子",
+      "pinyin": "kùzi",
+      "meaning_ms": "seluar",
+      "example": {
+        "hanzi": "我的裤子是黑色的。",
+        "pinyin": "Wǒ de kùzi shì hēisè de.",
+        "meaning_ms": "Seluar saya berwarna hitam."
+      },
+      "tone_note_ms": "裤 kù nada 4; 子 zi biasanya neutral.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "裤子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w287",
+      "hanzi": "裙子",
+      "pinyin": "qúnzi",
+      "meaning_ms": "skirt",
+      "example": {
+        "hanzi": "她穿红色的裙子。",
+        "pinyin": "Tā chuān hóngsè de qúnzi.",
+        "meaning_ms": "Dia memakai skirt merah."
+      },
+      "tone_note_ms": "裙 qún nada 2; 子 zi biasanya neutral.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "裙子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w288",
+      "hanzi": "帽子",
+      "pinyin": "màozi",
+      "meaning_ms": "topi",
+      "example": {
+        "hanzi": "太阳很大，请戴帽子。",
+        "pinyin": "Tàiyáng hěn dà, qǐng dài màozi.",
+        "meaning_ms": "Matahari terik, sila pakai topi."
+      },
+      "tone_note_ms": "帽 mào nada 4; 子 zi biasanya neutral.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "帽子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

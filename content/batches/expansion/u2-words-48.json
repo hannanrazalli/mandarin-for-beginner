@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-48",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w209",
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "meaning_ms": "minum",
+      "example": {
+        "hanzi": "我想喝水。",
+        "pinyin": "Wǒ xiǎng hē shuǐ.",
+        "meaning_ms": "Saya mahu minum air."
+      },
+      "tone_note_ms": "喝 hē bernada 1.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "喝",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w210",
+      "hanzi": "看",
+      "pinyin": "kàn",
+      "meaning_ms": "melihat; menonton; membaca",
+      "example": {
+        "hanzi": "我晚上看电视。",
+        "pinyin": "Wǒ wǎnshang kàn diànshì.",
+        "meaning_ms": "Saya menonton televisyen pada waktu malam."
+      },
+      "tone_note_ms": "看 kàn nada 4; maksud khusus bergantung pada objek.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "看",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w211",
+      "hanzi": "听",
+      "pinyin": "tīng",
+      "meaning_ms": "mendengar",
+      "example": {
+        "hanzi": "我喜欢听音乐。",
+        "pinyin": "Wǒ xǐhuan tīng yīnyuè.",
+        "meaning_ms": "Saya suka mendengar muzik."
+      },
+      "tone_note_ms": "听 tīng bernada 1.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "听",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w212",
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "meaning_ms": "berkata; bercakap",
+      "example": {
+        "hanzi": "老师说中文。",
+        "pinyin": "Lǎoshī shuō Zhōngwén.",
+        "meaning_ms": "Guru bercakap bahasa Cina."
+      },
+      "tone_note_ms": "说 shuō bernada 1.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "说",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

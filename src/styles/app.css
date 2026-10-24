@@ -1516,6 +1516,20 @@ input[type="radio"] {
   font-size: 50px;
   color: var(--green);
 }
+@keyframes sprout-bloom {
+  from {
+    transform: scale(0.75) rotate(-6deg);
+  }
+  to {
+    transform: scale(1) rotate(0);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .result-sprout {
+    display: inline-block;
+    animation: sprout-bloom 380ms ease-out;
+  }
+}
 .result-actions {
   display: flex;
   justify-content: center;
@@ -1761,4 +1775,19 @@ input[type="radio"] {
 }
 .calendar-date {
   font-size: 0.75rem;
+}
+
+.offline-status {
+  padding: 20px;
+  border: 1px solid var(--outline);
+  border-radius: 18px;
+  background: var(--soft);
+  margin-bottom: 24px;
+}
+.offline-status > p.offline-description {
+  font-size: 13px;
+  margin: 8px 0 14px;
+}
+.offline-status strong {
+  font-size: 15px;
 }

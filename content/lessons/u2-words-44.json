@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-44",
+  "unit": 2,
+  "title_ms": "Perayaan dan budaya 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w193",
+      "hanzi": "圣诞节",
+      "pinyin": "Shèngdànjié",
+      "meaning_ms": "Hari Krismas",
+      "example": {
+        "hanzi": "圣诞节我们休息。",
+        "pinyin": "Shèngdànjié wǒmen xiūxi.",
+        "meaning_ms": "Kami berehat pada Hari Krismas."
+      },
+      "tone_note_ms": "圣 shèng nada 4; 诞 dàn nada 4; 节 jié nada 2.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "圣诞节",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w194",
+      "hanzi": "开斋节",
+      "pinyin": "Kāizhāijié",
+      "meaning_ms": "Hari Raya Aidilfitri",
+      "example": {
+        "hanzi": "开斋节我去看家人。",
+        "pinyin": "Kāizhāijié wǒ qù kàn jiārén.",
+        "meaning_ms": "Saya menziarahi keluarga pada Hari Raya Aidilfitri."
+      },
+      "tone_note_ms": "开 kāi nada 1; 斋 zhāi nada 1; 节 jié nada 2. 开斋节 ialah istilah Mandarin lazim untuk Hari Raya Aidilfitri.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "开斋节",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w195",
+      "hanzi": "屠妖节",
+      "pinyin": "Túyāojié",
+      "meaning_ms": "Hari Deepavali",
+      "example": {
+        "hanzi": "屠妖节我去看朋友。",
+        "pinyin": "Túyāojié wǒ qù kàn péngyou.",
+        "meaning_ms": "Saya menziarahi kawan pada Hari Deepavali."
+      },
+      "tone_note_ms": "屠 tú nada 2; 妖 yāo nada 1; 节 jié nada 2. 屠妖节 ialah istilah Mandarin serantau yang lazim di Malaysia dan Singapura untuk Deepavali.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "屠妖节",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w196",
+      "hanzi": "新年",
+      "pinyin": "xīnnián",
+      "meaning_ms": "tahun baharu",
+      "example": {
+        "hanzi": "新年快乐！",
+        "pinyin": "Xīnnián kuàilè!",
+        "meaning_ms": "Selamat tahun baharu!"
+      },
+      "tone_note_ms": "新 xīn nada 1; 年 nián nada 2. Rujukan boleh umum atau khusus pada perayaan.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "新年",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

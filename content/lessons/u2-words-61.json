@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-61",
+  "unit": 2,
+  "title_ms": "Penerangan dan soalan 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w261",
+      "hanzi": "漂亮",
+      "pinyin": "piàoliang",
+      "meaning_ms": "cantik",
+      "example": {
+        "hanzi": "你的衣服很漂亮。",
+        "pinyin": "Nǐ de yīfu hěn piàoliang.",
+        "meaning_ms": "Pakaian awak cantik."
+      },
+      "tone_note_ms": "漂 piào nada 4; 亮 liang biasanya neutral dalam 漂亮.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "漂亮",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w262",
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "meaning_ms": "sibuk",
+      "example": {
+        "hanzi": "老师今天很忙。",
+        "pinyin": "Lǎoshī jīntiān hěn máng.",
+        "meaning_ms": "Guru sibuk hari ini."
+      },
+      "tone_note_ms": "忙 máng bernada 2.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "忙",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w263",
+      "hanzi": "累",
+      "pinyin": "lèi",
+      "meaning_ms": "penat",
+      "example": {
+        "hanzi": "我今天很累。",
+        "pinyin": "Wǒ jīntiān hěn lèi.",
+        "meaning_ms": "Saya penat hari ini."
+      },
+      "tone_note_ms": "累 lèi bernada 4; makna dan nada lain wujud dalam bacaan léi/lěi.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "累",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w264",
+      "hanzi": "对",
+      "pinyin": "duì",
+      "meaning_ms": "betul; terhadap; kepada",
+      "example": {
+        "hanzi": "你的答案对。",
+        "pinyin": "Nǐ de dá’àn duì.",
+        "meaning_ms": "Jawapan awak betul."
+      },
+      "tone_note_ms": "对 duì bernada 4; dalam ayat ini bermaksud betul.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "对",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

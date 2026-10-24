@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-50",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w217",
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "meaning_ms": "berehat",
+      "example": {
+        "hanzi": "我晚上在家休息。",
+        "pinyin": "Wǒ wǎnshang zài jiā xiūxi.",
+        "meaning_ms": "Saya berehat di rumah pada waktu malam."
+      },
+      "tone_note_ms": "休 xiū nada 1; 息 xi biasanya neutral dalam 休息.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "休息",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w218",
+      "hanzi": "睡觉",
+      "pinyin": "shuìjiào",
+      "meaning_ms": "tidur",
+      "example": {
+        "hanzi": "孩子晚上九点睡觉。",
+        "pinyin": "Háizi wǎnshang jiǔ diǎn shuìjiào.",
+        "meaning_ms": "Anak itu tidur pada pukul sembilan malam."
+      },
+      "tone_note_ms": "睡 shuì nada 4; 觉 jiào nada 4 dalam 睡觉.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "睡觉",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w219",
+      "hanzi": "起床",
+      "pinyin": "qǐchuáng",
+      "meaning_ms": "bangun tidur",
+      "example": {
+        "hanzi": "我早上六点起床。",
+        "pinyin": "Wǒ zǎoshang liù diǎn qǐchuáng.",
+        "meaning_ms": "Saya bangun tidur pada pukul enam pagi."
+      },
+      "tone_note_ms": "起 qǐ nada 3; 床 chuáng nada 2.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "起床",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w220",
+      "hanzi": "去",
+      "pinyin": "qù",
+      "meaning_ms": "pergi",
+      "example": {
+        "hanzi": "我去学校。",
+        "pinyin": "Wǒ qù xuéxiào.",
+        "meaning_ms": "Saya pergi ke sekolah."
+      },
+      "tone_note_ms": "去 qù bernada 4.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "去",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

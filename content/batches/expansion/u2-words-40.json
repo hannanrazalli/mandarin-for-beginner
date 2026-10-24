@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-40",
+  "unit": 2,
+  "title_ms": "Wang dan membeli-belah 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w177",
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "meaning_ms": "membeli",
+      "example": {
+        "hanzi": "我想买水果。",
+        "pinyin": "Wǒ xiǎng mǎi shuǐguǒ.",
+        "meaning_ms": "Saya mahu membeli buah-buahan."
+      },
+      "tone_note_ms": "买 mǎi bernada 3.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "买",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w178",
+      "hanzi": "卖",
+      "pinyin": "mài",
+      "meaning_ms": "menjual",
+      "example": {
+        "hanzi": "这家商店卖水果。",
+        "pinyin": "Zhè jiā shāngdiàn mài shuǐguǒ.",
+        "meaning_ms": "Kedai ini menjual buah-buahan."
+      },
+      "tone_note_ms": "卖 mài bernada 4; bezakan daripada 买 mǎi (membeli).",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "卖",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w179",
+      "hanzi": "付钱",
+      "pinyin": "fùqián",
+      "meaning_ms": "membayar",
+      "example": {
+        "hanzi": "我用手机付钱。",
+        "pinyin": "Wǒ yòng shǒujī fùqián.",
+        "meaning_ms": "Saya membayar menggunakan telefon."
+      },
+      "tone_note_ms": "付 fù nada 4; 钱 qián nada 2.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "付钱",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w180",
+      "hanzi": "现金",
+      "pinyin": "xiànjīn",
+      "meaning_ms": "wang tunai",
+      "example": {
+        "hanzi": "我没有现金。",
+        "pinyin": "Wǒ méiyǒu xiànjīn.",
+        "meaning_ms": "Saya tidak mempunyai wang tunai."
+      },
+      "tone_note_ms": "现 xiàn nada 4; 金 jīn nada 1.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "现金",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

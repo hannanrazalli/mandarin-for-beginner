@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-52",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w225",
+      "hanzi": "坐",
+      "pinyin": "zuò",
+      "meaning_ms": "duduk; menaiki kenderaan",
+      "example": {
+        "hanzi": "请坐。",
+        "pinyin": "Qǐng zuò.",
+        "meaning_ms": "Sila duduk."
+      },
+      "tone_note_ms": "坐 zuò bernada 4; dengan nama kenderaan, bermaksud menaiki.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "坐",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w226",
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "meaning_ms": "berdiri; stesen",
+      "example": {
+        "hanzi": "请站在这里。",
+        "pinyin": "Qǐng zhàn zài zhèlǐ.",
+        "meaning_ms": "Sila berdiri di sini."
+      },
+      "tone_note_ms": "站 zhàn nada 4; makna stesen turut wujud sebagai kata nama.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "站",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w227",
+      "hanzi": "开",
+      "pinyin": "kāi",
+      "meaning_ms": "membuka; menghidupkan",
+      "example": {
+        "hanzi": "请开门。",
+        "pinyin": "Qǐng kāi mén.",
+        "meaning_ms": "Tolong buka pintu."
+      },
+      "tone_note_ms": "开 kāi nada 1; makna berubah mengikut objek.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "开",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w228",
+      "hanzi": "关",
+      "pinyin": "guān",
+      "meaning_ms": "menutup; mematikan",
+      "example": {
+        "hanzi": "请关门。",
+        "pinyin": "Qǐng guān mén.",
+        "meaning_ms": "Tolong tutup pintu."
+      },
+      "tone_note_ms": "关 guān nada 1; untuk peranti, boleh bermaksud mematikan.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "关",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-28",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w129",
+      "hanzi": "自行车",
+      "pinyin": "zìxíngchē",
+      "meaning_ms": "basikal",
+      "example": {
+        "hanzi": "他骑自行车去学校。",
+        "pinyin": "Tā qí zìxíngchē qù xuéxiào.",
+        "meaning_ms": "Dia berbasikal ke sekolah."
+      },
+      "tone_note_ms": "自 zì nada 4; 行 dalam 自行 dibaca xíng, nada 2; 车 chē nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "自行车",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w130",
+      "hanzi": "摩托车",
+      "pinyin": "mótuōchē",
+      "meaning_ms": "motosikal",
+      "example": {
+        "hanzi": "我哥哥骑摩托车。",
+        "pinyin": "Wǒ gēge qí mótuōchē.",
+        "meaning_ms": "Abang saya menunggang motosikal."
+      },
+      "tone_note_ms": "摩 mó nada 2; 托 tuō nada 1; 车 chē nada 1. Jangan ratakan ketiga-tiga suku kata kepada nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "摩托车",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w131",
+      "hanzi": "船",
+      "pinyin": "chuán",
+      "meaning_ms": "bot; kapal",
+      "example": {
+        "hanzi": "船在水上。",
+        "pinyin": "Chuán zài shuǐ shàng.",
+        "meaning_ms": "Bot berada di atas air."
+      },
+      "tone_note_ms": "船 chuán bernada 2.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "船",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w132",
+      "hanzi": "票",
+      "pinyin": "piào",
+      "meaning_ms": "tiket",
+      "example": {
+        "hanzi": "我买了两张票。",
+        "pinyin": "Wǒ mǎi le liǎng zhāng piào.",
+        "meaning_ms": "Saya membeli dua tiket."
+      },
+      "tone_note_ms": "票 piào bernada 4.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "票",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

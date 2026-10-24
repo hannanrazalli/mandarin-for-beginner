@@ -63,7 +63,7 @@ describe("public auth boundary", () => {
     expect(screen.queryByRole("textbox")).toBeNull();
     expect(
       screen
-        .getByRole("link", { name: "Teroka pratonton awam" })
+        .getByRole("link", { name: "Teruskan latihan setempat" })
         .getAttribute("href"),
     ).toBe("/unit-0");
   });

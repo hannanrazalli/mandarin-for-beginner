@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-31",
+  "unit": 2,
+  "title_ms": "Masa dan cuaca 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w141",
+      "hanzi": "现在",
+      "pinyin": "xiànzài",
+      "meaning_ms": "sekarang",
+      "example": {
+        "hanzi": "我现在在学校。",
+        "pinyin": "Wǒ xiànzài zài xuéxiào.",
+        "meaning_ms": "Saya sekarang berada di sekolah."
+      },
+      "tone_note_ms": "现 xiàn nada 4; 在 zài nada 4.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "现在",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w142",
+      "hanzi": "早上",
+      "pinyin": "zǎoshang",
+      "meaning_ms": "pagi",
+      "example": {
+        "hanzi": "我早上喝茶。",
+        "pinyin": "Wǒ zǎoshang hē chá.",
+        "meaning_ms": "Saya minum teh pada waktu pagi."
+      },
+      "tone_note_ms": "早 zǎo nada 3; 上 shang lazimnya neutral dalam 早上.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "早上",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w143",
+      "hanzi": "上午",
+      "pinyin": "shàngwǔ",
+      "meaning_ms": "waktu pagi (sebelum tengah hari)",
+      "example": {
+        "hanzi": "上午我在学校。",
+        "pinyin": "Shàngwǔ wǒ zài xuéxiào.",
+        "meaning_ms": "Saya berada di sekolah pada waktu pagi."
+      },
+      "tone_note_ms": "上 shàng nada 4; 午 wǔ nada 3.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "上午",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w144",
+      "hanzi": "中午",
+      "pinyin": "zhōngwǔ",
+      "meaning_ms": "tengah hari",
+      "example": {
+        "hanzi": "我们中午吃饭。",
+        "pinyin": "Wǒmen zhōngwǔ chīfàn.",
+        "meaning_ms": "Kami makan pada tengah hari."
+      },
+      "tone_note_ms": "中 zhōng nada 1; 午 wǔ nada 3.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "中午",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

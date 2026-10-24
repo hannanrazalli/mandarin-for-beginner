@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-16",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w081",
+      "hanzi": "大蒜",
+      "pinyin": "dàsuàn",
+      "meaning_ms": "bawang putih",
+      "example": {
+        "hanzi": "我做菜时放大蒜。",
+        "pinyin": "Wǒ zuòcài shí fàng dàsuàn.",
+        "meaning_ms": "Saya memasukkan bawang putih ketika memasak."
+      },
+      "tone_note_ms": "大 dà nada 4; 蒜 suàn nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "大蒜",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w082",
+      "hanzi": "辣椒",
+      "pinyin": "làjiāo",
+      "meaning_ms": "cili",
+      "example": {
+        "hanzi": "这个菜有辣椒。",
+        "pinyin": "Zhège cài yǒu làjiāo.",
+        "meaning_ms": "Hidangan ini ada cili."
+      },
+      "tone_note_ms": "辣 là nada 4; 椒 jiāo nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "辣椒",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w083",
+      "hanzi": "椰子",
+      "pinyin": "yēzi",
+      "meaning_ms": "kelapa",
+      "example": {
+        "hanzi": "马来西亚有椰子。",
+        "pinyin": "Mǎláixīyà yǒu yēzi.",
+        "meaning_ms": "Ada kelapa di Malaysia."
+      },
+      "tone_note_ms": "椰 yē nada 1; 子 zi biasanya neutral.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "椰子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w084",
+      "hanzi": "饼干",
+      "pinyin": "bǐnggān",
+      "meaning_ms": "biskut",
+      "example": {
+        "hanzi": "孩子喜欢吃饼干。",
+        "pinyin": "Háizi xǐhuan chī bǐnggān.",
+        "meaning_ms": "Anak itu suka makan biskut."
+      },
+      "tone_note_ms": "饼 bǐng nada 3; 干 gān nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "饼干",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

@@ -1,5 +1,6 @@
-import { z } from "zod";
+import { registerAccountPurger } from "../auth/purge";
 import { lessons } from "../lib/curriculum";
+import { z } from "../lib/zod-config";
 import { malaysiaDay } from "../reviews/algorithms";
 
 export const sessionSchema = z.object({
@@ -180,6 +181,11 @@ export function recordsCsv(tables: Record<string, unknown[]>) {
   return `\ufeff${["table", ...fields].map(csvCell).join(",")}\r\n${rows.map((row) => [row.table, ...fields.map((field) => row.fields[field])].map(csvCell).join(",")).join("\r\n")}\r\n`;
 }
 
+const exportUrls = new Set<string>();
+registerAccountPurger(() => {
+  for (const url of exportUrls) URL.revokeObjectURL(url);
+  exportUrls.clear();
+});
 export function downloadExport(text: string, type: "json" | "csv") {
   const url = URL.createObjectURL(
     new Blob([text], {
@@ -189,9 +195,13 @@ export function downloadExport(text: string, type: "json" | "csv") {
           : "text/csv;charset=utf-8",
     }),
   );
+  exportUrls.add(url);
   const anchor = document.createElement("a");
   anchor.href = url;
   anchor.download = `belajarmandarin-${malaysiaDay(Date.now())}.${type}`;
   anchor.click();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  setTimeout(() => {
+    URL.revokeObjectURL(url);
+    exportUrls.delete(url);
+  }, 1000);
 }

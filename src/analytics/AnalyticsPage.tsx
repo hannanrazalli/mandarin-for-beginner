@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { registerAccountPurger } from "../auth/purge";
 import { useSettings } from "../lib/settings";
+import { lease } from "../offline/store";
 import { malaysiaDay } from "../reviews/algorithms";
 import Statistics from "../reviews/Statistics";
 import { useAnalytics } from "./data";
@@ -40,7 +41,11 @@ export default function AnalyticsPage() {
     data.progress.verifying || data.progress.scope === "verifying";
   const owner = data.progress.owner;
   const source = owner ? data.query.data : data.local;
-  const ready = !verifying && (!owner || data.query.isSuccess) && !!source;
+  const ready =
+    data.auth.status !== "ownerOffline" &&
+    !verifying &&
+    (!owner || data.query.isSuccess) &&
+    !!source;
   const days = dailyTotals(source?.sessions ?? []);
   const totals = days.reduce(
     (sum, day) => ({
@@ -84,6 +89,7 @@ export default function AnalyticsPage() {
     : [];
   async function exportData(type: "json" | "csv") {
     if (!ready || !source || exporting) return;
+    const offlineLease = owner ? lease() : null;
     const token = epoch.current;
     const scope = data.progress.scope;
     setExporting(true);
@@ -97,6 +103,7 @@ export default function AnalyticsPage() {
       }
       if (
         token !== epoch.current ||
+        (owner && offlineLease && !offlineLease.valid()) ||
         (owner &&
           (authRef.current.status !== "owner" ||
             authRef.current.owner?.id !== scope))
@@ -133,12 +140,24 @@ export default function AnalyticsPage() {
   }
   return (
     <>
-      <Statistics />
+      {data.auth.status === "ownerOffline" ? (
+        <h1 tabIndex={-1}>
+          {ms ? "Statistik akaun luar talian" : "Account statistics offline"}
+        </h1>
+      ) : (
+        <Statistics />
+      )}
       <section className="analytics-details" aria-labelledby="analytics-title">
         <h2 id="analytics-title">
           {ms ? "Corak pembelajaran" : "Learning patterns"}
         </h2>
-        {verifying || (owner && data.query.isPending) ? (
+        {data.auth.status === "ownerOffline" ? (
+          <p role="status">
+            {ms
+              ? "Analitik akaun tidak tersedia di luar talian."
+              : "Account analytics are unavailable offline."}
+          </p>
+        ) : verifying || (owner && data.query.isPending) ? (
           <p role="status">
             {ms ? "Mengesahkan data akaun…" : "Verifying account data…"}
           </p>

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-13",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w069",
+      "hanzi": "饭",
+      "pinyin": "fàn",
+      "meaning_ms": "nasi; makanan; hidangan",
+      "example": {
+        "hanzi": "我们吃饭吧。",
+        "pinyin": "Wǒmen chīfàn ba.",
+        "meaning_ms": "Mari kita makan."
+      },
+      "tone_note_ms": "饭 fàn nada 4. Dalam 吃饭, maksudnya makan atau menjamu selera, bukan semestinya makan nasi sahaja.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "饭",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w070",
+      "hanzi": "早餐",
+      "pinyin": "zǎocān",
+      "meaning_ms": "sarapan",
+      "example": {
+        "hanzi": "我七点吃早餐。",
+        "pinyin": "Wǒ qī diǎn chī zǎocān.",
+        "meaning_ms": "Saya bersarapan pada pukul tujuh."
+      },
+      "tone_note_ms": "早 zǎo nada 3; 餐 cān nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "早餐",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w071",
+      "hanzi": "午餐",
+      "pinyin": "wǔcān",
+      "meaning_ms": "makan tengah hari",
+      "example": {
+        "hanzi": "我们十二点吃午餐。",
+        "pinyin": "Wǒmen shí’èr diǎn chī wǔcān.",
+        "meaning_ms": "Kami makan tengah hari pada pukul dua belas."
+      },
+      "tone_note_ms": "午 wǔ nada 3; 餐 cān nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "午餐",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w072",
+      "hanzi": "晚餐",
+      "pinyin": "wǎncān",
+      "meaning_ms": "makan malam",
+      "example": {
+        "hanzi": "晚餐我们吃鱼。",
+        "pinyin": "Wǎncān wǒmen chī yú.",
+        "meaning_ms": "Kami makan ikan untuk makan malam."
+      },
+      "tone_note_ms": "晚 wǎn nada 3; 餐 cān nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "晚餐",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

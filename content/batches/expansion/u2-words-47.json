@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-47",
+  "unit": 2,
+  "title_ms": "Perayaan dan budaya 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w205",
+      "hanzi": "欢迎",
+      "pinyin": "huānyíng",
+      "meaning_ms": "mengalu-alukan; selamat datang",
+      "example": {
+        "hanzi": "欢迎来我家。",
+        "pinyin": "Huānyíng lái wǒ jiā.",
+        "meaning_ms": "Selamat datang ke rumah saya."
+      },
+      "tone_note_ms": "欢 huān nada 1; 迎 yíng nada 2.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "欢迎",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w206",
+      "hanzi": "祝贺",
+      "pinyin": "zhùhè",
+      "meaning_ms": "mengucapkan tahniah",
+      "example": {
+        "hanzi": "我祝贺你。",
+        "pinyin": "Wǒ zhùhè nǐ.",
+        "meaning_ms": "Saya mengucapkan tahniah kepada awak."
+      },
+      "tone_note_ms": "祝 zhù nada 4; 贺 hè nada 4.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "祝贺",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w207",
+      "hanzi": "恭喜",
+      "pinyin": "gōngxǐ",
+      "meaning_ms": "tahniah",
+      "example": {
+        "hanzi": "恭喜你！",
+        "pinyin": "Gōngxǐ nǐ!",
+        "meaning_ms": "Tahniah!"
+      },
+      "tone_note_ms": "恭 gōng nada 1; 喜 xǐ nada 3.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "恭喜",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w208",
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "meaning_ms": "makan",
+      "example": {
+        "hanzi": "我喜欢吃鱼。",
+        "pinyin": "Wǒ xǐhuan chī yú.",
+        "meaning_ms": "Saya suka makan ikan."
+      },
+      "tone_note_ms": "吃 chī bernada 1.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "吃",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

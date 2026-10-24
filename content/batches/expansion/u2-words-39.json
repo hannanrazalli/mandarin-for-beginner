@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-39",
+  "unit": 2,
+  "title_ms": "Wang dan membeli-belah 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w173",
+      "hanzi": "价格",
+      "pinyin": "jiàgé",
+      "meaning_ms": "harga",
+      "example": {
+        "hanzi": "这个苹果的价格是多少？",
+        "pinyin": "Zhège píngguǒ de jiàgé shì duōshao?",
+        "meaning_ms": "Berapakah harga epal ini?"
+      },
+      "tone_note_ms": "价 jià nada 4; 格 gé nada 2.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "价格",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w174",
+      "hanzi": "多少",
+      "pinyin": "duōshao",
+      "meaning_ms": "berapa banyak; berapa harga",
+      "example": {
+        "hanzi": "这杯咖啡多少钱？",
+        "pinyin": "Zhè bēi kāfēi duōshao qián?",
+        "meaning_ms": "Berapakah harga kopi ini?"
+      },
+      "tone_note_ms": "多 duō nada 1; 少 shao biasanya neutral dalam 多少.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "多少",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w175",
+      "hanzi": "贵",
+      "pinyin": "guì",
+      "meaning_ms": "mahal",
+      "example": {
+        "hanzi": "这家饭店很贵。",
+        "pinyin": "Zhè jiā fàndiàn hěn guì.",
+        "meaning_ms": "Restoran ini mahal."
+      },
+      "tone_note_ms": "贵 guì bernada 4.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "贵",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w176",
+      "hanzi": "便宜",
+      "pinyin": "piányi",
+      "meaning_ms": "murah",
+      "example": {
+        "hanzi": "这个苹果很便宜。",
+        "pinyin": "Zhège píngguǒ hěn piányi.",
+        "meaning_ms": "Epal ini murah."
+      },
+      "tone_note_ms": "便 pián nada 2; 宜 yi biasanya neutral dalam 便宜.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "便宜",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

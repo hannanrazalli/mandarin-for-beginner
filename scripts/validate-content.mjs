@@ -30,6 +30,7 @@ const approvedMap = new Map(
 );
 const lessons = new Map();
 let itemCount = 0;
+const activeWords = new Set();
 for (const file of readdirSync(join(root, "content/lessons"))) {
   if (!file.endsWith(".json")) continue;
   const lesson = read(`content/lessons/${file}`);
@@ -57,11 +58,22 @@ for (const file of readdirSync(join(root, "content/lessons"))) {
       `Audio needs a Chinese sample: ${item.id}`,
     );
     if (item.kind === "vocabulary") {
+      assert.ok(
+        !activeWords.has(item.id),
+        `Duplicate vocabulary ID: ${item.id}`,
+      );
+      activeWords.add(item.id);
       assert.equal(
         approvedMap.get(item.id)?.hanzi,
         item.hanzi,
         `Word is not approved: ${item.id}`,
       );
+      for (const field of ["topic", "hsk_level", "hsk_edition"])
+        assert.equal(
+          item[field],
+          approvedMap.get(item.id)?.[field],
+          `Approved metadata changed: ${item.id}/${field}`,
+        );
     }
   }
   itemCount += lesson.items.length;
@@ -97,6 +109,11 @@ assert.equal(
   "Unindexed lesson files must not be bundled",
 );
 assert.ok(firstWords.length >= 20);
+assert.equal(
+  activeWords.size,
+  approved.length,
+  "Publish the complete reviewed 300-word list",
+);
 assert.deepEqual(
   firstWords.slice(0, 20).map((word) => word.hanzi),
   approved.slice(0, 20).map((word) => word.hanzi),

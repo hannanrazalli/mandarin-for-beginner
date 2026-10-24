@@ -121,7 +121,9 @@ describe("review and test-out keyboard focus", () => {
     show(<TestOut />);
     const inputs = screen.getAllByLabelText(/Taip maksud Melayu/);
     expect(inputs).toHaveLength(20);
-    for (const [index, word] of vocabulary.entries())
+    for (const [index, word] of vocabulary
+      .filter((word) => word.lessonId.startsWith("u1-"))
+      .entries())
       fireEvent.change(inputs[index], { target: { value: word.meaning_ms } });
     const submit = screen.getByRole("button", { name: "Semak" });
     submit.focus();

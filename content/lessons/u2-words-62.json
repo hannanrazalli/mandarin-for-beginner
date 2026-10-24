@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-62",
+  "unit": 2,
+  "title_ms": "Penerangan dan soalan 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w265",
+      "hanzi": "错",
+      "pinyin": "cuò",
+      "meaning_ms": "salah",
+      "example": {
+        "hanzi": "这个答案错了。",
+        "pinyin": "Zhège dá’àn cuò le.",
+        "meaning_ms": "Jawapan ini salah."
+      },
+      "tone_note_ms": "错 cuò bernada 4.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "错",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w266",
+      "hanzi": "容易",
+      "pinyin": "róngyì",
+      "meaning_ms": "mudah",
+      "example": {
+        "hanzi": "这个问题很容易。",
+        "pinyin": "Zhège wèntí hěn róngyì.",
+        "meaning_ms": "Soalan ini mudah."
+      },
+      "tone_note_ms": "容 róng nada 2; 易 yì nada 4.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "容易",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w267",
+      "hanzi": "难",
+      "pinyin": "nán",
+      "meaning_ms": "susah",
+      "example": {
+        "hanzi": "这个汉字很难。",
+        "pinyin": "Zhège Hànzì hěn nán.",
+        "meaning_ms": "Aksara Cina ini susah."
+      },
+      "tone_note_ms": "难 nán bernada 2 dalam makna susah; ada bacaan lain dalam konteks khas.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "难",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w268",
+      "hanzi": "什么",
+      "pinyin": "shénme",
+      "meaning_ms": "apa",
+      "example": {
+        "hanzi": "你想吃什么？",
+        "pinyin": "Nǐ xiǎng chī shénme?",
+        "meaning_ms": "Awak mahu makan apa?"
+      },
+      "tone_note_ms": "什 shén nada 2; 么 me biasanya neutral.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "什么",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

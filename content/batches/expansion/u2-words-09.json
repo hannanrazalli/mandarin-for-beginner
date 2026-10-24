@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-09",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w053",
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "meaning_ms": "sayur; hidangan",
+      "example": {
+        "hanzi": "我想吃菜。",
+        "pinyin": "Wǒ xiǎng chī cài.",
+        "meaning_ms": "Saya mahu makan sayur."
+      },
+      "tone_note_ms": "菜 cài bernada 4; 菜 juga boleh merujuk hidangan.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "菜",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w054",
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "meaning_ms": "buah-buahan",
+      "example": {
+        "hanzi": "我每天吃水果。",
+        "pinyin": "Wǒ měitiān chī shuǐguǒ.",
+        "meaning_ms": "Saya makan buah-buahan setiap hari."
+      },
+      "tone_note_ms": "Nada kamus shuǐguǒ ialah 3 + 3. Dalam sebutan bersambung, shuǐ lazimnya naik seperti shuí sebelum guǒ; pinyin kamus dikekalkan.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "水果",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w055",
+      "hanzi": "苹果",
+      "pinyin": "píngguǒ",
+      "meaning_ms": "epal",
+      "example": {
+        "hanzi": "这个苹果很大。",
+        "pinyin": "Zhège píngguǒ hěn dà.",
+        "meaning_ms": "Epal ini besar."
+      },
+      "tone_note_ms": "苹 píng nada 2; 果 guǒ nada 3.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "苹果",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w056",
+      "hanzi": "香蕉",
+      "pinyin": "xiāngjiāo",
+      "meaning_ms": "pisang",
+      "example": {
+        "hanzi": "马来西亚有香蕉。",
+        "pinyin": "Mǎláixīyà yǒu xiāngjiāo.",
+        "meaning_ms": "Ada pisang di Malaysia."
+      },
+      "tone_note_ms": "香 xiāng nada 1; 蕉 jiāo nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "香蕉",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

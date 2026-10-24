@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-37",
+  "unit": 2,
+  "title_ms": "Masa dan cuaca 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w165",
+      "hanzi": "太阳",
+      "pinyin": "tàiyáng",
+      "meaning_ms": "matahari",
+      "example": {
+        "hanzi": "太阳出来了。",
+        "pinyin": "Tàiyáng chūlái le.",
+        "meaning_ms": "Matahari telah keluar."
+      },
+      "tone_note_ms": "太 tài nada 4; 阳 yáng nada 2.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "太阳",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w166",
+      "hanzi": "热天",
+      "pinyin": "rètiān",
+      "meaning_ms": "hari panas",
+      "example": {
+        "hanzi": "热天要多喝水。",
+        "pinyin": "Rètiān yào duō hē shuǐ.",
+        "meaning_ms": "Pada hari panas, perlu minum lebih banyak air."
+      },
+      "tone_note_ms": "热 rè nada 4; 天 tiān nada 1. 热天 ialah hari atau musim yang panas; untuk menerangkan cuaca sekarang, 天气很热 juga lazim.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "热天",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w167",
+      "hanzi": "凉快",
+      "pinyin": "liángkuai",
+      "meaning_ms": "sejuk nyaman",
+      "example": {
+        "hanzi": "晚上天气很凉快。",
+        "pinyin": "Wǎnshang tiānqì hěn liángkuai.",
+        "meaning_ms": "Cuaca pada waktu malam nyaman dan sejuk."
+      },
+      "tone_note_ms": "凉 liáng nada 2; 快 kuai lazimnya neutral dalam 凉快.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "凉快",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w168",
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "meaning_ms": "wang",
+      "example": {
+        "hanzi": "这本书多少钱？",
+        "pinyin": "Zhè běn shū duōshao qián?",
+        "meaning_ms": "Berapakah harga buku ini?"
+      },
+      "tone_note_ms": "钱 qián bernada 2.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "钱",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

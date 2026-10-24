@@ -21,7 +21,7 @@ export default function Goal() {
   const [status, setStatus] = useState("");
   const goal = data.progress.owner ? (data.query.data?.goal ?? 5) : local;
   async function save(value: number) {
-    if (data.progress.verifying || pending) return;
+    if (data.progress.verifying || data.progress.offline || pending) return;
     setPending(true);
     setStatus("");
     try {
@@ -51,6 +51,14 @@ export default function Goal() {
       setPending(false);
     }
   }
+  if (data.progress.offline)
+    return (
+      <p role="status">
+        {settings.language === "ms"
+          ? "Tetapan akaun memerlukan sambungan dalam talian."
+          : "Account settings require an online connection."}
+      </p>
+    );
   return (
     <fieldset className="setting-card">
       <legend>{t.goal}</legend>
@@ -63,7 +71,9 @@ export default function Goal() {
               name="daily-goal"
               checked={goal === value}
               onChange={() => void save(value)}
-              disabled={pending || data.progress.verifying}
+              disabled={
+                pending || data.progress.verifying || data.progress.offline
+              }
             />
             {value} {t.minutes}
           </label>

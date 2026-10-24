@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-36",
+  "unit": 2,
+  "title_ms": "Masa dan cuaca 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w161",
+      "hanzi": "雨",
+      "pinyin": "yǔ",
+      "meaning_ms": "hujan",
+      "example": {
+        "hanzi": "今天的雨很大。",
+        "pinyin": "Jīntiān de yǔ hěn dà.",
+        "meaning_ms": "Hujan hari ini lebat."
+      },
+      "tone_note_ms": "雨 yǔ bernada 3.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "雨",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w162",
+      "hanzi": "晴天",
+      "pinyin": "qíngtiān",
+      "meaning_ms": "cuaca cerah",
+      "example": {
+        "hanzi": "明天是晴天。",
+        "pinyin": "Míngtiān shì qíngtiān.",
+        "meaning_ms": "Esok cuaca cerah."
+      },
+      "tone_note_ms": "晴 qíng nada 2; 天 tiān nada 1.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "晴天",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w163",
+      "hanzi": "阴天",
+      "pinyin": "yīntiān",
+      "meaning_ms": "cuaca mendung",
+      "example": {
+        "hanzi": "今天是阴天。",
+        "pinyin": "Jīntiān shì yīntiān.",
+        "meaning_ms": "Hari ini cuaca mendung."
+      },
+      "tone_note_ms": "阴 yīn nada 1; 天 tiān nada 1.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "阴天",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w164",
+      "hanzi": "风",
+      "pinyin": "fēng",
+      "meaning_ms": "angin",
+      "example": {
+        "hanzi": "今天风很大。",
+        "pinyin": "Jīntiān fēng hěn dà.",
+        "meaning_ms": "Angin kuat hari ini."
+      },
+      "tone_note_ms": "风 fēng bernada 1.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "风",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

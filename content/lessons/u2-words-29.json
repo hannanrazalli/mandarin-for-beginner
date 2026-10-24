@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-29",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w133",
+      "hanzi": "地图",
+      "pinyin": "dìtú",
+      "meaning_ms": "peta",
+      "example": {
+        "hanzi": "请看地图。",
+        "pinyin": "Qǐng kàn dìtú.",
+        "meaning_ms": "Tolong lihat peta."
+      },
+      "tone_note_ms": "地 dì nada 4; 图 tú nada 2.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "地图",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w134",
+      "hanzi": "地址",
+      "pinyin": "dìzhǐ",
+      "meaning_ms": "alamat",
+      "example": {
+        "hanzi": "请告诉我你的地址。",
+        "pinyin": "Qǐng gàosu wǒ nǐ de dìzhǐ.",
+        "meaning_ms": "Tolong beritahu saya alamat awak."
+      },
+      "tone_note_ms": "地 dì nada 4; 址 zhǐ nada 3.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "地址",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w135",
+      "hanzi": "这里",
+      "pinyin": "zhèlǐ",
+      "meaning_ms": "di sini",
+      "example": {
+        "hanzi": "请坐在这里。",
+        "pinyin": "Qǐng zuò zài zhèlǐ.",
+        "meaning_ms": "Sila duduk di sini."
+      },
+      "tone_note_ms": "这 zhè nada 4; 里 lǐ nada 3. Bentuk lǐ lazim dalam Mandarin standard.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "这里",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w136",
+      "hanzi": "那里",
+      "pinyin": "nàlǐ",
+      "meaning_ms": "di sana",
+      "example": {
+        "hanzi": "学校在那里。",
+        "pinyin": "Xuéxiào zài nàlǐ.",
+        "meaning_ms": "Sekolah berada di sana."
+      },
+      "tone_note_ms": "那 nà nada 4; 里 lǐ nada 3.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "那里",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

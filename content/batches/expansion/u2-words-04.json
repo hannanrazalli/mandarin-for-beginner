@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-04",
+  "unit": 2,
+  "title_ms": "Keluarga dan orang terdekat 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w033",
+      "hanzi": "妻子",
+      "pinyin": "qīzi",
+      "meaning_ms": "isteri",
+      "example": {
+        "hanzi": "他的妻子喜欢茶。",
+        "pinyin": "Tā de qīzi xǐhuan chá.",
+        "meaning_ms": "Isterinya suka teh."
+      },
+      "tone_note_ms": "妻 qī nada 1; 子 zi lazimnya neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "妻子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w034",
+      "hanzi": "爷爷",
+      "pinyin": "yéye",
+      "meaning_ms": "datuk sebelah bapa",
+      "example": {
+        "hanzi": "爷爷在家。",
+        "pinyin": "Yéye zài jiā.",
+        "meaning_ms": "Datuk sebelah bapa ada di rumah."
+      },
+      "tone_note_ms": "爷 yé nada 2; suku kata kedua biasanya neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "爷爷",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w035",
+      "hanzi": "奶奶",
+      "pinyin": "nǎinai",
+      "meaning_ms": "nenek sebelah bapa",
+      "example": {
+        "hanzi": "奶奶喜欢水果。",
+        "pinyin": "Nǎinai xǐhuan shuǐguǒ.",
+        "meaning_ms": "Nenek sebelah bapa suka buah-buahan."
+      },
+      "tone_note_ms": "奶 nǎi nada 3; suku kata kedua biasanya neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "奶奶",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w036",
+      "hanzi": "外公",
+      "pinyin": "wàigōng",
+      "meaning_ms": "datuk sebelah ibu",
+      "example": {
+        "hanzi": "外公在马来西亚。",
+        "pinyin": "Wàigōng zài Mǎláixīyà.",
+        "meaning_ms": "Datuk sebelah ibu berada di Malaysia."
+      },
+      "tone_note_ms": "外 wài nada 4; 公 gōng nada 1.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "外公",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

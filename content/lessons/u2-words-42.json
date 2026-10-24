@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-42",
+  "unit": 2,
+  "title_ms": "Wang dan membeli-belah 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w185",
+      "hanzi": "零钱",
+      "pinyin": "língqián",
+      "meaning_ms": "wang kecil; wang baki",
+      "example": {
+        "hanzi": "我有一些零钱。",
+        "pinyin": "Wǒ yǒu yīxiē língqián.",
+        "meaning_ms": "Saya ada sedikit wang kecil."
+      },
+      "tone_note_ms": "零 líng nada 2; 钱 qián nada 2. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "零钱",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w186",
+      "hanzi": "购物",
+      "pinyin": "gòuwù",
+      "meaning_ms": "membeli-belah",
+      "example": {
+        "hanzi": "周末我去购物。",
+        "pinyin": "Zhōumò wǒ qù gòuwù.",
+        "meaning_ms": "Saya pergi membeli-belah pada hujung minggu."
+      },
+      "tone_note_ms": "购 gòu nada 4; 物 wù nada 4.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "购物",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w187",
+      "hanzi": "打折",
+      "pinyin": "dǎzhé",
+      "meaning_ms": "diskaun; menawarkan potongan harga",
+      "example": {
+        "hanzi": "这家商店今天打折。",
+        "pinyin": "Zhè jiā shāngdiàn jīntiān dǎzhé.",
+        "meaning_ms": "Kedai ini menawarkan diskaun hari ini."
+      },
+      "tone_note_ms": "打 dǎ nada 3; 折 zhé nada 2 dalam makna diskaun.",
+      "topic": "wang-belian",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "打折",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w188",
+      "hanzi": "春节",
+      "pinyin": "Chūnjié",
+      "meaning_ms": "Tahun Baharu Cina (Perayaan Musim Bunga)",
+      "example": {
+        "hanzi": "春节我们去看家人。",
+        "pinyin": "Chūnjié wǒmen qù kàn jiārén.",
+        "meaning_ms": "Semasa Tahun Baharu Cina, kami pergi menziarahi keluarga."
+      },
+      "tone_note_ms": "春 chūn nada 1; 节 jié nada 2. Nama perayaan ini merujuk tradisi Cina.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "春节",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

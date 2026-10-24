@@ -40,9 +40,9 @@ kamus dengan nada ringan, contohnya wǒmen dan xièxie.
 `approved-words.json` mempunyai tepat 300 entri unik. W001–w020 mengikut turutan Unit 1.
 W021–w300 ialah pilihan pengajaran Mandarin lazim untuk kehidupan di Malaysia; semua
 `hsk_level` dan `hsk_edition` mereka ialah `null` kerana tahap peperiksaan tidak
-disahkan. `null` tidak bermaksud perkataan itu tiada dalam HSK. Senarai ini hanya
-meluluskan pemilihan perkataan untuk penulisan kelompok kemudian, bukan contoh atau
-sebutan 280 perkataan yang sudah disemak. Nama 马来西亚 dan 吉隆坡 ialah nama Mandarin
+disahkan. `null` tidak bermaksud perkataan itu tiada dalam HSK. Dalam Fasa 6, teks
+280 perkataan tambahan telah disemak guru dan dimasukkan sebagai 70 pelajaran Unit 2;
+56 entri dibetulkan sebelum penerbitan. Lihat `EXPANSION_REVIEW.md`. Nama 马来西亚 dan 吉隆坡 ialah nama Mandarin
 lazim; istilah setempat yang tidak pasti tidak dimasukkan. Senarai merangkumi keluarga,
 makanan, tempat, wang, perayaan, kegiatan, sifat, barang dan kesihatan.
 
@@ -61,3 +61,7 @@ semasa penulisan, bukan pengesahan penutur asli atau audio. Nota ditulis secara 
 konteks sandhi panjang, variasi neutralisasi 个 dan suara TTS memerlukan semakan pendengaran.
 Tiada pertuturan pengguna dinilai. Semua fail pelajaran mengikut versi skema dan
 versi kandungan 1; urutan kanonik berada dalam `index.json`.
+
+Kandungan aktif akhir: 3 unit, 95 pelajaran, 70 item sebutan dan 300 perkataan.
+Fon setempat meliputi semua aksara kurikulum; data urutan strok berlesen tersedia untuk
+kesemua 353 aksara unik dalam kepala perkataan. Aset ini tidak mengesahkan audio TTS.

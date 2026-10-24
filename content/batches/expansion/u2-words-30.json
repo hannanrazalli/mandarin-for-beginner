@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-30",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w137",
+      "hanzi": "哪里",
+      "pinyin": "nǎlǐ",
+      "meaning_ms": "di mana",
+      "example": {
+        "hanzi": "厕所在哪里？",
+        "pinyin": "Cèsuǒ zài nǎlǐ?",
+        "meaning_ms": "Di manakah tandas?"
+      },
+      "tone_note_ms": "Nada kamus nǎlǐ ialah 3 + 3. Apabila kedua-duanya bernada penuh, nǎ lazimnya naik seperti ná sebelum lǐ; bukan sekadar direndahkan.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "哪里",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w138",
+      "hanzi": "今天",
+      "pinyin": "jīntiān",
+      "meaning_ms": "hari ini",
+      "example": {
+        "hanzi": "今天我去学校。",
+        "pinyin": "Jīntiān wǒ qù xuéxiào.",
+        "meaning_ms": "Hari ini saya pergi ke sekolah."
+      },
+      "tone_note_ms": "今 jīn nada 1; 天 tiān nada 1.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "今天",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w139",
+      "hanzi": "明天",
+      "pinyin": "míngtiān",
+      "meaning_ms": "esok",
+      "example": {
+        "hanzi": "明天我们去公园。",
+        "pinyin": "Míngtiān wǒmen qù gōngyuán.",
+        "meaning_ms": "Esok kami pergi ke taman."
+      },
+      "tone_note_ms": "明 míng nada 2; 天 tiān nada 1.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "明天",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w140",
+      "hanzi": "昨天",
+      "pinyin": "zuótiān",
+      "meaning_ms": "semalam",
+      "example": {
+        "hanzi": "昨天我在家。",
+        "pinyin": "Zuótiān wǒ zài jiā.",
+        "meaning_ms": "Semalam saya berada di rumah."
+      },
+      "tone_note_ms": "昨 zuó nada 2; 天 tiān nada 1.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "昨天",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "./zod-config";
 
 const text = z.string().min(1).max(2000);
 const id = z

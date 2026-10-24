@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-20",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w097",
+      "hanzi": "超市",
+      "pinyin": "chāoshì",
+      "meaning_ms": "pasar raya",
+      "example": {
+        "hanzi": "超市在学校旁边。",
+        "pinyin": "Chāoshì zài xuéxiào pángbiān.",
+        "meaning_ms": "Pasar raya berada di sebelah sekolah."
+      },
+      "tone_note_ms": "超 chāo nada 1; 市 shì nada 4.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "超市",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w098",
+      "hanzi": "饭店",
+      "pinyin": "fàndiàn",
+      "meaning_ms": "restoran; hotel",
+      "example": {
+        "hanzi": "我们在饭店吃饭。",
+        "pinyin": "Wǒmen zài fàndiàn chīfàn.",
+        "meaning_ms": "Kami makan di restoran."
+      },
+      "tone_note_ms": "饭 fàn nada 4; 店 diàn nada 4. 饭店 boleh bermaksud restoran atau hotel mengikut konteks.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "饭店",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w099",
+      "hanzi": "餐厅",
+      "pinyin": "cāntīng",
+      "meaning_ms": "restoran",
+      "example": {
+        "hanzi": "餐厅在那边。",
+        "pinyin": "Cāntīng zài nàbiān.",
+        "meaning_ms": "Restoran berada di sebelah sana."
+      },
+      "tone_note_ms": "餐 cān nada 1; 厅 tīng nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "餐厅",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w100",
+      "hanzi": "银行",
+      "pinyin": "yínháng",
+      "meaning_ms": "bank",
+      "example": {
+        "hanzi": "银行在商店旁边。",
+        "pinyin": "Yínháng zài shāngdiàn pángbiān.",
+        "meaning_ms": "Bank berada di sebelah kedai."
+      },
+      "tone_note_ms": "银 yín nada 2; 行 dalam 银行 dibaca háng, nada 2.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "银行",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

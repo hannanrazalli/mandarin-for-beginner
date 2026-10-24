@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-55",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w237",
+      "hanzi": "会",
+      "pinyin": "huì",
+      "meaning_ms": "boleh; tahu cara; akan",
+      "example": {
+        "hanzi": "我会说中文。",
+        "pinyin": "Wǒ huì shuō Zhōngwén.",
+        "meaning_ms": "Saya boleh bercakap bahasa Cina."
+      },
+      "tone_note_ms": "会 huì bernada 4; lazimnya kebolehan yang dipelajari atau kemungkinan.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "会",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w238",
+      "hanzi": "能",
+      "pinyin": "néng",
+      "meaning_ms": "boleh; mampu",
+      "example": {
+        "hanzi": "我今天能去。",
+        "pinyin": "Wǒ jīntiān néng qù.",
+        "meaning_ms": "Saya boleh pergi hari ini."
+      },
+      "tone_note_ms": "能 néng bernada 2; sering menyatakan kemampuan atau keadaan memungkinkan.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "能",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w239",
+      "hanzi": "可以",
+      "pinyin": "kěyǐ",
+      "meaning_ms": "boleh; diizinkan",
+      "example": {
+        "hanzi": "我可以坐在这里吗？",
+        "pinyin": "Wǒ kěyǐ zuò zài zhèlǐ ma?",
+        "meaning_ms": "Bolehkah saya duduk di sini?"
+      },
+      "tone_note_ms": "Nada kamus kěyǐ ialah 3 + 3. Dalam sebutan bersambung, kě lazimnya naik seperti ké sebelum yǐ; bukan sekadar direndahkan.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "可以",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w240",
+      "hanzi": "要",
+      "pinyin": "yào",
+      "meaning_ms": "mahu; perlu",
+      "example": {
+        "hanzi": "我要一杯茶。",
+        "pinyin": "Wǒ yào yī bēi chá.",
+        "meaning_ms": "Saya mahu secawan teh."
+      },
+      "tone_note_ms": "要 yào bernada 4; boleh menyatakan kehendak atau keperluan. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "要",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

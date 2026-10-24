@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-05",
+  "unit": 2,
+  "title_ms": "Keluarga dan orang terdekat 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w037",
+      "hanzi": "外婆",
+      "pinyin": "wàipó",
+      "meaning_ms": "nenek sebelah ibu",
+      "example": {
+        "hanzi": "外婆喜欢茶。",
+        "pinyin": "Wàipó xǐhuan chá.",
+        "meaning_ms": "Nenek sebelah ibu suka teh."
+      },
+      "tone_note_ms": "外 wài nada 4; 婆 pó nada 2.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "外婆",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w038",
+      "hanzi": "叔叔",
+      "pinyin": "shūshu",
+      "meaning_ms": "adik lelaki bapa; pak cik (sapaan)",
+      "example": {
+        "hanzi": "叔叔在家。",
+        "pinyin": "Shūshu zài jiā.",
+        "meaning_ms": "Pak cik ada di rumah."
+      },
+      "tone_note_ms": "叔 shū nada 1; suku kata kedua ringan. Sebagai hubungan keluarga, 叔叔 khususnya adik lelaki bapa; juga sapaan kepada lelaki dewasa.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "叔叔",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w039",
+      "hanzi": "阿姨",
+      "pinyin": "āyí",
+      "meaning_ms": "mak cik; saudara perempuan ibu",
+      "example": {
+        "hanzi": "阿姨是老师。",
+        "pinyin": "Āyí shì lǎoshī.",
+        "meaning_ms": "Mak cik seorang guru."
+      },
+      "tone_note_ms": "阿 ā nada 1; 姨 yí nada 2. 阿姨 juga sapaan kepada wanita dewasa, bukan semestinya saudara sendiri.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "阿姨",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w040",
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "meaning_ms": "kawan",
+      "example": {
+        "hanzi": "我的朋友是学生。",
+        "pinyin": "Wǒ de péngyou shì xuésheng.",
+        "meaning_ms": "Kawan saya seorang pelajar."
+      },
+      "tone_note_ms": "朋 péng nada 2; 友 you lazimnya neutral dalam 朋友.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "朋友",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

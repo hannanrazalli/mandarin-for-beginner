@@ -1,9 +1,19 @@
 import { QueryClient, useQuery } from "@tanstack/react-query";
-import { useRef } from "react";
-import { z } from "zod";
+import { useRef, useSyncExternalStore } from "react";
 import { useAuth } from "../auth/AuthProvider";
 import { registerAccountPurger } from "../auth/purge";
+import { getLesson } from "../lib/curriculum";
 import type { PublicAuthClient } from "../lib/supabase";
+import { z } from "../lib/zod-config";
+import { queueMutation } from "../offline/dispatch";
+import {
+  lease,
+  offlineTick,
+  provisionalCompleted,
+  readSnapshot,
+  subscribeOffline,
+  writeSnapshot,
+} from "../offline/store";
 import {
   type LearningEvent,
   practiceCompleted,
@@ -49,22 +59,26 @@ export const completionSchema = z.object({
 });
 export function useLearningProgress() {
   const auth = useAuth();
+  useSyncExternalStore(subscribeOffline, offlineTick);
+  const offline = auth.status === "ownerOffline";
   const events = usePractice((state) => state.events);
   const tests = useLocalTestOut((state) => state.events);
   const lastOwner = useRef<string | null>(null);
-  if (auth.status === "owner" && auth.owner) lastOwner.current = auth.owner.id;
+  if ((auth.status === "owner" || offline) && auth.owner)
+    lastOwner.current = auth.owner.id;
   else if (auth.status !== "initializing") lastOwner.current = null;
   const verifying = auth.status === "initializing";
-  const owner = auth.status === "owner" ? auth.owner : null;
+  const owner = auth.status === "owner" || offline ? auth.owner : null;
   const scope =
     owner?.id ?? (verifying ? (lastOwner.current ?? "verifying") : "practice");
   const scopeOwner =
     scope !== "practice" && scope !== "verifying" ? scope : null;
   const query = useQuery({
     queryKey: ["owner", scopeOwner, "learning"],
-    enabled: !!owner && !!auth.client,
+    enabled: !offline && !!owner && !!auth.client,
     queryFn: async ({ signal }) => {
       if (!auth.client || !owner) throw new Error("Owner required");
+      const token = lease();
       const results = await Promise.all([
         auth.client
           .from("user_progress")
@@ -83,6 +97,23 @@ export function useLearningProgress() {
       const progress = progressSchema.parse(results[0].data);
       const sessions = sessionsSchema.parse(results[1].data);
       const ids = lessonIdsSchema.parse(results[2].data);
+      const completed = progress
+        .filter((row) => row.status === "completed")
+        .map((row) => ids.find((lesson) => lesson.id === row.lesson_id)?.slug)
+        .filter((slug): slug is string => !!slug);
+      if (token && !token.valid()) throw new Error("Expired owner lease");
+      if (token)
+        writeSnapshot(
+          {
+            completed: completed.flatMap((slug) => {
+              const lesson = getLesson(slug);
+              return lesson
+                ? [{ lessonSlug: slug, contentVersion: lesson.content_version }]
+                : [];
+            }),
+          },
+          token,
+        );
       return {
         completed: progress
           .filter((row) => row.status === "completed")
@@ -96,9 +127,17 @@ export function useLearningProgress() {
   return {
     scope,
     verifying,
+    offline,
     owner: !!scopeOwner,
     completed: scopeOwner
-      ? (query.data?.completed ?? [])
+      ? [
+          ...new Set([
+            ...(offline
+              ? (readSnapshot()?.completed.map((row) => row.lessonSlug) ?? [])
+              : (query.data?.completed ?? [])),
+            ...provisionalCompleted(),
+          ]),
+        ]
       : [
           ...new Set([
             ...practiceCompleted(events),
@@ -109,21 +148,26 @@ export function useLearningProgress() {
   };
 }
 export async function submitLesson(
-  client: PublicAuthClient,
+  client: PublicAuthClient | null,
   ownerId: string,
   event: LearningEvent,
+  force = false,
 ) {
   if (event.scope !== ownerId || event.scope === "practice")
     throw new Error("Completion scope mismatch");
-  const response = await client.rpc("complete_lesson", {
-    p_event_id: event.id,
-    p_lesson_slug: event.lessonId,
-    p_content_version: event.contentVersion,
-    p_answers: event.answers,
-    p_duration_seconds: event.durationSeconds,
-  });
-  if (response.error) throw new Error("Completion unavailable");
-  const result = completionSchema.parse(response.data);
+  const response = await queueMutation(
+    "completion",
+    {
+      p_event_id: event.id,
+      p_lesson_slug: event.lessonId,
+      p_content_version: event.contentVersion,
+      p_answers: event.answers,
+      p_duration_seconds: event.durationSeconds,
+    },
+    client,
+    force,
+  );
+  const result = completionSchema.parse(response);
   if (
     result.event_id !== event.id ||
     result.lesson_slug !== event.lessonId ||

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-24",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w113",
+      "hanzi": "桌子",
+      "pinyin": "zhuōzi",
+      "meaning_ms": "meja",
+      "example": {
+        "hanzi": "书在桌子上。",
+        "pinyin": "Shū zài zhuōzi shàng.",
+        "meaning_ms": "Buku berada di atas meja."
+      },
+      "tone_note_ms": "桌 zhuō nada 1; 子 zi biasanya neutral.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "桌子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w114",
+      "hanzi": "椅子",
+      "pinyin": "yǐzi",
+      "meaning_ms": "kerusi",
+      "example": {
+        "hanzi": "请坐在椅子上。",
+        "pinyin": "Qǐng zuò zài yǐzi shàng.",
+        "meaning_ms": "Sila duduk di atas kerusi."
+      },
+      "tone_note_ms": "椅 yǐ nada 3; 子 zi biasanya neutral.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "椅子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w115",
+      "hanzi": "床",
+      "pinyin": "chuáng",
+      "meaning_ms": "katil",
+      "example": {
+        "hanzi": "孩子在床上睡觉。",
+        "pinyin": "Háizi zài chuáng shàng shuìjiào.",
+        "meaning_ms": "Anak itu tidur di atas katil."
+      },
+      "tone_note_ms": "床 chuáng bernada 2.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "床",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w116",
+      "hanzi": "路",
+      "pinyin": "lù",
+      "meaning_ms": "jalan",
+      "example": {
+        "hanzi": "这条路很长。",
+        "pinyin": "Zhè tiáo lù hěn cháng.",
+        "meaning_ms": "Jalan ini panjang."
+      },
+      "tone_note_ms": "路 lù bernada 4.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "路",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

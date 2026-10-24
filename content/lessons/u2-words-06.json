@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-06",
+  "unit": 2,
+  "title_ms": "Keluarga dan orang terdekat 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w041",
+      "hanzi": "同学",
+      "pinyin": "tóngxué",
+      "meaning_ms": "rakan sekelas",
+      "example": {
+        "hanzi": "我的同学在学校。",
+        "pinyin": "Wǒ de tóngxué zài xuéxiào.",
+        "meaning_ms": "Rakan sekelas saya berada di sekolah."
+      },
+      "tone_note_ms": "同 tóng nada 2; 学 xué nada 2.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "同学",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w042",
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "meaning_ms": "guru",
+      "example": {
+        "hanzi": "老师在学校。",
+        "pinyin": "Lǎoshī zài xuéxiào.",
+        "meaning_ms": "Guru berada di sekolah."
+      },
+      "tone_note_ms": "老 lǎo nada 3; 师 shī nada 1.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "老师",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w043",
+      "hanzi": "学生",
+      "pinyin": "xuésheng",
+      "meaning_ms": "pelajar",
+      "example": {
+        "hanzi": "学生在学校学习。",
+        "pinyin": "Xuésheng zài xuéxiào xuéxí.",
+        "meaning_ms": "Pelajar belajar di sekolah."
+      },
+      "tone_note_ms": "学 xué nada 2; suku kata 生 dalam perkataan 学生 lazimnya ringan: xuésheng.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "学生",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w044",
+      "hanzi": "人",
+      "pinyin": "rén",
+      "meaning_ms": "orang",
+      "example": {
+        "hanzi": "这里有很多人。",
+        "pinyin": "Zhèlǐ yǒu hěn duō rén.",
+        "meaning_ms": "Di sini ada ramai orang."
+      },
+      "tone_note_ms": "人 rén bernada 2.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "人",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

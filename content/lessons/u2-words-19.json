@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-19",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w093",
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "meaning_ms": "rumah; keluarga",
+      "example": {
+        "hanzi": "我今天在家。",
+        "pinyin": "Wǒ jīntiān zài jiā.",
+        "meaning_ms": "Saya berada di rumah hari ini."
+      },
+      "tone_note_ms": "家 jiā bernada 1; maknanya bergantung pada konteks.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "家",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w094",
+      "hanzi": "学校",
+      "pinyin": "xuéxiào",
+      "meaning_ms": "sekolah",
+      "example": {
+        "hanzi": "我每天去学校。",
+        "pinyin": "Wǒ měitiān qù xuéxiào.",
+        "meaning_ms": "Saya pergi ke sekolah setiap hari."
+      },
+      "tone_note_ms": "学 xué nada 2; 校 xiào nada 4.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "学校",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w095",
+      "hanzi": "医院",
+      "pinyin": "yīyuàn",
+      "meaning_ms": "hospital",
+      "example": {
+        "hanzi": "医院在这里。",
+        "pinyin": "Yīyuàn zài zhèlǐ.",
+        "meaning_ms": "Hospital berada di sini."
+      },
+      "tone_note_ms": "医 yī nada 1; 院 yuàn nada 4.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "医院",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w096",
+      "hanzi": "商店",
+      "pinyin": "shāngdiàn",
+      "meaning_ms": "kedai",
+      "example": {
+        "hanzi": "我去商店买水。",
+        "pinyin": "Wǒ qù shāngdiàn mǎi shuǐ.",
+        "meaning_ms": "Saya pergi ke kedai untuk membeli air."
+      },
+      "tone_note_ms": "商 shāng nada 1; 店 diàn nada 4.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "商店",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

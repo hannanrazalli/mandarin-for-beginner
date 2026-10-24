@@ -1,57 +1,77 @@
 # BelajarMandarin — Taman Bunyi
 
-Belajar Mandarin terus melalui Bahasa Melayu, bermula daripada asas bunyi dan nada.
-English UI toggle turut tersedia. Fasa 1 menyediakan rangka responsif dan pratonton
-Unit 0; login, pelajaran lengkap, XP dan kemajuan bersinkron belum tersedia.
+Aplikasi peribadi untuk belajar Mandarin terus melalui Bahasa Melayu, bermula dari kosong.
+PWA responsif untuk PC dan telefon, dengan pilihan UI English, tema cerah/gelap dan Pipit.
 
-## Mula di komputer sendiri
+## Guna aplikasi
 
-1. Lengkapkan [senarai akaun dan pemasangan](docs/SETUP.md). Fail dalam chat cloud ini
-   tidak memasang apa-apa pada komputer awak.
-2. Selepas repositori ini tersedia di GitHub, buka terminal (Command Prompt di Windows),
-   pergi ke folder yang sesuai, kemudian jalankan arahan ini satu demi satu:
+Alamat laman dan status penerbitan direkodkan dalam [panduan deployment](docs/DEPLOYMENT.md).
+Untuk menggunakan laman yang diterbitkan, awak hanya perlu pelayar; Node.js/Git/pnpm tidak
+perlu dipasang. Log masuk dengan **akaun belajar** yang sama pada telefon dan PC untuk sync.
+Akaun belajar berbeza daripada akaun ChatGPT/GitHub/Vercel.
+
+Baca [panduan ringkas pengguna](docs/USER_GUIDE.md) untuk login, ikon aplikasi, audio dan
+bantuan simpanan. Jangan hantar password, token atau secret key dalam chat.
+
+## Kandungan dan ciri
+
+- Unit 0 dahulu: awalan, akhiran, empat nada + neutral, pasangan nada, 不 dan 一.
+- 95 pelajaran pendek: 70 item sebutan dan 300 perkataan; 20 perkataan awal mengikut
+  HSK 2.0 lama. Perkataan tambahan tidak dilabel tahap HSK yang belum disahkan.
+- Kad imbas, pilihan jawapan, audio peranti, pinyin/nada, padanan, susun ayat dan urutan strok.
+- Ulang kaji SM-2, sasaran 3/5/10 minit, XP, streak/perlindungan, tahap dan lencana sebenar.
+- Statistik dan eksport data akaun sendiri dalam JSON/CSV. Latihan setempat dipisahkan.
+- PWA menyimpan aset sendiri; aturan simpanan offline/sync dan had sesi diterangkan dalam
+  [kontrak offline](docs/OFFLINE_SYNC.md). Rekod akaun tidak disimpan dalam cache service worker.
+
+Suara Mandarin bergantung pada peranti dan mungkin memerlukan internet. Audio belum disahkan
+melalui semakan pendengaran penutur natif; aplikasi tidak menilai sebutan pengguna.
+
+## Ubah kod di komputer sendiri — pilihan
+
+1. Ikut [senarai persediaan](docs/SETUP.md). Gunakan Node **24 LTS**, sekurang-kurangnya 24.15,
+   Git dan pnpm **11.25.0**. Buka Command Prompt (Windows) atau Terminal (Mac/Linux).
+2. Jalankan satu arahan pada satu masa:
 
 ```sh
 git clone https://github.com/hannanrazalli/mandarin-for-beginner.git
 cd mandarin-for-beginner
-pnpm install
-pnpm dev
+pnpm install --frozen-lockfile
 ```
 
-3. Buka alamat `localhost` yang terminal tunjukkan dalam pelayar. Untuk berhenti, tekan
-   **Ctrl+C** di terminal. Jika akses repo ditolak, log masuk GitHub di komputer sendiri;
-   jangan salin kata laluan/token ke chat.
-4. Guna Node **24 LTS**, sekurang-kurangnya 24.15. pnpm projek dipin dalam package.json;
-   jika versi komputer berbeza, ikut mesej pnpm atau hantar ralat tanpa maklumat rahsia.
-5. Tiada fail `.env` diperlukan untuk pratonton Fasa 1. Apabila Supabase ditambah nanti,
-   salin `.env.example` kepada `.env.local` dan masukkan URL serta publishable key di sana.
-   Jangan letak kata laluan atau service-role key dalam aplikasi/browser.
+3. Salin `.env.example` dan namakan salinan itu `.env.local`, dalam folder projek yang sama.
+   Di Supabase projek sendiri, salin **Project URL** dan **publishable key** ke
+   `VITE_SUPABASE_URL` / `VITE_SUPABASE_PUBLISHABLE_KEY` di fail itu. Jangan guna secret key,
+   service-role key atau password database. Jangan commit `.env.local`.
+4. Jalankan `pnpm dev`, kemudian buka alamat localhost yang terminal tunjukkan.
+   Tekan **Ctrl+C** untuk berhenti. Tanpa kedua-dua nilai env, latihan setempat tersedia;
+   login/sync memerlukan projek Supabase yang telah disediakan.
+5. Setup projek baru, migration, akaun pemilik dan penutupan signup diterangkan dalam
+   [supabase/README.md](supabase/README.md). Projek peribadi yang disambungkan sudah disediakan;
+   jangan jalankan fixture ujian pada database sebenar.
 
-## Semak binaan
+## Semak perubahan
 
 ```sh
 pnpm typecheck
 pnpm lint
 pnpm test
+node scripts/validate-content.mjs
 pnpm build
 pnpm exec playwright install chromium
 pnpm test:e2e
 pnpm secrets:check
 ```
 
-`pnpm preview` membuka hasil production build selepas `pnpm build`; sokongan PWA diuji
-di situ, bukan melalui dev server sahaja. Di cloud ini, Playwright boleh menggunakan
-`CHROMIUM_PATH=/usr/bin/chromium`; komputer biasa/CI menggunakan Chromium Playwright.
-`pnpm install` memasang Git hook untuk mengimbas fail staged sebelum commit jika tiada
-hook lain. Imbasan secret juga diwajibkan dalam CI. Jangan bypass semakan untuk menerbitkan.
+`pnpm preview` membuka production build dan service worker selepas build. Cloud ini boleh
+menggunakan `CHROMIUM_PATH=/usr/bin/chromium`; komputer biasa menggunakan Chromium Playwright.
+Ujian SQL terasing: `bash supabase/tests/run.sh` memerlukan Docker. Pengguna aplikasi tidak
+memerlukan Docker. Fixture mencipta database sementara dan tidak menggunakan akaun sebenar.
 
-## Apa yang tersedia
+Git hook mengimbas fail yang hendak dicommit; CI menguji types, lint, kandungan, ujian,
+RLS, audit dependency dan binaan. Status CI hosted perlu disahkan berasingan daripada ujian
+cloud tempatan. Versi dipin dalam lockfile dan actions dipin kepada commit.
 
-- Reka bentuk jade/krim dengan Pipit, navigasi telefon/desktop, tema cerah/gelap/sistem.
-- Bahasa Melayu/English, pratonton Unit 0, halaman kosong ulang kaji/statistik yang jujur.
-- Asas pemasangan PWA dan cache shell statik; ini bukan sync kemajuan offline.
-- Audio pelajaran belum tersedia; pratonton ini tidak menilai sebutan.
-
-Lihat [spesifikasi reka bentuk](design/SYSTEM.md), [cadangan data](docs/SCHEMA_PROPOSAL.md),
-[versi/sumber dependency](docs/DEPENDENCIES.md) dan [langkah deployment](docs/DEPLOYMENT.md).
-Status ujian sebenar dan batas fasa direkodkan dalam [checkpoint](docs/PHASE_1.md).
+Lihat [rekod fasa](docs/PHASE_6.md), [keputusan keselamatan](docs/adr),
+[sumber dependency](docs/DEPENDENCIES.md), [had/tindakan susulan](NEXT_STEPS.md) dan
+[cadangan penambahbaikan](docs/IMPROVEMENTS.md).

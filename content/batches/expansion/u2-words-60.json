@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-60",
+  "unit": 2,
+  "title_ms": "Penerangan dan soalan 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w257",
+      "hanzi": "慢",
+      "pinyin": "màn",
+      "meaning_ms": "perlahan",
+      "example": {
+        "hanzi": "请说慢一点。",
+        "pinyin": "Qǐng shuō màn yīdiǎn.",
+        "meaning_ms": "Tolong bercakap sedikit perlahan."
+      },
+      "tone_note_ms": "慢 màn bernada 4. Pinyin contoh mengekalkan yī kamus; sebelum nada 3 dalam contoh ini, 一 lazimnya berbunyi yì.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "慢",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w258",
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "meaning_ms": "baharu",
+      "example": {
+        "hanzi": "这是我的新手机。",
+        "pinyin": "Zhè shì wǒ de xīn shǒujī.",
+        "meaning_ms": "Ini telefon baharu saya."
+      },
+      "tone_note_ms": "新 xīn bernada 1.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "新",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w259",
+      "hanzi": "旧",
+      "pinyin": "jiù",
+      "meaning_ms": "lama; terpakai",
+      "example": {
+        "hanzi": "这本书很旧。",
+        "pinyin": "Zhè běn shū hěn jiù.",
+        "meaning_ms": "Buku ini lama."
+      },
+      "tone_note_ms": "旧 jiù bernada 4; merujuk sesuatu yang lama atau sudah digunakan.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "旧",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w260",
+      "hanzi": "干净",
+      "pinyin": "gānjìng",
+      "meaning_ms": "bersih",
+      "example": {
+        "hanzi": "厨房很干净。",
+        "pinyin": "Chúfáng hěn gānjìng.",
+        "meaning_ms": "Dapur bersih."
+      },
+      "tone_note_ms": "干 gān nada 1; 净 jìng nada 4.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "干净",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

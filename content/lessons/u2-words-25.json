@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-25",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w117",
+      "hanzi": "街道",
+      "pinyin": "jiēdào",
+      "meaning_ms": "jalan; jalan raya",
+      "example": {
+        "hanzi": "这条街道很长。",
+        "pinyin": "Zhè tiáo jiēdào hěn cháng.",
+        "meaning_ms": "Jalan ini panjang."
+      },
+      "tone_note_ms": "街 jiē nada 1; 道 dào nada 4.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "街道",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w118",
+      "hanzi": "城市",
+      "pinyin": "chéngshì",
+      "meaning_ms": "bandar",
+      "example": {
+        "hanzi": "吉隆坡是一个大城市。",
+        "pinyin": "Jílóngpō shì yī gè dà chéngshì.",
+        "meaning_ms": "Kuala Lumpur sebuah bandar besar."
+      },
+      "tone_note_ms": "城 chéng nada 2; 市 shì nada 4. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "城市",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w119",
+      "hanzi": "国家",
+      "pinyin": "guójiā",
+      "meaning_ms": "negara",
+      "example": {
+        "hanzi": "马来西亚是一个国家。",
+        "pinyin": "Mǎláixīyà shì yī gè guójiā.",
+        "meaning_ms": "Malaysia ialah sebuah negara."
+      },
+      "tone_note_ms": "国 guó nada 2; 家 jiā nada 1. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "国家",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w120",
+      "hanzi": "中国",
+      "pinyin": "Zhōngguó",
+      "meaning_ms": "China",
+      "example": {
+        "hanzi": "他住在中国。",
+        "pinyin": "Tā zhù zài Zhōngguó.",
+        "meaning_ms": "Dia tinggal di China."
+      },
+      "tone_note_ms": "中 zhōng nada 1; 国 guó nada 2.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "中国",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

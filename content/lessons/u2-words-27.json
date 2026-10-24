@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-27",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w125",
+      "hanzi": "火车",
+      "pinyin": "huǒchē",
+      "meaning_ms": "kereta api",
+      "example": {
+        "hanzi": "我们坐火车去吉隆坡。",
+        "pinyin": "Wǒmen zuò huǒchē qù Jílóngpō.",
+        "meaning_ms": "Kami menaiki kereta api ke Kuala Lumpur."
+      },
+      "tone_note_ms": "火 huǒ nada 3; 车 chē nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "火车",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w126",
+      "hanzi": "飞机",
+      "pinyin": "fēijī",
+      "meaning_ms": "kapal terbang",
+      "example": {
+        "hanzi": "飞机在机场。",
+        "pinyin": "Fēijī zài jīchǎng.",
+        "meaning_ms": "Kapal terbang berada di lapangan terbang."
+      },
+      "tone_note_ms": "飞 fēi nada 1; 机 jī nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "飞机",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w127",
+      "hanzi": "出租车",
+      "pinyin": "chūzūchē",
+      "meaning_ms": "teksi",
+      "example": {
+        "hanzi": "我坐出租车去医院。",
+        "pinyin": "Wǒ zuò chūzūchē qù yīyuàn.",
+        "meaning_ms": "Saya menaiki teksi ke hospital."
+      },
+      "tone_note_ms": "出 chū nada 1; 租 zū nada 1; 车 chē nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "出租车",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w128",
+      "hanzi": "汽车",
+      "pinyin": "qìchē",
+      "meaning_ms": "kereta",
+      "example": {
+        "hanzi": "我爸爸有一辆汽车。",
+        "pinyin": "Wǒ bàba yǒu yī liàng qìchē.",
+        "meaning_ms": "Ayah saya mempunyai sebuah kereta."
+      },
+      "tone_note_ms": "汽 qì nada 4; 车 chē nada 1. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "汽车",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

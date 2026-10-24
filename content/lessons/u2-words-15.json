@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-15",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w077",
+      "hanzi": "豆腐",
+      "pinyin": "dòufu",
+      "meaning_ms": "tauhu",
+      "example": {
+        "hanzi": "我喜欢吃豆腐。",
+        "pinyin": "Wǒ xǐhuan chī dòufu.",
+        "meaning_ms": "Saya suka makan tauhu."
+      },
+      "tone_note_ms": "豆 dòu nada 4; 腐 fu biasanya neutral.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "豆腐",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w078",
+      "hanzi": "黄瓜",
+      "pinyin": "huángguā",
+      "meaning_ms": "timun",
+      "example": {
+        "hanzi": "我买了黄瓜。",
+        "pinyin": "Wǒ mǎi le huángguā.",
+        "meaning_ms": "Saya membeli timun."
+      },
+      "tone_note_ms": "黄 huáng nada 2; 瓜 guā nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "黄瓜",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w079",
+      "hanzi": "胡萝卜",
+      "pinyin": "húluóbo",
+      "meaning_ms": "lobak merah",
+      "example": {
+        "hanzi": "我喜欢吃胡萝卜。",
+        "pinyin": "Wǒ xǐhuan chī húluóbo.",
+        "meaning_ms": "Saya suka makan lobak merah."
+      },
+      "tone_note_ms": "胡 hú nada 2; 萝 luó nada 2; 卜 bo biasanya neutral.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "胡萝卜",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w080",
+      "hanzi": "洋葱",
+      "pinyin": "yángcōng",
+      "meaning_ms": "bawang besar",
+      "example": {
+        "hanzi": "菜里有洋葱。",
+        "pinyin": "Cài lǐ yǒu yángcōng.",
+        "meaning_ms": "Ada bawang besar dalam hidangan itu."
+      },
+      "tone_note_ms": "洋 yáng nada 2; 葱 cōng nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "洋葱",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

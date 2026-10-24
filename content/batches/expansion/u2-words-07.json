@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-07",
+  "unit": 2,
+  "title_ms": "Keluarga dan orang terdekat 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w045",
+      "hanzi": "男人",
+      "pinyin": "nánrén",
+      "meaning_ms": "lelaki",
+      "example": {
+        "hanzi": "那个男人是老师。",
+        "pinyin": "Nàge nánrén shì lǎoshī.",
+        "meaning_ms": "Lelaki itu seorang guru."
+      },
+      "tone_note_ms": "男 nán nada 2; 人 rén nada 2.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "男人",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w046",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "meaning_ms": "nasi",
+      "example": {
+        "hanzi": "我喜欢吃米饭。",
+        "pinyin": "Wǒ xǐhuan chī mǐfàn.",
+        "meaning_ms": "Saya suka makan nasi."
+      },
+      "tone_note_ms": "米 mǐ nada 3; 饭 fàn nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "米饭",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w047",
+      "hanzi": "面条",
+      "pinyin": "miàntiáo",
+      "meaning_ms": "mi",
+      "example": {
+        "hanzi": "我午餐吃面条。",
+        "pinyin": "Wǒ wǔcān chī miàntiáo.",
+        "meaning_ms": "Saya makan mi untuk makan tengah hari."
+      },
+      "tone_note_ms": "面 miàn nada 4; 条 tiáo nada 2.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "面条",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w048",
+      "hanzi": "面包",
+      "pinyin": "miànbāo",
+      "meaning_ms": "roti",
+      "example": {
+        "hanzi": "早餐我吃面包。",
+        "pinyin": "Zǎocān wǒ chī miànbāo.",
+        "meaning_ms": "Saya makan roti untuk sarapan."
+      },
+      "tone_note_ms": "面 miàn nada 4; 包 bāo nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "面包",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

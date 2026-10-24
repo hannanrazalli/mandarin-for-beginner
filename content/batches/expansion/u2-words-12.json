@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-12",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w065",
+      "hanzi": "糖",
+      "pinyin": "táng",
+      "meaning_ms": "gula",
+      "example": {
+        "hanzi": "请不要加糖。",
+        "pinyin": "Qǐng bù yào jiā táng.",
+        "meaning_ms": "Tolong jangan tambah gula."
+      },
+      "tone_note_ms": "糖 táng bernada 2. Pinyin contoh mengekalkan bù kamus; 不 sebelum yào nada 4 lazimnya berbunyi bú.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "糖",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w066",
+      "hanzi": "盐",
+      "pinyin": "yán",
+      "meaning_ms": "garam",
+      "example": {
+        "hanzi": "汤里有盐。",
+        "pinyin": "Tāng lǐ yǒu yán.",
+        "meaning_ms": "Ada garam dalam sup."
+      },
+      "tone_note_ms": "盐 yán bernada 2.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "盐",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w067",
+      "hanzi": "油",
+      "pinyin": "yóu",
+      "meaning_ms": "minyak",
+      "example": {
+        "hanzi": "这个菜有很多油。",
+        "pinyin": "Zhège cài yǒu hěn duō yóu.",
+        "meaning_ms": "Hidangan ini banyak minyak."
+      },
+      "tone_note_ms": "油 yóu bernada 2.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "油",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w068",
+      "hanzi": "汤",
+      "pinyin": "tāng",
+      "meaning_ms": "sup",
+      "example": {
+        "hanzi": "妈妈做了汤。",
+        "pinyin": "Māma zuò le tāng.",
+        "meaning_ms": "Ibu memasak sup."
+      },
+      "tone_note_ms": "汤 tāng bernada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "汤",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

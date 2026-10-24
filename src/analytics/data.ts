@@ -1,11 +1,11 @@
 import { useQuery } from "@tanstack/react-query";
-import { z } from "zod";
 import { useAuth } from "../auth/AuthProvider";
 import { useLearningProgress } from "../learning/cloud";
 import { scoreLesson, usePractice } from "../learning/store";
 import { testOutAccuracy, useLocalTestOut } from "../learning/testout";
 import { getLesson } from "../lib/curriculum";
 import type { PublicAuthClient } from "../lib/supabase";
+import { z } from "../lib/zod-config";
 import { useLocalReviews } from "../reviews/local";
 import {
   type Insights,

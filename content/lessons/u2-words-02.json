@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-02",
+  "unit": 2,
+  "title_ms": "Keluarga dan orang terdekat 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w025",
+      "hanzi": "弟弟",
+      "pinyin": "dìdi",
+      "meaning_ms": "adik lelaki",
+      "example": {
+        "hanzi": "弟弟在家。",
+        "pinyin": "Dìdi zài jiā.",
+        "meaning_ms": "Adik lelaki ada di rumah."
+      },
+      "tone_note_ms": "弟 dì bernada 4; suku kata kedua biasanya neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "弟弟",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w026",
+      "hanzi": "妹妹",
+      "pinyin": "mèimei",
+      "meaning_ms": "adik perempuan",
+      "example": {
+        "hanzi": "妹妹喜欢苹果。",
+        "pinyin": "Mèimei xǐhuan píngguǒ.",
+        "meaning_ms": "Adik perempuan suka epal."
+      },
+      "tone_note_ms": "妹 mèi bernada 4; suku kata kedua biasanya neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "妹妹",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w027",
+      "hanzi": "儿子",
+      "pinyin": "érzi",
+      "meaning_ms": "anak lelaki",
+      "example": {
+        "hanzi": "他有一个儿子。",
+        "pinyin": "Tā yǒu yī gè érzi.",
+        "meaning_ms": "Dia mempunyai seorang anak lelaki."
+      },
+      "tone_note_ms": "儿 ér bernada 2; 子 zi dalam 儿子 biasanya neutral. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "儿子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w028",
+      "hanzi": "女儿",
+      "pinyin": "nǚ’ér",
+      "meaning_ms": "anak perempuan",
+      "example": {
+        "hanzi": "她的女儿在家。",
+        "pinyin": "Tā de nǚ’ér zài jiā.",
+        "meaning_ms": "Anak perempuannya ada di rumah."
+      },
+      "tone_note_ms": "女 nǚ nada 3; 儿 ér nada 2. Sebutan bersambung nǚ’ér.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "女儿",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

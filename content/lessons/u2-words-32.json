@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-32",
+  "unit": 2,
+  "title_ms": "Masa dan cuaca 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w145",
+      "hanzi": "下午",
+      "pinyin": "xiàwǔ",
+      "meaning_ms": "waktu petang",
+      "example": {
+        "hanzi": "我下午去商店。",
+        "pinyin": "Wǒ xiàwǔ qù shāngdiàn.",
+        "meaning_ms": "Saya pergi ke kedai pada waktu petang."
+      },
+      "tone_note_ms": "下 xià nada 4; 午 wǔ nada 3.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "下午",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w146",
+      "hanzi": "晚上",
+      "pinyin": "wǎnshang",
+      "meaning_ms": "malam",
+      "example": {
+        "hanzi": "晚上我在家休息。",
+        "pinyin": "Wǎnshang wǒ zài jiā xiūxi.",
+        "meaning_ms": "Pada waktu malam saya berehat di rumah."
+      },
+      "tone_note_ms": "晚 wǎn nada 3; 上 shang lazimnya neutral dalam 晚上.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "晚上",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w147",
+      "hanzi": "时候",
+      "pinyin": "shíhou",
+      "meaning_ms": "masa; ketika",
+      "example": {
+        "hanzi": "你什么时候去学校？",
+        "pinyin": "Nǐ shénme shíhou qù xuéxiào?",
+        "meaning_ms": "Bilakah awak pergi ke sekolah?"
+      },
+      "tone_note_ms": "时 shí nada 2; 候 hou biasanya neutral dalam 时候.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "时候",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w148",
+      "hanzi": "时间",
+      "pinyin": "shíjiān",
+      "meaning_ms": "masa",
+      "example": {
+        "hanzi": "你现在有时间吗？",
+        "pinyin": "Nǐ xiànzài yǒu shíjiān ma?",
+        "meaning_ms": "Adakah awak ada masa sekarang?"
+      },
+      "tone_note_ms": "时 shí nada 2; 间 jiān nada 1.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "时间",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

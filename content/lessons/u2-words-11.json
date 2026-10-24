@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-11",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w061",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "meaning_ms": "air",
+      "example": {
+        "hanzi": "请给我一杯水。",
+        "pinyin": "Qǐng gěi wǒ yī bēi shuǐ.",
+        "meaning_ms": "Tolong beri saya segelas air."
+      },
+      "tone_note_ms": "水 shuǐ bernada 3. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "水",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w062",
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "meaning_ms": "teh",
+      "example": {
+        "hanzi": "我想喝茶。",
+        "pinyin": "Wǒ xiǎng hē chá.",
+        "meaning_ms": "Saya mahu minum teh."
+      },
+      "tone_note_ms": "茶 chá bernada 2.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "茶",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w063",
+      "hanzi": "咖啡",
+      "pinyin": "kāfēi",
+      "meaning_ms": "kopi",
+      "example": {
+        "hanzi": "爸爸早上喝咖啡。",
+        "pinyin": "Bàba zǎoshang hē kāfēi.",
+        "meaning_ms": "Ayah minum kopi pada waktu pagi."
+      },
+      "tone_note_ms": "咖 kā dan 啡 fēi kedua-duanya nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "咖啡",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w064",
+      "hanzi": "果汁",
+      "pinyin": "guǒzhī",
+      "meaning_ms": "jus buah",
+      "example": {
+        "hanzi": "我想喝果汁。",
+        "pinyin": "Wǒ xiǎng hē guǒzhī.",
+        "meaning_ms": "Saya mahu minum jus buah."
+      },
+      "tone_note_ms": "果 guǒ nada 3; 汁 zhī nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "果汁",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

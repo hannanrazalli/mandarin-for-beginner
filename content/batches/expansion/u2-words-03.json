@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-03",
+  "unit": 2,
+  "title_ms": "Keluarga dan orang terdekat 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w029",
+      "hanzi": "孩子",
+      "pinyin": "háizi",
+      "meaning_ms": "anak",
+      "example": {
+        "hanzi": "孩子在学校。",
+        "pinyin": "Háizi zài xuéxiào.",
+        "meaning_ms": "Anak itu berada di sekolah."
+      },
+      "tone_note_ms": "孩 hái nada 2; 子 zi biasanya neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "孩子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w030",
+      "hanzi": "父母",
+      "pinyin": "fùmǔ",
+      "meaning_ms": "ibu bapa",
+      "example": {
+        "hanzi": "我的父母在马来西亚。",
+        "pinyin": "Wǒ de fùmǔ zài Mǎláixīyà.",
+        "meaning_ms": "Ibu bapa saya berada di Malaysia."
+      },
+      "tone_note_ms": "父 fù nada 4 dan 母 mǔ nada 3; kekalkan kedua-dua nada.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "父母",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w031",
+      "hanzi": "家庭",
+      "pinyin": "jiātíng",
+      "meaning_ms": "keluarga",
+      "example": {
+        "hanzi": "我的家庭很小。",
+        "pinyin": "Wǒ de jiātíng hěn xiǎo.",
+        "meaning_ms": "Keluarga saya kecil."
+      },
+      "tone_note_ms": "家 jiā nada 1; 庭 tíng nada 2.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "家庭",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w032",
+      "hanzi": "丈夫",
+      "pinyin": "zhàngfu",
+      "meaning_ms": "suami",
+      "example": {
+        "hanzi": "她的丈夫是老师。",
+        "pinyin": "Tā de zhàngfu shì lǎoshī.",
+        "meaning_ms": "Suaminya seorang guru."
+      },
+      "tone_note_ms": "丈 zhàng nada 4; 夫 fu dalam 丈夫 lazimnya neutral.",
+      "topic": "keluarga",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "丈夫",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

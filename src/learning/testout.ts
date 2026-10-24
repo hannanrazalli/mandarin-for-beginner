@@ -1,6 +1,6 @@
-import { z } from "zod";
 import { create } from "zustand";
 import { canonicalAnswer, lessons } from "../lib/curriculum";
+import { z } from "../lib/zod-config";
 import { normalizeReviewAnswer } from "../reviews/algorithms";
 
 const schema = z.object({

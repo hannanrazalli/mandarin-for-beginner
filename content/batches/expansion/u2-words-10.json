@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-10",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w057",
+      "hanzi": "橙子",
+      "pinyin": "chéngzi",
+      "meaning_ms": "buah oren",
+      "example": {
+        "hanzi": "我买了橙子。",
+        "pinyin": "Wǒ mǎi le chéngzi.",
+        "meaning_ms": "Saya membeli buah oren."
+      },
+      "tone_note_ms": "橙 chéng nada 2; 子 zi biasanya neutral.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "橙子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w058",
+      "hanzi": "西瓜",
+      "pinyin": "xīguā",
+      "meaning_ms": "tembikai",
+      "example": {
+        "hanzi": "天气热，我想吃西瓜。",
+        "pinyin": "Tiānqì rè, wǒ xiǎng chī xīguā.",
+        "meaning_ms": "Cuaca panas, saya mahu makan tembikai."
+      },
+      "tone_note_ms": "西 xī nada 1; 瓜 guā nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "西瓜",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w059",
+      "hanzi": "葡萄",
+      "pinyin": "pútao",
+      "meaning_ms": "anggur",
+      "example": {
+        "hanzi": "我喜欢葡萄。",
+        "pinyin": "Wǒ xǐhuan pútao.",
+        "meaning_ms": "Saya suka anggur."
+      },
+      "tone_note_ms": "葡 pú nada 2; 萄 tao biasanya neutral.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "葡萄",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w060",
+      "hanzi": "牛奶",
+      "pinyin": "niúnǎi",
+      "meaning_ms": "susu lembu",
+      "example": {
+        "hanzi": "早餐我喝牛奶。",
+        "pinyin": "Zǎocān wǒ hē niúnǎi.",
+        "meaning_ms": "Saya minum susu untuk sarapan."
+      },
+      "tone_note_ms": "牛 niú nada 2; 奶 nǎi nada 3.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "牛奶",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

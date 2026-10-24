@@ -21,7 +21,7 @@ Choose free plans where available; no custom domain is required.
    Linux: follow the official page's instructions for your distribution.
    Close and reopen your terminal after installation, then run `node --version`,
    `npm --version` and `git --version`, one command at a time.
-5. Install [pnpm](https://pnpm.io/installation) by typing `npm install --global pnpm`.
+5. Install [pnpm](https://pnpm.io/installation) by typing `npm install --global pnpm@11.25.0`.
    Then run `pnpm --version`. If permission is denied, stop and send just the error;
    do not use sudo or change security settings. No other software is required in Phase 0.
 6. Reply with: your OS (Windows/Mac/Linux), GitHub username/repository URL if created,

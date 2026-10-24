@@ -6,7 +6,8 @@ import { copy } from "../lib/copy";
 import { useSettings } from "../lib/settings";
 import { useAuth } from "./AuthProvider";
 export default function Account() {
-  const t = copy(useSettings().language);
+  const language = useSettings().language;
+  const t = copy(language);
   const auth = useAuth();
   const authHeading = useRef<HTMLHeadingElement>(null);
   useEffect(() => {
@@ -63,7 +64,7 @@ export default function Account() {
           </>
         ) : auth.status === "initializing" ? (
           <p role="status">{t.authChecking}</p>
-        ) : auth.status === "owner" ? (
+        ) : auth.status === "owner" || auth.status === "ownerOffline" ? (
           <>
             <h2 ref={authHeading} tabIndex={-1} className="verified-heading">
               <ShieldCheck size={23} />
@@ -177,7 +178,11 @@ export default function Account() {
           <p className="auth-note">{t.logoutNote}</p>
         )}
         <Link to="/unit-0" className="text-link">
-          {t.previewAccess}
+          {auth.status === "owner" || auth.status === "ownerOffline"
+            ? language === "ms"
+              ? "Teruskan belajar"
+              : "Continue learning"
+            : t.previewAccess}
           <ArrowRight size={18} />
         </Link>
       </section>

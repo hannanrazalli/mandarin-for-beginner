@@ -1,6 +1,6 @@
-import { z } from "zod";
 import { create } from "zustand";
 import { canonicalAnswer, getLesson, type Lesson } from "../lib/curriculum";
+import { z } from "../lib/zod-config";
 export const PRACTICE_KEY = "bm-learning-practice";
 export const answerSchema = z.object({
   item_id: z.string().max(80),

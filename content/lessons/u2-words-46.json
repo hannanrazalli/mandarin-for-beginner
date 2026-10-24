@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-46",
+  "unit": 2,
+  "title_ms": "Perayaan dan budaya 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w201",
+      "hanzi": "红包",
+      "pinyin": "hóngbāo",
+      "meaning_ms": "sampul merah berisi wang",
+      "example": {
+        "hanzi": "春节我给孩子红包。",
+        "pinyin": "Chūnjié wǒ gěi háizi hóngbāo.",
+        "meaning_ms": "Saya memberikan sampul merah berisi wang kepada anak-anak semasa Tahun Baharu Cina."
+      },
+      "tone_note_ms": "红 hóng nada 2; 包 bāo nada 1.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "红包",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w202",
+      "hanzi": "礼物",
+      "pinyin": "lǐwù",
+      "meaning_ms": "hadiah",
+      "example": {
+        "hanzi": "我给妈妈买礼物。",
+        "pinyin": "Wǒ gěi māma mǎi lǐwù.",
+        "meaning_ms": "Saya membeli hadiah untuk ibu."
+      },
+      "tone_note_ms": "礼 lǐ nada 3; 物 wù nada 4.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "礼物",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w203",
+      "hanzi": "祝福",
+      "pinyin": "zhùfú",
+      "meaning_ms": "ucapan baik; mendoakan kesejahteraan",
+      "example": {
+        "hanzi": "谢谢你的祝福。",
+        "pinyin": "Xièxie nǐ de zhùfú.",
+        "meaning_ms": "Terima kasih atas ucapan baik awak."
+      },
+      "tone_note_ms": "祝 zhù nada 4; 福 fú nada 2.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "祝福",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w204",
+      "hanzi": "快乐",
+      "pinyin": "kuàilè",
+      "meaning_ms": "gembira; bahagia",
+      "example": {
+        "hanzi": "祝你生日快乐！",
+        "pinyin": "Zhù nǐ shēngrì kuàilè!",
+        "meaning_ms": "Selamat hari jadi!"
+      },
+      "tone_note_ms": "快 kuài nada 4; 乐 lè nada 4 dalam 快乐.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "快乐",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

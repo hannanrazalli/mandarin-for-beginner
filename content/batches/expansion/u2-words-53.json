@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-53",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w229",
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "meaning_ms": "membuat; melakukan",
+      "example": {
+        "hanzi": "妈妈做饭。",
+        "pinyin": "Māma zuòfàn.",
+        "meaning_ms": "Ibu memasak."
+      },
+      "tone_note_ms": "做 zuò bernada 4.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "做",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w230",
+      "hanzi": "用",
+      "pinyin": "yòng",
+      "meaning_ms": "menggunakan",
+      "example": {
+        "hanzi": "我用手机看地图。",
+        "pinyin": "Wǒ yòng shǒujī kàn dìtú.",
+        "meaning_ms": "Saya menggunakan telefon untuk melihat peta."
+      },
+      "tone_note_ms": "用 yòng bernada 4.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "用",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w231",
+      "hanzi": "给",
+      "pinyin": "gěi",
+      "meaning_ms": "memberi; kepada",
+      "example": {
+        "hanzi": "请给我水。",
+        "pinyin": "Qǐng gěi wǒ shuǐ.",
+        "meaning_ms": "Tolong beri saya air."
+      },
+      "tone_note_ms": "给 gěi nada 3; juga boleh menandakan penerima sebelum kata kerja.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "给",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w232",
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "meaning_ms": "mahu; berfikir",
+      "example": {
+        "hanzi": "我想喝茶。",
+        "pinyin": "Wǒ xiǎng hē chá.",
+        "meaning_ms": "Saya mahu minum teh."
+      },
+      "tone_note_ms": "想 xiǎng bernada 3.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "想",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

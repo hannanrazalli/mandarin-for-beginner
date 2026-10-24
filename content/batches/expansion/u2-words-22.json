@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-22",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w105",
+      "hanzi": "图书馆",
+      "pinyin": "túshūguǎn",
+      "meaning_ms": "perpustakaan",
+      "example": {
+        "hanzi": "图书馆在学校旁边。",
+        "pinyin": "Túshūguǎn zài xuéxiào pángbiān.",
+        "meaning_ms": "Perpustakaan berada di sebelah sekolah."
+      },
+      "tone_note_ms": "图 tú nada 2; 书 shū nada 1; 馆 guǎn nada 3.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "图书馆",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w106",
+      "hanzi": "厕所",
+      "pinyin": "cèsuǒ",
+      "meaning_ms": "tandas",
+      "example": {
+        "hanzi": "厕所在哪里？",
+        "pinyin": "Cèsuǒ zài nǎlǐ?",
+        "meaning_ms": "Di manakah tandas?"
+      },
+      "tone_note_ms": "厕 cè nada 4; 所 suǒ nada 3.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "厕所",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w107",
+      "hanzi": "房间",
+      "pinyin": "fángjiān",
+      "meaning_ms": "bilik",
+      "example": {
+        "hanzi": "我的房间很小。",
+        "pinyin": "Wǒ de fángjiān hěn xiǎo.",
+        "meaning_ms": "Bilik saya kecil."
+      },
+      "tone_note_ms": "房 fáng nada 2; 间 jiān nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "房间",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w108",
+      "hanzi": "厨房",
+      "pinyin": "chúfáng",
+      "meaning_ms": "dapur",
+      "example": {
+        "hanzi": "妈妈在厨房做饭。",
+        "pinyin": "Māma zài chúfáng zuòfàn.",
+        "meaning_ms": "Ibu memasak di dapur."
+      },
+      "tone_note_ms": "厨 chú nada 2; 房 fáng nada 2.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "厨房",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

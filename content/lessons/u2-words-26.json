@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-26",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w121",
+      "hanzi": "马来西亚",
+      "pinyin": "Mǎláixīyà",
+      "meaning_ms": "Malaysia",
+      "example": {
+        "hanzi": "我住在马来西亚。",
+        "pinyin": "Wǒ zhù zài Mǎláixīyà.",
+        "meaning_ms": "Saya tinggal di Malaysia."
+      },
+      "tone_note_ms": "马 mǎ nada 3; 来 lái nada 2; 西 xī nada 1; 亚 yà nada 4.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "马来西亚",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w122",
+      "hanzi": "吉隆坡",
+      "pinyin": "Jílóngpō",
+      "meaning_ms": "Kuala Lumpur",
+      "example": {
+        "hanzi": "我住在吉隆坡。",
+        "pinyin": "Wǒ zhù zài Jílóngpō.",
+        "meaning_ms": "Saya tinggal di Kuala Lumpur."
+      },
+      "tone_note_ms": "吉 jí nada 2; 隆 lóng nada 2; 坡 pō nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "吉隆坡",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w123",
+      "hanzi": "地铁",
+      "pinyin": "dìtiě",
+      "meaning_ms": "metro; kereta api bandar bawah tanah",
+      "example": {
+        "hanzi": "我们坐地铁去学校。",
+        "pinyin": "Wǒmen zuò dìtiě qù xuéxiào.",
+        "meaning_ms": "Kami menaiki metro ke sekolah."
+      },
+      "tone_note_ms": "地 dì nada 4; 铁 tiě nada 3. 地铁 merujuk sistem metro, yang mungkin juga mempunyai bahagian landasan di atas tanah; bukan nama untuk semua jenis kereta api.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "地铁",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w124",
+      "hanzi": "公共汽车",
+      "pinyin": "gōnggòng qìchē",
+      "meaning_ms": "bas",
+      "example": {
+        "hanzi": "我坐公共汽车去商店。",
+        "pinyin": "Wǒ zuò gōnggòng qìchē qù shāngdiàn.",
+        "meaning_ms": "Saya menaiki bas ke kedai."
+      },
+      "tone_note_ms": "公 gōng nada 1; 共 gòng nada 4; 汽 qì nada 4; 车 chē nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "公共汽车",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

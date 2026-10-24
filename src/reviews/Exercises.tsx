@@ -1,11 +1,11 @@
 import HanziWriter from "hanzi-writer";
 import { useReducedMotion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
-import { z } from "zod";
 import { Page } from "../components/Page";
 import { useLearningProgress } from "../learning/cloud";
 import { lessons } from "../lib/curriculum";
 import { useSettings } from "../lib/settings";
+import { z } from "../lib/zod-config";
 import { normalizePinyin } from "./algorithms";
 import { reviewCopy } from "./copy";
 import { useLocalReviews, vocabulary } from "./local";

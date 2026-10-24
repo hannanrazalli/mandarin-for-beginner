@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-08",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w049",
+      "hanzi": "鸡蛋",
+      "pinyin": "jīdàn",
+      "meaning_ms": "telur ayam",
+      "example": {
+        "hanzi": "我早餐吃鸡蛋。",
+        "pinyin": "Wǒ zǎocān chī jīdàn.",
+        "meaning_ms": "Saya makan telur untuk sarapan."
+      },
+      "tone_note_ms": "鸡 jī nada 1; 蛋 dàn nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "鸡蛋",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w050",
+      "hanzi": "鸡肉",
+      "pinyin": "jīròu",
+      "meaning_ms": "daging ayam",
+      "example": {
+        "hanzi": "我喜欢吃鸡肉。",
+        "pinyin": "Wǒ xǐhuan chī jīròu.",
+        "meaning_ms": "Saya suka makan daging ayam."
+      },
+      "tone_note_ms": "鸡 jī nada 1; 肉 ròu nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "鸡肉",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w051",
+      "hanzi": "牛肉",
+      "pinyin": "niúròu",
+      "meaning_ms": "daging lembu",
+      "example": {
+        "hanzi": "他不吃牛肉。",
+        "pinyin": "Tā bù chī niúròu.",
+        "meaning_ms": "Dia tidak makan daging lembu."
+      },
+      "tone_note_ms": "牛 niú nada 2; 肉 ròu nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "牛肉",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w052",
+      "hanzi": "鱼",
+      "pinyin": "yú",
+      "meaning_ms": "ikan",
+      "example": {
+        "hanzi": "我喜欢吃鱼。",
+        "pinyin": "Wǒ xǐhuan chī yú.",
+        "meaning_ms": "Saya suka makan ikan."
+      },
+      "tone_note_ms": "鱼 yú bernada 2.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "鱼",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

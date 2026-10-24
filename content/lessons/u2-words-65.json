@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-65",
+  "unit": 2,
+  "title_ms": "Penerangan dan soalan 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w277",
+      "hanzi": "了",
+      "pinyin": "le",
+      "meaning_ms": "partikel perubahan/aspek",
+      "example": {
+        "hanzi": "我吃饭了。",
+        "pinyin": "Wǒ chīfàn le.",
+        "meaning_ms": "Saya sudah makan."
+      },
+      "tone_note_ms": "了 le biasanya ringan. Ia boleh menunjukkan sesuatu telah berlaku atau keadaan baharu; bukan penanda kala lampau untuk setiap ayat. Dalam contoh, penutur menyatakan bahawa dia sudah makan.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "了",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w278",
+      "hanzi": "书",
+      "pinyin": "shū",
+      "meaning_ms": "buku",
+      "example": {
+        "hanzi": "这本书很好。",
+        "pinyin": "Zhè běn shū hěn hǎo.",
+        "meaning_ms": "Buku ini bagus."
+      },
+      "tone_note_ms": "书 shū bernada 1.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "书",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w279",
+      "hanzi": "本子",
+      "pinyin": "běnzi",
+      "meaning_ms": "buku nota",
+      "example": {
+        "hanzi": "我的本子在桌子上。",
+        "pinyin": "Wǒ de běnzi zài zhuōzi shàng.",
+        "meaning_ms": "Buku nota saya berada di atas meja."
+      },
+      "tone_note_ms": "本 běn nada 3; 子 zi biasanya neutral.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "本子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w280",
+      "hanzi": "笔",
+      "pinyin": "bǐ",
+      "meaning_ms": "pen; alat tulis",
+      "example": {
+        "hanzi": "这支笔是我的。",
+        "pinyin": "Zhè zhī bǐ shì wǒ de.",
+        "meaning_ms": "Pen ini milik saya."
+      },
+      "tone_note_ms": "笔 bǐ bernada 3.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "笔",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

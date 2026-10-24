@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-70",
+  "unit": 2,
+  "title_ms": "Barang dan anggota badan 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w297",
+      "hanzi": "头",
+      "pinyin": "tóu",
+      "meaning_ms": "kepala",
+      "example": {
+        "hanzi": "我的头有点疼。",
+        "pinyin": "Wǒ de tóu yǒudiǎn téng.",
+        "meaning_ms": "Kepala saya sedikit sakit."
+      },
+      "tone_note_ms": "头 tóu nada 2 ketika bermaksud kepala; akhiran 头 dalam sesetengah perkataan lain boleh menjadi ringan.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "头",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w298",
+      "hanzi": "手",
+      "pinyin": "shǒu",
+      "meaning_ms": "tangan",
+      "example": {
+        "hanzi": "请洗手。",
+        "pinyin": "Qǐng xǐ shǒu.",
+        "meaning_ms": "Tolong basuh tangan."
+      },
+      "tone_note_ms": "手 shǒu bernada 3.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "手",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w299",
+      "hanzi": "脚",
+      "pinyin": "jiǎo",
+      "meaning_ms": "kaki; tapak kaki",
+      "example": {
+        "hanzi": "我的脚有点疼。",
+        "pinyin": "Wǒ de jiǎo yǒudiǎn téng.",
+        "meaning_ms": "Kaki saya sedikit sakit."
+      },
+      "tone_note_ms": "脚 jiǎo bernada 3.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "脚",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w300",
+      "hanzi": "眼睛",
+      "pinyin": "yǎnjing",
+      "meaning_ms": "mata",
+      "example": {
+        "hanzi": "她的眼睛很漂亮。",
+        "pinyin": "Tā de yǎnjing hěn piàoliang.",
+        "meaning_ms": "Matanya cantik."
+      },
+      "tone_note_ms": "眼 yǎn nada 3; 睛 jing biasanya neutral dalam 眼睛.",
+      "topic": "barang-kesihatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "眼睛",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

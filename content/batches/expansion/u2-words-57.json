@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-57",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w245",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "meaning_ms": "bernama; memanggil",
+      "example": {
+        "hanzi": "我叫安娜。",
+        "pinyin": "Wǒ jiào Ānnà.",
+        "meaning_ms": "Nama saya Anna."
+      },
+      "tone_note_ms": "叫 jiào bernada 4; nama dalam contoh ialah nama contoh.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "叫",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w246",
+      "hanzi": "问",
+      "pinyin": "wèn",
+      "meaning_ms": "bertanya",
+      "example": {
+        "hanzi": "我想问老师。",
+        "pinyin": "Wǒ xiǎng wèn lǎoshī.",
+        "meaning_ms": "Saya mahu bertanya kepada guru."
+      },
+      "tone_note_ms": "问 wèn bernada 4.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "问",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w247",
+      "hanzi": "回答",
+      "pinyin": "huídá",
+      "meaning_ms": "menjawab",
+      "example": {
+        "hanzi": "请回答这个问题。",
+        "pinyin": "Qǐng huídá zhège wèntí.",
+        "meaning_ms": "Tolong jawab soalan ini."
+      },
+      "tone_note_ms": "回 huí nada 2; 答 dá nada 2.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "回答",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w248",
+      "hanzi": "大",
+      "pinyin": "dà",
+      "meaning_ms": "besar",
+      "example": {
+        "hanzi": "这个房间很大。",
+        "pinyin": "Zhège fángjiān hěn dà.",
+        "meaning_ms": "Bilik ini besar."
+      },
+      "tone_note_ms": "大 dà bernada 4.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "大",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

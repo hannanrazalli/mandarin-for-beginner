@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-45",
+  "unit": 2,
+  "title_ms": "Perayaan dan budaya 5",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w197",
+      "hanzi": "节日",
+      "pinyin": "jiérì",
+      "meaning_ms": "perayaan; hari perayaan",
+      "example": {
+        "hanzi": "春节是一个传统节日。",
+        "pinyin": "Chūnjié shì yī gè chuántǒng jiérì.",
+        "meaning_ms": "Tahun Baharu Cina ialah satu perayaan tradisional."
+      },
+      "tone_note_ms": "节 jié nada 2; 日 rì nada 4. Pinyin contoh mengekalkan yī kamus; sebelum gè nada 4, 一 lazimnya berbunyi yí.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "节日",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w198",
+      "hanzi": "假期",
+      "pinyin": "jiàqī",
+      "meaning_ms": "cuti; tempoh cuti",
+      "example": {
+        "hanzi": "假期我在家休息。",
+        "pinyin": "Jiàqī wǒ zài jiā xiūxi.",
+        "meaning_ms": "Saya berehat di rumah semasa cuti."
+      },
+      "tone_note_ms": "假 jià nada 4 dalam makna cuti; 期 qī nada 1.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "假期",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w199",
+      "hanzi": "月饼",
+      "pinyin": "yuèbǐng",
+      "meaning_ms": "kuih bulan",
+      "example": {
+        "hanzi": "中秋节我们吃月饼。",
+        "pinyin": "Zhōngqiūjié wǒmen chī yuèbǐng.",
+        "meaning_ms": "Kami makan kuih bulan semasa Pesta Pertengahan Musim Luruh."
+      },
+      "tone_note_ms": "月 yuè nada 4; 饼 bǐng nada 3.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "月饼",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w200",
+      "hanzi": "粽子",
+      "pinyin": "zòngzi",
+      "meaning_ms": "zongzi; ladu pulut berbungkus daun",
+      "example": {
+        "hanzi": "端午节我们吃粽子。",
+        "pinyin": "Duānwǔjié wǒmen chī zòngzi.",
+        "meaning_ms": "Kami makan zongzi semasa Pesta Duanwu."
+      },
+      "tone_note_ms": "粽 zòng nada 4; 子 zi biasanya neutral.",
+      "topic": "perayaan-budaya",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "粽子",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

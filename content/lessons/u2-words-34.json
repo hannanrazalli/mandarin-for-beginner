@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-34",
+  "unit": 2,
+  "title_ms": "Masa dan cuaca 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w153",
+      "hanzi": "分钟",
+      "pinyin": "fēnzhōng",
+      "meaning_ms": "minit",
+      "example": {
+        "hanzi": "我等了十分钟。",
+        "pinyin": "Wǒ děng le shí fēnzhōng.",
+        "meaning_ms": "Saya menunggu selama sepuluh minit."
+      },
+      "tone_note_ms": "分 fēn nada 1; 钟 zhōng nada 1.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "分钟",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w154",
+      "hanzi": "小时",
+      "pinyin": "xiǎoshí",
+      "meaning_ms": "jam (tempoh)",
+      "example": {
+        "hanzi": "我学习一个小时。",
+        "pinyin": "Wǒ xuéxí yī gè xiǎoshí.",
+        "meaning_ms": "Saya belajar selama satu jam."
+      },
+      "tone_note_ms": "小 xiǎo nada 3; 时 shí nada 2. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "小时",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w155",
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "meaning_ms": "pukul; titik",
+      "example": {
+        "hanzi": "现在三点。",
+        "pinyin": "Xiànzài sān diǎn.",
+        "meaning_ms": "Sekarang pukul tiga."
+      },
+      "tone_note_ms": "点 diǎn nada 3. Untuk waktu, nombor jam mendahului 点: 三点 sān diǎn ialah pukul tiga; nombor selepas 点 boleh menunjukkan minit.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "点",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w156",
+      "hanzi": "半",
+      "pinyin": "bàn",
+      "meaning_ms": "setengah",
+      "example": {
+        "hanzi": "现在三点半。",
+        "pinyin": "Xiànzài sān diǎn bàn.",
+        "meaning_ms": "Sekarang pukul tiga setengah."
+      },
+      "tone_note_ms": "半 bàn bernada 4.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "半",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

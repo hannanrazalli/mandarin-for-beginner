@@ -43,7 +43,7 @@ Official implementation references:
 - [Motion accessibility](https://motion.dev/docs/react-accessibility): respect reduced-motion preferences.
 - [Vite PWA](https://vite-pwa-org.netlify.app/guide/): generate a static shell service worker; no authenticated API runtime caching.
 
-Only used dependencies are installed. TanStack Query, Supabase, Zod, charts and hanzi-writer are deferred to their feature phases.
+Only used dependencies are installed. TanStack Query, Supabase, Zod and hanzi-writer were added in their feature phases; analytics uses small accessible native charts and tables.
 Nunito Sans and Noto Sans SC are self-hosted to avoid third-party font requests.
 Secretlint with the recommended ruleset supplies secret scanning; custom Git hook scans the staged tree.
 Playwright uses the available system Chromium locally; CI installs its matching bundled Chromium.
@@ -61,3 +61,7 @@ Phase 2 registry checks (2026-10-24): @supabase/supabase-js 2.118.0; zod 4.6.7. 
 Phase 3 official npm registry checks: @tanstack/react-query 5.104.5, zustand 5.0.16, ajv 8.20.0. These support owner-scoped queries, lesson sessions and Draft2020-12 curriculum validation.
 
 Phase4 adds pinned hanzi-writer3.7.3 and hanzi-writer-data2.0.1. Only characters in the first20 words are self-hosted under public/strokes with ARPHICPL.TXT; custom charDataLoader never requests the defaultCDN.
+
+Phase 6 expands that licensed self-hosted stroke subset to all 353 unique headword characters.
+The 84KB Noto curriculum subset covers all active Chinese text. The optional authoring script
+scripts/build-learning-assets.py uses fontTools; normal builds use committed assets and need no Python.

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-23",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w109",
+      "hanzi": "客厅",
+      "pinyin": "kètīng",
+      "meaning_ms": "ruang tamu",
+      "example": {
+        "hanzi": "爸爸在客厅看电视。",
+        "pinyin": "Bàba zài kètīng kàn diànshì.",
+        "meaning_ms": "Ayah menonton televisyen di ruang tamu."
+      },
+      "tone_note_ms": "客 kè nada 4; 厅 tīng nada 1.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "客厅",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w110",
+      "hanzi": "卧室",
+      "pinyin": "wòshì",
+      "meaning_ms": "bilik tidur",
+      "example": {
+        "hanzi": "我的卧室有一张床。",
+        "pinyin": "Wǒ de wòshì yǒu yī zhāng chuáng.",
+        "meaning_ms": "Bilik tidur saya ada sebuah katil."
+      },
+      "tone_note_ms": "卧 wò nada 4; 室 shì nada 4. Pinyin contoh mengekalkan yī kamus; 一 lazimnya berbunyi yí sebelum nada 4 dan yì sebelum nada 1, 2 atau 3 dalam pola kuantiti ini.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "卧室",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w111",
+      "hanzi": "门",
+      "pinyin": "mén",
+      "meaning_ms": "pintu",
+      "example": {
+        "hanzi": "请关门。",
+        "pinyin": "Qǐng guān mén.",
+        "meaning_ms": "Tolong tutup pintu."
+      },
+      "tone_note_ms": "门 mén bernada 2.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "门",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w112",
+      "hanzi": "窗",
+      "pinyin": "chuāng",
+      "meaning_ms": "tingkap",
+      "example": {
+        "hanzi": "请开窗。",
+        "pinyin": "Qǐng kāi chuāng.",
+        "meaning_ms": "Tolong buka tingkap."
+      },
+      "tone_note_ms": "窗 chuāng nada 1, bermaksud tingkap. 窗户 chuānghu ialah bentuk dua suku kata yang juga lazim; 窗 bukan singkatan ejaan atau aksara tradisional.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "窗",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

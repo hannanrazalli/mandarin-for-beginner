@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-21",
+  "unit": 2,
+  "title_ms": "Tempat dan perjalanan 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w101",
+      "hanzi": "邮局",
+      "pinyin": "yóujú",
+      "meaning_ms": "pejabat pos",
+      "example": {
+        "hanzi": "邮局在这里。",
+        "pinyin": "Yóujú zài zhèlǐ.",
+        "meaning_ms": "Pejabat pos berada di sini."
+      },
+      "tone_note_ms": "邮 yóu nada 2; 局 jú nada 2.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "邮局",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w102",
+      "hanzi": "机场",
+      "pinyin": "jīchǎng",
+      "meaning_ms": "lapangan terbang",
+      "example": {
+        "hanzi": "机场离这里很远。",
+        "pinyin": "Jīchǎng lí zhèlǐ hěn yuǎn.",
+        "meaning_ms": "Lapangan terbang jauh dari sini."
+      },
+      "tone_note_ms": "机 jī nada 1; 场 chǎng nada 3.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "机场",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w103",
+      "hanzi": "车站",
+      "pinyin": "chēzhàn",
+      "meaning_ms": "stesen; perhentian kenderaan",
+      "example": {
+        "hanzi": "车站在前面。",
+        "pinyin": "Chēzhàn zài qiánmiàn.",
+        "meaning_ms": "Stesen berada di hadapan."
+      },
+      "tone_note_ms": "车 chē nada 1; 站 zhàn nada 4.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "车站",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w104",
+      "hanzi": "公园",
+      "pinyin": "gōngyuán",
+      "meaning_ms": "taman",
+      "example": {
+        "hanzi": "我们去公园吧。",
+        "pinyin": "Wǒmen qù gōngyuán ba.",
+        "meaning_ms": "Mari kita pergi ke taman."
+      },
+      "tone_note_ms": "公 gōng nada 1; 园 yuán nada 2.",
+      "topic": "tempat-perjalanan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "公园",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

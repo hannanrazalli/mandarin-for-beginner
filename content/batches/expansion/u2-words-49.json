@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-49",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w213",
+      "hanzi": "读",
+      "pinyin": "dú",
+      "meaning_ms": "membaca",
+      "example": {
+        "hanzi": "我每天读书。",
+        "pinyin": "Wǒ měitiān dúshū.",
+        "meaning_ms": "Saya membaca setiap hari."
+      },
+      "tone_note_ms": "读 dú bernada 2.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "读",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w214",
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "meaning_ms": "menulis",
+      "example": {
+        "hanzi": "学生写汉字。",
+        "pinyin": "Xuésheng xiě Hànzì.",
+        "meaning_ms": "Pelajar menulis aksara Cina."
+      },
+      "tone_note_ms": "写 xiě bernada 3.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "写",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w215",
+      "hanzi": "学习",
+      "pinyin": "xuéxí",
+      "meaning_ms": "belajar",
+      "example": {
+        "hanzi": "我在学校学习中文。",
+        "pinyin": "Wǒ zài xuéxiào xuéxí Zhōngwén.",
+        "meaning_ms": "Saya belajar bahasa Cina di sekolah."
+      },
+      "tone_note_ms": "学 xué nada 2; 习 xí nada 2.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "学习",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w216",
+      "hanzi": "工作",
+      "pinyin": "gōngzuò",
+      "meaning_ms": "bekerja; kerja",
+      "example": {
+        "hanzi": "我爸爸在吉隆坡工作。",
+        "pinyin": "Wǒ bàba zài Jílóngpō gōngzuò.",
+        "meaning_ms": "Ayah saya bekerja di Kuala Lumpur."
+      },
+      "tone_note_ms": "工 gōng nada 1; 作 zuò nada 4.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "工作",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

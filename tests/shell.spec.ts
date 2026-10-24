@@ -2,6 +2,11 @@ import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
 
 test("desktop preview, route focus and accessible shell", async ({ page }) => {
+  await page.addInitScript(() => {
+    window.addEventListener("securitypolicyviolation", (event) => {
+      document.documentElement.dataset.cspViolation = event.effectiveDirective;
+    });
+  });
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/");
   await expect(
@@ -20,6 +25,10 @@ test("desktop preview, route focus and accessible shell", async ({ page }) => {
   await expect(
     page.getByRole("button", { name: "Lihat penerangan", exact: true }),
   ).toBeVisible();
+  await expect(page.locator("html")).not.toHaveAttribute(
+    "data-csp-violation",
+    /.+/,
+  );
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
 });
 test("mobile language and appearance persist without horizontal overflow", async ({

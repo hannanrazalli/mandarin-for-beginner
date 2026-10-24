@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-17",
+  "unit": 2,
+  "title_ms": "Makanan dan minuman 2",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w085",
+      "hanzi": "蛋糕",
+      "pinyin": "dàngāo",
+      "meaning_ms": "kek",
+      "example": {
+        "hanzi": "生日我想吃蛋糕。",
+        "pinyin": "Shēngrì wǒ xiǎng chī dàngāo.",
+        "meaning_ms": "Saya mahu makan kek pada hari jadi."
+      },
+      "tone_note_ms": "蛋 dàn nada 4; 糕 gāo nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "蛋糕",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w086",
+      "hanzi": "冰淇淋",
+      "pinyin": "bīngqílín",
+      "meaning_ms": "ais krim",
+      "example": {
+        "hanzi": "天气热，我想吃冰淇淋。",
+        "pinyin": "Tiānqì rè, wǒ xiǎng chī bīngqílín.",
+        "meaning_ms": "Cuaca panas, saya mahu makan ais krim."
+      },
+      "tone_note_ms": "冰 bīng nada 1; 淇 qí nada 2; 淋 lín nada 2.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "冰淇淋",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w087",
+      "hanzi": "巧克力",
+      "pinyin": "qiǎokèlì",
+      "meaning_ms": "coklat",
+      "example": {
+        "hanzi": "我买了巧克力。",
+        "pinyin": "Wǒ mǎi le qiǎokèlì.",
+        "meaning_ms": "Saya membeli coklat."
+      },
+      "tone_note_ms": "巧 qiǎo nada 3; 克 kè dan 力 lì nada 4.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "巧克力",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w088",
+      "hanzi": "花生",
+      "pinyin": "huāshēng",
+      "meaning_ms": "kacang tanah",
+      "example": {
+        "hanzi": "这个菜有花生。",
+        "pinyin": "Zhège cài yǒu huāshēng.",
+        "meaning_ms": "Hidangan ini ada kacang tanah."
+      },
+      "tone_note_ms": "花 huā nada 1; 生 shēng nada 1.",
+      "topic": "makanan-minuman",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "花生",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-33",
+  "unit": 2,
+  "title_ms": "Masa dan cuaca 3",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w149",
+      "hanzi": "年",
+      "pinyin": "nián",
+      "meaning_ms": "tahun",
+      "example": {
+        "hanzi": "我在马来西亚住了三年。",
+        "pinyin": "Wǒ zài Mǎláixīyà zhù le sān nián.",
+        "meaning_ms": "Saya telah tinggal di Malaysia selama tiga tahun."
+      },
+      "tone_note_ms": "年 nián bernada 2.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "年",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w150",
+      "hanzi": "月",
+      "pinyin": "yuè",
+      "meaning_ms": "bulan",
+      "example": {
+        "hanzi": "我的生日在五月。",
+        "pinyin": "Wǒ de shēngrì zài wǔ yuè.",
+        "meaning_ms": "Hari jadi saya pada bulan Mei."
+      },
+      "tone_note_ms": "月 yuè bernada 4; nama bulan menggunakan nombor di hadapannya.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "月",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w151",
+      "hanzi": "日",
+      "pinyin": "rì",
+      "meaning_ms": "hari; tarikh",
+      "example": {
+        "hanzi": "今天是五月十日。",
+        "pinyin": "Jīntiān shì wǔ yuè shí rì.",
+        "meaning_ms": "Hari ini 10 Mei."
+      },
+      "tone_note_ms": "日 rì nada 4. Untuk tarikh, 月 diikuti nombor dan 日 ialah bentuk yang agak formal; pertuturan harian juga menggunakan 号 hào.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "日",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w152",
+      "hanzi": "星期",
+      "pinyin": "xīngqī",
+      "meaning_ms": "minggu; hari dalam minggu",
+      "example": {
+        "hanzi": "今天星期几？",
+        "pinyin": "Jīntiān xīngqī jǐ?",
+        "meaning_ms": "Hari ini hari apa?"
+      },
+      "tone_note_ms": "星 xīng nada 1; 期 qī nada 1.",
+      "topic": "masa-cuaca",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "星期",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

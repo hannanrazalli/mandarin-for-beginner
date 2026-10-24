@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import type { z } from "zod";
 import { useAuth } from "../auth/AuthProvider";
 import { Page } from "../components/Page";
+import { celebrate } from "../lib/celebrate";
 import {
   answerOptions,
   canonicalAnswer,
@@ -12,12 +13,9 @@ import {
   type Lesson,
 } from "../lib/curriculum";
 import { useSettings } from "../lib/settings";
+import { useEventResolution } from "../offline/receipts";
 import { useMandarinAudio } from "./audio";
-import {
-  type completionSchema,
-  submitLesson,
-  useLearningProgress,
-} from "./cloud";
+import { completionSchema, submitLesson, useLearningProgress } from "./cloud";
 import { learningCopy } from "./copy";
 import {
   type LearningEvent,
@@ -40,17 +38,24 @@ export default function LessonRoute() {
     );
   if (
     progress.scope === "verifying" ||
-    (progress.owner && progress.query.isPending)
+    (progress.owner && !progress.offline && progress.query.isPending)
   )
     return (
       <Page eyebrow="Mandarin" title={lesson.title_ms}>
         <p role="status">{t.loading}</p>
       </Page>
     );
-  if (progress.query.isError || !isLessonUnlocked(slug, progress.completed))
+  if (
+    (!progress.offline && progress.query.isError) ||
+    !isLessonUnlocked(slug, progress.completed)
+  )
     return (
       <Page eyebrow="Mandarin" title={lesson.title_ms}>
-        <p>{progress.query.isError ? t.cloudError : t.locked}</p>
+        <p>
+          {!progress.offline && progress.query.isError
+            ? t.cloudError
+            : t.locked}
+        </p>
         <Link className="text-link" to="/belajar">
           {t.back}
         </Link>
@@ -82,8 +87,12 @@ export function Player({
   const auth = useAuth();
   const authRef = useRef(auth);
   authRef.current = auth;
-  const t = learningCopy(useSettings().language);
+  const settings = useSettings();
+  const t = learningCopy(settings.language);
   const player = useLessonPlayer();
+  const resolution = useEventResolution(player.event?.id ?? null, "completion");
+  const accepted = resolution.outcome?.state === "accepted";
+  const rejected = resolution.outcome?.state === "rejected";
   const practice = usePractice();
   const audio = useMandarinAudio();
   const [saving, setSaving] = useState(false);
@@ -95,6 +104,22 @@ export function Player({
   const heading = useRef<HTMLHeadingElement>(null);
   const explanation = useRef<HTMLElement>(null);
   const saveStarted = useRef<string | null>(null);
+  useEffect(() => {
+    if (resolution.receipt) {
+      const parsed = completionSchema.safeParse(resolution.receipt);
+      if (parsed.success) {
+        setResult(parsed.data);
+        setFailed(false);
+        setSaving(false);
+      }
+    } else if (accepted) {
+      setFailed(false);
+      setSaving(false);
+    } else if (rejected) {
+      setSaving(false);
+      setFailed(true);
+    }
+  }, [resolution.receipt, accepted, rejected]);
   useEffect(() => {
     alive.current = true;
     if (player.slug !== lesson.id || player.scope !== scope) {
@@ -112,11 +137,10 @@ export function Player({
     player.stage === "question" &&
     player.index % 2 === 1;
   const save = useCallback(
-    async (event: LearningEvent) => {
+    async (event: LearningEvent, force = false) => {
       if (
-        !auth.client ||
         !auth.owner ||
-        auth.status !== "owner" ||
+        (auth.status !== "owner" && auth.status !== "ownerOffline") ||
         event.scope !== auth.owner.id ||
         event.scope !== scope ||
         useLessonPlayer.getState().scope !== scope ||
@@ -126,7 +150,12 @@ export function Player({
       setSaving(true);
       setFailed(false);
       try {
-        const response = await submitLesson(auth.client, auth.owner.id, event);
+        const response = await submitLesson(
+          auth.client,
+          auth.owner.id,
+          event,
+          force,
+        );
         if (
           alive.current &&
           useLessonPlayer.getState().scope === event.scope &&
@@ -148,12 +177,17 @@ export function Player({
       suspended ||
       player.scope !== scope ||
       !player.event ||
+      accepted ||
+      rejected ||
       player.event.scope !== scope ||
       useLessonPlayer.getState().event?.id !== player.event.id ||
       useLessonPlayer.getState().scope !== scope ||
       (scope === "practice"
-        ? auth.status === "initializing" || auth.status === "owner"
-        : auth.status !== "owner" || auth.owner?.id !== scope) ||
+        ? auth.status === "initializing" ||
+          auth.status === "owner" ||
+          auth.status === "ownerOffline"
+        : (auth.status !== "owner" && auth.status !== "ownerOffline") ||
+          auth.owner?.id !== scope) ||
       player.stage !== "result" ||
       saveStarted.current === player.event.id
     )
@@ -170,6 +204,8 @@ export function Player({
     suspended,
     auth.status,
     auth.owner,
+    accepted,
+    rejected,
   ]);
   useEffect(() => {
     if (player.stage) {
@@ -200,6 +236,7 @@ export function Player({
       ),
     };
     player.finish(event);
+    celebrate(settings.effects);
   }
   function select(value: string) {
     if (item && player.stage === "question")
@@ -269,30 +306,62 @@ export function Player({
             <h2 ref={heading} tabIndex={-1}>
               {t.result}
             </h2>
-            <p className="accuracy-number">
-              {Math.round((result?.accuracy ?? score.accuracy) * 100)}
-              <span className="percent-sign">%</span>
-            </p>
-            <p>
-              {t.accuracy} · {result?.correct_count ?? score.correct}/
-              {score.total}
-            </p>
-            <p>
-              {(result?.completed ?? score.completed) ? t.passed : t.notPassed}
-            </p>
+            {(!accepted || result) && (
+              <>
+                <p className="accuracy-number">
+                  {Math.round((result?.accuracy ?? score.accuracy) * 100)}
+                  <span className="percent-sign">%</span>
+                </p>
+                <p>
+                  {t.accuracy} · {result?.correct_count ?? score.correct}/
+                  {score.total}
+                </p>
+                <p>
+                  {(result?.completed ?? score.completed)
+                    ? t.passed
+                    : t.notPassed}
+                </p>
+              </>
+            )}
             {scope === "practice" ? (
               <p className="mode-label">
                 {practice.stored ? t.localSaved : t.storageFailed}
               </p>
+            ) : accepted && !result ? (
+              <p role="status">
+                {t.saved} ·{" "}
+                <Link className="text-link" to="/statistik">
+                  {t.back}
+                </Link>
+              </p>
             ) : saving ? (
               <p role="status">{t.saving}</p>
+            ) : rejected ? (
+              <div className="notice" role="alert">
+                <p>
+                  {settings.language === "ms"
+                    ? "Percubaan ini ditolak. Selesaikan konflik melalui sepanduk di atas, kemudian mulakan percubaan baharu. Jawapan ini tidak akan dihantar semula."
+                    : "This attempt was rejected. Resolve the conflict using the banner above, then start a new attempt. These answers will not be resent."}
+                </p>
+                <button
+                  type="button"
+                  className="button secondary"
+                  onClick={() => {
+                    setResult(null);
+                    setFailed(false);
+                    player.start(lesson.id, scope);
+                  }}
+                >
+                  {t.repeat}
+                </button>
+              </div>
             ) : failed ? (
               <div className="notice" role="alert">
                 <p>{t.pending}</p>
                 <button
                   type="button"
                   className="button secondary"
-                  onClick={() => player.event && void save(player.event)}
+                  onClick={() => player.event && void save(player.event, true)}
                 >
                   {t.send}
                 </button>
@@ -311,7 +380,7 @@ export function Player({
                   setFailed(false);
                   player.start(lesson.id, scope);
                 }}
-                disabled={saving || failed}
+                disabled={saving || (failed && !rejected)}
               >
                 <RotateCcw size={18} />
                 {t.repeat}

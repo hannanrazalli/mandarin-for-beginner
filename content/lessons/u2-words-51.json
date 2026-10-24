@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-51",
+  "unit": 2,
+  "title_ms": "Kegiatan harian 1",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w221",
+      "hanzi": "来",
+      "pinyin": "lái",
+      "meaning_ms": "datang",
+      "example": {
+        "hanzi": "朋友今天来我家。",
+        "pinyin": "Péngyou jīntiān lái wǒ jiā.",
+        "meaning_ms": "Kawan datang ke rumah saya hari ini."
+      },
+      "tone_note_ms": "来 lái bernada 2.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "来",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w222",
+      "hanzi": "回",
+      "pinyin": "huí",
+      "meaning_ms": "pulang; kembali",
+      "example": {
+        "hanzi": "我晚上回家。",
+        "pinyin": "Wǒ wǎnshang huí jiā.",
+        "meaning_ms": "Saya pulang ke rumah pada waktu malam."
+      },
+      "tone_note_ms": "回 huí bernada 2.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "回",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w223",
+      "hanzi": "走",
+      "pinyin": "zǒu",
+      "meaning_ms": "berjalan; pergi",
+      "example": {
+        "hanzi": "我们走路去公园。",
+        "pinyin": "Wǒmen zǒulù qù gōngyuán.",
+        "meaning_ms": "Kami berjalan kaki ke taman."
+      },
+      "tone_note_ms": "走 zǒu bernada 3.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "走",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w224",
+      "hanzi": "跑",
+      "pinyin": "pǎo",
+      "meaning_ms": "berlari",
+      "example": {
+        "hanzi": "他每天在公园跑步。",
+        "pinyin": "Tā měitiān zài gōngyuán pǎobù.",
+        "meaning_ms": "Dia berlari di taman setiap hari."
+      },
+      "tone_note_ms": "跑 pǎo nada 3.",
+      "topic": "kegiatan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "跑",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

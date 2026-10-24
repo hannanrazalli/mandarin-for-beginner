@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "content_version": 1,
+  "id": "u2-words-64",
+  "unit": 2,
+  "title_ms": "Penerangan dan soalan 4",
+  "duration_seconds": 180,
+  "items": [
+    {
+      "kind": "vocabulary",
+      "id": "w273",
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "meaning_ms": "yang mana; mana",
+      "example": {
+        "hanzi": "你住在哪个城市？",
+        "pinyin": "Nǐ zhù zài nǎge chéngshì?",
+        "meaning_ms": "Awak tinggal di bandar yang mana?"
+      },
+      "tone_note_ms": "哪 nǎ nada 3. 哪个 nǎge bermaksud yang mana; variasi lisan něige juga wujud. Kekalkan nǎ dahulu untuk latihan ini.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "哪",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w274",
+      "hanzi": "这",
+      "pinyin": "zhè",
+      "meaning_ms": "ini",
+      "example": {
+        "hanzi": "这个苹果很大。",
+        "pinyin": "Zhège píngguǒ hěn dà.",
+        "meaning_ms": "Epal ini besar."
+      },
+      "tone_note_ms": "这 zhè bernada 4; sebelum kata penggolong kerap disebut zhège.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "这",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w275",
+      "hanzi": "那",
+      "pinyin": "nà",
+      "meaning_ms": "itu",
+      "example": {
+        "hanzi": "那所学校很大。",
+        "pinyin": "Nà suǒ xuéxiào hěn dà.",
+        "meaning_ms": "Sekolah itu besar."
+      },
+      "tone_note_ms": "那 nà bernada 4; sebelum kata penggolong kerap disebut nàge.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "那",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    },
+    {
+      "kind": "vocabulary",
+      "id": "w276",
+      "hanzi": "的",
+      "pinyin": "de",
+      "meaning_ms": "partikel milik/penerang",
+      "example": {
+        "hanzi": "这是我的书。",
+        "pinyin": "Zhè shì wǒ de shū.",
+        "meaning_ms": "Ini buku saya."
+      },
+      "tone_note_ms": "的 de biasanya neutral dan menghubungkan pemilik atau penerang kepada kata nama.",
+      "topic": "sifat-soalan",
+      "hsk_level": null,
+      "hsk_edition": null,
+      "source": "Approved teaching selection: content/approved-words.json; teacher-reviewed Standard Mandarin forms, pinyin and direct Malay glosses/examples. Exam level not verified; no claim of external dictionary lookup or native-audio verification.",
+      "needs_review": false,
+      "audio": {
+        "text": "的",
+        "lang": "zh-CN",
+        "slow_rate": 0.7,
+        "needs_audio_review": true
+      }
+    }
+  ]
+}

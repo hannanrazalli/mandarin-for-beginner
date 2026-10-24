@@ -1,8 +1,8 @@
-import { z } from "zod";
 import { create } from "zustand";
 import { practiceCompleted, usePractice } from "../learning/store";
 import { testOutCompleted, useLocalTestOut } from "../learning/testout";
 import { lessons } from "../lib/curriculum";
+import { z } from "../lib/zod-config";
 import { type Schedule, sm2 } from "./algorithms";
 export const vocabulary = lessons.flatMap((lesson) =>
   lesson.items
