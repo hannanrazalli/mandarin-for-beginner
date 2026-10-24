@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { registerAccountPurger } from "../auth/purge";
+import { localizedTopic } from "../lib/localization";
 import { useSettings } from "../lib/settings";
 import { lease } from "../offline/store";
 import { malaysiaDay } from "../reviews/algorithms";
@@ -319,7 +320,10 @@ export default function AnalyticsPage() {
               </section>
               <MetricTable
                 title={ms ? "Ketepatan mengikut topik" : "Accuracy by topic"}
-                rows={metrics.topics}
+                rows={metrics.topics.map((row) => ({
+                  ...row,
+                  label: localizedTopic(row.label, ms ? "ms" : "en"),
+                }))}
                 ms={ms}
               />
               <MetricTable

@@ -140,12 +140,7 @@ test("mock owner verification, lost committed response and offline reload replay
     )
     .not.toBeNull();
   for (const answer of ["bā", "pà", "mā"]) {
-    await page
-      .getByRole("button", { name: "Lihat penerangan", exact: true })
-      .click();
-    await page
-      .getByRole("button", { name: "Cuba soalan", exact: true })
-      .click();
+    await page.getByRole("button", { name: "Seterusnya", exact: true }).click();
     await page
       .getByRole("button", { name: new RegExp(`^[1-4] ${answer}$`) })
       .click();
@@ -163,7 +158,7 @@ test("mock owner verification, lost committed response and offline reload replay
   ).toBeVisible();
   await page.goto("/belajar/u0-initials-2");
   await expect(
-    page.getByRole("button", { name: "Lihat penerangan", exact: true }),
+    page.getByRole("button", { name: "Seterusnya", exact: true }),
   ).toBeVisible();
   const queued = await page.evaluate(() =>
     Object.keys(localStorage)
@@ -194,7 +189,7 @@ test("mock owner verification, lost committed response and offline reload replay
   await context.setOffline(true);
   await page.reload();
   await expect(
-    page.getByRole("button", { name: "Lihat penerangan", exact: true }),
+    page.getByRole("button", { name: "Seterusnya", exact: true }),
   ).toBeVisible();
   expect(awards).toBe(1);
 });

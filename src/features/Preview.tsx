@@ -5,9 +5,11 @@ import { Pipit } from "../components/Pipit";
 import { useLearningProgress } from "../learning/cloud";
 import { learningCopy } from "../learning/copy";
 import { isLessonUnlocked, lessons } from "../lib/curriculum";
+import { localizedTitle } from "../lib/localization";
 import { useSettings } from "../lib/settings";
 export default function Preview() {
-  const t = learningCopy(useSettings().language);
+  const language = useSettings().language;
+  const t = learningCopy(language);
   const progress = useLearningProgress();
   const lesson = lessons[0];
   return (
@@ -18,7 +20,7 @@ export default function Preview() {
             <AudioLines size={17} />
             1–3 min
           </span>
-          <h2>{lesson.title_ms}</h2>
+          <h2>{localizedTitle(lesson, language)}</h2>
           <p>{t.overviewBody}</p>
           <p className="mode-label">{progress.owner ? t.cloud : t.local}</p>
           {isLessonUnlocked(lesson.id, progress.completed) && (

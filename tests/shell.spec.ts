@@ -23,7 +23,7 @@ test("desktop preview, route focus and accessible shell", async ({ page }) => {
       .first(),
   ).toBeVisible();
   await expect(
-    page.getByRole("button", { name: "Lihat penerangan", exact: true }),
+    page.getByRole("button", { name: "Seterusnya", exact: true }),
   ).toBeVisible();
   await expect(page.locator("html")).not.toHaveAttribute(
     "data-csp-violation",

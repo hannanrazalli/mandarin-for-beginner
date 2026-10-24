@@ -5,6 +5,7 @@ import { Page } from "../components/Page";
 import { learningQueryClient, useLearningProgress } from "../learning/cloud";
 import { testOutAccuracy, useLocalTestOut } from "../learning/testout";
 import { lessons } from "../lib/curriculum";
+import { canonicalMeaningInput } from "../lib/localization";
 import { useSettings } from "../lib/settings";
 import { z } from "../lib/zod-config";
 import { queueMutation } from "../offline/dispatch";
@@ -100,7 +101,7 @@ function TestOut() {
       answers: items.map(({ lesson, item }) => ({
         lesson_slug: lesson.id,
         item_id: item.id,
-        answer: answers[item.id] ?? "",
+        answer: canonicalMeaningInput(item, language, answers[item.id] ?? ""),
       })),
     };
     request.current = event;

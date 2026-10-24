@@ -17,15 +17,10 @@ test("cached public lesson remains readable after cold offline reload", async ({
   await expect(
     page.getByRole("heading", { name: "Awalan 1: b, p, m", exact: true }),
   ).toBeVisible();
-  await page
-    .getByRole("button", { name: "Lihat penerangan", exact: true })
-    .click();
-  await expect(
-    page.getByRole("region", { name: "Lihat penerangan" }),
-  ).toBeVisible();
+  await expect(page.getByRole("region", { name: "Penerangan" })).toBeVisible();
   await page.reload();
   await expect(
-    page.getByRole("button", { name: "Lihat penerangan", exact: true }),
+    page.getByRole("button", { name: "Seterusnya", exact: true }),
   ).toBeVisible();
   expect(
     await page.evaluate(() => sessionStorage.getItem("bm-owner-verified:v1")),

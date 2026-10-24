@@ -6,12 +6,19 @@ import { useAuth } from "../auth/AuthProvider";
 import { Page } from "../components/Page";
 import { celebrate } from "../lib/celebrate";
 import {
-  answerOptions,
   canonicalAnswer,
   getLesson,
   isLessonUnlocked,
   type Lesson,
 } from "../lib/curriculum";
+import {
+  localizedExample,
+  localizedExplanation,
+  localizedMeaning,
+  localizedOptions,
+  localizedTitle,
+  localizedTone,
+} from "../lib/localization";
 import { useSettings } from "../lib/settings";
 import { useEventResolution } from "../offline/receipts";
 import { useMandarinAudio } from "./audio";
@@ -27,7 +34,8 @@ export default function LessonRoute() {
   const { slug = "" } = useParams();
   const progress = useLearningProgress();
   const lesson = getLesson(slug);
-  const t = learningCopy(useSettings().language);
+  const language = useSettings().language;
+  const t = learningCopy(language);
   if (!lesson)
     return (
       <Page eyebrow="Mandarin" title={t.noLesson}>
@@ -41,7 +49,7 @@ export default function LessonRoute() {
     (progress.owner && !progress.offline && progress.query.isPending)
   )
     return (
-      <Page eyebrow="Mandarin" title={lesson.title_ms}>
+      <Page eyebrow="Mandarin" title={localizedTitle(lesson, language)}>
         <p role="status">{t.loading}</p>
       </Page>
     );
@@ -50,7 +58,7 @@ export default function LessonRoute() {
     !isLessonUnlocked(slug, progress.completed)
   )
     return (
-      <Page eyebrow="Mandarin" title={lesson.title_ms}>
+      <Page eyebrow="Mandarin" title={localizedTitle(lesson, language)}>
         <p>
           {!progress.offline && progress.query.isError
             ? t.cloudError
@@ -130,7 +138,7 @@ export function Player({
     };
   }, [lesson.id, scope, player.slug, player.scope]);
   const item = lesson.items[player.index];
-  const options = item ? answerOptions(item) : [];
+  const options = item ? localizedOptions(item, settings.language) : [];
   const isListening =
     audio.available &&
     audio.state !== "error" &&
@@ -213,10 +221,7 @@ export function Player({
       heading.current?.focus();
     }
   }, [player.stage, audio.stop]);
-  useEffect(() => {
-    if (player.revealed && player.stage === "flash")
-      explanation.current?.focus();
-  }, [player.revealed, player.stage]);
+
   function finishOrNext() {
     audio.stop();
     if (player.index < lesson.items.length - 1) {
@@ -267,7 +272,7 @@ export function Player({
         const value = options[Number(event.key) - 1];
         if (value) {
           event.preventDefault();
-          select(value);
+          select(value.canonical);
         }
       } else if (event.key === "Enter" && player.stage === "feedback") {
         event.preventDefault();
@@ -275,8 +280,7 @@ export function Player({
         else player.retry();
       } else if (event.key === "Enter" && player.stage === "flash") {
         event.preventDefault();
-        if (player.revealed) player.question();
-        else player.reveal();
+        player.question();
       }
     };
     window.addEventListener("keydown", shortcut);
@@ -288,7 +292,7 @@ export function Player({
   return (
     <Page
       eyebrow={`UNIT ${lesson.unit} · ${scope === "practice" ? t.local : t.cloud}`}
-      title={lesson.title_ms}
+      title={localizedTitle(lesson, settings.language)}
     >
       <div className="lesson-toolbar">
         <Link className="text-link" to="/belajar">
@@ -454,59 +458,66 @@ export function Player({
                     : t.noVoice}
               </p>
               {player.stage === "flash" ? (
-                player.revealed ? (
-                  <section
-                    ref={explanation}
-                    tabIndex={-1}
-                    aria-label={t.reveal}
-                    className="item-explanation"
-                  >
-                    <p>
+                <section
+                  ref={explanation}
+                  tabIndex={-1}
+                  aria-label={t.reveal}
+                  className="item-explanation"
+                >
+                  <p>
+                    <strong>
                       {item.kind === "pronunciation"
-                        ? item.explanation_ms
-                        : item.meaning_ms}
-                    </p>
-                    {item.kind === "vocabulary" && (
-                      <p>
-                        <span lang="zh-CN">{item.example.hanzi}</span> ·{" "}
-                        {item.example.pinyin}
-                        <br />
-                        {item.example.meaning_ms}
-                      </p>
-                    )}
+                        ? settings.language === "ms"
+                          ? "Maksud contoh (fokus bunyi)"
+                          : "Sample meaning (sound focus)"
+                        : settings.language === "ms"
+                          ? "Maksud"
+                          : "Meaning"}
+                      :
+                    </strong>{" "}
+                    {localizedMeaning(item, settings.language)}
+                  </p>
+                  {item.kind === "pronunciation" && (
+                    <p>{localizedExplanation(item, settings.language)}</p>
+                  )}
+                  {item.kind === "vocabulary" && (
                     <p>
-                      <strong>{t.tone}:</strong> {item.tone_note_ms}
+                      <span lang="zh-CN">{item.example.hanzi}</span> ·{" "}
+                      {item.example.pinyin}
+                      <br />
+                      {localizedExample(item, settings.language)}
                     </p>
-                    {item.needs_review && <p>{t.review}</p>}
-                    <button
-                      type="button"
-                      className="button primary"
-                      onClick={player.question}
-                    >
-                      {t.question}
-                      <ArrowRight size={18} />
-                    </button>
-                  </section>
-                ) : (
+                  )}
+                  <p>
+                    <strong>{t.tone}:</strong>{" "}
+                    {localizedTone(item, settings.language)}
+                  </p>
+                  {item.needs_review && <p>{t.review}</p>}
+                  <p className="voice-note">
+                    {settings.language === "ms"
+                      ? "Seterusnya: soalan ringkas tentang kad ini."
+                      : "Next: a short question about this card."}
+                  </p>
                   <button
                     type="button"
                     className="button primary"
-                    onClick={player.reveal}
+                    onClick={player.question}
                   >
-                    {t.reveal}
+                    {t.next}
+                    <ArrowRight size={18} />
                   </button>
-                )
+                </section>
               ) : player.stage === "question" ? (
                 <div className="answer-options">
                   {options.map((option, index) => (
                     <button
                       type="button"
                       className="answer-option"
-                      key={option}
-                      onClick={() => select(option)}
+                      key={option.canonical}
+                      onClick={() => select(option.canonical)}
                     >
-                      <span className="option-number">{index + 1}</span>
-                      {option}
+                      <span className="option-number">{index + 1}</span>{" "}
+                      {option.label}
                     </button>
                   ))}
                 </div>
@@ -518,9 +529,11 @@ export function Player({
                   <h3>{player.correct ? t.correct : t.incorrect}</h3>
                   <p>
                     <strong>{t.answer}: </strong>
-                    {canonicalAnswer(item)}
+                    {item.kind === "pronunciation"
+                      ? item.pinyin
+                      : localizedMeaning(item, settings.language)}
                   </p>
-                  <p>{item.tone_note_ms}</p>
+                  <p>{localizedTone(item, settings.language)}</p>
                   <button
                     type="button"
                     className="button primary"

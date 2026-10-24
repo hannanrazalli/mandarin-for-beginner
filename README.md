@@ -59,6 +59,7 @@ pnpm typecheck
 pnpm lint
 pnpm test
 node scripts/validate-content.mjs
+node scripts/validate-localization.mjs
 pnpm build
 pnpm exec playwright install chromium
 pnpm test:e2e

@@ -4,13 +4,15 @@ import { useEffect, useRef, useState } from "react";
 import { Page } from "../components/Page";
 import { useLearningProgress } from "../learning/cloud";
 import { lessons } from "../lib/curriculum";
+import { localizedExample, localizedMeaning } from "../lib/localization";
 import { useSettings } from "../lib/settings";
 import { z } from "../lib/zod-config";
 import { normalizePinyin } from "./algorithms";
 import { reviewCopy } from "./copy";
 import { useLocalReviews, vocabulary } from "./local";
 export default function Exercises() {
-  const t = reviewCopy(useSettings().language);
+  const language = useSettings().language;
+  const t = reviewCopy(language);
   const progress = useLearningProgress();
   const reviews = useLocalReviews((state) => state.events);
   const weak = new Set(
@@ -138,14 +140,14 @@ export default function Exercises() {
                       setPicked(null);
                     }}
                   >
-                    {value.meaning_ms}
+                    {localizedMeaning(value, language)}
                   </button>
                 ))}
             </div>
           </div>
         ) : tab === "order" ? (
           <>
-            <p>{word.example.meaning_ms}</p>
+            <p>{localizedExample(word, language)}</p>
             <p className="pinyin">
               {ordered.map((value) => tokens[value]).join(" ") || "…"}
             </p>

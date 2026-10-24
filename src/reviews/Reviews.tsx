@@ -4,6 +4,11 @@ import { Page } from "../components/Page";
 import { useMandarinAudio } from "../learning/audio";
 import { learningQueryClient } from "../learning/cloud";
 import { usePractice } from "../learning/store";
+import {
+  canonicalMeaningInput,
+  localizedMeaning,
+  requireItem,
+} from "../lib/localization";
 import { useSettings } from "../lib/settings";
 import { queueMutation } from "../offline/dispatch";
 import { useEventResolution } from "../offline/receipts";
@@ -50,7 +55,8 @@ export default function Reviews() {
   );
 }
 function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
-  const t = reviewCopy(useSettings().language);
+  const language = useSettings().language;
+  const t = reviewCopy(language);
   const data = useReviewData();
   const audio = useMandarinAudio();
   const [card, setCard] = useState<ReviewCard | null>(null);
@@ -96,7 +102,14 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
   async function submit() {
     if (!active || pending || data.progress.verifying) return;
     setCard(active);
-    const event = request.current ?? { id: crypto.randomUUID(), answer, hints };
+    const event = request.current ?? {
+      id: crypto.randomUUID(),
+      answer:
+        active.modality === "meaning"
+          ? canonicalMeaningInput(requireItem(active.slug), language, answer)
+          : answer,
+      hints,
+    };
     request.current = event;
     setPending(true);
     setFailed(false);
@@ -175,15 +188,24 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
       ) : (
         <section className="exercise-card">
           <p className="eyebrow">
-            {t.due}: {available.length} · {current.modality}
+            {t.due}: {available.length} ·{" "}
+            {current.modality === "meaning"
+              ? t.meaningLabel
+              : current.modality === "listening"
+                ? t.listen
+                : current.modality === "tone"
+                  ? t.typing
+                  : t.hanzi}
           </p>
           <h2
             ref={nextHeading}
             tabIndex={-1}
             className="lesson-hanzi"
-            lang="zh-CN"
+            lang={current.modality === "hanzi" ? language : "zh-CN"}
           >
-            {current.modality === "hanzi" ? current.meaning_ms : current.hanzi}
+            {current.modality === "hanzi"
+              ? localizedMeaning(requireItem(current.slug), language)
+              : current.hanzi}
           </h2>
           <p>
             {current.modality === "meaning"
@@ -245,8 +267,10 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
           {hints > 0 && (
             <p>
               {hints === 1
-                ? `${reviewAnswer(current).slice(0, 1)}…`
-                : reviewAnswer(current)}
+                ? `${(current.modality === "meaning" ? localizedMeaning(requireItem(current.slug), language) : reviewAnswer(current)).slice(0, 1)}…`
+                : current.modality === "meaning"
+                  ? localizedMeaning(requireItem(current.slug), language)
+                  : reviewAnswer(current)}
             </p>
           )}
           {accepted && feedback === null && (
@@ -279,7 +303,10 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
             <div role="status">
               <h3>{feedback ? t.correct : t.wrong}</h3>
               <p>
-                {t.answer}: {reviewAnswer(current)}
+                {t.answer}:{" "}
+                {current.modality === "meaning"
+                  ? localizedMeaning(requireItem(current.slug), language)
+                  : reviewAnswer(current)}
               </p>
               <button className="button primary" type="button" onClick={next}>
                 {t.next}

@@ -129,12 +129,13 @@ describe("learning scope isolation", () => {
   });
 });
 describe("lesson fallback and focus", () => {
-  it("moves focus to the revealed explanation", () => {
+  it("shows explanation immediately and moves directly to a graded question", () => {
     render(ui("practice"));
-    fireEvent.click(screen.getByRole("button", { name: "Lihat penerangan" }));
-    expect(document.activeElement).toBe(
-      screen.getByRole("region", { name: "Lihat penerangan" }),
-    );
+    expect(screen.getByRole("region", { name: "Penerangan" })).toBeTruthy();
+    expect(screen.queryByRole("button", { name: "Penerangan" })).toBeNull();
+    fireEvent.click(screen.getByRole("button", { name: "Seterusnya" }));
+    expect(useLessonPlayer.getState().stage).toBe("question");
+    expect(useLessonPlayer.getState().answers).toEqual([]);
   });
   it("reveals text after a listening voice error", () => {
     const stop = vi.fn();

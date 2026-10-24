@@ -11,12 +11,7 @@ test("completes a real local foundation lesson and unlocks the next", async ({
     page.getByRole("heading", { name: "Awalan 1: b, p, m", exact: true }),
   ).toBeVisible();
   for (const answer of ["bā", "pà", "mā"]) {
-    await page
-      .getByRole("button", { name: "Lihat penerangan", exact: true })
-      .click();
-    await page
-      .getByRole("button", { name: "Cuba soalan", exact: true })
-      .click();
+    await page.getByRole("button", { name: "Seterusnya", exact: true }).click();
     await page
       .getByRole("button", { name: new RegExp(`^[1-4] ${answer}$`) })
       .click();

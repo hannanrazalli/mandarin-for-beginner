@@ -12,7 +12,7 @@ const ms = {
   locked: "Lengkapkan pelajaran sebelumnya",
   ready: "Sedia untuk dicuba",
   card: "Kenali dahulu",
-  reveal: "Lihat penerangan",
+  reveal: "Penerangan",
   question: "Cuba soalan",
   choosePinyin: "Pilih pinyin yang sepadan.",
   chooseMeaning: "Pilih maksud dalam Bahasa Melayu.",
@@ -54,7 +54,7 @@ const ms = {
   intro: "Bunyi menjadi asas.",
   introBody:
     "Mulakan dengan b, p dan m. Dengar jika suara Mandarin tersedia, baca penerangan, kemudian cuba tiga soalan pendek.",
-  newContent: "25 pelajaran ringkas · Unit 0 dahulu",
+  newContent: "95 pelajaran ringkas · Unit 0 dahulu",
   tone: "Nota nada",
   answer: "Jawapan",
   notAudio:
@@ -72,10 +72,10 @@ const en: typeof ms = {
   locked: "Complete the previous lessons",
   ready: "Ready to try",
   card: "Get to know it first",
-  reveal: "Show explanation",
+  reveal: "Explanation",
   question: "Try the question",
   choosePinyin: "Choose the matching pinyin.",
-  chooseMeaning: "Choose the meaning in Bahasa Melayu.",
+  chooseMeaning: "Choose the English meaning.",
   listening: "Listen to the device voice, then choose an answer.",
   correct: "Yes, that’s right.",
   incorrect: "Not quite. Let’s try again.",
@@ -95,7 +95,7 @@ const en: typeof ms = {
   play: "Listen",
   slow: "Slow",
   stop: "Stop",
-  malay: "Learning explanations are in Bahasa Melayu.",
+  malay: "Explanations and meanings follow your interface language.",
   review: "This content still needs teacher review.",
   saving: "Submitting answers…",
   pending:
@@ -114,7 +114,7 @@ const en: typeof ms = {
   intro: "Sound is the foundation.",
   introBody:
     "Begin with b, p and m. Listen if a Mandarin voice is available, read the explanation, then try three short questions.",
-  newContent: "25 short lessons · Unit 0 first",
+  newContent: "95 short lessons · Unit 0 first",
   tone: "Tone note",
   answer: "Answer",
   notAudio:

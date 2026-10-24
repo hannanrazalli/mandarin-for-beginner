@@ -1,0 +1,2565 @@
+{
+  "lessons": {
+    "u0-finals-1": {
+      "title_en": "Basic finals: a, o, e"
+    },
+    "u0-finals-2": {
+      "title_en": "Basic finals: i, u, ü"
+    },
+    "u0-finals-3": {
+      "title_en": "Moving vowels: ai, ei, ao, ou"
+    },
+    "u0-finals-4": {
+      "title_en": "Finals with glides: ia, ie, ua, uo, üe"
+    },
+    "u0-finals-5": {
+      "title_en": "Nasal finals: n and ng"
+    },
+    "u0-finals-6": {
+      "title_en": "Long finals within one syllable"
+    },
+    "u0-finals-7": {
+      "title_en": "Distinguishing similar finals"
+    },
+    "u0-initials-1": {
+      "title_en": "Initials 1: b, p, m"
+    },
+    "u0-initials-2": {
+      "title_en": "Initials 2: f, d, t"
+    },
+    "u0-initials-3": {
+      "title_en": "Initials 3: n, l, g"
+    },
+    "u0-initials-4": {
+      "title_en": "Initials 4: k, h, j"
+    },
+    "u0-initials-5": {
+      "title_en": "Initials 5: q, x, zh"
+    },
+    "u0-initials-6": {
+      "title_en": "Initials 6: ch, sh, r"
+    },
+    "u0-initials-7": {
+      "title_en": "Initials 7: z, c, s"
+    },
+    "u0-sandhi-bu": {
+      "title_en": "不: listen to bù and bú"
+    },
+    "u0-sandhi-yi": {
+      "title_en": "一: numbers and tone changes"
+    },
+    "u0-tone-pairs-1": {
+      "title_en": "Listening to two consecutive tones"
+    },
+    "u0-tone-pairs-2": {
+      "title_en": "Tone 3 in words"
+    },
+    "u0-tones-1": {
+      "title_en": "Tones 1, 2 and 3"
+    },
+    "u0-tones-2": {
+      "title_en": "Tone 4 and the neutral tone"
+    },
+    "u1-words-1": {
+      "title_en": "You, I, he and she"
+    },
+    "u1-words-2": {
+      "title_en": "We and our first sentences"
+    },
+    "u1-words-3": {
+      "title_en": "Greetings, one and two"
+    },
+    "u1-words-4": {
+      "title_en": "Three to six"
+    },
+    "u1-words-5": {
+      "title_en": "Seven to ten"
+    },
+    "u2-words-01": {
+      "title_en": "Family and people close to us 1"
+    },
+    "u2-words-02": {
+      "title_en": "Family and people close to us 2"
+    },
+    "u2-words-03": {
+      "title_en": "Family and people close to us 3"
+    },
+    "u2-words-04": {
+      "title_en": "Family and people close to us 4"
+    },
+    "u2-words-05": {
+      "title_en": "Family and people close to us 5"
+    },
+    "u2-words-06": {
+      "title_en": "Family and people close to us 1"
+    },
+    "u2-words-07": {
+      "title_en": "Family and people close to us 2"
+    },
+    "u2-words-08": {
+      "title_en": "Food and drinks 3"
+    },
+    "u2-words-09": {
+      "title_en": "Food and drinks 4"
+    },
+    "u2-words-10": {
+      "title_en": "Food and drinks 5"
+    },
+    "u2-words-11": {
+      "title_en": "Food and drinks 1"
+    },
+    "u2-words-12": {
+      "title_en": "Food and drinks 2"
+    },
+    "u2-words-13": {
+      "title_en": "Food and drinks 3"
+    },
+    "u2-words-14": {
+      "title_en": "Food and drinks 4"
+    },
+    "u2-words-15": {
+      "title_en": "Food and drinks 5"
+    },
+    "u2-words-16": {
+      "title_en": "Food and drinks 1"
+    },
+    "u2-words-17": {
+      "title_en": "Food and drinks 2"
+    },
+    "u2-words-18": {
+      "title_en": "Food and drinks 3"
+    },
+    "u2-words-19": {
+      "title_en": "Places and travel 4"
+    },
+    "u2-words-20": {
+      "title_en": "Places and travel 5"
+    },
+    "u2-words-21": {
+      "title_en": "Places and travel 1"
+    },
+    "u2-words-22": {
+      "title_en": "Places and travel 2"
+    },
+    "u2-words-23": {
+      "title_en": "Places and travel 3"
+    },
+    "u2-words-24": {
+      "title_en": "Places and travel 4"
+    },
+    "u2-words-25": {
+      "title_en": "Places and travel 5"
+    },
+    "u2-words-26": {
+      "title_en": "Places and travel 1"
+    },
+    "u2-words-27": {
+      "title_en": "Places and travel 2"
+    },
+    "u2-words-28": {
+      "title_en": "Places and travel 3"
+    },
+    "u2-words-29": {
+      "title_en": "Places and travel 4"
+    },
+    "u2-words-30": {
+      "title_en": "Places and travel 5"
+    },
+    "u2-words-31": {
+      "title_en": "Time and weather 1"
+    },
+    "u2-words-32": {
+      "title_en": "Time and weather 2"
+    },
+    "u2-words-33": {
+      "title_en": "Time and weather 3"
+    },
+    "u2-words-34": {
+      "title_en": "Time and weather 4"
+    },
+    "u2-words-35": {
+      "title_en": "Time and weather 5"
+    },
+    "u2-words-36": {
+      "title_en": "Time and weather 1"
+    },
+    "u2-words-37": {
+      "title_en": "Time and weather 2"
+    },
+    "u2-words-38": {
+      "title_en": "Money and shopping 3"
+    },
+    "u2-words-39": {
+      "title_en": "Money and shopping 4"
+    },
+    "u2-words-40": {
+      "title_en": "Money and shopping 5"
+    },
+    "u2-words-41": {
+      "title_en": "Money and shopping 1"
+    },
+    "u2-words-42": {
+      "title_en": "Money and shopping 2"
+    },
+    "u2-words-43": {
+      "title_en": "Festivals and culture 3"
+    },
+    "u2-words-44": {
+      "title_en": "Festivals and culture 4"
+    },
+    "u2-words-45": {
+      "title_en": "Festivals and culture 5"
+    },
+    "u2-words-46": {
+      "title_en": "Festivals and culture 1"
+    },
+    "u2-words-47": {
+      "title_en": "Festivals and culture 2"
+    },
+    "u2-words-48": {
+      "title_en": "Daily activities 3"
+    },
+    "u2-words-49": {
+      "title_en": "Daily activities 4"
+    },
+    "u2-words-50": {
+      "title_en": "Daily activities 5"
+    },
+    "u2-words-51": {
+      "title_en": "Daily activities 1"
+    },
+    "u2-words-52": {
+      "title_en": "Daily activities 2"
+    },
+    "u2-words-53": {
+      "title_en": "Daily activities 3"
+    },
+    "u2-words-54": {
+      "title_en": "Daily activities 4"
+    },
+    "u2-words-55": {
+      "title_en": "Daily activities 5"
+    },
+    "u2-words-56": {
+      "title_en": "Daily activities 1"
+    },
+    "u2-words-57": {
+      "title_en": "Daily activities 2"
+    },
+    "u2-words-58": {
+      "title_en": "Descriptions and questions 3"
+    },
+    "u2-words-59": {
+      "title_en": "Descriptions and questions 4"
+    },
+    "u2-words-60": {
+      "title_en": "Descriptions and questions 5"
+    },
+    "u2-words-61": {
+      "title_en": "Descriptions and questions 1"
+    },
+    "u2-words-62": {
+      "title_en": "Descriptions and questions 2"
+    },
+    "u2-words-63": {
+      "title_en": "Descriptions and questions 3"
+    },
+    "u2-words-64": {
+      "title_en": "Descriptions and questions 4"
+    },
+    "u2-words-65": {
+      "title_en": "Descriptions and questions 5"
+    },
+    "u2-words-66": {
+      "title_en": "Objects and body parts 1"
+    },
+    "u2-words-67": {
+      "title_en": "Objects and body parts 2"
+    },
+    "u2-words-68": {
+      "title_en": "Objects and body parts 3"
+    },
+    "u2-words-69": {
+      "title_en": "Objects and body parts 4"
+    },
+    "u2-words-70": {
+      "title_en": "Objects and body parts 5"
+    }
+  },
+  "items": {
+    "w001": {
+      "meaning_ms": "awak",
+      "meaning_en": "you",
+      "tone_note_en": "Dictionary tone 3. In 你好, nǐ is usually pronounced like ní before hǎo.",
+      "example_meaning_en": "How are you?"
+    },
+    "w002": {
+      "meaning_ms": "saya",
+      "meaning_en": "I; me",
+      "tone_note_en": "Tone 3; before shì, wǒ usually stays low without a full rise.",
+      "example_meaning_en": "I am a student."
+    },
+    "w003": {
+      "meaning_ms": "dia (lelaki)",
+      "meaning_en": "he; him",
+      "tone_note_en": "Tone 1: high and level. It sounds the same as 她.",
+      "example_meaning_en": "He is a teacher."
+    },
+    "w004": {
+      "meaning_ms": "dia (perempuan)",
+      "meaning_en": "she; her",
+      "tone_note_en": "Tone 1, with the same pronunciation as 他; the written character indicates the person referred to.",
+      "example_meaning_en": "She is a teacher."
+    },
+    "w005": {
+      "meaning_ms": "kami; kita",
+      "meaning_en": "we; us",
+      "tone_note_en": "Wǒ has tone 3; men is neutral. Whether we includes the listener depends on context; Mandarin uses the same word for both.",
+      "example_meaning_en": "We are students."
+    },
+    "w006": {
+      "meaning_ms": "baik",
+      "meaning_en": "good",
+      "tone_note_en": "Dictionary tone 3. In the greeting 你好, nǐ changes while hǎo keeps tone 3.",
+      "example_meaning_en": "Hello!"
+    },
+    "w007": {
+      "meaning_ms": "ialah; adalah",
+      "meaning_en": "to be",
+      "tone_note_en": "Tone 4: falling. 是 links a person or thing to an identity; it is not used in every sentence describing a quality.",
+      "example_meaning_en": "I am a teacher."
+    },
+    "w008": {
+      "meaning_ms": "tidak; bukan",
+      "meaning_en": "not; no",
+      "tone_note_en": "Dictionary tone 4. Before shì, which has tone 4, it is usually pronounced bú.",
+      "example_meaning_en": "I am not a teacher."
+    },
+    "w009": {
+      "meaning_ms": "terima kasih",
+      "meaning_en": "thank you",
+      "tone_note_en": "Xiè has tone 4; the second xie is usually neutral.",
+      "example_meaning_en": "Thank you!"
+    },
+    "w010": {
+      "meaning_ms": "jumpa lagi",
+      "meaning_en": "goodbye; see you again",
+      "tone_note_en": "Tones 4 + 4; the first falling tone is usually shorter.",
+      "example_meaning_en": "Goodbye, teacher!"
+    },
+    "w011": {
+      "meaning_ms": "satu",
+      "meaning_en": "one",
+      "tone_note_en": "Dictionary tone 1: yí before tone 4, yì before tones 1, 2 or 3. Keep yī when counting or in 第一.",
+      "example_meaning_en": "One person."
+    },
+    "w012": {
+      "meaning_ms": "dua",
+      "meaning_en": "two",
+      "tone_note_en": "Tone 4. 二 is used when counting; 两 is used in many quantity patterns taught later.",
+      "example_meaning_en": "One, two, three."
+    },
+    "w013": {
+      "meaning_ms": "tiga",
+      "meaning_en": "three",
+      "tone_note_en": "Tone 1: high and level.",
+      "example_meaning_en": "Three people."
+    },
+    "w014": {
+      "meaning_ms": "empat",
+      "meaning_en": "four",
+      "tone_note_en": "Tone 4. Listen to s at the front of the mouth, unlike sh in 是.",
+      "example_meaning_en": "Four people."
+    },
+    "w015": {
+      "meaning_ms": "lima",
+      "meaning_en": "five",
+      "tone_note_en": "Tone 3; before gè it usually stays low without a full rise.",
+      "example_meaning_en": "Five people."
+    },
+    "w016": {
+      "meaning_ms": "enam",
+      "meaning_en": "six",
+      "tone_note_en": "Tone 4; iu is the shortened spelling of the final iou.",
+      "example_meaning_en": "Six people."
+    },
+    "w017": {
+      "meaning_ms": "tujuh",
+      "meaning_en": "seven",
+      "tone_note_en": "Tone 1. Q has a clear puff of air.",
+      "example_meaning_en": "Seven people."
+    },
+    "w018": {
+      "meaning_ms": "lapan",
+      "meaning_en": "eight",
+      "tone_note_en": "Tone 1. B has less of a puff of air than p.",
+      "example_meaning_en": "Eight people."
+    },
+    "w019": {
+      "meaning_ms": "sembilan",
+      "meaning_en": "nine",
+      "tone_note_en": "Tone 3; before gè it usually stays low. Iu is one final, not two syllables.",
+      "example_meaning_en": "Nine people."
+    },
+    "w020": {
+      "meaning_ms": "sepuluh",
+      "meaning_en": "ten",
+      "tone_note_en": "Tone 2: rising. For sh, the tongue tip is slightly farther back.",
+      "example_meaning_en": "Ten people."
+    },
+    "w021": {
+      "meaning_ms": "ayah",
+      "meaning_en": "father; dad",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "My father is at home."
+    },
+    "w022": {
+      "meaning_ms": "ibu",
+      "meaning_en": "mother; mum",
+      "tone_note_en": "Mā has tone 1; the second syllable in 妈妈 is usually neutral: māma. This is the pronunciation of this word, not a rule for all repeated characters.",
+      "example_meaning_en": "My mother likes tea."
+    },
+    "w023": {
+      "meaning_ms": "abang",
+      "meaning_en": "older brother",
+      "tone_note_en": "Dictionary tones: 1 + neutral.",
+      "example_meaning_en": "My older brother is a teacher."
+    },
+    "w024": {
+      "meaning_ms": "kakak",
+      "meaning_en": "older sister",
+      "tone_note_en": "Dictionary tones: 3 + neutral.",
+      "example_meaning_en": "My older sister is at school."
+    },
+    "w025": {
+      "meaning_ms": "adik lelaki",
+      "meaning_en": "younger brother",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "My younger brother is at home."
+    },
+    "w026": {
+      "meaning_ms": "adik perempuan",
+      "meaning_en": "younger sister",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "My younger sister likes apples."
+    },
+    "w027": {
+      "meaning_ms": "anak lelaki",
+      "meaning_en": "son",
+      "tone_note_en": "Dictionary tones: 2 + neutral. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "He has a son."
+    },
+    "w028": {
+      "meaning_ms": "anak perempuan",
+      "meaning_en": "daughter",
+      "tone_note_en": "Nǚ has tone 3; ér has tone 2. The connected pronunciation is nǚ’ér.",
+      "example_meaning_en": "Her daughter is at home."
+    },
+    "w029": {
+      "meaning_ms": "anak",
+      "meaning_en": "child",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "The child is at school."
+    },
+    "w030": {
+      "meaning_ms": "ibu bapa",
+      "meaning_en": "parents",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "My parents are in Malaysia."
+    },
+    "w031": {
+      "meaning_ms": "keluarga",
+      "meaning_en": "family",
+      "tone_note_en": "Dictionary tones: 1 + 2.",
+      "example_meaning_en": "My family is small."
+    },
+    "w032": {
+      "meaning_ms": "suami",
+      "meaning_en": "husband",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "Her husband is a teacher."
+    },
+    "w033": {
+      "meaning_ms": "isteri",
+      "meaning_en": "wife",
+      "tone_note_en": "Dictionary tones: 1 + neutral.",
+      "example_meaning_en": "His wife likes tea."
+    },
+    "w034": {
+      "meaning_ms": "datuk sebelah bapa",
+      "meaning_en": "paternal grandfather",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "My paternal grandfather is at home."
+    },
+    "w035": {
+      "meaning_ms": "nenek sebelah bapa",
+      "meaning_en": "paternal grandmother",
+      "tone_note_en": "Dictionary tones: 3 + neutral.",
+      "example_meaning_en": "My paternal grandmother likes fruit."
+    },
+    "w036": {
+      "meaning_ms": "datuk sebelah ibu",
+      "meaning_en": "maternal grandfather",
+      "tone_note_en": "Dictionary tones: 4 + 1.",
+      "example_meaning_en": "My maternal grandfather is in Malaysia."
+    },
+    "w037": {
+      "meaning_ms": "nenek sebelah ibu",
+      "meaning_en": "maternal grandmother",
+      "tone_note_en": "Dictionary tones: 4 + 2.",
+      "example_meaning_en": "My maternal grandmother likes tea."
+    },
+    "w038": {
+      "meaning_ms": "adik lelaki bapa; pak cik (sapaan)",
+      "meaning_en": "father's younger brother; uncle (form of address)",
+      "tone_note_en": "Shū has tone 1; the second syllable is neutral. As a family relationship, 叔叔 specifically means the father's younger brother; it is also a form of address for an adult man.",
+      "example_meaning_en": "Uncle is at home."
+    },
+    "w039": {
+      "meaning_ms": "mak cik; saudara perempuan ibu",
+      "meaning_en": "aunt; mother's sister",
+      "tone_note_en": "Ā has tone 1; yí has tone 2. 阿姨 is also a form of address for an adult woman, who need not be a relative.",
+      "example_meaning_en": "Auntie is a teacher."
+    },
+    "w040": {
+      "meaning_ms": "kawan",
+      "meaning_en": "friend",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "My friend is a student."
+    },
+    "w041": {
+      "meaning_ms": "rakan sekelas",
+      "meaning_en": "classmate",
+      "tone_note_en": "Dictionary tones: 2 + 2.",
+      "example_meaning_en": "My classmate is at school."
+    },
+    "w042": {
+      "meaning_ms": "guru",
+      "meaning_en": "teacher",
+      "tone_note_en": "Dictionary tones: 3 + 1.",
+      "example_meaning_en": "The teacher is at school."
+    },
+    "w043": {
+      "meaning_ms": "pelajar",
+      "meaning_en": "student",
+      "tone_note_en": "Xué has tone 2; 生 in 学生 is usually neutral: xuésheng.",
+      "example_meaning_en": "The student studies at school."
+    },
+    "w044": {
+      "meaning_ms": "orang",
+      "meaning_en": "person; people",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "There are many people here."
+    },
+    "w045": {
+      "meaning_ms": "lelaki",
+      "meaning_en": "man",
+      "tone_note_en": "Dictionary tones: 2 + 2.",
+      "example_meaning_en": "That man is a teacher."
+    },
+    "w046": {
+      "meaning_ms": "nasi",
+      "meaning_en": "cooked rice",
+      "tone_note_en": "Dictionary tones: 3 + 4.",
+      "example_meaning_en": "I like eating rice."
+    },
+    "w047": {
+      "meaning_ms": "mi",
+      "meaning_en": "noodles",
+      "tone_note_en": "Dictionary tones: 4 + 2.",
+      "example_meaning_en": "I eat noodles for lunch."
+    },
+    "w048": {
+      "meaning_ms": "roti",
+      "meaning_en": "bread",
+      "tone_note_en": "Dictionary tones: 4 + 1.",
+      "example_meaning_en": "I eat bread for breakfast."
+    },
+    "w049": {
+      "meaning_ms": "telur ayam",
+      "meaning_en": "chicken egg",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "I eat eggs for breakfast."
+    },
+    "w050": {
+      "meaning_ms": "daging ayam",
+      "meaning_en": "chicken meat",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "I like eating chicken."
+    },
+    "w051": {
+      "meaning_ms": "daging lembu",
+      "meaning_en": "beef",
+      "tone_note_en": "Dictionary tones: 2 + 4.",
+      "example_meaning_en": "He does not eat beef."
+    },
+    "w052": {
+      "meaning_ms": "ikan",
+      "meaning_en": "fish",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "I like eating fish."
+    },
+    "w053": {
+      "meaning_ms": "sayur; hidangan",
+      "meaning_en": "vegetables; dish",
+      "tone_note_en": "Cài has tone 4; 菜 can also refer to a prepared dish.",
+      "example_meaning_en": "I want to eat vegetables."
+    },
+    "w054": {
+      "meaning_ms": "buah-buahan",
+      "meaning_en": "fruit",
+      "tone_note_en": "The dictionary tones of shuǐguǒ are 3 + 3. In connected speech, shuǐ usually rises like shuí before guǒ; the dictionary spelling is retained.",
+      "example_meaning_en": "I eat fruit every day."
+    },
+    "w055": {
+      "meaning_ms": "epal",
+      "meaning_en": "apple",
+      "tone_note_en": "Dictionary tones: 2 + 3.",
+      "example_meaning_en": "This apple is big."
+    },
+    "w056": {
+      "meaning_ms": "pisang",
+      "meaning_en": "banana",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "There are bananas in Malaysia."
+    },
+    "w057": {
+      "meaning_ms": "buah oren",
+      "meaning_en": "orange (fruit)",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "I bought oranges."
+    },
+    "w058": {
+      "meaning_ms": "tembikai",
+      "meaning_en": "watermelon",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "The weather is hot; I want to eat watermelon."
+    },
+    "w059": {
+      "meaning_ms": "anggur",
+      "meaning_en": "grapes",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "I like grapes."
+    },
+    "w060": {
+      "meaning_ms": "susu lembu",
+      "meaning_en": "cow's milk",
+      "tone_note_en": "Dictionary tones: 2 + 3.",
+      "example_meaning_en": "I drink milk for breakfast."
+    },
+    "w061": {
+      "meaning_ms": "air",
+      "meaning_en": "water",
+      "tone_note_en": "Dictionary tone: 3. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "Please give me a glass of water."
+    },
+    "w062": {
+      "meaning_ms": "teh",
+      "meaning_en": "tea",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "I want to drink tea."
+    },
+    "w063": {
+      "meaning_ms": "kopi",
+      "meaning_en": "coffee",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "Dad drinks coffee in the morning."
+    },
+    "w064": {
+      "meaning_ms": "jus buah",
+      "meaning_en": "fruit juice",
+      "tone_note_en": "Dictionary tones: 3 + 1.",
+      "example_meaning_en": "I want to drink fruit juice."
+    },
+    "w065": {
+      "meaning_ms": "gula",
+      "meaning_en": "sugar",
+      "tone_note_en": "Dictionary tone: 2. The example keeps dictionary bù; before tone-4 yào, 不 usually sounds like bú.",
+      "example_meaning_en": "Please do not add sugar."
+    },
+    "w066": {
+      "meaning_ms": "garam",
+      "meaning_en": "salt",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "There is salt in the soup."
+    },
+    "w067": {
+      "meaning_ms": "minyak",
+      "meaning_en": "oil",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "This dish has a lot of oil."
+    },
+    "w068": {
+      "meaning_ms": "sup",
+      "meaning_en": "soup",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "Mum made soup."
+    },
+    "w069": {
+      "meaning_ms": "nasi; makanan; hidangan",
+      "meaning_en": "cooked rice; food; meal",
+      "tone_note_en": "Fàn has tone 4. In 吃饭, it means eating or having a meal, not necessarily eating rice alone.",
+      "example_meaning_en": "Let's eat."
+    },
+    "w070": {
+      "meaning_ms": "sarapan",
+      "meaning_en": "breakfast",
+      "tone_note_en": "Dictionary tones: 3 + 1.",
+      "example_meaning_en": "I have breakfast at seven o'clock."
+    },
+    "w071": {
+      "meaning_ms": "makan tengah hari",
+      "meaning_en": "lunch",
+      "tone_note_en": "Dictionary tones: 3 + 1.",
+      "example_meaning_en": "We have lunch at twelve o'clock."
+    },
+    "w072": {
+      "meaning_ms": "makan malam",
+      "meaning_en": "dinner",
+      "tone_note_en": "Dictionary tones: 3 + 1.",
+      "example_meaning_en": "We eat fish for dinner."
+    },
+    "w073": {
+      "meaning_ms": "makanan",
+      "meaning_en": "food",
+      "tone_note_en": "Dictionary tones: 2 + 4.",
+      "example_meaning_en": "This food is delicious."
+    },
+    "w074": {
+      "meaning_ms": "sayur-sayuran",
+      "meaning_en": "vegetables",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "I eat vegetables every day."
+    },
+    "w075": {
+      "meaning_ms": "kentang",
+      "meaning_en": "potato",
+      "tone_note_en": "Dictionary tones: 3 + 4.",
+      "example_meaning_en": "I like eating potatoes."
+    },
+    "w076": {
+      "meaning_ms": "tomato",
+      "meaning_en": "tomato",
+      "tone_note_en": "Dictionary tones: 1 + 2 + 4.",
+      "example_meaning_en": "Tomatoes are red."
+    },
+    "w077": {
+      "meaning_ms": "tauhu",
+      "meaning_en": "tofu",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "I like eating tofu."
+    },
+    "w078": {
+      "meaning_ms": "timun",
+      "meaning_en": "cucumber",
+      "tone_note_en": "Dictionary tones: 2 + 1.",
+      "example_meaning_en": "I bought cucumbers."
+    },
+    "w079": {
+      "meaning_ms": "lobak merah",
+      "meaning_en": "carrot",
+      "tone_note_en": "Dictionary tones: 2 + 2 + neutral.",
+      "example_meaning_en": "I like eating carrots."
+    },
+    "w080": {
+      "meaning_ms": "bawang besar",
+      "meaning_en": "onion",
+      "tone_note_en": "Dictionary tones: 2 + 1.",
+      "example_meaning_en": "There are onions in the dish."
+    },
+    "w081": {
+      "meaning_ms": "bawang putih",
+      "meaning_en": "garlic",
+      "tone_note_en": "Dictionary tones: 4 + 4.",
+      "example_meaning_en": "I add garlic when cooking."
+    },
+    "w082": {
+      "meaning_ms": "cili",
+      "meaning_en": "chilli",
+      "tone_note_en": "Dictionary tones: 4 + 1.",
+      "example_meaning_en": "This dish has chilli in it."
+    },
+    "w083": {
+      "meaning_ms": "kelapa",
+      "meaning_en": "coconut",
+      "tone_note_en": "Dictionary tones: 1 + neutral.",
+      "example_meaning_en": "There are coconuts in Malaysia."
+    },
+    "w084": {
+      "meaning_ms": "biskut",
+      "meaning_en": "biscuit",
+      "tone_note_en": "Dictionary tones: 3 + 1.",
+      "example_meaning_en": "The child likes eating biscuits."
+    },
+    "w085": {
+      "meaning_ms": "kek",
+      "meaning_en": "cake",
+      "tone_note_en": "Dictionary tones: 4 + 1.",
+      "example_meaning_en": "I want to eat cake on my birthday."
+    },
+    "w086": {
+      "meaning_ms": "ais krim",
+      "meaning_en": "ice cream",
+      "tone_note_en": "Dictionary tones: 1 + 2 + 2.",
+      "example_meaning_en": "The weather is hot; I want to eat ice cream."
+    },
+    "w087": {
+      "meaning_ms": "coklat",
+      "meaning_en": "chocolate",
+      "tone_note_en": "Dictionary tones: 3 + 4 + 4.",
+      "example_meaning_en": "I bought chocolate."
+    },
+    "w088": {
+      "meaning_ms": "kacang tanah",
+      "meaning_en": "peanut",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "This dish has peanuts in it."
+    },
+    "w089": {
+      "meaning_ms": "mi beras; tepung beras",
+      "meaning_en": "rice noodles; rice flour",
+      "tone_note_en": "The dictionary tones of mǐfěn are 3 + 3; mǐ usually rises like mí before fěn. 米粉 can mean rice noodles (including thin rice vermicelli) or rice flour, depending on context.",
+      "example_meaning_en": "I eat rice noodles for lunch."
+    },
+    "w090": {
+      "meaning_ms": "nasi goreng",
+      "meaning_en": "fried rice",
+      "tone_note_en": "Dictionary tones: 3 + 4.",
+      "example_meaning_en": "We eat fried rice for lunch."
+    },
+    "w091": {
+      "meaning_ms": "salad",
+      "meaning_en": "salad",
+      "tone_note_en": "Shā and lā both have tone 1. 沙拉 is a common loanword.",
+      "example_meaning_en": "She likes eating salad."
+    },
+    "w092": {
+      "meaning_ms": "halal (tentang makanan)",
+      "meaning_en": "halal (of food)",
+      "tone_note_en": "Qīng and zhēn have tone 1. 清真 is used for food prepared according to Islamic practice and in compounds such as 清真寺 (mosque); it does not replace every use of the word Islam. The example keeps dictionary yī; before tone-1 jiā, 一 usually sounds like yì.",
+      "example_meaning_en": "This is a halal restaurant."
+    },
+    "w093": {
+      "meaning_ms": "rumah; keluarga",
+      "meaning_en": "home; family",
+      "tone_note_en": "Jiā has tone 1; its meaning depends on context.",
+      "example_meaning_en": "I am at home today."
+    },
+    "w094": {
+      "meaning_ms": "sekolah",
+      "meaning_en": "school",
+      "tone_note_en": "Dictionary tones: 2 + 4.",
+      "example_meaning_en": "I go to school every day."
+    },
+    "w095": {
+      "meaning_ms": "hospital",
+      "meaning_en": "hospital",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "The hospital is here."
+    },
+    "w096": {
+      "meaning_ms": "kedai",
+      "meaning_en": "shop",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "I go to the shop to buy water."
+    },
+    "w097": {
+      "meaning_ms": "pasar raya",
+      "meaning_en": "supermarket",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "The supermarket is next to the school."
+    },
+    "w098": {
+      "meaning_ms": "restoran; hotel",
+      "meaning_en": "restaurant; hotel",
+      "tone_note_en": "Fàn and diàn have tone 4. 饭店 can mean a restaurant or a hotel, depending on context.",
+      "example_meaning_en": "We eat at a restaurant."
+    },
+    "w099": {
+      "meaning_ms": "restoran",
+      "meaning_en": "restaurant; dining room",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "The restaurant is over there."
+    },
+    "w100": {
+      "meaning_ms": "bank",
+      "meaning_en": "bank",
+      "tone_note_en": "Yín has tone 2; 行 in 银行 is pronounced háng, tone 2.",
+      "example_meaning_en": "The bank is next to the shop."
+    },
+    "w101": {
+      "meaning_ms": "pejabat pos",
+      "meaning_en": "post office",
+      "tone_note_en": "Dictionary tones: 2 + 2.",
+      "example_meaning_en": "The post office is here."
+    },
+    "w102": {
+      "meaning_ms": "lapangan terbang",
+      "meaning_en": "airport",
+      "tone_note_en": "Dictionary tones: 1 + 3.",
+      "example_meaning_en": "The airport is far from here."
+    },
+    "w103": {
+      "meaning_ms": "stesen; perhentian kenderaan",
+      "meaning_en": "station; vehicle stop",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "The station is ahead."
+    },
+    "w104": {
+      "meaning_ms": "taman",
+      "meaning_en": "park",
+      "tone_note_en": "Dictionary tones: 1 + 2.",
+      "example_meaning_en": "Let's go to the park."
+    },
+    "w105": {
+      "meaning_ms": "perpustakaan",
+      "meaning_en": "library",
+      "tone_note_en": "Dictionary tones: 2 + 1 + 3.",
+      "example_meaning_en": "The library is next to the school."
+    },
+    "w106": {
+      "meaning_ms": "tandas",
+      "meaning_en": "toilet",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "Where is the toilet?"
+    },
+    "w107": {
+      "meaning_ms": "bilik",
+      "meaning_en": "room",
+      "tone_note_en": "Dictionary tones: 2 + 1.",
+      "example_meaning_en": "My room is small."
+    },
+    "w108": {
+      "meaning_ms": "dapur",
+      "meaning_en": "kitchen",
+      "tone_note_en": "Dictionary tones: 2 + 2.",
+      "example_meaning_en": "Mum cooks in the kitchen."
+    },
+    "w109": {
+      "meaning_ms": "ruang tamu",
+      "meaning_en": "living room",
+      "tone_note_en": "Dictionary tones: 4 + 1.",
+      "example_meaning_en": "Dad watches television in the living room."
+    },
+    "w110": {
+      "meaning_ms": "bilik tidur",
+      "meaning_en": "bedroom",
+      "tone_note_en": "Dictionary tones: 4 + 4. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "My bedroom has a bed."
+    },
+    "w111": {
+      "meaning_ms": "pintu",
+      "meaning_en": "door",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "Please close the door."
+    },
+    "w112": {
+      "meaning_ms": "tingkap",
+      "meaning_en": "window",
+      "tone_note_en": "Chuāng has tone 1 and means window. 窗户 chuānghu is another common, two-syllable form; 窗 is not a spelling abbreviation or a traditional character.",
+      "example_meaning_en": "Please open the window."
+    },
+    "w113": {
+      "meaning_ms": "meja",
+      "meaning_en": "table; desk",
+      "tone_note_en": "Dictionary tones: 1 + neutral.",
+      "example_meaning_en": "The book is on the table."
+    },
+    "w114": {
+      "meaning_ms": "kerusi",
+      "meaning_en": "chair",
+      "tone_note_en": "Dictionary tones: 3 + neutral.",
+      "example_meaning_en": "Please sit on the chair."
+    },
+    "w115": {
+      "meaning_ms": "katil",
+      "meaning_en": "bed",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "The child is sleeping on the bed."
+    },
+    "w116": {
+      "meaning_ms": "jalan",
+      "meaning_en": "road",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "This road is long."
+    },
+    "w117": {
+      "meaning_ms": "jalan; jalan raya",
+      "meaning_en": "street; road",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "This street is long."
+    },
+    "w118": {
+      "meaning_ms": "bandar",
+      "meaning_en": "city",
+      "tone_note_en": "Dictionary tones: 2 + 4. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "Kuala Lumpur is a big city."
+    },
+    "w119": {
+      "meaning_ms": "negara",
+      "meaning_en": "country",
+      "tone_note_en": "Dictionary tones: 2 + 1. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "Malaysia is a country."
+    },
+    "w120": {
+      "meaning_ms": "China",
+      "meaning_en": "China",
+      "tone_note_en": "Dictionary tones: 1 + 2.",
+      "example_meaning_en": "He lives in China."
+    },
+    "w121": {
+      "meaning_ms": "Malaysia",
+      "meaning_en": "Malaysia",
+      "tone_note_en": "Dictionary tones: 3 + 2 + 1 + 4.",
+      "example_meaning_en": "I live in Malaysia."
+    },
+    "w122": {
+      "meaning_ms": "Kuala Lumpur",
+      "meaning_en": "Kuala Lumpur",
+      "tone_note_en": "Dictionary tones: 2 + 2 + 1.",
+      "example_meaning_en": "I live in Kuala Lumpur."
+    },
+    "w123": {
+      "meaning_ms": "metro; kereta api bandar bawah tanah",
+      "meaning_en": "metro; underground railway",
+      "tone_note_en": "Dì has tone 4; tiě has tone 3. 地铁 refers to a metro system, which may also have above-ground sections; it is not the name for every kind of train.",
+      "example_meaning_en": "We take the metro to school."
+    },
+    "w124": {
+      "meaning_ms": "bas",
+      "meaning_en": "bus",
+      "tone_note_en": "Dictionary tones: 1 + 4 + 4 + 1.",
+      "example_meaning_en": "I take the bus to the shop."
+    },
+    "w125": {
+      "meaning_ms": "kereta api",
+      "meaning_en": "train",
+      "tone_note_en": "Dictionary tones: 3 + 1.",
+      "example_meaning_en": "We take the train to Kuala Lumpur."
+    },
+    "w126": {
+      "meaning_ms": "kapal terbang",
+      "meaning_en": "aeroplane",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "The aeroplane is at the airport."
+    },
+    "w127": {
+      "meaning_ms": "teksi",
+      "meaning_en": "taxi",
+      "tone_note_en": "Dictionary tones: 1 + 1 + 1.",
+      "example_meaning_en": "I take a taxi to the hospital."
+    },
+    "w128": {
+      "meaning_ms": "kereta",
+      "meaning_en": "car",
+      "tone_note_en": "Dictionary tones: 4 + 1. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "My father has a car."
+    },
+    "w129": {
+      "meaning_ms": "basikal",
+      "meaning_en": "bicycle",
+      "tone_note_en": "Zì has tone 4; 行 in 自行 is pronounced xíng, tone 2; chē has tone 1.",
+      "example_meaning_en": "He cycles to school."
+    },
+    "w130": {
+      "meaning_ms": "motosikal",
+      "meaning_en": "motorcycle",
+      "tone_note_en": "Mó has tone 2; tuō and chē have tone 1. Do not give all three syllables tone 1.",
+      "example_meaning_en": "My older brother rides a motorcycle."
+    },
+    "w131": {
+      "meaning_ms": "bot; kapal",
+      "meaning_en": "boat; ship",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "The boat is on the water."
+    },
+    "w132": {
+      "meaning_ms": "tiket",
+      "meaning_en": "ticket",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "I bought two tickets."
+    },
+    "w133": {
+      "meaning_ms": "peta",
+      "meaning_en": "map",
+      "tone_note_en": "Dictionary tones: 4 + 2.",
+      "example_meaning_en": "Please look at the map."
+    },
+    "w134": {
+      "meaning_ms": "alamat",
+      "meaning_en": "address",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "Please tell me your address."
+    },
+    "w135": {
+      "meaning_ms": "di sini",
+      "meaning_en": "here",
+      "tone_note_en": "Zhè has tone 4; lǐ has tone 3. The pronunciation lǐ is common in Standard Mandarin.",
+      "example_meaning_en": "Please sit here."
+    },
+    "w136": {
+      "meaning_ms": "di sana",
+      "meaning_en": "there",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "The school is there."
+    },
+    "w137": {
+      "meaning_ms": "di mana",
+      "meaning_en": "where",
+      "tone_note_en": "The dictionary tones of nǎlǐ are 3 + 3. When both syllables carry full tones, nǎ usually rises like ná before lǐ; it is not simply lowered.",
+      "example_meaning_en": "Where is the toilet?"
+    },
+    "w138": {
+      "meaning_ms": "hari ini",
+      "meaning_en": "today",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "Today I am going to school."
+    },
+    "w139": {
+      "meaning_ms": "esok",
+      "meaning_en": "tomorrow",
+      "tone_note_en": "Dictionary tones: 2 + 1.",
+      "example_meaning_en": "We are going to the park tomorrow."
+    },
+    "w140": {
+      "meaning_ms": "semalam",
+      "meaning_en": "yesterday",
+      "tone_note_en": "Dictionary tones: 2 + 1.",
+      "example_meaning_en": "I was at home yesterday."
+    },
+    "w141": {
+      "meaning_ms": "sekarang",
+      "meaning_en": "now",
+      "tone_note_en": "Dictionary tones: 4 + 4.",
+      "example_meaning_en": "I am at school now."
+    },
+    "w142": {
+      "meaning_ms": "pagi",
+      "meaning_en": "morning",
+      "tone_note_en": "Dictionary tones: 3 + neutral.",
+      "example_meaning_en": "I drink tea in the morning."
+    },
+    "w143": {
+      "meaning_ms": "waktu pagi (sebelum tengah hari)",
+      "meaning_en": "morning (before noon)",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "I am at school in the morning."
+    },
+    "w144": {
+      "meaning_ms": "tengah hari",
+      "meaning_en": "noon; midday",
+      "tone_note_en": "Dictionary tones: 1 + 3.",
+      "example_meaning_en": "We eat at noon."
+    },
+    "w145": {
+      "meaning_ms": "waktu petang",
+      "meaning_en": "afternoon",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "I go to the shop in the afternoon."
+    },
+    "w146": {
+      "meaning_ms": "malam",
+      "meaning_en": "evening; night",
+      "tone_note_en": "Dictionary tones: 3 + neutral.",
+      "example_meaning_en": "I rest at home in the evening."
+    },
+    "w147": {
+      "meaning_ms": "masa; ketika",
+      "meaning_en": "time; when",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "When are you going to school?"
+    },
+    "w148": {
+      "meaning_ms": "masa",
+      "meaning_en": "time",
+      "tone_note_en": "Dictionary tones: 2 + 1.",
+      "example_meaning_en": "Do you have time now?"
+    },
+    "w149": {
+      "meaning_ms": "tahun",
+      "meaning_en": "year",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "I have lived in Malaysia for three years."
+    },
+    "w150": {
+      "meaning_ms": "bulan",
+      "meaning_en": "month; moon",
+      "tone_note_en": "Yuè has tone 4; month names use a number before 月.",
+      "example_meaning_en": "My birthday is in May."
+    },
+    "w151": {
+      "meaning_ms": "hari; tarikh",
+      "meaning_en": "day; date",
+      "tone_note_en": "Rì has tone 4. For dates, 月 followed by a number and 日 is fairly formal; everyday speech also uses 号 hào.",
+      "example_meaning_en": "Today is 10 May."
+    },
+    "w152": {
+      "meaning_ms": "minggu; hari dalam minggu",
+      "meaning_en": "week; day of the week",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "What day of the week is it today?"
+    },
+    "w153": {
+      "meaning_ms": "minit",
+      "meaning_en": "minute",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "I waited for ten minutes."
+    },
+    "w154": {
+      "meaning_ms": "jam (tempoh)",
+      "meaning_en": "hour (duration)",
+      "tone_note_en": "Dictionary tones: 3 + 2. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "I study for an hour."
+    },
+    "w155": {
+      "meaning_ms": "pukul; titik",
+      "meaning_en": "o'clock; point",
+      "tone_note_en": "Diǎn has tone 3. For clock time, the hour number comes before 点: 三点 sān diǎn is three o'clock; a number after 点 may indicate minutes.",
+      "example_meaning_en": "It is three o'clock now."
+    },
+    "w156": {
+      "meaning_ms": "setengah",
+      "meaning_en": "half",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "It is half past three now."
+    },
+    "w157": {
+      "meaning_ms": "hari jadi",
+      "meaning_en": "birthday",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "Today is my birthday."
+    },
+    "w158": {
+      "meaning_ms": "hujung minggu",
+      "meaning_en": "weekend",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "I go to the park at the weekend."
+    },
+    "w159": {
+      "meaning_ms": "cuaca",
+      "meaning_en": "weather",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "The weather is good today."
+    },
+    "w160": {
+      "meaning_ms": "hujan; turun hujan",
+      "meaning_en": "to rain; raining",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "It rained today."
+    },
+    "w161": {
+      "meaning_ms": "hujan",
+      "meaning_en": "rain",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "The rain is heavy today."
+    },
+    "w162": {
+      "meaning_ms": "cuaca cerah",
+      "meaning_en": "sunny day; clear weather",
+      "tone_note_en": "Dictionary tones: 2 + 1.",
+      "example_meaning_en": "It will be sunny tomorrow."
+    },
+    "w163": {
+      "meaning_ms": "cuaca mendung",
+      "meaning_en": "cloudy day; overcast weather",
+      "tone_note_en": "Dictionary tones: 1 + 1.",
+      "example_meaning_en": "It is cloudy today."
+    },
+    "w164": {
+      "meaning_ms": "angin",
+      "meaning_en": "wind",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "The wind is strong today."
+    },
+    "w165": {
+      "meaning_ms": "matahari",
+      "meaning_en": "sun",
+      "tone_note_en": "Dictionary tones: 4 + 2.",
+      "example_meaning_en": "The sun has come out."
+    },
+    "w166": {
+      "meaning_ms": "hari panas",
+      "meaning_en": "hot day; hot weather",
+      "tone_note_en": "Rè has tone 4; tiān has tone 1. 热天 means hot days or a hot season; 天气很热 is also common when describing the current weather.",
+      "example_meaning_en": "On hot days, you need to drink more water."
+    },
+    "w167": {
+      "meaning_ms": "sejuk nyaman",
+      "meaning_en": "cool and pleasant",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "The weather is pleasantly cool in the evening."
+    },
+    "w168": {
+      "meaning_ms": "wang",
+      "meaning_en": "money",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "How much is this book?"
+    },
+    "w169": {
+      "meaning_ms": "yuan; unit wang tidak formal",
+      "meaning_en": "yuan; informal unit of money",
+      "tone_note_en": "Kuài has tone 4; it is a spoken unit of money, particularly in China, rather than the name of the Malaysian currency.",
+      "example_meaning_en": "This tea costs ten yuan."
+    },
+    "w170": {
+      "meaning_ms": "yuan (unit mata wang)",
+      "meaning_en": "yuan (unit of currency)",
+      "tone_note_en": "Yuán has tone 2; it is a formal unit of currency, particularly for renminbi.",
+      "example_meaning_en": "This book costs twenty yuan."
+    },
+    "w171": {
+      "meaning_ms": "jiao (sepersepuluh yuan)",
+      "meaning_en": "jiao (one tenth of a yuan)",
+      "tone_note_en": "Jiǎo has tone 3. This unit is one tenth of a yuan and is not a unit of the ringgit.",
+      "example_meaning_en": "This item costs five jiao."
+    },
+    "w172": {
+      "meaning_ms": "fen (seperseratus yuan); minit",
+      "meaning_en": "fen (one hundredth of a yuan); minute",
+      "tone_note_en": "Fēn has tone 1. In renminbi, one fen is one hundredth of a yuan; 分 can also mean a minute. The example keeps dictionary yī; both instances of 一 in the example are usually pronounced yì.",
+      "example_meaning_en": "One yuan equals one hundred fen."
+    },
+    "w173": {
+      "meaning_ms": "harga",
+      "meaning_en": "price",
+      "tone_note_en": "Dictionary tones: 4 + 2.",
+      "example_meaning_en": "What is the price of this apple?"
+    },
+    "w174": {
+      "meaning_ms": "berapa banyak; berapa harga",
+      "meaning_en": "how much; how many",
+      "tone_note_en": "Dictionary tones: 1 + neutral.",
+      "example_meaning_en": "How much is this coffee?"
+    },
+    "w175": {
+      "meaning_ms": "mahal",
+      "meaning_en": "expensive",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "This restaurant is expensive."
+    },
+    "w176": {
+      "meaning_ms": "murah",
+      "meaning_en": "cheap; inexpensive",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "This apple is cheap."
+    },
+    "w177": {
+      "meaning_ms": "membeli",
+      "meaning_en": "to buy",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "I want to buy fruit."
+    },
+    "w178": {
+      "meaning_ms": "menjual",
+      "meaning_en": "to sell",
+      "tone_note_en": "Mài has tone 4; distinguish it from 买 mǎi (to buy).",
+      "example_meaning_en": "This shop sells fruit."
+    },
+    "w179": {
+      "meaning_ms": "membayar",
+      "meaning_en": "to pay",
+      "tone_note_en": "Dictionary tones: 4 + 2.",
+      "example_meaning_en": "I pay using my phone."
+    },
+    "w180": {
+      "meaning_ms": "wang tunai",
+      "meaning_en": "cash",
+      "tone_note_en": "Dictionary tones: 4 + 1.",
+      "example_meaning_en": "I do not have any cash."
+    },
+    "w181": {
+      "meaning_ms": "kad bank",
+      "meaning_en": "bank card",
+      "tone_note_en": "Yín and háng have tone 2; kǎ has tone 3.",
+      "example_meaning_en": "I pay using a bank card."
+    },
+    "w182": {
+      "meaning_ms": "membuat bayaran",
+      "meaning_en": "to make a payment",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "I pay here."
+    },
+    "w183": {
+      "meaning_ms": "memberi baki",
+      "meaning_en": "to give change",
+      "tone_note_en": "Zhǎo has tone 3; qián has tone 2. In a payment context, 找钱 means giving change back, rather than looking for lost money.",
+      "example_meaning_en": "The shop assistant gives me change."
+    },
+    "w184": {
+      "meaning_ms": "resit",
+      "meaning_en": "receipt",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "Please give me a receipt."
+    },
+    "w185": {
+      "meaning_ms": "wang kecil; wang baki",
+      "meaning_en": "small change; change",
+      "tone_note_en": "Dictionary tones: 2 + 2. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "I have some small change."
+    },
+    "w186": {
+      "meaning_ms": "membeli-belah",
+      "meaning_en": "to go shopping",
+      "tone_note_en": "Dictionary tones: 4 + 4.",
+      "example_meaning_en": "I go shopping at the weekend."
+    },
+    "w187": {
+      "meaning_ms": "diskaun; menawarkan potongan harga",
+      "meaning_en": "to offer a discount; discount",
+      "tone_note_en": "Dǎ has tone 3; 折 is zhé, tone 2, when referring to a discount.",
+      "example_meaning_en": "This shop is offering a discount today."
+    },
+    "w188": {
+      "meaning_ms": "Tahun Baharu Cina (Perayaan Musim Bunga)",
+      "meaning_en": "Chinese New Year; Spring Festival",
+      "tone_note_en": "Chūn has tone 1; jié has tone 2. This festival name refers to a Chinese tradition.",
+      "example_meaning_en": "We visit family during Chinese New Year."
+    },
+    "w189": {
+      "meaning_ms": "Pesta Pertengahan Musim Luruh",
+      "meaning_en": "Mid-Autumn Festival",
+      "tone_note_en": "Dictionary tones: 1 + 1 + 2.",
+      "example_meaning_en": "We eat mooncakes during the Mid-Autumn Festival."
+    },
+    "w190": {
+      "meaning_ms": "Pesta Perahu Naga (Duanwu)",
+      "meaning_en": "Dragon Boat Festival (Duanwu)",
+      "tone_note_en": "Dictionary tones: 1 + 3 + 2.",
+      "example_meaning_en": "We eat zongzi during the Dragon Boat Festival."
+    },
+    "w191": {
+      "meaning_ms": "Pesta Tanglung (Yuanxiao)",
+      "meaning_en": "Lantern Festival (Yuanxiao)",
+      "tone_note_en": "Dictionary tones: 2 + 1 + 2.",
+      "example_meaning_en": "We eat tangyuan during the Lantern Festival."
+    },
+    "w192": {
+      "meaning_ms": "Hari Kebangsaan (China)",
+      "meaning_en": "National Day (China)",
+      "tone_note_en": "Guó has tone 2; qìng has tone 4; jié has tone 2. The reference here is specifically to China.",
+      "example_meaning_en": "China's National Day is on 1 October."
+    },
+    "w193": {
+      "meaning_ms": "Hari Krismas",
+      "meaning_en": "Christmas",
+      "tone_note_en": "Dictionary tones: 4 + 4 + 2.",
+      "example_meaning_en": "We rest on Christmas Day."
+    },
+    "w194": {
+      "meaning_ms": "Hari Raya Aidilfitri",
+      "meaning_en": "Eid al-Fitr",
+      "tone_note_en": "Kāi and zhāi have tone 1; jié has tone 2. 开斋节 is a common Mandarin term for Eid al-Fitr.",
+      "example_meaning_en": "I visit family during Eid al-Fitr."
+    },
+    "w195": {
+      "meaning_ms": "Hari Deepavali",
+      "meaning_en": "Deepavali",
+      "tone_note_en": "Tú has tone 2; yāo has tone 1; jié has tone 2. 屠妖节 is a common regional Mandarin term for Deepavali in Malaysia and Singapore.",
+      "example_meaning_en": "I visit friends during Deepavali."
+    },
+    "w196": {
+      "meaning_ms": "tahun baharu",
+      "meaning_en": "new year",
+      "tone_note_en": "Xīn has tone 1; nián has tone 2. The reference can be general or to a particular festival.",
+      "example_meaning_en": "Happy New Year!"
+    },
+    "w197": {
+      "meaning_ms": "perayaan; hari perayaan",
+      "meaning_en": "festival; festive day",
+      "tone_note_en": "Jié has tone 2; rì has tone 4. The example keeps dictionary yī; before tone-4 gè, 一 usually sounds like yí.",
+      "example_meaning_en": "Chinese New Year is a traditional festival."
+    },
+    "w198": {
+      "meaning_ms": "cuti; tempoh cuti",
+      "meaning_en": "holiday; holiday period",
+      "tone_note_en": "假 is jià, tone 4, when it means a holiday; qī has tone 1.",
+      "example_meaning_en": "I rest at home during the holidays."
+    },
+    "w199": {
+      "meaning_ms": "kuih bulan",
+      "meaning_en": "mooncake",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "We eat mooncakes during the Mid-Autumn Festival."
+    },
+    "w200": {
+      "meaning_ms": "zongzi; ladu pulut berbungkus daun",
+      "meaning_en": "zongzi; leaf-wrapped glutinous rice dumpling",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "We eat zongzi during the Dragon Boat Festival."
+    },
+    "w201": {
+      "meaning_ms": "sampul merah berisi wang",
+      "meaning_en": "red envelope containing money",
+      "tone_note_en": "Dictionary tones: 2 + 1.",
+      "example_meaning_en": "I give the children red envelopes containing money during Chinese New Year."
+    },
+    "w202": {
+      "meaning_ms": "hadiah",
+      "meaning_en": "gift; present",
+      "tone_note_en": "Dictionary tones: 3 + 4.",
+      "example_meaning_en": "I buy a present for Mum."
+    },
+    "w203": {
+      "meaning_ms": "ucapan baik; mendoakan kesejahteraan",
+      "meaning_en": "good wishes; to wish someone well",
+      "tone_note_en": "Dictionary tones: 4 + 2.",
+      "example_meaning_en": "Thank you for your good wishes."
+    },
+    "w204": {
+      "meaning_ms": "gembira; bahagia",
+      "meaning_en": "happy; joyful",
+      "tone_note_en": "Kuài has tone 4; 乐 is lè, tone 4, in 快乐.",
+      "example_meaning_en": "Happy birthday!"
+    },
+    "w205": {
+      "meaning_ms": "mengalu-alukan; selamat datang",
+      "meaning_en": "to welcome; welcome",
+      "tone_note_en": "Dictionary tones: 1 + 2.",
+      "example_meaning_en": "Welcome to my home."
+    },
+    "w206": {
+      "meaning_ms": "mengucapkan tahniah",
+      "meaning_en": "to congratulate",
+      "tone_note_en": "Dictionary tones: 4 + 4.",
+      "example_meaning_en": "I congratulate you."
+    },
+    "w207": {
+      "meaning_ms": "tahniah",
+      "meaning_en": "congratulations",
+      "tone_note_en": "Dictionary tones: 1 + 3.",
+      "example_meaning_en": "Congratulations!"
+    },
+    "w208": {
+      "meaning_ms": "makan",
+      "meaning_en": "to eat",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "I like eating fish."
+    },
+    "w209": {
+      "meaning_ms": "minum",
+      "meaning_en": "to drink",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "I want to drink water."
+    },
+    "w210": {
+      "meaning_ms": "melihat; menonton; membaca",
+      "meaning_en": "to look; to watch; to read",
+      "tone_note_en": "Kàn has tone 4; its specific meaning depends on the object.",
+      "example_meaning_en": "I watch television in the evening."
+    },
+    "w211": {
+      "meaning_ms": "mendengar",
+      "meaning_en": "to listen; to hear",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "I like listening to music."
+    },
+    "w212": {
+      "meaning_ms": "berkata; bercakap",
+      "meaning_en": "to say; to speak",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "The teacher speaks Chinese."
+    },
+    "w213": {
+      "meaning_ms": "membaca",
+      "meaning_en": "to read",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "I read every day."
+    },
+    "w214": {
+      "meaning_ms": "menulis",
+      "meaning_en": "to write",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "The student writes Chinese characters."
+    },
+    "w215": {
+      "meaning_ms": "belajar",
+      "meaning_en": "to study; to learn",
+      "tone_note_en": "Dictionary tones: 2 + 2.",
+      "example_meaning_en": "I study Chinese at school."
+    },
+    "w216": {
+      "meaning_ms": "bekerja; kerja",
+      "meaning_en": "to work; work",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "My father works in Kuala Lumpur."
+    },
+    "w217": {
+      "meaning_ms": "berehat",
+      "meaning_en": "to rest",
+      "tone_note_en": "Dictionary tones: 1 + neutral.",
+      "example_meaning_en": "I rest at home in the evening."
+    },
+    "w218": {
+      "meaning_ms": "tidur",
+      "meaning_en": "to sleep",
+      "tone_note_en": "Shuì has tone 4; 觉 is jiào, tone 4, in 睡觉.",
+      "example_meaning_en": "The child goes to sleep at nine o'clock at night."
+    },
+    "w219": {
+      "meaning_ms": "bangun tidur",
+      "meaning_en": "to get up",
+      "tone_note_en": "Dictionary tones: 3 + 2.",
+      "example_meaning_en": "I get up at six o'clock in the morning."
+    },
+    "w220": {
+      "meaning_ms": "pergi",
+      "meaning_en": "to go",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "I go to school."
+    },
+    "w221": {
+      "meaning_ms": "datang",
+      "meaning_en": "to come",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "A friend is coming to my home today."
+    },
+    "w222": {
+      "meaning_ms": "pulang; kembali",
+      "meaning_en": "to return; to go back",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "I go home in the evening."
+    },
+    "w223": {
+      "meaning_ms": "berjalan; pergi",
+      "meaning_en": "to walk; to go",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "We walk to the park."
+    },
+    "w224": {
+      "meaning_ms": "berlari",
+      "meaning_en": "to run",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "He runs in the park every day."
+    },
+    "w225": {
+      "meaning_ms": "duduk; menaiki kenderaan",
+      "meaning_en": "to sit; to take a vehicle",
+      "tone_note_en": "Zuò has tone 4; with the name of a vehicle, it means taking that vehicle.",
+      "example_meaning_en": "Please sit down."
+    },
+    "w226": {
+      "meaning_ms": "berdiri; stesen",
+      "meaning_en": "to stand; station",
+      "tone_note_en": "Zhàn has tone 4; as a noun, it can also mean a station.",
+      "example_meaning_en": "Please stand here."
+    },
+    "w227": {
+      "meaning_ms": "membuka; menghidupkan",
+      "meaning_en": "to open; to turn on",
+      "tone_note_en": "Kāi has tone 1; its meaning changes with the object.",
+      "example_meaning_en": "Please open the door."
+    },
+    "w228": {
+      "meaning_ms": "menutup; mematikan",
+      "meaning_en": "to close; to turn off",
+      "tone_note_en": "Guān has tone 1; with a device, it can mean turning it off.",
+      "example_meaning_en": "Please close the door."
+    },
+    "w229": {
+      "meaning_ms": "membuat; melakukan",
+      "meaning_en": "to do; to make",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "Mum cooks."
+    },
+    "w230": {
+      "meaning_ms": "menggunakan",
+      "meaning_en": "to use",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "I use my phone to look at the map."
+    },
+    "w231": {
+      "meaning_ms": "memberi; kepada",
+      "meaning_en": "to give; to; for",
+      "tone_note_en": "Gěi has tone 3; it can also mark the recipient before a verb.",
+      "example_meaning_en": "Please give me water."
+    },
+    "w232": {
+      "meaning_ms": "mahu; berfikir",
+      "meaning_en": "to want; to think",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "I want to drink tea."
+    },
+    "w233": {
+      "meaning_ms": "suka",
+      "meaning_en": "to like",
+      "tone_note_en": "Dictionary tones: 3 + neutral.",
+      "example_meaning_en": "I like eating rice."
+    },
+    "w234": {
+      "meaning_ms": "sayang; cinta",
+      "meaning_en": "to love",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "I love my family."
+    },
+    "w235": {
+      "meaning_ms": "tahu",
+      "meaning_en": "to know",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "I know that place."
+    },
+    "w236": {
+      "meaning_ms": "kenal",
+      "meaning_en": "to know; to recognise",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "I know your teacher."
+    },
+    "w237": {
+      "meaning_ms": "boleh; tahu cara; akan",
+      "meaning_en": "can; know how to; will",
+      "tone_note_en": "Huì has tone 4; it often expresses a learned ability or a possibility.",
+      "example_meaning_en": "I can speak Chinese."
+    },
+    "w238": {
+      "meaning_ms": "boleh; mampu",
+      "meaning_en": "can; be able to",
+      "tone_note_en": "Néng has tone 2; it often expresses ability or that circumstances make something possible.",
+      "example_meaning_en": "I can go today."
+    },
+    "w239": {
+      "meaning_ms": "boleh; diizinkan",
+      "meaning_en": "may; can; be allowed to",
+      "tone_note_en": "The dictionary tones of kěyǐ are 3 + 3. In connected speech, kě usually rises like ké before yǐ; it is not simply lowered.",
+      "example_meaning_en": "May I sit here?"
+    },
+    "w240": {
+      "meaning_ms": "mahu; perlu",
+      "meaning_en": "to want; to need",
+      "tone_note_en": "Yào has tone 4; it can express a wish or a need. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "I want a cup of tea."
+    },
+    "w241": {
+      "meaning_ms": "ada; mempunyai",
+      "meaning_en": "to have; there is",
+      "tone_note_en": "Dictionary tone: 3. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "I have an older brother."
+    },
+    "w242": {
+      "meaning_ms": "tiada; tidak mempunyai; belum (dengan kata kerja)",
+      "meaning_en": "not have; there is no; not yet (before a verb)",
+      "tone_note_en": "Dictionary tones: 2 + 3.",
+      "example_meaning_en": "I have no cash."
+    },
+    "w243": {
+      "meaning_ms": "berada di; sedang",
+      "meaning_en": "to be at; at; in progress",
+      "tone_note_en": "Zài has tone 4; before a verb, 在 can also mark an action in progress.",
+      "example_meaning_en": "I am at home."
+    },
+    "w244": {
+      "meaning_ms": "tinggal",
+      "meaning_en": "to live; to stay",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "I live in Kuala Lumpur."
+    },
+    "w245": {
+      "meaning_ms": "bernama; memanggil",
+      "meaning_en": "to be called; to call",
+      "tone_note_en": "Jiào has tone 4; the name in the sentence is an example name.",
+      "example_meaning_en": "My name is Anna."
+    },
+    "w246": {
+      "meaning_ms": "bertanya",
+      "meaning_en": "to ask",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "I want to ask the teacher."
+    },
+    "w247": {
+      "meaning_ms": "menjawab",
+      "meaning_en": "to answer",
+      "tone_note_en": "Dictionary tones: 2 + 2.",
+      "example_meaning_en": "Please answer this question."
+    },
+    "w248": {
+      "meaning_ms": "besar",
+      "meaning_en": "big; large",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "This room is big."
+    },
+    "w249": {
+      "meaning_ms": "kecil",
+      "meaning_en": "small",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "My room is small."
+    },
+    "w250": {
+      "meaning_ms": "banyak",
+      "meaning_en": "many; much",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "There are many students here."
+    },
+    "w251": {
+      "meaning_ms": "sedikit",
+      "meaning_en": "few; little",
+      "tone_note_en": "少 is shǎo, tone 3, when it means few or little; it is shào, tone 4, when it means young.",
+      "example_meaning_en": "There is little water in the glass."
+    },
+    "w252": {
+      "meaning_ms": "panjang",
+      "meaning_en": "long",
+      "tone_note_en": "长 is cháng, tone 2, when it means long; the same character is zhǎng when it means a leader or growing.",
+      "example_meaning_en": "This road is long."
+    },
+    "w253": {
+      "meaning_ms": "pendek",
+      "meaning_en": "short",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "This road is short."
+    },
+    "w254": {
+      "meaning_ms": "tinggi",
+      "meaning_en": "high; tall",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "That mountain is high."
+    },
+    "w255": {
+      "meaning_ms": "rendah; pendek (orang)",
+      "meaning_en": "low; short (in height)",
+      "tone_note_en": "Ǎi has tone 3; when used for a person, it refers to their height.",
+      "example_meaning_en": "He is neither tall nor short."
+    },
+    "w256": {
+      "meaning_ms": "cepat",
+      "meaning_en": "fast; quick",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "This bus is moving fast."
+    },
+    "w257": {
+      "meaning_ms": "perlahan",
+      "meaning_en": "slow",
+      "tone_note_en": "Màn has tone 4. The example keeps dictionary yī; before tone 3 in this example, 一 usually sounds like yì.",
+      "example_meaning_en": "Please speak a little more slowly."
+    },
+    "w258": {
+      "meaning_ms": "baharu",
+      "meaning_en": "new",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "This is my new phone."
+    },
+    "w259": {
+      "meaning_ms": "lama; terpakai",
+      "meaning_en": "old; used",
+      "tone_note_en": "Jiù has tone 4; it refers to something old or previously used.",
+      "example_meaning_en": "This book is old."
+    },
+    "w260": {
+      "meaning_ms": "bersih",
+      "meaning_en": "clean",
+      "tone_note_en": "Dictionary tones: 1 + 4.",
+      "example_meaning_en": "The kitchen is clean."
+    },
+    "w261": {
+      "meaning_ms": "cantik",
+      "meaning_en": "beautiful; pretty",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "Your clothes are beautiful."
+    },
+    "w262": {
+      "meaning_ms": "sibuk",
+      "meaning_en": "busy",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "The teacher is busy today."
+    },
+    "w263": {
+      "meaning_ms": "penat",
+      "meaning_en": "tired",
+      "tone_note_en": "Lèi has tone 4; other meanings and tones occur in the readings léi and lěi.",
+      "example_meaning_en": "I am tired today."
+    },
+    "w264": {
+      "meaning_ms": "betul; terhadap; kepada",
+      "meaning_en": "correct; towards; to",
+      "tone_note_en": "Duì has tone 4; in this sentence, it means correct.",
+      "example_meaning_en": "Your answer is correct."
+    },
+    "w265": {
+      "meaning_ms": "salah",
+      "meaning_en": "wrong; incorrect",
+      "tone_note_en": "Dictionary tone: 4.",
+      "example_meaning_en": "This answer is wrong."
+    },
+    "w266": {
+      "meaning_ms": "mudah",
+      "meaning_en": "easy",
+      "tone_note_en": "Dictionary tones: 2 + 4.",
+      "example_meaning_en": "This question is easy."
+    },
+    "w267": {
+      "meaning_ms": "susah",
+      "meaning_en": "difficult",
+      "tone_note_en": "Nán has tone 2 when it means difficult; the character has other readings in particular contexts.",
+      "example_meaning_en": "This Chinese character is difficult."
+    },
+    "w268": {
+      "meaning_ms": "apa",
+      "meaning_en": "what",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "What do you want to eat?"
+    },
+    "w269": {
+      "meaning_ms": "siapa",
+      "meaning_en": "who",
+      "tone_note_en": "谁 is commonly pronounced shéi (tone 2); shuí also exists as a variant.",
+      "example_meaning_en": "Who is that person?"
+    },
+    "w270": {
+      "meaning_ms": "mengapa",
+      "meaning_en": "why",
+      "tone_note_en": "Dictionary tones: 4 + 2 + neutral.",
+      "example_meaning_en": "Why are you learning Chinese?"
+    },
+    "w271": {
+      "meaning_ms": "bagaimana",
+      "meaning_en": "how",
+      "tone_note_en": "Dictionary tones: 3 + neutral.",
+      "example_meaning_en": "How is this character pronounced?"
+    },
+    "w272": {
+      "meaning_ms": "berapa (bilangan kecil)",
+      "meaning_en": "how many (usually a small number)",
+      "tone_note_en": "Jǐ has tone 3; it is usually used for a fairly small number or in questions about time.",
+      "example_meaning_en": "How many friends do you have?"
+    },
+    "w273": {
+      "meaning_ms": "yang mana; mana",
+      "meaning_en": "which; where",
+      "tone_note_en": "Nǎ has tone 3. 哪个 nǎge means which; the spoken variant něige also exists. Keep nǎ for this practice.",
+      "example_meaning_en": "Which city do you live in?"
+    },
+    "w274": {
+      "meaning_ms": "ini",
+      "meaning_en": "this",
+      "tone_note_en": "Zhè has tone 4; before a classifier it is often pronounced as in zhège.",
+      "example_meaning_en": "This apple is big."
+    },
+    "w275": {
+      "meaning_ms": "itu",
+      "meaning_en": "that",
+      "tone_note_en": "Nà has tone 4; before a classifier it is often pronounced as in nàge.",
+      "example_meaning_en": "That school is big."
+    },
+    "w276": {
+      "meaning_ms": "partikel milik/penerang",
+      "meaning_en": "possessive or descriptive particle",
+      "tone_note_en": "De is usually neutral and links a possessor or description to a noun.",
+      "example_meaning_en": "This is my book."
+    },
+    "w277": {
+      "meaning_ms": "partikel perubahan/aspek",
+      "meaning_en": "particle marking completion or a new situation",
+      "tone_note_en": "Le is usually neutral. It can show that something has happened or mark a new situation; it is not a past-tense marker for every sentence. In the example, the speaker says they have eaten.",
+      "example_meaning_en": "I have eaten."
+    },
+    "w278": {
+      "meaning_ms": "buku",
+      "meaning_en": "book",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "This book is good."
+    },
+    "w279": {
+      "meaning_ms": "buku nota",
+      "meaning_en": "notebook",
+      "tone_note_en": "Dictionary tones: 3 + neutral.",
+      "example_meaning_en": "My notebook is on the table."
+    },
+    "w280": {
+      "meaning_ms": "pen; alat tulis",
+      "meaning_en": "pen; writing instrument",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "This pen is mine."
+    },
+    "w281": {
+      "meaning_ms": "telefon bimbit",
+      "meaning_en": "mobile phone",
+      "tone_note_en": "Dictionary tones: 3 + 1.",
+      "example_meaning_en": "My mobile phone is here."
+    },
+    "w282": {
+      "meaning_ms": "komputer",
+      "meaning_en": "computer",
+      "tone_note_en": "Dictionary tones: 4 + 3.",
+      "example_meaning_en": "I use a computer to study."
+    },
+    "w283": {
+      "meaning_ms": "televisyen",
+      "meaning_en": "television",
+      "tone_note_en": "Dictionary tones: 4 + 4.",
+      "example_meaning_en": "We watch television in the evening."
+    },
+    "w284": {
+      "meaning_ms": "pakaian",
+      "meaning_en": "clothes; clothing",
+      "tone_note_en": "Dictionary tones: 1 + neutral.",
+      "example_meaning_en": "She bought new clothes."
+    },
+    "w285": {
+      "meaning_ms": "kasut",
+      "meaning_en": "shoe",
+      "tone_note_en": "Dictionary tone: 2.",
+      "example_meaning_en": "My shoes are beside the door."
+    },
+    "w286": {
+      "meaning_ms": "seluar",
+      "meaning_en": "trousers",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "My trousers are black."
+    },
+    "w287": {
+      "meaning_ms": "skirt",
+      "meaning_en": "skirt",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "She wears a red skirt."
+    },
+    "w288": {
+      "meaning_ms": "topi",
+      "meaning_en": "hat",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "The sun is strong; please wear a hat."
+    },
+    "w289": {
+      "meaning_ms": "beg; bungkusan",
+      "meaning_en": "bag; package",
+      "tone_note_en": "Dictionary tone: 1.",
+      "example_meaning_en": "My bag is on the chair."
+    },
+    "w290": {
+      "meaning_ms": "payung",
+      "meaning_en": "umbrella",
+      "tone_note_en": "The dictionary tones of yǔsǎn are 3 + 3. In connected speech, yǔ usually rises like yú before sǎn; it is not simply lowered.",
+      "example_meaning_en": "It is raining; I am taking an umbrella."
+    },
+    "w291": {
+      "meaning_ms": "cermin mata",
+      "meaning_en": "glasses; spectacles",
+      "tone_note_en": "Dictionary tones: 3 + 4.",
+      "example_meaning_en": "My glasses are on the table."
+    },
+    "w292": {
+      "meaning_ms": "cawan; gelas",
+      "meaning_en": "cup; glass",
+      "tone_note_en": "Dictionary tones: 1 + neutral. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "There is a cup on the table."
+    },
+    "w293": {
+      "meaning_ms": "mangkuk",
+      "meaning_en": "bowl",
+      "tone_note_en": "Dictionary tone: 3. The example keeps dictionary yī; in this quantity pattern, 一 usually sounds like yí before tone 4 and yì before tones 1, 2 or 3.",
+      "example_meaning_en": "I have a bowl."
+    },
+    "w294": {
+      "meaning_ms": "pinggan",
+      "meaning_en": "plate",
+      "tone_note_en": "Dictionary tones: 2 + neutral.",
+      "example_meaning_en": "The plate is on the table."
+    },
+    "w295": {
+      "meaning_ms": "penyepit makanan",
+      "meaning_en": "chopsticks",
+      "tone_note_en": "Dictionary tones: 4 + neutral.",
+      "example_meaning_en": "I eat using chopsticks."
+    },
+    "w296": {
+      "meaning_ms": "sudu",
+      "meaning_en": "spoon",
+      "tone_note_en": "Sháo has tone 2; zi is usually neutral. The example keeps dictionary yī; before tone 3 in this example, 一 usually sounds like yì.",
+      "example_meaning_en": "There is a spoon in the bowl."
+    },
+    "w297": {
+      "meaning_ms": "kepala",
+      "meaning_en": "head",
+      "tone_note_en": "Tóu has tone 2 when it means head; the suffix 头 in some other words can be neutral.",
+      "example_meaning_en": "My head hurts a little."
+    },
+    "w298": {
+      "meaning_ms": "tangan",
+      "meaning_en": "hand",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "Please wash your hands."
+    },
+    "w299": {
+      "meaning_ms": "kaki; tapak kaki",
+      "meaning_en": "foot",
+      "tone_note_en": "Dictionary tone: 3.",
+      "example_meaning_en": "My foot hurts a little."
+    },
+    "w300": {
+      "meaning_ms": "mata",
+      "meaning_en": "eye",
+      "tone_note_en": "Dictionary tones: 3 + neutral.",
+      "example_meaning_en": "Her eyes are beautiful."
+    },
+    "u0-initials-1-1": {
+      "meaning_ms": "lapan",
+      "meaning_en": "eight",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial b: Close and release the lips. Use less of a puff of air than for p; do not add a vowel after the letter b.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-1-2": {
+      "meaning_ms": "takut",
+      "meaning_en": "to be afraid",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial p: Close and release the lips with a clear puff of air. Compare it with b in bā.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-1-3": {
+      "meaning_ms": "ibu",
+      "meaning_en": "mother",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial m: Keep the lips together and let the voice pass through the nose, then open into a.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-2-1": {
+      "meaning_ms": "menghantar; mengeluarkan",
+      "meaning_en": "to send; to issue",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial f: Let the upper teeth touch the lower lip lightly while air flows out.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-2-2": {
+      "meaning_ms": "besar",
+      "meaning_en": "big",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial d: Touch the tongue tip just behind the upper teeth; use little puff of air.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-2-3": {
+      "meaning_ms": "dia (lelaki)",
+      "meaning_en": "he; him",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial t: Place the tongue much as for d, but release a stronger puff of air.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-3-1": {
+      "meaning_ms": "mengambil; memegang",
+      "meaning_en": "to take; to hold",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial n: Place the tongue tip behind the upper teeth; let the voice pass through the nose.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-3-2": {
+      "meaning_ms": "menarik",
+      "meaning_en": "to pull",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial l: Place the tongue tip behind the upper teeth; air flows around the sides of the tongue. Distinguish it from n.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-3-3": {
+      "meaning_ms": "abang",
+      "meaning_en": "older brother",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial g: Touch the back of the tongue to the soft palate; use little puff of air.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-4-1": {
+      "meaning_ms": "bidang; mata pelajaran",
+      "meaning_en": "field; subject",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial k: Place the tongue as for g, but release a clear puff of air.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-4-2": {
+      "meaning_ms": "minum",
+      "meaning_en": "to drink",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial h: Let air create friction at the back of the mouth; listen to hē.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-4-3": {
+      "meaning_ms": "ayam",
+      "meaning_en": "chicken",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial j: Position the tongue towards the front of the hard palate, without rounding the lips. Use little puff of air.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-5-1": {
+      "meaning_ms": "tujuh",
+      "meaning_en": "seven",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial q: Place the tongue as for j, with a clear puff of air. The spelling q does not represent a k sound.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-5-2": {
+      "meaning_ms": "barat",
+      "meaning_en": "west",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial x: Let air create friction between the tongue and the front of the palate; do not read it as the letter x in Malay.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-5-3": {
+      "meaning_ms": "tahu",
+      "meaning_en": "to know",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial zh: Raise the tongue tip slightly back. Use little puff of air; compare it with z later.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-6-1": {
+      "meaning_ms": "makan",
+      "meaning_en": "to eat",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial ch: Place the tongue tip as for zh, with a clear puff of air.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-6-2": {
+      "meaning_ms": "guru; pakar (unsur kata)",
+      "meaning_en": "teacher; master (word element)",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial sh: Keep the tongue tip slightly back while air creates continuous friction.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-6-3": {
+      "meaning_ms": "hari; matahari",
+      "meaning_en": "day; sun",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial r: Keep the tongue tip slightly back. Listen for gentle friction; do not roll r as in some Malay pronunciations.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-7-1": {
+      "meaning_ms": "aksara; tulisan",
+      "meaning_en": "written character",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial z: Keep the tongue tip near the back of the upper teeth; use little puff of air. The tongue is farther forward than for zh.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-7-2": {
+      "meaning_ms": "kali; turutan",
+      "meaning_en": "occurrence; time (count)",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial c: Place the tongue as for z, with a clear puff of air. It is not the c sound in the Malay word cara.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-initials-7-3": {
+      "meaning_ms": "empat",
+      "meaning_en": "four",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Initial s: Let air create friction near the back of the upper teeth. Distinguish s from sh, where the tongue is farther back.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-1-1": {
+      "meaning_ms": "lapan",
+      "meaning_en": "eight",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Final a: Open the mouth comfortably. Listen to a in bā.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-1-2": {
+      "meaning_ms": "ombak; gelombang",
+      "meaning_en": "wave",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Final o: Round the lips. Listen to o after b in bō.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-1-3": {
+      "meaning_ms": "abang",
+      "meaning_en": "older brother",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Final e: Keep the tongue towards the back and the lips unrounded. This sound is not the same as e in every Malay word.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-2-1": {
+      "meaning_ms": "pakaian",
+      "meaning_en": "clothing",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Final i, as in yī: Spread the lips slightly. Y helps spell a syllable with no initial consonant.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-2-2": {
+      "meaning_ms": "hitam",
+      "meaning_en": "black",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Final u, as in wū: Round the lips and keep the tongue towards the back. W helps spell a syllable with no initial consonant.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-2-3": {
+      "meaning_ms": "ikan",
+      "meaning_en": "fish",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Final ü: Position the tongue as for i, but round the lips. In yú, the dots over ü are omitted in writing; the sound remains ü.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-3-1": {
+      "meaning_ms": "sayang; cinta",
+      "meaning_en": "to love",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ai moves from a towards i within one syllable.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-3-2": {
+      "meaning_ms": "utara",
+      "meaning_en": "north",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ei moves from e towards i; listen to běi.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-3-3": {
+      "meaning_ms": "baik",
+      "meaning_en": "good",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ao moves from a towards an o sound; keep it within one syllable.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-3-4": {
+      "meaning_ms": "berjalan; pergi",
+      "meaning_en": "to walk; to go",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ou moves from o towards u within one syllable.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-4-1": {
+      "meaning_ms": "rumah; keluarga",
+      "meaning_en": "home; family",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ia: Let i glide directly into a in jiā; these are not two syllables.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-4-2": {
+      "meaning_ms": "jalan; jalan bandar",
+      "meaning_en": "street",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ie: Let i glide towards an e that is more open than the e in gē.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-4-3": {
+      "meaning_ms": "bunga",
+      "meaning_en": "flower",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ua: Move from rounded lips towards a in huā.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-4-4": {
+      "meaning_ms": "banyak",
+      "meaning_en": "many; much",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Uo: Listen to the glide from u towards o in duō.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-4-5": {
+      "meaning_ms": "bulan",
+      "meaning_en": "moon; month",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Üe: Begin with rounded lips as for ü. In yuè, the dots over ü are omitted, as in jué, què and xué.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-5-1": {
+      "meaning_ms": "aman; selamat",
+      "meaning_en": "peaceful; safe",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. An ends with the tongue tip touching behind the upper teeth. Do not add a vowel after n.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-5-2": {
+      "meaning_ms": "budi; kebaikan",
+      "meaning_en": "kindness; favour",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. En also ends with n; distinguish its vowel from an.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-5-3": {
+      "meaning_ms": "mengangkat tinggi (unsur kata)",
+      "meaning_en": "to raise high (word element)",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ang ends at the back of the tongue, with ng; the tongue tip does not close against the upper teeth.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-5-4": {
+      "meaning_ms": "lampu",
+      "meaning_en": "lamp",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Eng ends with ng; compare the tongue position with en.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-5-5": {
+      "meaning_ms": "timur",
+      "meaning_en": "east",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ong has rounded lips and ends with ng at the back of the tongue.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-6-1": {
+      "meaning_ms": "kecil",
+      "meaning_en": "small",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Iao: Listen to xiǎo as one syllable with a continuous glide.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-6-2": {
+      "meaning_ms": "enam",
+      "meaning_en": "six",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Iou is written iu after an initial: liù. The tone mark is placed on u.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-6-3": {
+      "meaning_ms": "cepat",
+      "meaning_en": "fast",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Uai: Let u glide into ai within the single syllable kuài.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-6-4": {
+      "meaning_ms": "air",
+      "meaning_en": "water",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Uei is written ui after an initial: shuǐ. The tone mark is placed on i.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-6-5": {
+      "meaning_ms": "menutup",
+      "meaning_en": "to close",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Uan: Let u glide into an, ending with n at the front of the mouth.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-7-1": {
+      "meaning_ms": "先: dahulu; 元: yuan (unit wang)",
+      "meaning_en": "先: first; 元: yuan (unit of money)",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ian and üan: Compare xiān with yuán. Begin üan with rounded lips; the spelling yuan omits the dots over ü.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-7-2": {
+      "meaning_ms": "心: hati; 云: awan",
+      "meaning_en": "心: heart; 云: cloud",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. In and ün: Compare xīn with yún. In yun, the dots over ü are not written, but the sound remains ü.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-7-3": {
+      "meaning_ms": "香: harum; 光: cahaya",
+      "meaning_en": "香: fragrant; 光: light",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Iang and uang: Compare the initial i glide in xiāng with the rounded u in guāng. Both end with ng.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-7-4": {
+      "meaning_ms": "星: bintang; 胸: dada",
+      "meaning_en": "星: star; 胸: chest",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ing and iong: Listen to xīng and xiōng; the lips are more rounded in iong. Both end with ng.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-finals-7-5": {
+      "meaning_ms": "轮: roda; 翁: lelaki tua",
+      "meaning_en": "轮: wheel; 翁: elderly man",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Uen is written un after an initial: lún ends with n. Ueng appears as weng without an initial consonant: wēng ends with ng. Compare them carefully.",
+      "tone_note_en": "The tone marks in pinyin show dictionary tones. Focus on the sound first; do not guess its pronunciation from Malay spelling."
+    },
+    "u0-tones-1-1": {
+      "meaning_ms": "ibu",
+      "meaning_en": "mother",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Tone 1: Keep the voice high and level, like a horizontal line.",
+      "tone_note_en": "Mā means mother; the straight mark indicates tone 1."
+    },
+    "u0-tones-1-2": {
+      "meaning_ms": "rami; serat tumbuhan",
+      "meaning_en": "hemp; flax",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Tone 2: Raise the voice from mid to high. Compare it with mā.",
+      "tone_note_en": "Má means hemp or flax; this example is only for listening to the tone."
+    },
+    "u0-tones-1-3": {
+      "meaning_ms": "kuda",
+      "meaning_en": "horse",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Tone 3 in isolation: Let the voice fall low, then it may rise. In connected speech, the rising part is often incomplete.",
+      "tone_note_en": "Mǎ means horse. Do not force a full dip-and-rise contour onto every tone 3 in a sentence."
+    },
+    "u0-tones-2-1": {
+      "meaning_ms": "memarahi",
+      "meaning_en": "to scold",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Tone 4: Let the voice fall firmly from high to low.",
+      "tone_note_en": "Mà means to scold; listen to it only as a tone comparison."
+    },
+    "u0-tones-2-2": {
+      "meaning_ms": "ibu",
+      "meaning_en": "mother",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. The second ma has a neutral tone: it is short and unstressed. Its pitch depends on the preceding syllable.",
+      "tone_note_en": "In māma, the second ma is neutral, not tone-1 mā. This is the pronunciation of the word, not a rule that every repeated character becomes neutral."
+    },
+    "u0-tones-2-3": {
+      "meaning_ms": "partikel di hujung soalan ya atau tidak",
+      "meaning_en": "particle ending a yes-or-no question",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Ma at the end of a question is usually neutral. Listen to the short syllable without lengthening it.",
+      "tone_note_en": "The absence of a tone mark on ma indicates a neutral tone; 0 is a practice label, not a fixed fifth tone."
+    },
+    "u0-tone-pairs-1-1": {
+      "meaning_ms": "China",
+      "meaning_en": "China",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Follow a high, level tone with a rising tone: tones 1 + 2. This means China.",
+      "tone_note_en": "Zhōngguó retains both dictionary tones; do not give the whole word a single tone."
+    },
+    "u0-tone-pairs-1-2": {
+      "meaning_ms": "pelajar",
+      "meaning_en": "student",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Listen to rising xué followed by neutral sheng. This means student.",
+      "tone_note_en": "In the usual pronunciation xuésheng, sheng is neutral; its pitch depends on context."
+    },
+    "u0-tone-pairs-1-3": {
+      "meaning_ms": "jumpa lagi",
+      "meaning_en": "goodbye; see you again",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Two tone-4 syllables: Listen for two falls, with the first often shorter. This means goodbye.",
+      "tone_note_en": "Dictionary tones 4 + 4; the exact pitch contours vary with speaking speed and speaker."
+    },
+    "u0-tone-pairs-2-1": {
+      "meaning_ms": "helo; apa khabar",
+      "meaning_en": "hello",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. The dictionary tones are 3 + 3. In the ordinary greeting, nǐ changes to a rising tone like ní before hǎo.",
+      "tone_note_en": "Dictionary pinyin: nǐ hǎo; usual pronunciation: ní hǎo. This sound change does not change the meaning or the writing."
+    },
+    "u0-tone-pairs-2-2": {
+      "meaning_ms": "sangat baik",
+      "meaning_en": "very good",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Dictionary tones 3 + 3: hěn is usually pronounced like hén before hǎo. This means very good.",
+      "tone_note_en": "Dictionary pinyin: hěn hǎo; usual connected pronunciation: hén hǎo. Longer sequences depend on how words are grouped."
+    },
+    "u0-tone-pairs-2-3": {
+      "meaning_ms": "guru",
+      "meaning_en": "teacher",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Tone 3 followed by tone 1: lǎo usually stays low without a full rise, then shī is high and level. This means teacher.",
+      "tone_note_en": "Dictionary tones 3 + 1. A low tone 3 before another tone is not the same as changing to tone 2."
+    },
+    "u0-sandhi-bu-1": {
+      "meaning_ms": "bukan",
+      "meaning_en": "is not; am not; are not",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. The dictionary tones of bù shì are 4 + 4; before tone 4, 不 is usually pronounced bú. This means is not.",
+      "tone_note_en": "Dictionary pinyin: bù shì; connected pronunciation: bú shì."
+    },
+    "u0-sandhi-bu-2": {
+      "meaning_ms": "tidak baik",
+      "meaning_en": "not good",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Before tone 3, 不 keeps bù. This means not good.",
+      "tone_note_en": "The change from bù to bú occurs before tone 4, not before every tone."
+    },
+    "u0-sandhi-bu-3": {
+      "meaning_ms": "tidak; bukan",
+      "meaning_en": "not",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. When said alone or with emphasis, listen to the dictionary form bù.",
+      "tone_note_en": "In an A不A pattern such as 是不是, 不 can become neutral. That is another pattern to learn later; do not apply the bú rule blindly."
+    },
+    "u0-sandhi-yi-1": {
+      "meaning_ms": "satu",
+      "meaning_en": "one",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. When counting or saying this number alone, 一 is pronounced yī: one.",
+      "tone_note_en": "The dictionary tone is 1. In serial numbers or after 第 in an ordinal number, yī is usually retained."
+    },
+    "u0-sandhi-yi-2": {
+      "meaning_ms": "satu unit; seorang (mengikut konteks)",
+      "meaning_en": "one item; one person (depending on context)",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Before tone 4, 一 is usually pronounced yí. It means one item or one person, depending on what is being referred to.",
+      "tone_note_en": "Dictionary pinyin: yī gè; basic connected pronunciation: yí gè. 个 also often becomes neutral in speech."
+    },
+    "u0-sandhi-yi-3": {
+      "meaning_ms": "satu hari",
+      "meaning_en": "one day",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. Before tones 1, 2 or 3, 一 is usually pronounced yì. This example means one day.",
+      "tone_note_en": "Dictionary pinyin: yī tiān; connected pronunciation: yì tiān."
+    },
+    "u0-sandhi-yi-4": {
+      "meaning_ms": "pertama",
+      "meaning_en": "first",
+      "explanation_en": "Listen first, replay the audio slowly, then try saying it. In the ordinal number 第一, 一 keeps yī. This means first.",
+      "tone_note_en": "Distinguish ordinal numbers from quantities. In a verb–一–verb pattern, 一 can become neutral; learn that pattern later."
+    }
+  },
+  "topics": {
+    "orang": {
+      "ms": "Orang",
+      "en": "People"
+    },
+    "sapaan": {
+      "ms": "Sapaan",
+      "en": "Greetings"
+    },
+    "ayat-asas": {
+      "ms": "Ayat asas",
+      "en": "Basic sentences"
+    },
+    "nombor": {
+      "ms": "Nombor",
+      "en": "Numbers"
+    },
+    "keluarga": {
+      "ms": "Keluarga",
+      "en": "Family"
+    },
+    "makanan-minuman": {
+      "ms": "Makanan dan minuman",
+      "en": "Food and drinks"
+    },
+    "tempat-perjalanan": {
+      "ms": "Tempat dan perjalanan",
+      "en": "Places and travel"
+    },
+    "masa-cuaca": {
+      "ms": "Masa dan cuaca",
+      "en": "Time and weather"
+    },
+    "wang-belian": {
+      "ms": "Wang dan membeli-belah",
+      "en": "Money and shopping"
+    },
+    "perayaan-budaya": {
+      "ms": "Perayaan dan budaya",
+      "en": "Festivals and culture"
+    },
+    "kegiatan": {
+      "ms": "Kegiatan",
+      "en": "Activities"
+    },
+    "sifat-soalan": {
+      "ms": "Sifat dan soalan",
+      "en": "Descriptions and questions"
+    },
+    "barang-kesihatan": {
+      "ms": "Barang dan kesihatan",
+      "en": "Objects and health"
+    }
+  }
+}

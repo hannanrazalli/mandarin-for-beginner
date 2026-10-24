@@ -8,13 +8,30 @@ mengubah kod di komputer sendiri.
 
 1. Pilih **Akaun** dan log masuk menggunakan email serta password akaun belajar Supabase.
    Ini berbeza daripada akaun GitHub, Vercel atau ChatGPT. Jangan kongsi password dalam chat.
-2. Mulakan Unit 0. Dengar contoh, buka penerangan, kemudian jawab soalan pendek.
+2. Mulakan Unit 0. Maksud dan penerangan terus dipaparkan. Dengar contoh, kemudian tekan
+   **Seterusnya** untuk menjawab soalan pendek; tidak perlu membuka penerangan dahulu.
 3. Gunakan **Main** atau **Perlahan** untuk mengulang audio. Jawapan salah ada penerangan
    dan peluang cuba lagi; markah percubaan pertama kekal jujur.
 4. Pada peranti kedua, log masuk akaun belajar yang sama untuk melihat kemajuan akaun.
    Latihan tanpa login berlabel setempat dan tidak dipindahkan secara automatik ke akaun.
 5. Pada komputer, kekunci 1–4 memilih jawapan, Enter meneruskan langkah dan Space memainkan
    audio apabila kawalan tersebut tersedia. Tab bergerak antara butang.
+
+Pilihan BM/English di Tetapan turut menukar maksud, tajuk, nota dan contoh terjemahan.
+Hanzi serta pinyin kekal sebagai bahan Mandarin. Dalam Unit 0, maksud merujuk kepada
+aksara/perkataan contoh; awalan seperti b/p/m bukan perkataan yang mempunyai maksud sendiri.
+
+## Tahap dan jenis latihan
+
+Versi ini mempunyai Unit 0 (pinyin/nada), Unit 1 (20 perkataan awal) dan Unit 2
+(280 perkataan tambahan). Nombor unit bukan nombor tahap HSK. Kad imbas dan kuiz ada dalam
+pelajaran; [latihan tambahan](https://belajarmandarin.vercel.app/latihan) menyediakan pinyin,
+nada, padanan, susun ayat dan strok. Ulang kaji muncul selepas perkataan dipelajari;
+ujian pintas Unit 1 memerlukan asas Unit 0 selesai.
+
+Ini asas Mandarin berkonteks Malaysia, bukan dakwaan padanan rasmi DSKP/SJKC. Untuk mahir
+berbual, perlu latihan mendengar, dialog, membina ayat dan bercakap dengan maklum balas;
+300 perkataan serta kuiz sahaja belum mencukupi.
 
 ## Pasang ikon aplikasi
 

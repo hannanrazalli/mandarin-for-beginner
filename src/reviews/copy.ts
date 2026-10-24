@@ -111,7 +111,7 @@ const en: typeof ms = {
   again: "Try again",
   noWords: "Complete vocabulary lessons first.",
   device: "Device voice · pronunciation unverified",
-  meaning: "Type the Malay meaning",
+  meaning: "Type the English meaning",
   pinyin: "Type pinyin with tone marks",
   hanzi: "Type hanzi",
   error: "Data could not load. Check your connection.",

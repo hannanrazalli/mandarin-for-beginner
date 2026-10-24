@@ -4,6 +4,7 @@ import { Page } from "../components/Page";
 import { useLearningProgress } from "../learning/cloud";
 import { learningCopy } from "../learning/copy";
 import { curriculum, getLesson, isLessonUnlocked } from "../lib/curriculum";
+import { localizedTitle } from "../lib/localization";
 import { useSettings } from "../lib/settings";
 import { reviewCopy } from "../reviews/copy";
 export default function Learn() {
@@ -62,7 +63,7 @@ export default function Learn() {
                       )}
                     </span>
                     <div>
-                      <h3>{lesson?.title_ms}</h3>
+                      <h3>{lesson ? localizedTitle(lesson, language) : ""}</h3>
                       <p>
                         {done
                           ? t.complete
@@ -75,7 +76,7 @@ export default function Learn() {
                       <Link
                         className="lesson-open"
                         to={`/belajar/${slug}`}
-                        aria-label={`${t.start}: ${lesson?.title_ms}`}
+                        aria-label={`${t.start}: ${lesson ? localizedTitle(lesson, language) : ""}`}
                       >
                         <ArrowRight size={21} />
                       </Link>
