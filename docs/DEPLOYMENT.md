@@ -4,7 +4,11 @@
 
 Projek Vercel `belajarmandarin` disediakan dalam pasukan **Hannan** (`hannan24`), ID
 `prj_qdmR95ivhfAmuHS4HL0VBPLXSLSE`. Node 24.x, Vite, `pnpm build`, output `dist`.
-URL deployment sebenar akan direkodkan selepas status READY disahkan.
+**Laman: https://belajarmandarin.vercel.app/** — production **READY**, disahkan 2026-10-24.
+
+Deployment `dpl_3JVUSx96ySvwqbPkzZJLfKtgHpSJ`, kod commit
+`821334554e5f76433de381683b62f141ca349541`. Build Vercel selesai dalam kira-kira 30 saat.
+Alias alternatif: https://belajarmandarin-hannan24.vercel.app/.
 
 Repositori: https://github.com/hannanrazalli/mandarin-for-beginner, branch `work`.
 Supabase: projek `belajarmandarin`, `gvnfckgishsjwslurmuj`.
@@ -14,6 +18,14 @@ production/preview/development. Tiada password database atau service-role key di
 Perlindungan Vercel asal dikekalkan. Perubahan kepada perlindungan preview sahaja ditolak
 oleh semakan kelulusan automatik kerana kebenaran bagi skop akses production belum jelas.
 Penerbitan dan pemeriksaan seterusnya tidak boleh memintas sekatan ini.
+
+Deployment biasa menggunakan tetapan asal tersebut. Pemeriksaan melalui akses Vercel yang
+disambungkan mendapat HTTP200 bagi laman utama, route pelajaran terus, akaun, manifest,
+service worker dan data strok. CSP/HSTS/nosniff/no-referrer/Permissions-Policy hadir;
+service worker no-store, manifest no-cache, dan tiada URL Supabase dalam senarai precache.
+Pemeriksaan ini menggunakan akses Vercel pemilik, bukan bukti akses tanpa autentikasi.
+Jika laman meminta login Vercel, gunakan akaun pemilik yang sama. Tiada perubahan perlindungan
+tambahan dibuat. Browser password login akaun belajar masih perlu dicuba sendiri.
 
 ## Cara guna apabila diterbitkan
 
@@ -39,6 +51,10 @@ Panduan lanjut: [USER_GUIDE.md](USER_GUIDE.md).
 
 Workflow Quality mempunyai trigger push/PR/manual. Jika tiada run automatik, buka repositori
 → Actions → Quality → Run workflow → pilih work. Tiada token tambahan perlu dihantar ke chat.
+
+Lookup connector untuk commit release tidak memulangkan workflow run. Local quality gates
+lulus; status GitHub Actions hosted tidak didakwa lulus. Deployment ini dibina terus daripada
+commit yang telah disemak melalui Vercel API. Auto-deploy push Git tidak disahkan aktif.
 
 ## Akses dan cache
 

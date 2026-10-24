@@ -5,7 +5,9 @@ PWA responsif untuk PC dan telefon, dengan pilihan UI English, tema cerah/gelap 
 
 ## Guna aplikasi
 
-Alamat laman dan status penerbitan direkodkan dalam [panduan deployment](docs/DEPLOYMENT.md).
+**Buka aplikasi: https://belajarmandarin.vercel.app/**
+
+Status production READY; butiran semakan ada dalam [panduan deployment](docs/DEPLOYMENT.md).
 Untuk menggunakan laman yang diterbitkan, awak hanya perlu pelayar; Node.js/Git/pnpm tidak
 perlu dipasang. Log masuk dengan **akaun belajar** yang sama pada telefon dan PC untuk sync.
 Akaun belajar berbeza daripada akaun ChatGPT/GitHub/Vercel.

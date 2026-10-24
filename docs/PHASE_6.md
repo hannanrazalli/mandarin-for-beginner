@@ -59,3 +59,13 @@ Approximately nine specialist runs: LOW content draft, teacher text review, HIGH
 architecture, frontend build plus its acceptance completion, three final reviewers and one
 consolidated fix pass. Parent handled assets, analytics, documentation, provider setup and
 verification. For later small maintenance, low credits mode avoids all subagent runs.
+
+## Published result
+
+Code commit 821334554e5f76433de381683b62f141ca349541 pushed and deployed to production.
+Vercel dpl_3JVUSx96ySvwqbPkzZJLfKtgHpSJ is READY at https://belajarmandarin.vercel.app/.
+Hosted route/static/PWA/header checks return HTTP200 through authorized Vercel access.
+Original deployment protection remains unchanged; no bypass link or credential is published.
+Actual learner password login on PC/phone and hosted Actions are the documented user checks.
+After final fix: 68 unit tests, eight browser/axe flows, 206 SQL assertions; latest mobile
+Lighthouse 91/100/100/91 (performance/accessibility/best-practices/SEO). No second review.
