@@ -18,3 +18,7 @@ direct Next and English mode. The final English alias tweak passed all unit test
 parent rebuilt and reran the English browser flow successfully. Code/UX reviewers ran once,
 scoped to changed files, with no findings; no fix pass was needed. Four specialist runs
 (teacher, implementation, two reviews); small future copy changes can be handled solo.
+
+Published 2026-10-25: code 6cdd2e261e68b786f8629bdfd96e5c20132c8f43,
+production deployment dpl_56wRhFBM8GUc6y8ckUWWpErhjgwd is READY at
+https://belajarmandarin.vercel.app/. Existing deployment protection is unchanged.

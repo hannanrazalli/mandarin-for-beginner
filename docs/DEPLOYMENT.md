@@ -2,6 +2,10 @@
 
 ## Status semasa
 
+Update 2026-10-25: kad dengan maksud terus, Next tanpa gate penerangan dan kandungan BM/English
+diterbitkan sebagai dpl_56wRhFBM8GUc6y8ckUWWpErhjgwd, status READY, kod
+6cdd2e261e68b786f8629bdfd96e5c20132c8f43. Tiada CI/CD ditambah.
+
 Projek Vercel `belajarmandarin` disediakan dalam pasukan **Hannan** (`hannan24`), ID
 `prj_qdmR95ivhfAmuHS4HL0VBPLXSLSE`. Node 24.x, Vite, `pnpm build`, output `dist`.
 **Laman: https://belajarmandarin.vercel.app/** — production **READY**, disahkan 2026-10-24.
