@@ -29,6 +29,7 @@ const LessonPlayer = lazy(() => import("../learning/LessonPlayer"));
 const Learn = lazy(() => import("../features/Learn"));
 const Reviews = lazy(() => import("../reviews/Reviews"));
 const Statistics = lazy(() => import("../analytics/AnalyticsPage"));
+const Practice = lazy(() => import("../practice/Practice"));
 const Exercises = lazy(() => import("../reviews/Exercises"));
 const TestOut = lazy(() => import("../reviews/TestOut"));
 const Settings = lazy(() => import("../features/Settings"));
@@ -111,7 +112,7 @@ export default function App() {
   }, [settings.theme]);
   useEffect(() => {
     document.documentElement.lang = settings.language;
-    document.title = `${links.find((x) => x.to === location.pathname)?.label ?? (location.pathname === "/akaun" ? t.account : t.preview)} · BelajarMandarin`;
+    document.title = `${links.find((x) => x.to === location.pathname)?.label ?? (location.pathname === "/interaktif" ? (settings.language === "ms" ? "Taman latihan" : "Practice garden") : location.pathname === "/akaun" ? t.account : t.preview)} · BelajarMandarin`;
   }, [settings.language, location.pathname, t.preview, t.account, links]);
   useEffect(() => {
     if (location.pathname) {
@@ -230,6 +231,7 @@ export default function App() {
                     <Route path="/belajar/:slug" element={<LessonPlayer />} />
                     <Route path="/ulang-kaji" element={<Reviews />} />
                     <Route path="/statistik" element={<Statistics />} />
+                    <Route path="/interaktif" element={<Practice />} />
                     <Route path="/latihan" element={<Exercises />} />
                     <Route path="/uji-unit-1" element={<TestOut />} />
                     <Route path="/tetapan" element={<Settings />} />

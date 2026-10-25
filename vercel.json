@@ -5,8 +5,18 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/latihan", "destination": "/index.html" },
-    { "source": "/uji-unit-1", "destination": "/index.html" },
+    {
+      "source": "/interaktif",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/latihan",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/uji-unit-1",
+      "destination": "/index.html"
+    },
     {
       "source": "/belajar",
       "destination": "/index.html"
@@ -42,7 +52,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'none'; script-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://gvnfckgishsjwslurmuj.supabase.co; media-src 'self'; worker-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests"
+          "value": "default-src 'none'; script-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://gvnfckgishsjwslurmuj.supabase.co; media-src 'self' blob:; worker-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests"
         },
         {
           "key": "Strict-Transport-Security",
@@ -58,7 +68,7 @@
         },
         {
           "key": "Permissions-Policy",
-          "value": "camera=(), microphone=(), geolocation=(), payment=()"
+          "value": "camera=(), microphone=(self), geolocation=(), payment=()"
         }
       ]
     },

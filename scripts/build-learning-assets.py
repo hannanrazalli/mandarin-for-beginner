@@ -10,6 +10,9 @@ from fontTools.ttLib import TTFont
 ROOT = Path(__file__).resolve().parents[1]
 lessons = [json.loads(p.read_text()) for p in (ROOT / 'content/lessons').glob('*.json')]
 text = ''.join(json.dumps(lesson, ensure_ascii=False) for lesson in lessons)
+practice = ROOT / 'content/practice-dialogues.json'
+if practice.exists():
+    text += practice.read_text()
 characters = set(text)
 source = ROOT / 'node_modules/@fontsource/noto-sans-sc/files/noto-sans-sc-chinese-simplified-500-normal.woff'
 font = TTFont(source)

@@ -139,15 +139,22 @@ describe("lesson fallback and focus", () => {
   });
   it("reveals text after a listening voice error", () => {
     const stop = vi.fn();
-    const mock = vi
-      .spyOn(audioModule, "useMandarinAudio")
-      .mockReturnValue({ available: true, state: "idle", play: vi.fn(), stop });
+    const mock = vi.spyOn(audioModule, "useMandarinAudio").mockReturnValue({
+      available: true,
+      source: "device",
+      recordingFailed: false,
+      state: "idle",
+      play: vi.fn(),
+      stop,
+    });
     useLessonPlayer.getState().start(lessons[0].id, "practice");
     useLessonPlayer.setState({ index: 1, stage: "question" });
     const view = render(ui("practice"));
     expect(screen.getByRole("heading", { name: "♪" })).toBeTruthy();
     mock.mockReturnValue({
       available: true,
+      source: "device",
+      recordingFailed: false,
       state: "error",
       play: vi.fn(),
       stop,
@@ -156,6 +163,6 @@ describe("lesson fallback and focus", () => {
     expect(
       screen.getByRole("heading", { name: lessons[0].items[1].hanzi }),
     ).toBeTruthy();
-    expect(screen.getByText(/Suara peranti gagal dimainkan/)).toBeTruthy();
+    expect(screen.getByText(/Audio gagal/)).toBeTruthy();
   });
 });

@@ -1,3 +1,4 @@
+import { contentReviewStatus } from "./content-status";
 import { z } from "./zod-config";
 
 const text = z.string().min(1).max(2000);
@@ -22,6 +23,9 @@ const common = {
   tone_note_ms: text,
   source: text,
   needs_review: z.boolean(),
+  reviewStatus: z
+    .enum(["unverified", "machine-checked", "human-verified"])
+    .optional(),
   audio,
 };
 const pronunciation = z.object({
@@ -88,6 +92,8 @@ const rawLessons = import.meta.glob("/content/lessons/*.json", {
 const byId = new Map(
   Object.values(rawLessons).map((raw) => {
     const lesson = lessonSchema.parse(raw);
+    for (const item of lesson.items)
+      item.reviewStatus = contentReviewStatus(item.id);
     return [lesson.id, lesson] as const;
   }),
 );

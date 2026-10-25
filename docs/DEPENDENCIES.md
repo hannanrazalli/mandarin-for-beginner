@@ -65,3 +65,14 @@ Phase4 adds pinned hanzi-writer3.7.3 and hanzi-writer-data2.0.1. Only characters
 Phase 6 expands that licensed self-hosted stroke subset to all 353 unique headword characters.
 The 84KB Noto curriculum subset covers all active Chinese text. The optional authoring script
 scripts/build-learning-assets.py uses fontTools; normal builds use committed assets and need no Python.
+
+## Interactive update (2026-10-25)
+
+`pinyin-pro` **3.29.5**, MIT, is a pinned development-only dependency for the independent
+content audit. npm metadata reports approximately 950 KB unpacked; it is not imported into
+the browser bundle. Source: https://github.com/zh-lx/pinyin-pro and https://pinyin-pro.cn/.
+Its lexical and optional sandhi outputs are comparison candidates, not an authoritative
+Mandarin or translation certification. No CC-CEDICT data is copied or redistributed.
+New interaction, recording and static audio preference use existing dependencies and
+browser APIs. The earlier CI package/action notes are historical: the user requested no
+CI/CD and the Quality workflow has been removed.

@@ -1,6 +1,7 @@
 import HanziWriter from "hanzi-writer";
 import { useReducedMotion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { Page } from "../components/Page";
 import { useLearningProgress } from "../learning/cloud";
 import { lessons } from "../lib/curriculum";
@@ -41,6 +42,11 @@ export default function Exercises() {
   }
   return (
     <Page eyebrow={t.practice} title={t.practice}>
+      <Link className="button primary" to="/interaktif">
+        {language === "ms"
+          ? "Dialog & cabaran mendengar"
+          : "Dialogues & listening challenges"}
+      </Link>
       <p className="mode-label">{t.noXP}</p>
       <div className="exercise-tabs">
         {[

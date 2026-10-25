@@ -21,6 +21,7 @@ import {
 } from "../lib/localization";
 import { useSettings } from "../lib/settings";
 import { useEventResolution } from "../offline/receipts";
+import { AudioSource } from "./AudioSource";
 import { useMandarinAudio } from "./audio";
 import { completionSchema, submitLesson, useLearningProgress } from "./cloud";
 import { learningCopy } from "./copy";
@@ -102,7 +103,8 @@ export function Player({
   const accepted = resolution.outcome?.state === "accepted";
   const rejected = resolution.outcome?.state === "rejected";
   const practice = usePractice();
-  const audio = useMandarinAudio();
+  const item = lesson.items[player.index];
+  const audio = useMandarinAudio(item?.audio.text);
   const [saving, setSaving] = useState(false);
   const [failed, setFailed] = useState(false);
   const [result, setResult] = useState<z.infer<typeof completionSchema> | null>(
@@ -137,7 +139,6 @@ export function Player({
       alive.current = false;
     };
   }, [lesson.id, scope, player.slug, player.scope]);
-  const item = lesson.items[player.index];
   const options = item ? localizedOptions(item, settings.language) : [];
   const isListening =
     audio.available &&
@@ -420,6 +421,21 @@ export function Player({
                   {item.pinyin}
                 </p>
               )}
+              {player.stage === "flash" && (
+                <p className="flash-meaning">
+                  <strong>
+                    {item.kind === "pronunciation"
+                      ? settings.language === "ms"
+                        ? "Maksud contoh (fokus bunyi)"
+                        : "Sample meaning (sound focus)"
+                      : settings.language === "ms"
+                        ? "Maksud"
+                        : "Meaning"}
+                    :
+                  </strong>{" "}
+                  {localizedMeaning(item, settings.language)}
+                </p>
+              )}
               <div className="audio-controls">
                 <button
                   type="button"
@@ -450,13 +466,12 @@ export function Player({
                   {t.stop}
                 </button>
               </div>
-              <p className="voice-note" role="status">
-                {audio.state === "error"
-                  ? t.audioError
-                  : audio.available
-                    ? t.audio
-                    : t.noVoice}
-              </p>
+              <AudioSource
+                source={audio.source}
+                language={settings.language}
+                error={audio.state === "error"}
+                recordingFailed={audio.recordingFailed}
+              />
               {player.stage === "flash" ? (
                 <section
                   ref={explanation}
@@ -464,19 +479,6 @@ export function Player({
                   aria-label={t.reveal}
                   className="item-explanation"
                 >
-                  <p>
-                    <strong>
-                      {item.kind === "pronunciation"
-                        ? settings.language === "ms"
-                          ? "Maksud contoh (fokus bunyi)"
-                          : "Sample meaning (sound focus)"
-                        : settings.language === "ms"
-                          ? "Maksud"
-                          : "Meaning"}
-                      :
-                    </strong>{" "}
-                    {localizedMeaning(item, settings.language)}
-                  </p>
                   {item.kind === "pronunciation" && (
                     <p>{localizedExplanation(item, settings.language)}</p>
                   )}

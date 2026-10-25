@@ -52,7 +52,7 @@ pnpm build, pnpm preview and pnpm secrets:check. See docs/PHASE_1.md for verifie
 - Confirm email, strong password policy, rate limits; close signup after owner is provisioned.
 - Zod at boundaries, parameterized SQL, strict CSP/security headers, HTTPS, no trackers.
 - No unsafe caching of authenticated API/session responses or secrets in logs.
-- Secretlint pre-commit + CI, dependency audit and monthly Dependabot updates are configured.
+- Secretlint pre-commit, local dependency audit and monthly Dependabot updates are configured. No CI workflow.
 - Session lifetime, logout-all and offline user-data purge need a documented implementation.
 
 ## Delegation roster and solo checklists

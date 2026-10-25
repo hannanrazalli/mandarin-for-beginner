@@ -64,6 +64,7 @@
         "hsk_edition": {"type": ["string", "null"], "minLength": 1},
         "source": {"$ref": "#/$defs/text"},
         "needs_review": {"type": "boolean"},
+        "reviewStatus": {"enum": ["unverified", "machine-checked", "human-verified"]},
         "audio": {"$ref": "#/$defs/audio"}
       }
     },
@@ -81,6 +82,7 @@
         "tone_note_ms": {"$ref": "#/$defs/text"},
         "source": {"$ref": "#/$defs/text"},
         "needs_review": {"type": "boolean"},
+        "reviewStatus": {"enum": ["unverified", "machine-checked", "human-verified"]},
         "audio": {"$ref": "#/$defs/audio"}
       },
       "allOf": [

@@ -76,3 +76,26 @@ Tab baru yang dibuka terus offline menggunakan latihan setempat. Statistik akaun
 memerlukan pengesahan online. Suara Mandarin mungkin masih memerlukan internet.
 Jika jawapan ditolak kerana konflik, semak kemajuan dan gunakan tindakan buang jawapan
 menunggu dengan teliti; selepas itu mulakan percubaan baharu.
+
+## Latihan interaktif / Interactive practice
+
+Buka halaman utama → **Buka taman latihan / Open practice garden**, atau terus ke
+`/interaktif`. Lima dialog membimbing anda membaca/mendengar, memilih balasan dan
+mengingat semula tanpa teks. Sepuluh cabaran bunyi menyediakan pilihan jawapan dan imlak
+pinyin (tanda nada atau nombor nada). Maksud berada terus di bawah pinyin pada kad belajar;
+makna jawapan kuiz hanya muncul selepas menjawab. Semua bahan mengikuti BM/English.
+
+Laluan 3/5/10 minit menggunakan sasaran sedia ada sebagai cadangan: buka ulang kaji yang
+tiba masa, kemudian dialog dan cabaran bunyi. Ini bukan penilaian tahap automatik. Latihan
+tambahan tidak menambah XP, rentetan atau masa sasaran akaun; gunakan pelajaran/ulang kaji
+asal untuk rekod rasmi. Tiada perubahan pada pelajaran yang sudah dibuka atau progress.
+
+**Rakam / Record** ialah pilihan selepas latihan dialog. Benarkan mikrofon jika mahu;
+dengar semula dan bandingkan sendiri dengan contoh. Maksimum 20 saat / 2 MB, tidak dimuat
+naik atau dinilai. Rakaman hilang apabila keluar dari latihan, sembunyi halaman atau log
+keluar. Jika mikrofon tidak tersedia, teruskan bercakap sendiri tanpa rakaman.
+
+Bahan baharu dan suara peranti belum disahkan penutur/pengajar manusia. Tiada jaminan
+penilaian nada, kefasihan atau audio luar talian. Status bacaan kad asal boleh dilihat di
+Tetapan → Status semakan bahan / Settings → Content review status. Padanan mesin hanya
+semakan bacaan teks; perbezaan tidak semestinya salah. Panduan fail audio: docs/AUDIO.md.

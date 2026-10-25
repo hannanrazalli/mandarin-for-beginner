@@ -1,0 +1,1604 @@
+{
+  "schema_version": 1,
+  "reviewStatus": "unverified",
+  "duration_minutes": 25,
+  "intro_ms": "Latihan pilihan selepas asas bunyi: dengar, baca pinyin dan maksud, pilih jawapan, kemudian cuba balas tanpa melihat. Cadangan 25 minit boleh dibahagi kepada sesi pendek. Teks dan suara sintesis belum disahkan; ini bukan penilaian sebutan atau jaminan kefasihan.",
+  "intro_en": "Optional practice after the sound foundations: listen, read the pinyin and meaning, choose a response, then try replying without looking. The suggested 25 minutes can be split into short sessions. Text and synthetic audio are unverified; this is not pronunciation assessment or a guarantee of fluency.",
+  "dialogues": [
+    {
+      "id": "introduce-self",
+      "title_ms": "Berkenalan",
+      "title_en": "Introducing yourself",
+      "context_ms": "Dua orang dewasa berkenalan. Nama dalam contoh ialah nama rekaan; gantikan dengan nama sendiri semasa latihan.",
+      "context_en": "Two adults meet. The names are illustrative; substitute your own name when practising.",
+      "duration_minutes": 4,
+      "reviewStatus": "unverified",
+      "turns": [
+        {
+          "id": "intro-t1",
+          "hanzi": "你好！你叫什么名字？",
+          "pinyin": "Nǐ hǎo! Nǐ jiào shénme míngzi?",
+          "meaning_ms": "Helo! Siapa nama awak?",
+          "meaning_en": "Hello! What is your name?",
+          "audio": {
+            "text": "你好！你叫什么名字？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Orang A",
+          "speaker_en": "Person A"
+        },
+        {
+          "id": "intro-t2",
+          "hanzi": "我叫安娜。你呢？",
+          "pinyin": "Wǒ jiào Ānnà. Nǐ ne?",
+          "meaning_ms": "Nama saya Anna. Awak pula?",
+          "meaning_en": "My name is Anna. What about you?",
+          "audio": {
+            "text": "我叫安娜。你呢？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Orang B",
+          "speaker_en": "Person B"
+        },
+        {
+          "id": "intro-t3",
+          "hanzi": "我叫阿里。你住在哪里？",
+          "pinyin": "Wǒ jiào Ālǐ. Nǐ zhù zài nǎlǐ?",
+          "meaning_ms": "Nama saya Ali. Awak tinggal di mana?",
+          "meaning_en": "My name is Ali. Where do you live?",
+          "audio": {
+            "text": "我叫阿里。你住在哪里？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Orang A",
+          "speaker_en": "Person A"
+        },
+        {
+          "id": "intro-t4",
+          "hanzi": "我住在吉隆坡。",
+          "pinyin": "Wǒ zhù zài Jílóngpō.",
+          "meaning_ms": "Saya tinggal di Kuala Lumpur.",
+          "meaning_en": "I live in Kuala Lumpur.",
+          "audio": {
+            "text": "我住在吉隆坡。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Orang B",
+          "speaker_en": "Person B"
+        },
+        {
+          "id": "intro-t5",
+          "hanzi": "我也住在吉隆坡。很高兴认识你！",
+          "pinyin": "Wǒ yě zhù zài Jílóngpō. Hěn gāoxìng rènshi nǐ!",
+          "meaning_ms": "Saya juga tinggal di Kuala Lumpur. Gembira berkenalan dengan awak!",
+          "meaning_en": "I also live in Kuala Lumpur. Nice to meet you!",
+          "audio": {
+            "text": "我也住在吉隆坡。很高兴认识你！",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Orang A",
+          "speaker_en": "Person A"
+        },
+        {
+          "id": "intro-t6",
+          "hanzi": "我也很高兴认识你！",
+          "pinyin": "Wǒ yě hěn gāoxìng rènshi nǐ!",
+          "meaning_ms": "Saya juga gembira berkenalan dengan awak!",
+          "meaning_en": "Nice to meet you too!",
+          "audio": {
+            "text": "我也很高兴认识你！",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Orang B",
+          "speaker_en": "Person B"
+        }
+      ],
+      "grammar_notes": [
+        {
+          "id": "intro-g1",
+          "text_ms": "我叫 + nama memperkenalkan nama. 你呢？ bermaksud awak pula? dan mengembalikan soalan kepada orang lain.",
+          "text_en": "我叫 + a name introduces your name. 你呢？ means what about you? and returns the question to the other person.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "intro-g2",
+          "text_ms": "住在 + tempat menyatakan tempat tinggal. 也 bermaksud juga dan biasanya mendahului kata kerja.",
+          "text_en": "住在 + a place states where someone lives. 也 means also and usually comes before the verb.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "intro-g3",
+          "text_ms": "Pinyin menunjukkan nada kamus: nǐ hǎo dan nǎlǐ mempunyai 3 + 3; dalam sebutan biasa, suku kata pertama lazimnya naik seperti ní dan ná. Rangkaian nada 3 yang lebih panjang bergantung pada pengelompokan; jangan menukar semua nada 3 sekaligus.",
+          "text_en": "Pinyin shows dictionary tones: nǐ hǎo and nǎlǐ have tones 3 + 3; in ordinary speech, the first syllable usually rises like ní and ná. Longer tone-3 sequences depend on grouping; do not change every tone 3 at once.",
+          "reviewStatus": "unverified"
+        }
+      ],
+      "questions": [
+        {
+          "id": "intro-q1",
+          "after_turn_id": "intro-t1",
+          "prompt_ms": "Perkenalkan diri sebagai Anna.",
+          "prompt_en": "Introduce yourself as Anna.",
+          "options": [
+            {
+              "id": "intro-q1-a",
+              "hanzi": "我要咖啡。",
+              "pinyin": "Wǒ yào kāfēi.",
+              "meaning_ms": "Saya mahu kopi.",
+              "meaning_en": "I want coffee.",
+              "audio": {
+                "text": "我要咖啡。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "intro-q1-b",
+              "hanzi": "我叫安娜。",
+              "pinyin": "Wǒ jiào Ānnà.",
+              "meaning_ms": "Nama saya Anna.",
+              "meaning_en": "My name is Anna.",
+              "audio": {
+                "text": "我叫安娜。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "intro-q1-c",
+              "hanzi": "现在三点。",
+              "pinyin": "Xiànzài sān diǎn.",
+              "meaning_ms": "Sekarang pukul tiga.",
+              "meaning_en": "It is three o’clock now.",
+              "audio": {
+                "text": "现在三点。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "intro-q1-b",
+          "feedback_ms": "我叫安娜 menjawab soalan tentang nama; pilihan lain menyatakan pesanan dan waktu.",
+          "feedback_en": "我叫安娜 answers the question about a name; the other choices state an order and a time.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "intro-q2",
+          "after_turn_id": "intro-t3",
+          "prompt_ms": "Nyatakan bahawa awak tinggal di Kuala Lumpur.",
+          "prompt_en": "Say that you live in Kuala Lumpur.",
+          "options": [
+            {
+              "id": "intro-q2-a",
+              "hanzi": "我住在吉隆坡。",
+              "pinyin": "Wǒ zhù zài Jílóngpō.",
+              "meaning_ms": "Saya tinggal di Kuala Lumpur.",
+              "meaning_en": "I live in Kuala Lumpur.",
+              "audio": {
+                "text": "我住在吉隆坡。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "intro-q2-b",
+              "hanzi": "我吃米饭。",
+              "pinyin": "Wǒ chī mǐfàn.",
+              "meaning_ms": "Saya makan nasi.",
+              "meaning_en": "I eat rice.",
+              "audio": {
+                "text": "我吃米饭。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "intro-q2-c",
+              "hanzi": "现在四点。",
+              "pinyin": "Xiànzài sì diǎn.",
+              "meaning_ms": "Sekarang pukul empat.",
+              "meaning_en": "It is four o’clock now.",
+              "audio": {
+                "text": "现在四点。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "intro-q2-a",
+          "feedback_ms": "住在 memperkenalkan tempat tinggal. Jawapan lain mempunyai maksud yang berbeza.",
+          "feedback_en": "住在 introduces where you live. The other answers have different meanings.",
+          "reviewStatus": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "kopitiam-drink",
+      "title_ms": "Memesan minuman di kopitiam",
+      "title_en": "Ordering a drink at a kopitiam",
+      "context_ms": "Awak memesan minuman di kedai kopi di Malaysia. Dialog menggunakan Mandarin standard; bukan senarai istilah dialek kopitiam.",
+      "context_en": "You order a drink at a Malaysian coffee shop. The dialogue uses Standard Mandarin, rather than a list of kopitiam dialect terms.",
+      "duration_minutes": 4,
+      "reviewStatus": "unverified",
+      "turns": [
+        {
+          "id": "drink-t1",
+          "hanzi": "你好！你想喝什么？",
+          "pinyin": "Nǐ hǎo! Nǐ xiǎng hē shénme?",
+          "meaning_ms": "Helo! Awak mahu minum apa?",
+          "meaning_en": "Hello! What would you like to drink?",
+          "audio": {
+            "text": "你好！你想喝什么？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pekerja kedai",
+          "speaker_en": "Shop assistant"
+        },
+        {
+          "id": "drink-t2",
+          "hanzi": "我要一杯咖啡，不加糖。",
+          "pinyin": "Wǒ yào yī bēi kāfēi, bù jiā táng.",
+          "meaning_ms": "Saya mahu secawan kopi, tanpa gula.",
+          "meaning_en": "I would like a cup of coffee, without sugar.",
+          "audio": {
+            "text": "我要一杯咖啡，不加糖。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pelanggan",
+          "speaker_en": "Customer"
+        },
+        {
+          "id": "drink-t3",
+          "hanzi": "好的。你要热的还是冰的？",
+          "pinyin": "Hǎo de. Nǐ yào rè de háishi bīng de?",
+          "meaning_ms": "Baik. Awak mahu yang panas atau yang berais?",
+          "meaning_en": "All right. Would you like it hot or iced?",
+          "audio": {
+            "text": "好的。你要热的还是冰的？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pekerja kedai",
+          "speaker_en": "Shop assistant"
+        },
+        {
+          "id": "drink-t4",
+          "hanzi": "我要热的，谢谢。",
+          "pinyin": "Wǒ yào rè de, xièxie.",
+          "meaning_ms": "Saya mahu yang panas, terima kasih.",
+          "meaning_en": "I would like it hot, thank you.",
+          "audio": {
+            "text": "我要热的，谢谢。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pelanggan",
+          "speaker_en": "Customer"
+        },
+        {
+          "id": "drink-t5",
+          "hanzi": "好的，请稍等。",
+          "pinyin": "Hǎo de, qǐng shāo děng.",
+          "meaning_ms": "Baik, sila tunggu sebentar.",
+          "meaning_en": "All right, please wait a moment.",
+          "audio": {
+            "text": "好的，请稍等。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pekerja kedai",
+          "speaker_en": "Shop assistant"
+        },
+        {
+          "id": "drink-t6",
+          "hanzi": "谢谢。",
+          "pinyin": "Xièxie.",
+          "meaning_ms": "Terima kasih.",
+          "meaning_en": "Thank you.",
+          "audio": {
+            "text": "谢谢。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pelanggan",
+          "speaker_en": "Customer"
+        }
+      ],
+      "grammar_notes": [
+        {
+          "id": "drink-g1",
+          "text_ms": "我要 + minuman menyatakan pesanan. 杯 ialah kata penggolong untuk cawan atau gelas: 一杯咖啡 ialah secawan kopi.",
+          "text_en": "我要 + a drink states an order. 杯 is a classifier for cups or glasses: 一杯咖啡 is a cup of coffee.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "drink-g2",
+          "text_ms": "不加糖 bermaksud tidak menambah gula; ini tidak menyatakan sama ada susu ditambah. 还是 digunakan untuk pilihan dalam soalan. 热的 dan 冰的 merujuk minuman yang sudah disebut.",
+          "text_en": "不加糖 means not adding sugar; it does not specify whether milk is added. 还是 presents alternatives in a question. 热的 and 冰的 refer to the drink already mentioned.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "drink-g3",
+          "text_ms": "Pinyin kamus yī bēi lazimnya disebut yì bēi kerana bēi bernada 1. 不 dalam bù jiā táng kekal bù kerana jiā bukan nada 4. Xie kedua dalam xièxie ringan.",
+          "text_en": "Dictionary yī bēi is usually pronounced yì bēi because bēi has tone 1. 不 in bù jiā táng keeps bù because jiā is not tone 4. The second xie in xièxie is neutral.",
+          "reviewStatus": "unverified"
+        }
+      ],
+      "questions": [
+        {
+          "id": "drink-q1",
+          "after_turn_id": "drink-t1",
+          "prompt_ms": "Pesan secawan kopi tanpa gula.",
+          "prompt_en": "Order a cup of coffee without sugar.",
+          "options": [
+            {
+              "id": "drink-q1-a",
+              "hanzi": "我要一杯茶。",
+              "pinyin": "Wǒ yào yī bēi chá.",
+              "meaning_ms": "Saya mahu secawan teh.",
+              "meaning_en": "I would like a cup of tea.",
+              "audio": {
+                "text": "我要一杯茶。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "drink-q1-b",
+              "hanzi": "我要一杯咖啡，加糖。",
+              "pinyin": "Wǒ yào yī bēi kāfēi, jiā táng.",
+              "meaning_ms": "Saya mahu secawan kopi dengan gula.",
+              "meaning_en": "I would like a cup of coffee with sugar.",
+              "audio": {
+                "text": "我要一杯咖啡，加糖。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "drink-q1-c",
+              "hanzi": "我要一杯咖啡，不加糖。",
+              "pinyin": "Wǒ yào yī bēi kāfēi, bù jiā táng.",
+              "meaning_ms": "Saya mahu secawan kopi tanpa gula.",
+              "meaning_en": "I would like a cup of coffee without sugar.",
+              "audio": {
+                "text": "我要一杯咖啡，不加糖。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "drink-q1-c",
+          "feedback_ms": "不加糖 meminta tanpa gula. 加糖 meminta gula; 茶 ialah teh.",
+          "feedback_en": "不加糖 asks for no added sugar. 加糖 asks for sugar; 茶 is tea.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "drink-q2",
+          "after_turn_id": "drink-t3",
+          "prompt_ms": "Nyatakan bahawa awak mahu minuman panas.",
+          "prompt_en": "Say that you want the drink hot.",
+          "options": [
+            {
+              "id": "drink-q2-a",
+              "hanzi": "我要热的。",
+              "pinyin": "Wǒ yào rè de.",
+              "meaning_ms": "Saya mahu yang panas.",
+              "meaning_en": "I would like it hot.",
+              "audio": {
+                "text": "我要热的。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "drink-q2-b",
+              "hanzi": "我要冰的。",
+              "pinyin": "Wǒ yào bīng de.",
+              "meaning_ms": "Saya mahu yang berais.",
+              "meaning_en": "I would like it iced.",
+              "audio": {
+                "text": "我要冰的。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "drink-q2-c",
+              "hanzi": "我不要咖啡。",
+              "pinyin": "Wǒ bù yào kāfēi.",
+              "meaning_ms": "Saya tidak mahu kopi.",
+              "meaning_en": "I do not want coffee.",
+              "audio": {
+                "text": "我不要咖啡。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "drink-q2-a",
+          "feedback_ms": "热的 ialah yang panas; 冰的 ialah yang berais. Dalam pilihan 不要, pinyin kamus bù yào lazimnya berbunyi bú yào.",
+          "feedback_en": "热的 means the hot one; 冰的 means the iced one. In the option 不要, dictionary bù yào is usually pronounced bú yào.",
+          "reviewStatus": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "ask-price",
+      "title_ms": "Bertanya harga",
+      "title_en": "Asking the price",
+      "context_ms": "Awak membeli dua barang yang sama di Malaysia. Harga contoh ialah rekaan untuk latihan, bukan harga semasa. 令吉 ialah ringgit.",
+      "context_en": "You buy two identical items in Malaysia. The example prices are fictional practice values, not current prices. 令吉 means ringgit.",
+      "duration_minutes": 4,
+      "reviewStatus": "unverified",
+      "turns": [
+        {
+          "id": "price-t1",
+          "hanzi": "这个多少钱？",
+          "pinyin": "Zhège duōshao qián?",
+          "meaning_ms": "Berapakah harga barang ini?",
+          "meaning_en": "How much is this?",
+          "audio": {
+            "text": "这个多少钱？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pelanggan",
+          "speaker_en": "Customer"
+        },
+        {
+          "id": "price-t2",
+          "hanzi": "五令吉。",
+          "pinyin": "Wǔ lìngjí.",
+          "meaning_ms": "Lima ringgit.",
+          "meaning_en": "Five ringgit.",
+          "audio": {
+            "text": "五令吉。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pekerja kedai",
+          "speaker_en": "Shop assistant"
+        },
+        {
+          "id": "price-t3",
+          "hanzi": "我要两个。",
+          "pinyin": "Wǒ yào liǎng gè.",
+          "meaning_ms": "Saya mahu dua.",
+          "meaning_en": "I would like two.",
+          "audio": {
+            "text": "我要两个。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pelanggan",
+          "speaker_en": "Customer"
+        },
+        {
+          "id": "price-t4",
+          "hanzi": "一共十令吉。",
+          "pinyin": "Yīgòng shí lìngjí.",
+          "meaning_ms": "Jumlahnya sepuluh ringgit.",
+          "meaning_en": "Ten ringgit in total.",
+          "audio": {
+            "text": "一共十令吉。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pekerja kedai",
+          "speaker_en": "Shop assistant"
+        },
+        {
+          "id": "price-t5",
+          "hanzi": "给你十令吉。",
+          "pinyin": "Gěi nǐ shí lìngjí.",
+          "meaning_ms": "Ini sepuluh ringgit untuk awak.",
+          "meaning_en": "Here is ten ringgit for you.",
+          "audio": {
+            "text": "给你十令吉。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pelanggan",
+          "speaker_en": "Customer"
+        },
+        {
+          "id": "price-t6",
+          "hanzi": "谢谢。",
+          "pinyin": "Xièxie.",
+          "meaning_ms": "Terima kasih.",
+          "meaning_en": "Thank you.",
+          "audio": {
+            "text": "谢谢。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Pekerja kedai",
+          "speaker_en": "Shop assistant"
+        }
+      ],
+      "grammar_notes": [
+        {
+          "id": "price-g1",
+          "text_ms": "多少钱 bertanya harga. 令吉 ialah nama ringgit dalam Mandarin di Malaysia; jangan menganggap 元 dalam semua bahan lama bermaksud ringgit.",
+          "text_en": "多少钱 asks the price. 令吉 is the Mandarin name for the ringgit in Malaysia; do not assume 元 in other material always means ringgit.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "price-g2",
+          "text_ms": "两 biasanya digunakan sebelum kata penggolong untuk dua barang: 两个. 二 digunakan ketika membilang nombor. 个 merujuk barang yang diketahui daripada konteks.",
+          "text_en": "两 is usually used before a classifier for two items: 两个. 二 is used when counting numbers. 个 refers to items understood from context.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "price-g3",
+          "text_ms": "Pinyin kamus yīgòng lazimnya disebut yígòng sebelum nada 4. 给你 mempunyai 3 + 3 dan lazimnya berbunyi géi nǐ. 个 dalam 两个 sering menjadi ringan dalam pertuturan.",
+          "text_en": "Dictionary yīgòng is usually pronounced yígòng before tone 4. 给你 has tones 3 + 3 and is usually pronounced géi nǐ. 个 in 两个 often becomes neutral in speech.",
+          "reviewStatus": "unverified"
+        }
+      ],
+      "questions": [
+        {
+          "id": "price-q1",
+          "after_turn_id": "price-t1",
+          "prompt_ms": "Nyatakan harga lima ringgit.",
+          "prompt_en": "State a price of five ringgit.",
+          "options": [
+            {
+              "id": "price-q1-a",
+              "hanzi": "三令吉。",
+              "pinyin": "Sān lìngjí.",
+              "meaning_ms": "Tiga ringgit.",
+              "meaning_en": "Three ringgit.",
+              "audio": {
+                "text": "三令吉。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "price-q1-b",
+              "hanzi": "五令吉。",
+              "pinyin": "Wǔ lìngjí.",
+              "meaning_ms": "Lima ringgit.",
+              "meaning_en": "Five ringgit.",
+              "audio": {
+                "text": "五令吉。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "price-q1-c",
+              "hanzi": "十令吉。",
+              "pinyin": "Shí lìngjí.",
+              "meaning_ms": "Sepuluh ringgit.",
+              "meaning_en": "Ten ringgit.",
+              "audio": {
+                "text": "十令吉。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "price-q1-b",
+          "feedback_ms": "五 ialah lima dan 令吉 ialah ringgit. 三 ialah tiga; 十 ialah sepuluh.",
+          "feedback_en": "五 is five and 令吉 is ringgit. 三 is three; 十 is ten.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "price-q2",
+          "after_turn_id": "price-t4",
+          "prompt_ms": "Nyatakan bahawa awak menyerahkan sepuluh ringgit.",
+          "prompt_en": "Say that you are handing over ten ringgit.",
+          "options": [
+            {
+              "id": "price-q2-a",
+              "hanzi": "我要一个。",
+              "pinyin": "Wǒ yào yī gè.",
+              "meaning_ms": "Saya mahu satu.",
+              "meaning_en": "I would like one.",
+              "audio": {
+                "text": "我要一个。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "price-q2-b",
+              "hanzi": "给你五令吉。",
+              "pinyin": "Gěi nǐ wǔ lìngjí.",
+              "meaning_ms": "Ini lima ringgit untuk awak.",
+              "meaning_en": "Here is five ringgit for you.",
+              "audio": {
+                "text": "给你五令吉。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "price-q2-c",
+              "hanzi": "给你十令吉。",
+              "pinyin": "Gěi nǐ shí lìngjí.",
+              "meaning_ms": "Ini sepuluh ringgit untuk awak.",
+              "meaning_en": "Here is ten ringgit for you.",
+              "audio": {
+                "text": "给你十令吉。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "price-q2-c",
+          "feedback_ms": "给你 menandakan pemberian kepada orang yang dilawan bercakap. 十 ialah sepuluh; 五 ialah lima. Dalam pilihan 一个, yī gè lazimnya berbunyi yí gè.",
+          "feedback_en": "给你 indicates giving something to the person you are speaking to. 十 is ten; 五 is five. In the option 一个, yī gè is usually pronounced yí gè.",
+          "reviewStatus": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "numbers-time",
+      "title_ms": "Masa untuk berjumpa",
+      "title_en": "Arranging a time",
+      "context_ms": "Dua kawan bertanya waktu dan menetapkan masa untuk pergi ke taman.",
+      "context_en": "Two friends ask the time and arrange when to go to the park.",
+      "duration_minutes": 4,
+      "reviewStatus": "unverified",
+      "turns": [
+        {
+          "id": "time-t1",
+          "hanzi": "现在几点？",
+          "pinyin": "Xiànzài jǐ diǎn?",
+          "meaning_ms": "Sekarang pukul berapa?",
+          "meaning_en": "What time is it now?",
+          "audio": {
+            "text": "现在几点？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Kawan A",
+          "speaker_en": "Friend A"
+        },
+        {
+          "id": "time-t2",
+          "hanzi": "现在三点半。",
+          "pinyin": "Xiànzài sān diǎn bàn.",
+          "meaning_ms": "Sekarang pukul tiga setengah.",
+          "meaning_en": "It is half past three now.",
+          "audio": {
+            "text": "现在三点半。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Kawan B",
+          "speaker_en": "Friend B"
+        },
+        {
+          "id": "time-t3",
+          "hanzi": "我们四点去公园，好吗？",
+          "pinyin": "Wǒmen sì diǎn qù gōngyuán, hǎo ma?",
+          "meaning_ms": "Kita pergi ke taman pada pukul empat, boleh?",
+          "meaning_en": "Shall we go to the park at four o’clock?",
+          "audio": {
+            "text": "我们四点去公园，好吗？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Kawan A",
+          "speaker_en": "Friend A"
+        },
+        {
+          "id": "time-t4",
+          "hanzi": "好，四点见！",
+          "pinyin": "Hǎo, sì diǎn jiàn!",
+          "meaning_ms": "Baik, jumpa pukul empat!",
+          "meaning_en": "All right, see you at four!",
+          "audio": {
+            "text": "好，四点见！",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Kawan B",
+          "speaker_en": "Friend B"
+        }
+      ],
+      "grammar_notes": [
+        {
+          "id": "time-g1",
+          "text_ms": "Nombor jam datang sebelum 点. 半 selepas 点 bermaksud setengah jam: 三点半 ialah pukul 3:30, bukan 3:15.",
+          "text_en": "The hour number comes before 点. 半 after 点 means half an hour: 三点半 is 3:30, not 3:15.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "time-g2",
+          "text_ms": "Waktu biasanya mendahului kata kerja: 我们四点去公园. 好吗？ meminta persetujuan tentang cadangan.",
+          "text_en": "A time expression usually comes before the verb: 我们四点去公园. 好吗？ asks for agreement with a suggestion.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "time-g3",
+          "text_ms": "Pinyin menunjukkan nada kamus. 见 jiàn bernada 4. Ma dalam 好吗 ringan; ia tidak mempunyai ketinggian tetap.",
+          "text_en": "Pinyin shows dictionary tones. 见 jiàn has tone 4. Ma in 好吗 is neutral; it does not have a fixed pitch.",
+          "reviewStatus": "unverified"
+        }
+      ],
+      "questions": [
+        {
+          "id": "time-q1",
+          "after_turn_id": "time-t1",
+          "prompt_ms": "Jawab bahawa sekarang pukul 3:30.",
+          "prompt_en": "Reply that it is 3:30 now.",
+          "options": [
+            {
+              "id": "time-q1-a",
+              "hanzi": "现在三点半。",
+              "pinyin": "Xiànzài sān diǎn bàn.",
+              "meaning_ms": "Sekarang pukul tiga setengah.",
+              "meaning_en": "It is half past three now.",
+              "audio": {
+                "text": "现在三点半。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "time-q1-b",
+              "hanzi": "现在三点。",
+              "pinyin": "Xiànzài sān diǎn.",
+              "meaning_ms": "Sekarang pukul tiga.",
+              "meaning_en": "It is three o’clock now.",
+              "audio": {
+                "text": "现在三点。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "time-q1-c",
+              "hanzi": "现在四点。",
+              "pinyin": "Xiànzài sì diǎn.",
+              "meaning_ms": "Sekarang pukul empat.",
+              "meaning_en": "It is four o’clock now.",
+              "audio": {
+                "text": "现在四点。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "time-q1-a",
+          "feedback_ms": "三点半 ialah 3:30. Tanpa 半, 三点 ialah 3:00.",
+          "feedback_en": "三点半 is 3:30. Without 半, 三点 is 3:00.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "time-q2",
+          "after_turn_id": "time-t3",
+          "prompt_ms": "Setuju untuk berjumpa pukul empat.",
+          "prompt_en": "Agree to meet at four.",
+          "options": [
+            {
+              "id": "time-q2-a",
+              "hanzi": "好，三点见。",
+              "pinyin": "Hǎo, sān diǎn jiàn.",
+              "meaning_ms": "Baik, jumpa pukul tiga.",
+              "meaning_en": "All right, see you at three.",
+              "audio": {
+                "text": "好，三点见。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "time-q2-b",
+              "hanzi": "好，四点见。",
+              "pinyin": "Hǎo, sì diǎn jiàn.",
+              "meaning_ms": "Baik, jumpa pukul empat.",
+              "meaning_en": "All right, see you at four.",
+              "audio": {
+                "text": "好，四点见。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "time-q2-c",
+              "hanzi": "明天见。",
+              "pinyin": "Míngtiān jiàn.",
+              "meaning_ms": "Jumpa esok.",
+              "meaning_en": "See you tomorrow.",
+              "audio": {
+                "text": "明天见。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "time-q2-b",
+          "feedback_ms": "四点见 mengesahkan pukul empat. 三点 menukar waktu; 明天 menukar hari tanpa mengesahkan jam.",
+          "feedback_en": "四点见 confirms four o’clock. 三点 changes the time; 明天 changes the day without confirming an hour.",
+          "reviewStatus": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "message-friend",
+      "title_ms": "Menghantar mesej kepada kawan",
+      "title_en": "Messaging a friend",
+      "context_ms": "Awak menghantar mesej ringkas untuk mengajak kawan minum teh pada petang yang sama.",
+      "context_en": "You send a short message inviting a friend for tea that same afternoon.",
+      "duration_minutes": 4,
+      "reviewStatus": "unverified",
+      "turns": [
+        {
+          "id": "message-t1",
+          "hanzi": "你现在有时间吗？",
+          "pinyin": "Nǐ xiànzài yǒu shíjiān ma?",
+          "meaning_ms": "Awak ada masa sekarang?",
+          "meaning_en": "Do you have time now?",
+          "audio": {
+            "text": "你现在有时间吗？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Awak",
+          "speaker_en": "You"
+        },
+        {
+          "id": "message-t2",
+          "hanzi": "有。怎么了？",
+          "pinyin": "Yǒu. Zěnme le?",
+          "meaning_ms": "Ada. Ada apa?",
+          "meaning_en": "Yes. What is it?",
+          "audio": {
+            "text": "有。怎么了？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Kawan",
+          "speaker_en": "Friend"
+        },
+        {
+          "id": "message-t3",
+          "hanzi": "我们一起去喝茶，好吗？",
+          "pinyin": "Wǒmen yīqǐ qù hē chá, hǎo ma?",
+          "meaning_ms": "Jom kita pergi minum teh bersama, boleh?",
+          "meaning_en": "Shall we go and have tea together?",
+          "audio": {
+            "text": "我们一起去喝茶，好吗？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Awak",
+          "speaker_en": "You"
+        },
+        {
+          "id": "message-t4",
+          "hanzi": "好。几点见？",
+          "pinyin": "Hǎo. Jǐ diǎn jiàn?",
+          "meaning_ms": "Baik. Jumpa pukul berapa?",
+          "meaning_en": "All right. What time shall we meet?",
+          "audio": {
+            "text": "好。几点见？",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Kawan",
+          "speaker_en": "Friend"
+        },
+        {
+          "id": "message-t5",
+          "hanzi": "下午四点在车站见。",
+          "pinyin": "Xiàwǔ sì diǎn zài chēzhàn jiàn.",
+          "meaning_ms": "Jumpa di stesen pada pukul empat petang.",
+          "meaning_en": "Meet at the station at four in the afternoon.",
+          "audio": {
+            "text": "下午四点在车站见。",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Awak",
+          "speaker_en": "You"
+        },
+        {
+          "id": "message-t6",
+          "hanzi": "好的，四点见！",
+          "pinyin": "Hǎo de, sì diǎn jiàn!",
+          "meaning_ms": "Baik, jumpa pukul empat!",
+          "meaning_en": "All right, see you at four!",
+          "audio": {
+            "text": "好的，四点见！",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified",
+          "speaker_ms": "Kawan",
+          "speaker_en": "Friend"
+        }
+      ],
+      "grammar_notes": [
+        {
+          "id": "message-g1",
+          "text_ms": "有时间 bermaksud ada masa. Jawapan ringkas 有 boleh menjawab soalan ini. 怎么了？ bertanya ada apa? mengikut konteks, bukan semestinya ada masalah.",
+          "text_en": "有时间 means to have time. A short 有 can answer this question. 怎么了？ asks what is it? in this context; it does not necessarily imply a problem.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "message-g2",
+          "text_ms": "Waktu dan tempat boleh mendahului kata kerja: 下午四点 + 在车站 + 见. 下午四点 ialah pukul 4 petang. 一起 bermaksud bersama.",
+          "text_en": "Time and place can come before the verb: 下午四点 + 在车站 + 见. 下午四点 is 4 p.m. 一起 means together.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "message-g3",
+          "text_ms": "Pinyin kamus yīqǐ lazimnya disebut yìqǐ sebelum qǐ bernada 3. De dalam 好的 dan le dalam 怎么了 ringan. Pinyin kamus mengekalkan nada asal, bukan menulis semua perubahan pertuturan.",
+          "text_en": "Dictionary yīqǐ is usually pronounced yìqǐ before tone-3 qǐ. De in 好的 and le in 怎么了 are neutral. Dictionary pinyin retains the underlying tones rather than writing every speech change.",
+          "reviewStatus": "unverified"
+        }
+      ],
+      "questions": [
+        {
+          "id": "message-q1",
+          "after_turn_id": "message-t1",
+          "prompt_ms": "Awak ada masa. Pilih jawapan yang menyatakan ya.",
+          "prompt_en": "You have time. Choose the answer that says yes.",
+          "options": [
+            {
+              "id": "message-q1-a",
+              "hanzi": "没有。",
+              "pinyin": "Méiyǒu.",
+              "meaning_ms": "Tiada.",
+              "meaning_en": "No, I do not.",
+              "audio": {
+                "text": "没有。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "message-q1-b",
+              "hanzi": "不知道。",
+              "pinyin": "Bù zhīdào.",
+              "meaning_ms": "Tidak tahu.",
+              "meaning_en": "I do not know.",
+              "audio": {
+                "text": "不知道。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "message-q1-c",
+              "hanzi": "有。",
+              "pinyin": "Yǒu.",
+              "meaning_ms": "Ada.",
+              "meaning_en": "Yes, I do.",
+              "audio": {
+                "text": "有。",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "message-q1-c",
+          "feedback_ms": "有 menyatakan ada masa dalam konteks ini. 没有 menafikannya; 不知道 menyatakan tidak tahu.",
+          "feedback_en": "有 says you have time in this context. 没有 denies it; 不知道 says you do not know.",
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "message-q2",
+          "after_turn_id": "message-t5",
+          "prompt_ms": "Sahkan pertemuan di stesen pada pukul empat.",
+          "prompt_en": "Confirm meeting at the station at four.",
+          "options": [
+            {
+              "id": "message-q2-a",
+              "hanzi": "好，四点在车站见！",
+              "pinyin": "Hǎo, sì diǎn zài chēzhàn jiàn!",
+              "meaning_ms": "Baik, jumpa di stesen pukul empat!",
+              "meaning_en": "All right, see you at the station at four!",
+              "audio": {
+                "text": "好，四点在车站见！",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "message-q2-b",
+              "hanzi": "好，三点在车站见！",
+              "pinyin": "Hǎo, sān diǎn zài chēzhàn jiàn!",
+              "meaning_ms": "Baik, jumpa di stesen pukul tiga!",
+              "meaning_en": "All right, see you at the station at three!",
+              "audio": {
+                "text": "好，三点在车站见！",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            },
+            {
+              "id": "message-q2-c",
+              "hanzi": "好，四点在学校见！",
+              "pinyin": "Hǎo, sì diǎn zài xuéxiào jiàn!",
+              "meaning_ms": "Baik, jumpa di sekolah pukul empat!",
+              "meaning_en": "All right, see you at school at four!",
+              "audio": {
+                "text": "好，四点在学校见！",
+                "lang": "zh-CN",
+                "slow_rate": 0.7,
+                "needs_audio_review": true
+              },
+              "reviewStatus": "unverified"
+            }
+          ],
+          "correct_option_id": "message-q2-a",
+          "feedback_ms": "Jawapan perlu mengekalkan kedua-dua waktu 四点 dan tempat 车站. Pilihan lain menukar satu maklumat.",
+          "feedback_en": "The answer must keep both the time 四点 and the place 车站. The other options change one detail.",
+          "reviewStatus": "unverified"
+        }
+      ]
+    }
+  ],
+  "listening_contrasts": [
+    {
+      "id": "listen-mother-horse",
+      "title_ms": "Ibu atau kuda",
+      "title_en": "Mother or horse",
+      "duration_seconds": 30,
+      "focus_ms": "Nada 1 berbanding nada 3 pada ma.",
+      "focus_en": "Tone 1 versus tone 3 on ma.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-mother-horse-a",
+          "hanzi": "妈",
+          "pinyin": "mā",
+          "meaning_ms": "ibu",
+          "meaning_en": "mother",
+          "audio": {
+            "text": "妈",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-mother-horse-b",
+          "hanzi": "马",
+          "pinyin": "mǎ",
+          "meaning_ms": "kuda",
+          "meaning_en": "horse",
+          "audio": {
+            "text": "马",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-mother-horse-a",
+      "feedback_ms": "妈 mā tinggi dan rata; 马 mǎ bernada 3, turun rendah dan boleh naik apabila disebut sendiri.",
+      "feedback_en": "妈 mā is high and level; 马 mǎ has tone 3, falling low and possibly rising in isolation.",
+      "reviewStatus": "unverified"
+    },
+    {
+      "id": "listen-buy-sell",
+      "title_ms": "Membeli atau menjual",
+      "title_en": "Buy or sell",
+      "duration_seconds": 30,
+      "focus_ms": "Nada 3 berbanding nada 4 pada mai.",
+      "focus_en": "Tone 3 versus tone 4 on mai.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-buy-sell-a",
+          "hanzi": "买",
+          "pinyin": "mǎi",
+          "meaning_ms": "membeli",
+          "meaning_en": "to buy",
+          "audio": {
+            "text": "买",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-buy-sell-b",
+          "hanzi": "卖",
+          "pinyin": "mài",
+          "meaning_ms": "menjual",
+          "meaning_en": "to sell",
+          "audio": {
+            "text": "卖",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-buy-sell-b",
+      "feedback_ms": "买 mǎi ialah membeli, nada 3; 卖 mài ialah menjual, nada 4 yang turun.",
+      "feedback_en": "买 mǎi means buy, tone 3; 卖 mài means sell, with falling tone 4.",
+      "reviewStatus": "unverified"
+    },
+    {
+      "id": "listen-four-ten",
+      "title_ms": "Empat atau sepuluh",
+      "title_en": "Four or ten",
+      "duration_seconds": 30,
+      "focus_ms": "Bezakan kedua-dua awalan s/sh dan nada 4/2; ini bukan perbandingan nada sahaja.",
+      "focus_en": "Distinguish both s/sh initials and tones 4/2; this is not a tone-only comparison.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-four-ten-a",
+          "hanzi": "四",
+          "pinyin": "sì",
+          "meaning_ms": "empat",
+          "meaning_en": "four",
+          "audio": {
+            "text": "四",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-four-ten-b",
+          "hanzi": "十",
+          "pinyin": "shí",
+          "meaning_ms": "sepuluh",
+          "meaning_en": "ten",
+          "audio": {
+            "text": "十",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-four-ten-a",
+      "feedback_ms": "四 sì mempunyai s di hadapan mulut dan nada 4. 十 shí mempunyai sh dengan lidah sedikit ke belakang dan nada 2.",
+      "feedback_en": "四 sì has s at the front of the mouth and tone 4. 十 shí has sh with the tongue slightly farther back and tone 2.",
+      "reviewStatus": "unverified"
+    },
+    {
+      "id": "listen-seven-chicken",
+      "title_ms": "Tujuh atau ayam",
+      "title_en": "Seven or chicken",
+      "duration_seconds": 30,
+      "focus_ms": "Awalan q berhembus berbanding j yang kurang berhembus; kedua-duanya nada 1.",
+      "focus_en": "The initial q has a puff of air, unlike less-aspirated j; both have tone 1.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-seven-chicken-a",
+          "hanzi": "七",
+          "pinyin": "qī",
+          "meaning_ms": "tujuh",
+          "meaning_en": "seven",
+          "audio": {
+            "text": "七",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-seven-chicken-b",
+          "hanzi": "鸡",
+          "pinyin": "jī",
+          "meaning_ms": "ayam",
+          "meaning_en": "chicken",
+          "audio": {
+            "text": "鸡",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-seven-chicken-b",
+      "feedback_ms": "七 qī menggunakan hembusan lebih jelas daripada 鸡 jī. Kedua-duanya tinggi dan rata.",
+      "feedback_en": "七 qī has a clearer puff of air than 鸡 jī. Both are high and level.",
+      "reviewStatus": "unverified"
+    },
+    {
+      "id": "listen-pear-inside",
+      "title_ms": "Pir atau di dalam",
+      "title_en": "Pear or inside",
+      "duration_seconds": 30,
+      "focus_ms": "Nada 2 berbanding nada 3 pada li.",
+      "focus_en": "Tone 2 versus tone 3 on li.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-pear-inside-a",
+          "hanzi": "梨",
+          "pinyin": "lí",
+          "meaning_ms": "buah pir",
+          "meaning_en": "pear",
+          "audio": {
+            "text": "梨",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-pear-inside-b",
+          "hanzi": "里",
+          "pinyin": "lǐ",
+          "meaning_ms": "di dalam",
+          "meaning_en": "inside",
+          "audio": {
+            "text": "里",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-pear-inside-a",
+      "feedback_ms": "梨 lí naik dengan nada 2. 里 lǐ bernada 3; aksara ini lazim sebagai unsur tempat seperti 在家里 zài jiālǐ, di dalam rumah.",
+      "feedback_en": "梨 lí rises with tone 2. 里 lǐ has tone 3; it often acts as a place element, as in 在家里 zài jiālǐ, inside the home.",
+      "reviewStatus": "unverified"
+    },
+    {
+      "id": "listen-eight-dad",
+      "title_ms": "Lapan atau ayah",
+      "title_en": "Eight or dad",
+      "duration_seconds": 30,
+      "focus_ms": "Nada 1 berbanding nada 4 pada ba.",
+      "focus_en": "Tone 1 versus tone 4 on ba.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-eight-dad-a",
+          "hanzi": "八",
+          "pinyin": "bā",
+          "meaning_ms": "lapan",
+          "meaning_en": "eight",
+          "audio": {
+            "text": "八",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-eight-dad-b",
+          "hanzi": "爸",
+          "pinyin": "bà",
+          "meaning_ms": "ayah",
+          "meaning_en": "dad",
+          "audio": {
+            "text": "爸",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-eight-dad-b",
+      "feedback_ms": "八 bā tinggi rata. 爸 bà turun dengan nada 4; dalam 爸爸 bàba, suku kata kedua biasanya ringan.",
+      "feedback_en": "八 bā is high and level. 爸 bà falls with tone 4; in 爸爸 bàba, the second syllable is usually neutral.",
+      "reviewStatus": "unverified"
+    },
+    {
+      "id": "listen-book-tree",
+      "title_ms": "Buku atau pokok",
+      "title_en": "Book or tree",
+      "duration_seconds": 30,
+      "focus_ms": "Nada 1 berbanding nada 4 pada shu.",
+      "focus_en": "Tone 1 versus tone 4 on shu.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-book-tree-a",
+          "hanzi": "书",
+          "pinyin": "shū",
+          "meaning_ms": "buku",
+          "meaning_en": "book",
+          "audio": {
+            "text": "书",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-book-tree-b",
+          "hanzi": "树",
+          "pinyin": "shù",
+          "meaning_ms": "pokok",
+          "meaning_en": "tree",
+          "audio": {
+            "text": "树",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-book-tree-b",
+      "feedback_ms": "书 shū bernada 1, tinggi rata. 树 shù bernada 4, turun. Awalan dan akhiran sama.",
+      "feedback_en": "书 shū has high, level tone 1. 树 shù has falling tone 4. Their initial and final sounds are the same.",
+      "reviewStatus": "unverified"
+    },
+    {
+      "id": "listen-grove-zero",
+      "title_ms": "Hutan kecil atau sifar",
+      "title_en": "Grove or zero",
+      "duration_seconds": 30,
+      "focus_ms": "Akhiran in berbanding ing, kedua-duanya nada 2.",
+      "focus_en": "The finals in versus ing, both with tone 2.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-grove-zero-a",
+          "hanzi": "林",
+          "pinyin": "lín",
+          "meaning_ms": "hutan kecil; rimba (unsur kata)",
+          "meaning_en": "grove; forest (word element)",
+          "audio": {
+            "text": "林",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-grove-zero-b",
+          "hanzi": "零",
+          "pinyin": "líng",
+          "meaning_ms": "sifar",
+          "meaning_en": "zero",
+          "audio": {
+            "text": "零",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-grove-zero-a",
+      "feedback_ms": "林 lín berakhir dengan n di hadapan mulut dan sering muncul dalam perkataan seperti 树林 shùlín (hutan kecil). 零 líng berakhir dengan ng di belakang lidah.",
+      "feedback_en": "林 lín ends with n at the front of the mouth and often appears in words such as 树林 shùlín (a grove). 零 líng ends with ng at the back of the tongue.",
+      "reviewStatus": "unverified"
+    },
+    {
+      "id": "listen-green-road",
+      "title_ms": "Hijau atau jalan",
+      "title_en": "Green or road",
+      "duration_seconds": 30,
+      "focus_ms": "Bezakan ü dan u selepas l; kedua-duanya nada 4.",
+      "focus_en": "Distinguish ü and u after l; both have tone 4.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-green-road-a",
+          "hanzi": "绿",
+          "pinyin": "lǜ",
+          "meaning_ms": "hijau",
+          "meaning_en": "green",
+          "audio": {
+            "text": "绿",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-green-road-b",
+          "hanzi": "路",
+          "pinyin": "lù",
+          "meaning_ms": "jalan",
+          "meaning_en": "road",
+          "audio": {
+            "text": "路",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-green-road-a",
+      "feedback_ms": "绿 lǜ menggunakan ü: bentuk lidah seperti i dengan bibir bulat. 路 lù menggunakan u dengan lidah di belakang.",
+      "feedback_en": "绿 lǜ uses ü: the tongue is positioned as for i with rounded lips. 路 lù uses u with the tongue towards the back.",
+      "reviewStatus": "unverified"
+    },
+    {
+      "id": "listen-drink-river",
+      "title_ms": "Minum atau sungai",
+      "title_en": "Drink or river",
+      "duration_seconds": 30,
+      "focus_ms": "Nada 1 berbanding nada 2 pada he.",
+      "focus_en": "Tone 1 versus tone 2 on he.",
+      "prompt_ms": "Dengar sampel, kemudian pilih perkataan yang didengar. Pinyin dan maksud membantu semakan selepas memilih.",
+      "prompt_en": "Listen to the sample, then choose the word you heard. Use the pinyin and meanings to review after choosing.",
+      "options": [
+        {
+          "id": "listen-drink-river-a",
+          "hanzi": "喝",
+          "pinyin": "hē",
+          "meaning_ms": "minum",
+          "meaning_en": "to drink",
+          "audio": {
+            "text": "喝",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        },
+        {
+          "id": "listen-drink-river-b",
+          "hanzi": "河",
+          "pinyin": "hé",
+          "meaning_ms": "sungai",
+          "meaning_en": "river",
+          "audio": {
+            "text": "河",
+            "lang": "zh-CN",
+            "slow_rate": 0.7,
+            "needs_audio_review": true
+          },
+          "reviewStatus": "unverified"
+        }
+      ],
+      "target_option_id": "listen-drink-river-b",
+      "feedback_ms": "喝 hē tinggi rata dengan nada 1; 河 hé naik dengan nada 2.",
+      "feedback_en": "喝 hē is high and level with tone 1; 河 hé rises with tone 2.",
+      "reviewStatus": "unverified"
+    }
+  ]
+}

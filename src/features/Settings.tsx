@@ -2,6 +2,7 @@ import { Check, Globe2, Monitor, Volume2 } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Page } from "../components/Page";
+import { contentReviewCounts } from "../lib/content-status";
 import { copy } from "../lib/copy";
 import {
   type Language,
@@ -118,6 +119,41 @@ export default function Settings() {
         <details className="install-help">
           <summary>{t.install}</summary>
           <p>{t.installBody}</p>
+        </details>
+        <details className="install-help">
+          <summary>
+            {settings.language === "ms"
+              ? "Status semakan bahan"
+              : "Content review status"}
+          </summary>
+          <p>
+            {settings.language === "ms"
+              ? "Bacaan teks dalam 370 kad asal. Padanan mesin bukan pengesahan terjemahan, audio atau ketepatan oleh manusia."
+              : "Text readings in the original 370 cards. Machine agreement does not verify translations, audio or correctness by a human."}
+          </p>
+          <ul>
+            <li>
+              {settings.language === "ms" ? "Belum disahkan" : "Unverified"}:{" "}
+              {contentReviewCounts.unverified}
+            </li>
+            <li>
+              {settings.language === "ms"
+                ? "Disemak mesin (bacaan sahaja)"
+                : "Machine-checked (readings only)"}
+              : {contentReviewCounts["machine-checked"]}
+            </li>
+            <li>
+              {settings.language === "ms"
+                ? "Disahkan manusia"
+                : "Human-verified"}
+              : {contentReviewCounts["human-verified"]}
+            </li>
+          </ul>
+          <p>
+            {settings.language === "ms"
+              ? "Dialog baharu dan audio suara peranti belum disahkan. Perbezaan bacaan dalam audit memerlukan semakan konteks; ia tidak semestinya kesalahan."
+              : "New dialogues and device audio are unverified. Audit reading differences need contextual review; they are not necessarily errors."}
+          </p>
         </details>
       </div>
     </Page>

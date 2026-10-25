@@ -1,0 +1,1116 @@
+{
+  "schema_version": 1,
+  "source": "pinyin-pro@3.29.5; lexical readings only",
+  "items": {
+    "u0-finals-1-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-1-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-1-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-2-1": {
+      "reviewStatus": "unverified"
+    },
+    "u0-finals-2-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-finals-2-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-3-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-3-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-finals-3-3": {
+      "reviewStatus": "unverified"
+    },
+    "u0-finals-3-4": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-4-1": {
+      "reviewStatus": "unverified"
+    },
+    "u0-finals-4-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-4-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-4-4": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-4-5": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-5-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-5-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-5-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-5-4": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-5-5": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-6-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-6-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-finals-6-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-6-4": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-6-5": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-7-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-7-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-7-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-7-4": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-finals-7-5": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-1-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-1-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-1-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-2-1": {
+      "reviewStatus": "unverified"
+    },
+    "u0-initials-2-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-initials-2-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-3-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-3-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-initials-3-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-4-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-4-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-initials-4-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-5-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-5-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-5-3": {
+      "reviewStatus": "unverified"
+    },
+    "u0-initials-6-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-6-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-6-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-7-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-7-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-initials-7-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-sandhi-bu-1": {
+      "reviewStatus": "unverified"
+    },
+    "u0-sandhi-bu-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-sandhi-bu-3": {
+      "reviewStatus": "unverified"
+    },
+    "u0-sandhi-yi-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-sandhi-yi-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-sandhi-yi-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-sandhi-yi-4": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-tone-pairs-1-1": {
+      "reviewStatus": "unverified"
+    },
+    "u0-tone-pairs-1-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-tone-pairs-1-3": {
+      "reviewStatus": "unverified"
+    },
+    "u0-tone-pairs-2-1": {
+      "reviewStatus": "unverified"
+    },
+    "u0-tone-pairs-2-2": {
+      "reviewStatus": "unverified"
+    },
+    "u0-tone-pairs-2-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-tones-1-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-tones-1-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-tones-1-3": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-tones-2-1": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-tones-2-2": {
+      "reviewStatus": "machine-checked"
+    },
+    "u0-tones-2-3": {
+      "reviewStatus": "unverified"
+    },
+    "w001": {
+      "reviewStatus": "unverified"
+    },
+    "w002": {
+      "reviewStatus": "unverified"
+    },
+    "w003": {
+      "reviewStatus": "machine-checked"
+    },
+    "w004": {
+      "reviewStatus": "unverified"
+    },
+    "w005": {
+      "reviewStatus": "unverified"
+    },
+    "w006": {
+      "reviewStatus": "unverified"
+    },
+    "w007": {
+      "reviewStatus": "machine-checked"
+    },
+    "w008": {
+      "reviewStatus": "unverified"
+    },
+    "w009": {
+      "reviewStatus": "unverified"
+    },
+    "w010": {
+      "reviewStatus": "unverified"
+    },
+    "w011": {
+      "reviewStatus": "unverified"
+    },
+    "w012": {
+      "reviewStatus": "machine-checked"
+    },
+    "w013": {
+      "reviewStatus": "unverified"
+    },
+    "w014": {
+      "reviewStatus": "unverified"
+    },
+    "w015": {
+      "reviewStatus": "unverified"
+    },
+    "w016": {
+      "reviewStatus": "unverified"
+    },
+    "w017": {
+      "reviewStatus": "unverified"
+    },
+    "w018": {
+      "reviewStatus": "unverified"
+    },
+    "w019": {
+      "reviewStatus": "unverified"
+    },
+    "w020": {
+      "reviewStatus": "unverified"
+    },
+    "w021": {
+      "reviewStatus": "unverified"
+    },
+    "w022": {
+      "reviewStatus": "machine-checked"
+    },
+    "w023": {
+      "reviewStatus": "machine-checked"
+    },
+    "w024": {
+      "reviewStatus": "unverified"
+    },
+    "w025": {
+      "reviewStatus": "unverified"
+    },
+    "w026": {
+      "reviewStatus": "unverified"
+    },
+    "w027": {
+      "reviewStatus": "unverified"
+    },
+    "w028": {
+      "reviewStatus": "unverified"
+    },
+    "w029": {
+      "reviewStatus": "unverified"
+    },
+    "w030": {
+      "reviewStatus": "unverified"
+    },
+    "w031": {
+      "reviewStatus": "unverified"
+    },
+    "w032": {
+      "reviewStatus": "unverified"
+    },
+    "w033": {
+      "reviewStatus": "unverified"
+    },
+    "w034": {
+      "reviewStatus": "unverified"
+    },
+    "w035": {
+      "reviewStatus": "machine-checked"
+    },
+    "w036": {
+      "reviewStatus": "machine-checked"
+    },
+    "w037": {
+      "reviewStatus": "machine-checked"
+    },
+    "w038": {
+      "reviewStatus": "unverified"
+    },
+    "w039": {
+      "reviewStatus": "unverified"
+    },
+    "w040": {
+      "reviewStatus": "unverified"
+    },
+    "w041": {
+      "reviewStatus": "unverified"
+    },
+    "w042": {
+      "reviewStatus": "unverified"
+    },
+    "w043": {
+      "reviewStatus": "unverified"
+    },
+    "w044": {
+      "reviewStatus": "unverified"
+    },
+    "w045": {
+      "reviewStatus": "unverified"
+    },
+    "w046": {
+      "reviewStatus": "machine-checked"
+    },
+    "w047": {
+      "reviewStatus": "unverified"
+    },
+    "w048": {
+      "reviewStatus": "machine-checked"
+    },
+    "w049": {
+      "reviewStatus": "machine-checked"
+    },
+    "w050": {
+      "reviewStatus": "machine-checked"
+    },
+    "w051": {
+      "reviewStatus": "unverified"
+    },
+    "w052": {
+      "reviewStatus": "machine-checked"
+    },
+    "w053": {
+      "reviewStatus": "machine-checked"
+    },
+    "w054": {
+      "reviewStatus": "machine-checked"
+    },
+    "w055": {
+      "reviewStatus": "unverified"
+    },
+    "w056": {
+      "reviewStatus": "unverified"
+    },
+    "w057": {
+      "reviewStatus": "unverified"
+    },
+    "w058": {
+      "reviewStatus": "machine-checked"
+    },
+    "w059": {
+      "reviewStatus": "unverified"
+    },
+    "w060": {
+      "reviewStatus": "unverified"
+    },
+    "w061": {
+      "reviewStatus": "unverified"
+    },
+    "w062": {
+      "reviewStatus": "unverified"
+    },
+    "w063": {
+      "reviewStatus": "unverified"
+    },
+    "w064": {
+      "reviewStatus": "unverified"
+    },
+    "w065": {
+      "reviewStatus": "unverified"
+    },
+    "w066": {
+      "reviewStatus": "unverified"
+    },
+    "w067": {
+      "reviewStatus": "unverified"
+    },
+    "w068": {
+      "reviewStatus": "unverified"
+    },
+    "w069": {
+      "reviewStatus": "unverified"
+    },
+    "w070": {
+      "reviewStatus": "machine-checked"
+    },
+    "w071": {
+      "reviewStatus": "unverified"
+    },
+    "w072": {
+      "reviewStatus": "unverified"
+    },
+    "w073": {
+      "reviewStatus": "unverified"
+    },
+    "w074": {
+      "reviewStatus": "machine-checked"
+    },
+    "w075": {
+      "reviewStatus": "machine-checked"
+    },
+    "w076": {
+      "reviewStatus": "unverified"
+    },
+    "w077": {
+      "reviewStatus": "machine-checked"
+    },
+    "w078": {
+      "reviewStatus": "unverified"
+    },
+    "w079": {
+      "reviewStatus": "unverified"
+    },
+    "w080": {
+      "reviewStatus": "unverified"
+    },
+    "w081": {
+      "reviewStatus": "unverified"
+    },
+    "w082": {
+      "reviewStatus": "unverified"
+    },
+    "w083": {
+      "reviewStatus": "unverified"
+    },
+    "w084": {
+      "reviewStatus": "unverified"
+    },
+    "w085": {
+      "reviewStatus": "machine-checked"
+    },
+    "w086": {
+      "reviewStatus": "unverified"
+    },
+    "w087": {
+      "reviewStatus": "unverified"
+    },
+    "w088": {
+      "reviewStatus": "unverified"
+    },
+    "w089": {
+      "reviewStatus": "machine-checked"
+    },
+    "w090": {
+      "reviewStatus": "unverified"
+    },
+    "w091": {
+      "reviewStatus": "unverified"
+    },
+    "w092": {
+      "reviewStatus": "unverified"
+    },
+    "w093": {
+      "reviewStatus": "unverified"
+    },
+    "w094": {
+      "reviewStatus": "unverified"
+    },
+    "w095": {
+      "reviewStatus": "unverified"
+    },
+    "w096": {
+      "reviewStatus": "machine-checked"
+    },
+    "w097": {
+      "reviewStatus": "unverified"
+    },
+    "w098": {
+      "reviewStatus": "unverified"
+    },
+    "w099": {
+      "reviewStatus": "unverified"
+    },
+    "w100": {
+      "reviewStatus": "unverified"
+    },
+    "w101": {
+      "reviewStatus": "unverified"
+    },
+    "w102": {
+      "reviewStatus": "unverified"
+    },
+    "w103": {
+      "reviewStatus": "unverified"
+    },
+    "w104": {
+      "reviewStatus": "unverified"
+    },
+    "w105": {
+      "reviewStatus": "unverified"
+    },
+    "w106": {
+      "reviewStatus": "unverified"
+    },
+    "w107": {
+      "reviewStatus": "unverified"
+    },
+    "w108": {
+      "reviewStatus": "machine-checked"
+    },
+    "w109": {
+      "reviewStatus": "unverified"
+    },
+    "w110": {
+      "reviewStatus": "unverified"
+    },
+    "w111": {
+      "reviewStatus": "machine-checked"
+    },
+    "w112": {
+      "reviewStatus": "machine-checked"
+    },
+    "w113": {
+      "reviewStatus": "unverified"
+    },
+    "w114": {
+      "reviewStatus": "unverified"
+    },
+    "w115": {
+      "reviewStatus": "unverified"
+    },
+    "w116": {
+      "reviewStatus": "unverified"
+    },
+    "w117": {
+      "reviewStatus": "unverified"
+    },
+    "w118": {
+      "reviewStatus": "unverified"
+    },
+    "w119": {
+      "reviewStatus": "unverified"
+    },
+    "w120": {
+      "reviewStatus": "unverified"
+    },
+    "w121": {
+      "reviewStatus": "machine-checked"
+    },
+    "w122": {
+      "reviewStatus": "unverified"
+    },
+    "w123": {
+      "reviewStatus": "unverified"
+    },
+    "w124": {
+      "reviewStatus": "unverified"
+    },
+    "w125": {
+      "reviewStatus": "unverified"
+    },
+    "w126": {
+      "reviewStatus": "unverified"
+    },
+    "w127": {
+      "reviewStatus": "unverified"
+    },
+    "w128": {
+      "reviewStatus": "unverified"
+    },
+    "w129": {
+      "reviewStatus": "unverified"
+    },
+    "w130": {
+      "reviewStatus": "unverified"
+    },
+    "w131": {
+      "reviewStatus": "unverified"
+    },
+    "w132": {
+      "reviewStatus": "unverified"
+    },
+    "w133": {
+      "reviewStatus": "unverified"
+    },
+    "w134": {
+      "reviewStatus": "unverified"
+    },
+    "w135": {
+      "reviewStatus": "unverified"
+    },
+    "w136": {
+      "reviewStatus": "unverified"
+    },
+    "w137": {
+      "reviewStatus": "unverified"
+    },
+    "w138": {
+      "reviewStatus": "unverified"
+    },
+    "w139": {
+      "reviewStatus": "unverified"
+    },
+    "w140": {
+      "reviewStatus": "unverified"
+    },
+    "w141": {
+      "reviewStatus": "unverified"
+    },
+    "w142": {
+      "reviewStatus": "unverified"
+    },
+    "w143": {
+      "reviewStatus": "unverified"
+    },
+    "w144": {
+      "reviewStatus": "unverified"
+    },
+    "w145": {
+      "reviewStatus": "machine-checked"
+    },
+    "w146": {
+      "reviewStatus": "unverified"
+    },
+    "w147": {
+      "reviewStatus": "unverified"
+    },
+    "w148": {
+      "reviewStatus": "unverified"
+    },
+    "w149": {
+      "reviewStatus": "unverified"
+    },
+    "w150": {
+      "reviewStatus": "unverified"
+    },
+    "w151": {
+      "reviewStatus": "machine-checked"
+    },
+    "w152": {
+      "reviewStatus": "unverified"
+    },
+    "w153": {
+      "reviewStatus": "unverified"
+    },
+    "w154": {
+      "reviewStatus": "unverified"
+    },
+    "w155": {
+      "reviewStatus": "machine-checked"
+    },
+    "w156": {
+      "reviewStatus": "machine-checked"
+    },
+    "w157": {
+      "reviewStatus": "unverified"
+    },
+    "w158": {
+      "reviewStatus": "machine-checked"
+    },
+    "w159": {
+      "reviewStatus": "unverified"
+    },
+    "w160": {
+      "reviewStatus": "unverified"
+    },
+    "w161": {
+      "reviewStatus": "unverified"
+    },
+    "w162": {
+      "reviewStatus": "machine-checked"
+    },
+    "w163": {
+      "reviewStatus": "machine-checked"
+    },
+    "w164": {
+      "reviewStatus": "unverified"
+    },
+    "w165": {
+      "reviewStatus": "unverified"
+    },
+    "w166": {
+      "reviewStatus": "unverified"
+    },
+    "w167": {
+      "reviewStatus": "unverified"
+    },
+    "w168": {
+      "reviewStatus": "unverified"
+    },
+    "w169": {
+      "reviewStatus": "unverified"
+    },
+    "w170": {
+      "reviewStatus": "unverified"
+    },
+    "w171": {
+      "reviewStatus": "unverified"
+    },
+    "w172": {
+      "reviewStatus": "unverified"
+    },
+    "w173": {
+      "reviewStatus": "unverified"
+    },
+    "w174": {
+      "reviewStatus": "unverified"
+    },
+    "w175": {
+      "reviewStatus": "unverified"
+    },
+    "w176": {
+      "reviewStatus": "unverified"
+    },
+    "w177": {
+      "reviewStatus": "machine-checked"
+    },
+    "w178": {
+      "reviewStatus": "unverified"
+    },
+    "w179": {
+      "reviewStatus": "machine-checked"
+    },
+    "w180": {
+      "reviewStatus": "unverified"
+    },
+    "w181": {
+      "reviewStatus": "unverified"
+    },
+    "w182": {
+      "reviewStatus": "unverified"
+    },
+    "w183": {
+      "reviewStatus": "unverified"
+    },
+    "w184": {
+      "reviewStatus": "unverified"
+    },
+    "w185": {
+      "reviewStatus": "unverified"
+    },
+    "w186": {
+      "reviewStatus": "machine-checked"
+    },
+    "w187": {
+      "reviewStatus": "unverified"
+    },
+    "w188": {
+      "reviewStatus": "unverified"
+    },
+    "w189": {
+      "reviewStatus": "unverified"
+    },
+    "w190": {
+      "reviewStatus": "unverified"
+    },
+    "w191": {
+      "reviewStatus": "unverified"
+    },
+    "w192": {
+      "reviewStatus": "unverified"
+    },
+    "w193": {
+      "reviewStatus": "unverified"
+    },
+    "w194": {
+      "reviewStatus": "unverified"
+    },
+    "w195": {
+      "reviewStatus": "unverified"
+    },
+    "w196": {
+      "reviewStatus": "unverified"
+    },
+    "w197": {
+      "reviewStatus": "unverified"
+    },
+    "w198": {
+      "reviewStatus": "unverified"
+    },
+    "w199": {
+      "reviewStatus": "unverified"
+    },
+    "w200": {
+      "reviewStatus": "unverified"
+    },
+    "w201": {
+      "reviewStatus": "unverified"
+    },
+    "w202": {
+      "reviewStatus": "unverified"
+    },
+    "w203": {
+      "reviewStatus": "unverified"
+    },
+    "w204": {
+      "reviewStatus": "unverified"
+    },
+    "w205": {
+      "reviewStatus": "unverified"
+    },
+    "w206": {
+      "reviewStatus": "machine-checked"
+    },
+    "w207": {
+      "reviewStatus": "machine-checked"
+    },
+    "w208": {
+      "reviewStatus": "machine-checked"
+    },
+    "w209": {
+      "reviewStatus": "unverified"
+    },
+    "w210": {
+      "reviewStatus": "unverified"
+    },
+    "w211": {
+      "reviewStatus": "unverified"
+    },
+    "w212": {
+      "reviewStatus": "unverified"
+    },
+    "w213": {
+      "reviewStatus": "unverified"
+    },
+    "w214": {
+      "reviewStatus": "unverified"
+    },
+    "w215": {
+      "reviewStatus": "unverified"
+    },
+    "w216": {
+      "reviewStatus": "unverified"
+    },
+    "w217": {
+      "reviewStatus": "unverified"
+    },
+    "w218": {
+      "reviewStatus": "unverified"
+    },
+    "w219": {
+      "reviewStatus": "unverified"
+    },
+    "w220": {
+      "reviewStatus": "unverified"
+    },
+    "w221": {
+      "reviewStatus": "unverified"
+    },
+    "w222": {
+      "reviewStatus": "unverified"
+    },
+    "w223": {
+      "reviewStatus": "unverified"
+    },
+    "w224": {
+      "reviewStatus": "unverified"
+    },
+    "w225": {
+      "reviewStatus": "machine-checked"
+    },
+    "w226": {
+      "reviewStatus": "unverified"
+    },
+    "w227": {
+      "reviewStatus": "machine-checked"
+    },
+    "w228": {
+      "reviewStatus": "machine-checked"
+    },
+    "w229": {
+      "reviewStatus": "machine-checked"
+    },
+    "w230": {
+      "reviewStatus": "unverified"
+    },
+    "w231": {
+      "reviewStatus": "unverified"
+    },
+    "w232": {
+      "reviewStatus": "unverified"
+    },
+    "w233": {
+      "reviewStatus": "machine-checked"
+    },
+    "w234": {
+      "reviewStatus": "unverified"
+    },
+    "w235": {
+      "reviewStatus": "unverified"
+    },
+    "w236": {
+      "reviewStatus": "unverified"
+    },
+    "w237": {
+      "reviewStatus": "unverified"
+    },
+    "w238": {
+      "reviewStatus": "unverified"
+    },
+    "w239": {
+      "reviewStatus": "unverified"
+    },
+    "w240": {
+      "reviewStatus": "unverified"
+    },
+    "w241": {
+      "reviewStatus": "unverified"
+    },
+    "w242": {
+      "reviewStatus": "unverified"
+    },
+    "w243": {
+      "reviewStatus": "unverified"
+    },
+    "w244": {
+      "reviewStatus": "unverified"
+    },
+    "w245": {
+      "reviewStatus": "unverified"
+    },
+    "w246": {
+      "reviewStatus": "machine-checked"
+    },
+    "w247": {
+      "reviewStatus": "unverified"
+    },
+    "w248": {
+      "reviewStatus": "unverified"
+    },
+    "w249": {
+      "reviewStatus": "unverified"
+    },
+    "w250": {
+      "reviewStatus": "unverified"
+    },
+    "w251": {
+      "reviewStatus": "unverified"
+    },
+    "w252": {
+      "reviewStatus": "unverified"
+    },
+    "w253": {
+      "reviewStatus": "unverified"
+    },
+    "w254": {
+      "reviewStatus": "unverified"
+    },
+    "w255": {
+      "reviewStatus": "unverified"
+    },
+    "w256": {
+      "reviewStatus": "unverified"
+    },
+    "w257": {
+      "reviewStatus": "unverified"
+    },
+    "w258": {
+      "reviewStatus": "unverified"
+    },
+    "w259": {
+      "reviewStatus": "unverified"
+    },
+    "w260": {
+      "reviewStatus": "unverified"
+    },
+    "w261": {
+      "reviewStatus": "unverified"
+    },
+    "w262": {
+      "reviewStatus": "machine-checked"
+    },
+    "w263": {
+      "reviewStatus": "unverified"
+    },
+    "w264": {
+      "reviewStatus": "unverified"
+    },
+    "w265": {
+      "reviewStatus": "unverified"
+    },
+    "w266": {
+      "reviewStatus": "unverified"
+    },
+    "w267": {
+      "reviewStatus": "unverified"
+    },
+    "w268": {
+      "reviewStatus": "unverified"
+    },
+    "w269": {
+      "reviewStatus": "unverified"
+    },
+    "w270": {
+      "reviewStatus": "unverified"
+    },
+    "w271": {
+      "reviewStatus": "unverified"
+    },
+    "w272": {
+      "reviewStatus": "unverified"
+    },
+    "w273": {
+      "reviewStatus": "unverified"
+    },
+    "w274": {
+      "reviewStatus": "unverified"
+    },
+    "w275": {
+      "reviewStatus": "unverified"
+    },
+    "w276": {
+      "reviewStatus": "unverified"
+    },
+    "w277": {
+      "reviewStatus": "unverified"
+    },
+    "w278": {
+      "reviewStatus": "unverified"
+    },
+    "w279": {
+      "reviewStatus": "unverified"
+    },
+    "w280": {
+      "reviewStatus": "unverified"
+    },
+    "w281": {
+      "reviewStatus": "unverified"
+    },
+    "w282": {
+      "reviewStatus": "machine-checked"
+    },
+    "w283": {
+      "reviewStatus": "unverified"
+    },
+    "w284": {
+      "reviewStatus": "unverified"
+    },
+    "w285": {
+      "reviewStatus": "unverified"
+    },
+    "w286": {
+      "reviewStatus": "unverified"
+    },
+    "w287": {
+      "reviewStatus": "unverified"
+    },
+    "w288": {
+      "reviewStatus": "unverified"
+    },
+    "w289": {
+      "reviewStatus": "unverified"
+    },
+    "w290": {
+      "reviewStatus": "unverified"
+    },
+    "w291": {
+      "reviewStatus": "unverified"
+    },
+    "w292": {
+      "reviewStatus": "unverified"
+    },
+    "w293": {
+      "reviewStatus": "unverified"
+    },
+    "w294": {
+      "reviewStatus": "unverified"
+    },
+    "w295": {
+      "reviewStatus": "machine-checked"
+    },
+    "w296": {
+      "reviewStatus": "unverified"
+    },
+    "w297": {
+      "reviewStatus": "unverified"
+    },
+    "w298": {
+      "reviewStatus": "unverified"
+    },
+    "w299": {
+      "reviewStatus": "unverified"
+    },
+    "w300": {
+      "reviewStatus": "unverified"
+    }
+  }
+}

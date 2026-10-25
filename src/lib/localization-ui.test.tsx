@@ -76,9 +76,9 @@ describe("English learning preserves canonical grading", () => {
       screen.getByRole("heading", { name: localizedTitle(vocab, "en") }),
     ).toBeTruthy();
     expect(
-      screen
-        .getByRole("region", { name: "Explanation" })
-        .textContent?.includes(`Meaning: ${localizedMeaning(item, "en")}`),
+      document
+        .querySelector(".flash-meaning")
+        ?.textContent?.includes(`Meaning: ${localizedMeaning(item, "en")}`),
     ).toBeTruthy();
     expect(
       screen.queryByRole("button", { name: "Show explanation" }),

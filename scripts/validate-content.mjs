@@ -29,6 +29,9 @@ const approvedMap = new Map(
   }),
 );
 const lessons = new Map();
+const reviewStatuses = read("content/review-status.json");
+assert.equal(reviewStatuses.schema_version, 1);
+const checkedIds = new Set();
 let itemCount = 0;
 const activeWords = new Set();
 for (const file of readdirSync(join(root, "content/lessons"))) {
@@ -42,6 +45,13 @@ for (const file of readdirSync(join(root, "content/lessons"))) {
     lesson.items.length,
   );
   for (const item of lesson.items) {
+    checkedIds.add(item.id);
+    assert.ok(
+      ["unverified", "machine-checked", "human-verified"].includes(
+        reviewStatuses.items[item.id]?.reviewStatus,
+      ),
+      `Missing review status: ${item.id}`,
+    );
     assert.equal(
       item.needs_review,
       false,
@@ -107,6 +117,11 @@ assert.equal(
   referenced.size,
   lessons.size,
   "Unindexed lesson files must not be bundled",
+);
+assert.deepEqual(
+  Object.keys(reviewStatuses.items).sort(),
+  [...checkedIds].sort(),
+  "Review status IDs must match the curriculum exactly",
 );
 assert.ok(firstWords.length >= 20);
 assert.equal(

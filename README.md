@@ -20,7 +20,10 @@ bantuan simpanan. Jangan hantar password, token atau secret key dalam chat.
 - Unit 0 dahulu: awalan, akhiran, empat nada + neutral, pasangan nada, 不 dan 一.
 - 95 pelajaran pendek: 70 item sebutan dan 300 perkataan; 20 perkataan awal mengikut
   HSK 2.0 lama. Perkataan tambahan tidak dilabel tahap HSK yang belum disahkan.
-- Kad imbas, pilihan jawapan, audio peranti, pinyin/nada, padanan, susun ayat dan urutan strok.
+- Kad imbas dengan maksud terus di bawah pinyin, pilihan jawapan, audio peranti, pinyin/nada,
+  padanan, susun ayat dan urutan strok.
+- Taman latihan `/interaktif`: 5 dialog, 10 cabaran bunyi, imlak pinyin, ingat semula dan
+  rakaman sendiri pilihan. Bahan baharu belum disahkan; latihan tambahan tidak memberi XP.
 - Ulang kaji SM-2, sasaran 3/5/10 minit, XP, streak/perlindungan, tahap dan lencana sebenar.
 - Statistik dan eksport data akaun sendiri dalam JSON/CSV. Latihan setempat dipisahkan.
 - PWA menyimpan aset sendiri; aturan simpanan offline/sync dan had sesi diterangkan dalam
@@ -60,6 +63,9 @@ pnpm lint
 pnpm test
 node scripts/validate-content.mjs
 node scripts/validate-localization.mjs
+node scripts/validate-practice.mjs
+node scripts/audit-content.mjs --check
+node --test scripts/audit-content.test.mjs
 pnpm build
 pnpm exec playwright install chromium
 pnpm test:e2e
@@ -78,3 +84,7 @@ Versi dependency dipin dalam lockfile.
 Lihat [rekod fasa](docs/PHASE_6.md), [keputusan keselamatan](docs/adr),
 [sumber dependency](docs/DEPENDENCIES.md), [had/tindakan susulan](NEXT_STEPS.md) dan
 [cadangan penambahbaikan](docs/IMPROVEMENTS.md).
+
+Audit bacaan dan audio: [CONTENT_AUDIT.md](docs/CONTENT_AUDIT.md), [panduan audio](docs/AUDIO.md)
+dan [rekod kemaskini interaktif](docs/INTERACTIVE_UPDATE.md). `pnpm content:audit` menjana
+semula laporan/metadata sahaja; ia tidak menukar jawapan pelajaran asal.

@@ -62,6 +62,27 @@ export default function Home() {
           </Link>
         </aside>
       </div>
+      <section className="daily-mission">
+        <div>
+          <p className="eyebrow">
+            {language === "ms" ? "Latihan kendiri" : "Self-study practice"}
+          </p>
+          <h2>
+            {language === "ms"
+              ? "Bawa perkataan ke dalam perbualan."
+              : "Bring words into conversation."}
+          </h2>
+          <p>
+            {language === "ms"
+              ? "Dialog, dengar beza dan misi 3 / 5 / 10 minit. Latihan tambahan tanpa XP."
+              : "Dialogues, sound contrasts and 3 / 5 / 10-minute missions. Extra practice without XP."}
+          </p>
+        </div>
+        <Link className="button primary" to="/interaktif">
+          {language === "ms" ? "Buka taman latihan" : "Open practice garden"}
+          <ArrowRight size={18} />
+        </Link>
+      </section>
       <section className="support-grid">
         <div className="support-card">
           <span className="round-icon">

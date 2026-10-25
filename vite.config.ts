@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
@@ -13,6 +14,20 @@ const deployment = JSON.parse(
 const previewHeaders = Object.fromEntries(
   deployment.headers[0].headers.map(({ key, value }) => [key, value]),
 );
+// Only the validated, explicitly listed public recordings enter the service worker.
+// scripts/validate-practice.mjs enforces paths, licenses and a 20 MiB total before build.
+const localAudio = JSON.parse(
+  readFileSync(
+    new URL("./public/audio/manifest.json", import.meta.url),
+    "utf8",
+  ),
+) as { clips: { src: string }[] };
+const audioPrecache = localAudio.clips.map(({ src }) => ({
+  url: src,
+  revision: createHash("sha256")
+    .update(readFileSync(new URL(`./public${src}`, import.meta.url)))
+    .digest("hex"),
+}));
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "VITE_");
@@ -62,6 +77,7 @@ export default defineConfig(({ mode }) => {
           ],
         },
         workbox: {
+          additionalManifestEntries: audioPrecache,
           globPatterns: [
             "**/*.{js,css,html,svg,png,woff,woff2}",
             "strokes/*.json",
@@ -70,7 +86,7 @@ export default defineConfig(({ mode }) => {
           navigateFallbackAllowlist: [
             /^\/$/,
             /^\/belajar\/[a-z0-9]+(?:-[a-z0-9]+)*\/?$/,
-            /^\/(belajar|unit-0|ulang-kaji|statistik|tetapan|akaun|latihan|uji-unit-1)\/?$/,
+            /^\/(belajar|unit-0|ulang-kaji|statistik|tetapan|akaun|latihan|interaktif|uji-unit-1)\/?$/,
           ],
           runtimeCaching: [],
         },

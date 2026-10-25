@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Page } from "../components/Page";
+import { AudioSource } from "../learning/AudioSource";
 import { useMandarinAudio } from "../learning/audio";
 import { learningQueryClient } from "../learning/cloud";
 import { usePractice } from "../learning/store";
@@ -58,9 +59,9 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
   const language = useSettings().language;
   const t = reviewCopy(language);
   const data = useReviewData();
-  const audio = useMandarinAudio();
   const [card, setCard] = useState<ReviewCard | null>(null);
   const active = card ?? cards[0];
+  const audio = useMandarinAudio(active?.hanzi);
   const [answer, setAnswer] = useState("");
   const [hints, setHints] = useState(0);
   const [pending, setPending] = useState(false);
@@ -224,9 +225,12 @@ function ReviewQueue({ cards, scope }: { cards: ReviewCard[]; scope: string }) {
               >
                 {t.listen}
               </button>
-              <p className="voice-note">
-                {audio.available ? t.device : t.textFallback}
-              </p>
+              <AudioSource
+                source={audio.source}
+                language={language}
+                error={audio.state === "error"}
+                recordingFailed={audio.recordingFailed}
+              />
             </>
           )}
           <form
