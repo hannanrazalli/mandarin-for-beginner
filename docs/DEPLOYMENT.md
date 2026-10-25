@@ -2,6 +2,16 @@
 
 ## Status semasa
 
+Update interaktif 2026-10-25: **READY**, deployment `dpl_9PR9nVGYHECPPKQrGCbXDyfnrjFD`,
+kod `df14e3d380834e29edd56230fcb625da5dbecc79`.
+**Latihan: https://belajarmandarin.vercel.app/interaktif**. GitHub branch `work` sudah dipush.
+Pemeriksaan melalui akses Vercel pemilik: route interaktif dan `/sw.js` HTTP200; service
+worker mengandungi chunk latihan terkini dan fallback route offline. CSP media menambah
+`blob:` untuk main balik rakaman; microphone hanya `(self)`, diminta selepas tekan Rakam.
+SSO/perlindungan deployment asal dikekalkan; tiada CI/CD. 87 unit dan 10 browser flows
+lulus; selepas satu pembaikan fokus UX, 87 unit dan flow interaktif/axe diuji semula lulus.
+Tiada fail audio penutur sebenar ditambah; fallback suara peranti dilabel.
+
 Update 2026-10-25: kad dengan maksud terus, Next tanpa gate penerangan dan kandungan BM/English
 diterbitkan sebagai dpl_56wRhFBM8GUc6y8ckUWWpErhjgwd, status READY, kod
 6cdd2e261e68b786f8629bdfd96e5c20132c8f43. Tiada CI/CD ditambah.

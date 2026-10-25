@@ -72,3 +72,11 @@ loop and no CI/CD. Real phone microphone behavior and voice quality remain manua
 Specialist runs: 5 (content teacher, isolated implementation, code/UX/security reviews).
 To trim credits next time, author a smaller practice pack solo and keep one bounded build;
 low-credits mode removes subagents entirely. Deployment details are in DEPLOYMENT.md.
+
+Final verification after the one UX fix: full 87 units, typecheck, lint, all content
+checks and build passed again; the updated interactive browser/axe flow and both focus
+assertions passed. Staged secret scan and commit hook passed. Manual production deployment
+`dpl_9PR9nVGYHECPPKQrGCbXDyfnrjFD` is READY for code `df14e3d380834e29edd56230fcb625da5dbecc79`.
+Authorized Vercel fetches returned HTTP200 for `/interaktif` and `/sw.js`; the service worker
+contains the latest Practice chunk and route allowlist, with no Supabase cache URL.
+Existing deployment protection is unchanged; these checks do not prove anonymous access.
